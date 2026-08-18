@@ -3,6 +3,7 @@ import Link from "next/link";
 import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
+import { CityMap } from "@/components/ui/CityMap";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { COMPANY, PHONE, SERVICE_CATEGORIES, CITIES_BY_COUNTY } from "@/lib/site";
@@ -109,17 +110,23 @@ export function CityPage({ content }: { content: CityContent }) {
       {/* Local hook */}
       <section className="relative overflow-hidden bg-[#0B0C0B] py-[clamp(64px,8vw,120px)]">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(46%_60%_at_78%_0%,rgba(142,206,52,0.08),transparent_72%)]" />
-        <div className="relative mx-auto grid max-w-[1300px] grid-cols-[repeat(auto-fit,minmax(320px,1fr))] items-start gap-[clamp(36px,5vw,80px)] px-[clamp(20px,5vw,56px)]">
-          <Reveal>
-            <Eyebrow>{content.isHq ? "Our Home Base" : "On the Ground"}</Eyebrow>
-            <h2 className="mt-6 max-w-[16ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
-              {content.isHq ? `${content.name} is home.` : `We know ${content.name}.`}
-            </h2>
-          </Reveal>
-          <Reveal delay={120}>
-            <p className="max-w-[60ch] text-[16px] leading-[1.8] text-[#C2C6BC] text-pretty">
-              {content.localHook}
-            </p>
+        <div className="relative mx-auto max-w-[1300px] px-[clamp(20px,5vw,56px)]">
+          <div className="grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] items-start gap-[clamp(36px,5vw,80px)]">
+            <Reveal>
+              <Eyebrow>{content.isHq ? "Our Home Base" : "On the Ground"}</Eyebrow>
+              <h2 className="mt-6 max-w-[16ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
+                {content.isHq ? `${content.name} is home.` : `We know ${content.name}.`}
+              </h2>
+            </Reveal>
+            <Reveal delay={120}>
+              <p className="max-w-[60ch] text-[16px] leading-[1.8] text-[#C2C6BC] text-pretty">
+                {content.localHook}
+              </p>
+            </Reveal>
+          </div>
+
+          <Reveal delay={200} className="mt-[clamp(40px,5vw,72px)] block">
+            <CityMap activeSlug={content.slug} activeName={content.name} />
           </Reveal>
         </div>
       </section>
