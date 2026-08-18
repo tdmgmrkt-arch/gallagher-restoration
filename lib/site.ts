@@ -124,6 +124,8 @@ export const POSTS = [
       "Learn more about the experienced professionals behind Gallagher Restoration and our commitment to providing dependable restoration services.",
     image: "/news_qualified_experts.webp",
     category: "Company",
+    datePublished: "2024-08-22",
+    dateModified: "2024-08-22",
   },
   {
     slug: "the-passion-behind-gallagher-restoration",
@@ -131,6 +133,8 @@ export const POSTS = [
     excerpt: "Discover the story, values, and passion behind the Gallagher Restoration team.",
     image: "/news_passion_behind.webp",
     category: "Company",
+    datePublished: "2024-06-10",
+    dateModified: "2024-06-10",
   },
   {
     slug: "how-gallagher-restoration-can-save-turkey-day",
@@ -139,6 +143,8 @@ export const POSTS = [
       "Learn how preparation and fast professional restoration services can help when unexpected property damage strikes during the holidays.",
     image: "/news_turkey_day.webp",
     category: "Seasonal",
+    datePublished: "2024-11-15",
+    dateModified: "2024-11-15",
   },
   {
     slug: "how-to-prepare-your-southern-california-home-for-winter",
@@ -147,6 +153,8 @@ export const POSTS = [
       "Practical tips for preparing your Southern California property for winter weather and preventing common seasonal damage.",
     image: "/news_winter_prep.webp",
     category: "Seasonal",
+    datePublished: "2024-11-20",
+    dateModified: "2024-11-20",
   },
   {
     slug: "most-common-fire-damage-in-a-home",
@@ -155,6 +163,8 @@ export const POSTS = [
       "Learn about common types of residential fire damage and what homeowners should know about the restoration process.",
     image: "/news_common_fire_damage.webp",
     category: "Fire",
+    datePublished: "2025-01-14",
+    dateModified: "2025-01-14",
   },
   {
     slug: "fire-damage-the-basics",
@@ -163,6 +173,8 @@ export const POSTS = [
       "Understand the fundamentals of fire damage, smoke damage, and the professional restoration process.",
     image: "/news_fire_basics.webp",
     category: "Fire",
+    datePublished: "2025-02-28",
+    dateModified: "2025-02-28",
   },
   {
     slug: "the-basics-of-water-damage",
@@ -171,6 +183,8 @@ export const POSTS = [
       "A homeowner's introduction to water damage — how it starts, why it spreads fast, and what a professional restoration process actually looks like.",
     image: "/news_fire_basics.webp",
     category: "Water",
+    datePublished: "2025-04-11",
+    dateModified: "2025-04-11",
   },
   {
     slug: "what-is-water-fire-and-mold-restoration",
@@ -179,6 +193,8 @@ export const POSTS = [
       "An overview of the three most common categories of restoration work and what to expect when you call a professional.",
     image: "/news_passion_behind.webp",
     category: "Company",
+    datePublished: "2025-07-25",
+    dateModified: "2025-07-25",
   },
 ] as const;
 

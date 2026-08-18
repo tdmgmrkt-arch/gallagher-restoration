@@ -154,7 +154,7 @@ export function ServicePage({ content }: { content: ServiceContent }) {
     "@context": "https://schema.org",
     "@type": "Service",
     name: content.heroTitle,
-    serviceType: content.heroTitle,
+    serviceType: labelForSlug(content.slug),
     category: `${categoryLabel} Damage Restoration`,
     provider: {
       "@type": "EmergencyService",
@@ -186,6 +186,12 @@ export function ServicePage({ content }: { content: ServiceContent }) {
     ? {
         "@context": "https://schema.org",
         "@type": "FAQPage",
+        "@id": `https://gallagherrestoration.com/${content.slug}#faqpage`,
+        url: `https://gallagherrestoration.com/${content.slug}`,
+        inLanguage: "en-US",
+        datePublished: "2026-08-18",
+        dateModified: "2026-08-18",
+        about: { "@id": "https://gallagherrestoration.com/#business" },
         mainEntity: content.faqs.map((f) => ({
           "@type": "Question",
           name: f.q,

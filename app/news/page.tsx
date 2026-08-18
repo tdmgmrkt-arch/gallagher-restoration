@@ -6,6 +6,15 @@ import { Reveal } from "@/components/ui/Reveal";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { POSTS } from "@/lib/site";
 
+function formatPostDate(iso: string): string {
+  return new Date(iso).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    timeZone: "UTC",
+  });
+}
+
 export const metadata: Metadata = {
   title: "News & Resources | Gallagher Restoration Co.",
   description:
@@ -48,6 +57,12 @@ export default function NewsPage() {
               <div className="flex flex-col justify-center p-[clamp(28px,3.4vw,52px)]">
                 <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
                   Featured &middot; {featured.category}
+                  <span className="ml-2 text-[#5E635B]">
+                    &middot;{" "}
+                    <time dateTime={featured.datePublished}>
+                      {formatPostDate(featured.datePublished)}
+                    </time>
+                  </span>
                 </div>
                 <h2 className="mt-6 max-w-[24ch] text-[clamp(26px,3vw,40px)] font-extrabold leading-[1.08] tracking-[-0.03em] text-balance">
                   {featured.title}
@@ -84,6 +99,12 @@ export default function NewsPage() {
                   </div>
                   <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
                     {p.category}
+                    <span className="ml-2 text-[#5E635B]">
+                      &middot;{" "}
+                      <time dateTime={p.datePublished}>
+                        {formatPostDate(p.datePublished)}
+                      </time>
+                    </span>
                   </div>
                   <h3 className="mt-4 max-w-[26ch] text-[clamp(19px,1.8vw,23px)] font-bold leading-[1.25] tracking-[-0.025em]">
                     {p.title}

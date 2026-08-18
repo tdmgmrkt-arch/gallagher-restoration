@@ -4,6 +4,8 @@ import { FaqCategorized } from "@/components/sections/FaqCategorized";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { FAQ_CATEGORIES } from "@/lib/site";
 
+const FAQ_LAST_UPDATED = "2026-08-18";
+
 export const metadata: Metadata = {
   title: "Restoration FAQs | Gallagher Restoration Co.",
   description:
@@ -15,6 +17,14 @@ export default function FaqsPage() {
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    "@id": "https://gallagherrestoration.com/faqs#faqpage",
+    url: "https://gallagherrestoration.com/faqs",
+    name: "Water & Fire Damage Restoration FAQs — Southern California",
+    inLanguage: "en-US",
+    datePublished: FAQ_LAST_UPDATED,
+    dateModified: FAQ_LAST_UPDATED,
+    isPartOf: { "@id": "https://gallagherrestoration.com/#website" },
+    about: { "@id": "https://gallagherrestoration.com/#business" },
     mainEntity: FAQ_CATEGORIES.flatMap((cat) =>
       cat.items.map((f) => ({
         "@type": "Question",
