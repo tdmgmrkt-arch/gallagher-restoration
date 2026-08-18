@@ -12,11 +12,11 @@ import type { CountyContent } from "@/lib/county-content";
 type CountyKey = keyof typeof CITIES_BY_COUNTY;
 
 export function CountyPage({ content }: { content: CountyContent }) {
-  const allCities = (CITIES_BY_COUNTY[content.slug as CountyKey] ?? []) as {
+  const allCities: ReadonlyArray<{
     slug: string;
     name: string;
     isHq?: boolean;
-  }[];
+  }> = CITIES_BY_COUNTY[content.slug as CountyKey] ?? [];
 
   const jsonLd = {
     "@context": "https://schema.org",
