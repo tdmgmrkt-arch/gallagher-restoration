@@ -12,9 +12,28 @@ export const COMPANY = {
   cslbLicense: "1061640",
 };
 
+export const ADDRESS = {
+  street: "31672 Railroad Canyon Rd",
+  locality: "Canyon Lake",
+  region: "CA",
+  postalCode: "92587",
+  country: "US",
+  fullDisplay: "31672 Railroad Canyon Rd, Canyon Lake, CA 92587",
+};
+
+export const GBP = {
+  placeId: "ChIJaaW5Mkad3IARJlYjTmKj-IM",
+  mapsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJaaW5Mkad3IARJlYjTmKj-IM",
+  directionsUrl:
+    "https://www.google.com/maps/dir/?api=1&destination=Gallagher+Restoration&destination_place_id=ChIJaaW5Mkad3IARJlYjTmKj-IM",
+  embedSrc:
+    "https://www.google.com/maps/embed/v1/place?key=&q=place_id:ChIJaaW5Mkad3IARJlYjTmKj-IM",
+};
+
 export const SOCIAL_URLS = [
   "https://www.facebook.com/GallagherRestorationCo",
   "https://www.instagram.com/gallagher1restoration/",
+  "https://www.google.com/maps/place/?q=place_id:ChIJaaW5Mkad3IARJlYjTmKj-IM",
 ];
 
 export const NAV = [

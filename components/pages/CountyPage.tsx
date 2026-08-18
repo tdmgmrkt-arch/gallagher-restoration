@@ -26,6 +26,7 @@ export function CountyPage({ content }: { content: CountyContent }) {
     url: `https://gallagherrestoration.com/${content.slug}`,
     address: {
       "@type": "PostalAddress",
+      streetAddress: "31672 Railroad Canyon Rd",
       addressLocality: "Canyon Lake",
       addressRegion: "CA",
       postalCode: "92587",

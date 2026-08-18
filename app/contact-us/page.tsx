@@ -4,7 +4,7 @@ import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { LeadForm } from "@/components/sections/LeadForm";
-import { PHONE, COMPANY, COUNTIES } from "@/lib/site";
+import { PHONE, COMPANY, COUNTIES, ADDRESS, GBP } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contact Gallagher Restoration Co. | 24/7 Emergency Response",
@@ -23,9 +23,10 @@ const CONTACT_BLOCKS = [
   },
   {
     kicker: "Headquarters",
-    label: "Based In",
-    value: COMPANY.city,
-    hint: "Serving Southern California from Canyon Lake.",
+    label: "Address",
+    value: ADDRESS.fullDisplay,
+    href: GBP.directionsUrl,
+    hint: "Serving Southern California from Canyon Lake. Tap for directions.",
   },
   {
     kicker: "Response Time",
@@ -80,7 +81,7 @@ export default function ContactUsPage() {
                   <div className="mt-6 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
                     {b.label}
                   </div>
-                  <div className="mt-2 text-[clamp(22px,2.4vw,32px)] font-bold tracking-[-0.03em] text-[#F4F5F1]">
+                  <div className="mt-2 text-[clamp(17px,1.9vw,24px)] font-bold leading-[1.25] tracking-[-0.025em] text-[#F4F5F1]">
                     {b.value}
                   </div>
                   <p className="mt-auto pt-4 text-[14px] leading-[1.7] text-[#8F948A] text-pretty">
@@ -150,6 +151,42 @@ export default function ContactUsPage() {
           <Reveal delay={140}>
             <div className="border border-[rgba(255,255,255,0.1)] bg-[#121413] p-[clamp(26px,3.2vw,44px)] lg:sticky lg:top-[120px]">
               <LeadForm />
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      <section className="border-t border-[rgba(255,255,255,0.07)] bg-[#0B0C0B] py-[clamp(48px,6vw,88px)]">
+        <div className="mx-auto max-w-[1300px] px-[clamp(20px,5vw,56px)]">
+          <Reveal>
+            <div className="mb-8 flex flex-wrap items-end justify-between gap-6">
+              <div>
+                <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  Find Us
+                </div>
+                <h3 className="mt-4 text-[clamp(22px,2.6vw,32px)] font-bold tracking-[-0.025em]">
+                  {ADDRESS.fullDisplay}
+                </h3>
+              </div>
+              <a
+                href={GBP.directionsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-mono text-[13px] font-bold uppercase tracking-[0.05em] text-[#8ECE34] transition-colors hover:text-[#A6E053]"
+              >
+                Get Directions &rarr;
+              </a>
+            </div>
+          </Reveal>
+          <Reveal delay={100}>
+            <div className="aspect-[16/9] w-full overflow-hidden border border-[rgba(255,255,255,0.09)] bg-[#121413]">
+              <iframe
+                title="Gallagher Restoration headquarters location on Google Maps"
+                src="https://www.google.com/maps?q=31672+Railroad+Canyon+Rd,+Canyon+Lake,+CA+92587&output=embed"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="h-full w-full border-0 [filter:invert(0.92)_hue-rotate(180deg)_saturate(0.7)]"
+              />
             </div>
           </Reveal>
         </div>

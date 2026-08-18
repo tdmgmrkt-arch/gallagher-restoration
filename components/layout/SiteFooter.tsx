@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { COMPANY, NAV, PHONE, SOCIAL_URLS } from "@/lib/site";
+import { ADDRESS, COMPANY, GBP, NAV, PHONE, SOCIAL_URLS } from "@/lib/site";
 
 const FOOTER_NAV = [{ label: "Home", href: "/" }, ...NAV];
 
@@ -82,7 +82,19 @@ export function SiteFooter() {
               <div className="font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]">
                 Location
               </div>
-              <div className="mt-2 text-[16px] text-[#C6CABF]">{COMPANY.city}</div>
+              <div className="mt-2 text-[16px] leading-[1.55] text-[#C6CABF]">
+                {ADDRESS.street}
+                <br />
+                {ADDRESS.locality}, {ADDRESS.region} {ADDRESS.postalCode}
+              </div>
+              <a
+                href={GBP.directionsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-block font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34] transition-colors hover:text-[#A6E053]"
+              >
+                Get Directions &rarr;
+              </a>
             </div>
           </div>
         </div>

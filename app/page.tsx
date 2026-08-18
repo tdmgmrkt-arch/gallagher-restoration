@@ -9,7 +9,7 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { NewsGrid } from "@/components/sections/NewsGrid";
 import { Faq } from "@/components/sections/Faq";
 import { FinalCta } from "@/components/sections/FinalCta";
-import { COMPANY, PHONE, SOCIAL_URLS } from "@/lib/site";
+import { ADDRESS, COMPANY, GBP, PHONE, SOCIAL_URLS } from "@/lib/site";
 import { CITY_COORDS } from "@/lib/city-coords";
 
 const HQ_COORDS = CITY_COORDS["canyon-lake-ca"];
@@ -44,11 +44,13 @@ export default function Home() {
     },
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Canyon Lake",
-      addressRegion: "CA",
-      postalCode: "92587",
-      addressCountry: "US",
+      streetAddress: ADDRESS.street,
+      addressLocality: ADDRESS.locality,
+      addressRegion: ADDRESS.region,
+      postalCode: ADDRESS.postalCode,
+      addressCountry: ADDRESS.country,
     },
+    hasMap: GBP.mapsUrl,
     geo: HQ_COORDS
       ? {
           "@type": "GeoCoordinates",

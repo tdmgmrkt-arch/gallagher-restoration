@@ -164,6 +164,7 @@ export function ServicePage({ content }: { content: ServiceContent }) {
       url: "https://gallagherrestoration.com",
       address: {
         "@type": "PostalAddress",
+        streetAddress: "31672 Railroad Canyon Rd",
         addressLocality: "Canyon Lake",
         addressRegion: "CA",
         postalCode: "92587",
