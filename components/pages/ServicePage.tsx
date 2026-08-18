@@ -29,6 +29,89 @@ const CATEGORY_HERO: Record<ServiceContent["category"], { src: string; alt: stri
   reconstruction: { src: "/gallagher_team_fleet.webp", alt: "Gallagher Restoration team standing with the company fleet" },
 };
 
+const SLUG_HERO: Record<string, { src: string; alt: string }> = {
+  "emergency-water-removal": {
+    src: "/emergency-water-removal-hero.webp",
+    alt: "Emergency water extraction underway in a Southern California home",
+  },
+  "water-damage-clean-up": {
+    src: "/water-damage-clean-up-hero.webp",
+    alt: "Water damage cleanup in progress inside a residential interior",
+  },
+  "ceiling-water-damage": {
+    src: "/ceiling-water-damage-hero.webp",
+    alt: "Ceiling water damage staining and sagging drywall in a home",
+  },
+  "water-dry-out": {
+    src: "/water-dry-out-hero.webp",
+    alt: "Air movers and dehumidifiers drying a water-damaged room",
+  },
+  "roof-water-damage": {
+    src: "/roof-water-damage-hero.webp",
+    alt: "Roof water damage and interior leak on a Southern California home",
+  },
+  "mold-remediation": {
+    src: "/mold-remediation-hero.webp",
+    alt: "Mold remediation containment set up inside a residential space",
+  },
+  "mold-inspection-services": {
+    src: "/mold-inspection-hero.webp",
+    alt: "Mold inspection of a residential wall cavity",
+  },
+  wildfire: {
+    src: "/wildfire-hero.webp",
+    alt: "Wildfire smoke and ash impacting a Southern California home exterior",
+  },
+  "property-damage-management": {
+    src: "/property-damage-management-hero.webp",
+    alt: "Property damage assessment and management on-site at a residence",
+  },
+  "fire-damage-restoration": {
+    src: "/fire-damage-restoration-hero.webp",
+    alt: "Fire damage restoration underway inside a Southern California home",
+  },
+  reconstruction: {
+    src: "/reconstruction-hero.webp",
+    alt: "Reconstruction of a Southern California home interior after damage remediation",
+  },
+  "water-damage-repair": {
+    src: "/water-damage-repair-hero.webp",
+    alt: "Water damage repair in progress inside a residential interior",
+  },
+  "water-extraction": {
+    src: "/water-extraction-hero.webp",
+    alt: "Truck-mount water extraction underway in a residential space",
+  },
+  "sewage-clean-up-services": {
+    src: "/sewage-clean-up-services-hero.webp",
+    alt: "Sewage cleanup and sanitation completed inside a residential space",
+  },
+  "wildfire-palisades": {
+    src: "/wildfire-palisades-hero.webp",
+    alt: "Pacific Palisades neighborhood in the recovery phase after a wildfire",
+  },
+  "water-damage-remediation": {
+    src: "/water-damage-remediation-hero.webp",
+    alt: "Water damage remediation tools and documentation laid out in an editorial flat-lay",
+  },
+  "pipe-burst-flooding-and-remediation": {
+    src: "/pipe-burst-flooding-and-remediation-hero.webp",
+    alt: "Modern Southern California home entry at dawn with water seeping from a burst interior pipe",
+  },
+  "smoke-clean-up": {
+    src: "/smoke-clean-up-hero.webp",
+    alt: "Homeowner inspecting a freshly cleaned family photograph after smoke damage restoration",
+  },
+  "mold-testing-services": {
+    src: "/mold-testing-services-hero.webp",
+    alt: "Thermal imaging camera revealing hidden moisture behind a residential wall during mold testing",
+  },
+  "wildfire-altadena": {
+    src: "/wildfire-altadena-hero.webp",
+    alt: "Modern Altadena hillside home intact at blue hour after a wildfire event",
+  },
+};
+
 function findParentSlug(slug: string): string | undefined {
   for (const cat of SERVICE_CATEGORIES) {
     if (cat.slug === slug) return undefined;
@@ -52,6 +135,7 @@ export function ServicePage({ content }: { content: ServiceContent }) {
     ? SERVICE_CATEGORIES.find((c) => c.slug === parentSlug)?.title ?? "Services"
     : null;
   const categoryLabel = CATEGORY_LABEL[content.category];
+  const hero = SLUG_HERO[content.slug] ?? CATEGORY_HERO[content.category];
 
   const crumbs = [
     { label: "Home", href: "/" },
@@ -124,8 +208,8 @@ export function ServicePage({ content }: { content: ServiceContent }) {
         accent={content.heroAccent}
         intro={content.heroIntro}
         crumbs={crumbs}
-        backgroundImage={CATEGORY_HERO[content.category].src}
-        backgroundAlt={CATEGORY_HERO[content.category].alt}
+        backgroundImage={hero.src}
+        backgroundAlt={hero.alt}
         subtleBackground
       />
 
