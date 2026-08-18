@@ -1,11 +1,18 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { FAQS, PHONE } from "@/lib/site";
+
+const PREP_ITEMS = [
+  "Property address & how to access it",
+  "Type of damage (water, fire, mold, other)",
+  "When it started or was first noticed",
+  "Your insurance carrier, if filing a claim",
+  "Photos or short video — only if safe to capture",
+] as const;
 
 export function Faq({ hideHeader = false }: { hideHeader?: boolean } = {}) {
   const [openIndex, setOpenIndex] = useState<number>(0);
@@ -33,30 +40,29 @@ export function Faq({ hideHeader = false }: { hideHeader?: boolean } = {}) {
                 </p>
               </div>
 
-              <div className="mt-10 flex flex-col gap-7 lg:mt-auto lg:pt-10">
-                <div className="group relative hidden w-full max-w-110 overflow-hidden border border-[rgba(255,255,255,0.09)] bg-[#121413] lg:block">
-                  <span className="absolute left-0 top-0 z-10 h-[2px] w-16 bg-[#8ECE34] transition-all duration-[400ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] group-hover:w-full" />
-                  <div className="relative aspect-4/5 w-full overflow-hidden">
-                    <Image
-                      src="/gallagher-cs-rep.webp"
-                      alt="Gallagher Restoration customer support representative"
-                      fill
-                      sizes="(max-width: 1024px) 0px, 440px"
-                      className="object-cover object-[center_top] transition-transform duration-[700ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] group-hover:scale-[1.03]"
-                    />
-                    <div
-                      aria-hidden="true"
-                      className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(11,12,11,0)_40%,rgba(11,12,11,0.9)_100%)]"
-                    />
-                    <div className="absolute inset-x-0 bottom-0 flex items-center gap-3 p-5">
-                      <span className="gr-pulse block h-[8px] w-[8px] shrink-0 rounded-full bg-[#8ECE34]" />
-                      <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#C2C6BC]">
-                        Live Support · 24 / 7
-                      </div>
-                    </div>
-                  </div>
+              <div className="mt-[clamp(32px,4vw,52px)] border-t border-[rgba(255,255,255,0.09)] pt-[clamp(24px,3vw,36px)]">
+                <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  What to Have Ready
                 </div>
+                <ul className="mt-5 flex flex-col gap-3.5">
+                  {PREP_ITEMS.map((item) => (
+                    <li key={item} className="grid grid-cols-[auto_1fr] items-start gap-3">
+                      <span
+                        aria-hidden="true"
+                        className="mt-[7px] block h-[6px] w-[6px] shrink-0 rotate-45 bg-[#8ECE34]"
+                      />
+                      <span className="text-[14px] leading-[1.6] text-[#C2C6BC] text-pretty">
+                        {item}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
 
+              <div className="mt-10 flex flex-col gap-4 lg:mt-auto lg:pt-10">
+                <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#7E837A]">
+                  Ready to Talk to Someone?
+                </div>
                 <Link
                   href={PHONE.href}
                   className="inline-flex w-fit items-center gap-[10px] rounded-[2px] border border-[rgba(255,255,255,0.18)] px-[26px] py-4 text-[15px] font-semibold text-[#F4F5F1] transition-all duration-[350ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:border-[#8ECE34] hover:bg-[rgba(142,206,52,0.07)] hover:text-[#8ECE34]"

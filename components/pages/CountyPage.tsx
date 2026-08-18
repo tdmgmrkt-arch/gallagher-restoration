@@ -3,7 +3,6 @@ import Link from "next/link";
 import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
-import { Faq } from "@/components/sections/Faq";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { COMPANY, PHONE, SERVICE_CATEGORIES, CITIES_BY_COUNTY } from "@/lib/site";
@@ -297,7 +296,7 @@ export function CountyPage({ content }: { content: CountyContent }) {
       {/* Per-county FAQs */}
       {content.faqs.length > 0 ? (
         <section className="border-t border-[rgba(255,255,255,0.07)] bg-[#0B0C0B] py-[clamp(64px,8vw,120px)]">
-          <div className="mx-auto max-w-[1000px] px-[clamp(20px,5vw,56px)]">
+          <div className="mx-auto max-w-[1300px] px-[clamp(20px,5vw,56px)]">
             <Reveal>
               <Eyebrow>Frequently Asked</Eyebrow>
               <h2 className="mt-6 text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
@@ -330,7 +329,6 @@ export function CountyPage({ content }: { content: CountyContent }) {
       ) : null}
 
       <Testimonials />
-      <Faq hideHeader />
       <FinalCta />
     </>
   );

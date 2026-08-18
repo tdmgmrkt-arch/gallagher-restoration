@@ -20,8 +20,12 @@ export function LeadForm() {
     const payload = {
       name: String(fd.get("name") || ""),
       phone: String(fd.get("phone") || ""),
+      email: String(fd.get("email") || ""),
       damageType: String(fd.get("damageType") || SERVICE_OPTIONS[0]),
       address: String(fd.get("address") || ""),
+      description: String(fd.get("description") || ""),
+      timing: String(fd.get("timing") || ""),
+      insurance: String(fd.get("insurance") || ""),
     };
     setError(null);
     startTransition(async () => {
@@ -87,13 +91,38 @@ export function LeadForm() {
       </div>
 
       <label className="mt-4 flex flex-col gap-[9px]">
-        <span className={LABEL}>Type of Damage</span>
-        <select name="damageType" className={`${INPUT} appearance-none`} defaultValue={SERVICE_OPTIONS[0]}>
-          {SERVICE_OPTIONS.map((opt) => (
-            <option key={opt} value={opt}>{opt}</option>
-          ))}
-        </select>
+        <span className={LABEL}>Email</span>
+        <input
+          name="email"
+          type="email"
+          required
+          placeholder="you@example.com"
+          autoComplete="email"
+          className={INPUT}
+        />
       </label>
+
+      <div className="mt-4 grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4">
+        <label className="flex flex-col gap-[9px]">
+          <span className={LABEL}>Type of Damage</span>
+          <select name="damageType" className={`${INPUT} appearance-none`} defaultValue={SERVICE_OPTIONS[0]}>
+            {SERVICE_OPTIONS.map((opt) => (
+              <option key={opt} value={opt}>{opt}</option>
+            ))}
+          </select>
+        </label>
+        <label className="flex flex-col gap-[9px]">
+          <span className={LABEL}>When did it happen?</span>
+          <select name="timing" className={`${INPUT} appearance-none`} defaultValue="">
+            <option value="">Select (optional)</option>
+            <option value="Happening now">Happening now</option>
+            <option value="Within last 24 hours">Within last 24 hours</option>
+            <option value="1–7 days ago">1–7 days ago</option>
+            <option value="More than a week ago">More than a week ago</option>
+            <option value="Not sure">Not sure</option>
+          </select>
+        </label>
+      </div>
 
       <label className="mt-4 flex flex-col gap-[9px]">
         <span className={LABEL}>Property Address</span>
@@ -103,6 +132,27 @@ export function LeadForm() {
           placeholder="City or full address"
           autoComplete="street-address"
           className={INPUT}
+        />
+      </label>
+
+      <label className="mt-4 flex flex-col gap-[9px]">
+        <span className={LABEL}>Insurance Status</span>
+        <select name="insurance" className={`${INPUT} appearance-none`} defaultValue="">
+          <option value="">Select (optional)</option>
+          <option value="Filing a claim">Filing an insurance claim</option>
+          <option value="Paying out of pocket">Paying out of pocket</option>
+          <option value="Not sure yet">Not sure yet</option>
+        </select>
+      </label>
+
+      <label className="mt-4 flex flex-col gap-[9px]">
+        <span className={LABEL}>Describe the damage</span>
+        <textarea
+          name="description"
+          required
+          rows={4}
+          placeholder="What happened, what's affected, anything urgent we should know…"
+          className={`${INPUT} resize-y min-h-[110px]`}
         />
       </label>
 

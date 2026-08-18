@@ -3,8 +3,12 @@
 export type LeadPayload = {
   name: string;
   phone: string;
+  email: string;
   damageType: string;
   address: string;
+  description: string;
+  timing?: string;
+  insurance?: string;
 };
 
 export type LeadResult = { ok: true } | { ok: false; error: string };
@@ -14,6 +18,12 @@ const GHL_WEBHOOK_URL = process.env.GHL_WEBHOOK_URL;
 export async function submitLead(payload: LeadPayload): Promise<LeadResult> {
   if (!payload.name.trim() || !payload.phone.trim()) {
     return { ok: false, error: "Name and phone are required." };
+  }
+  if (!payload.email.trim()) {
+    return { ok: false, error: "Email is required." };
+  }
+  if (!payload.description.trim()) {
+    return { ok: false, error: "Please briefly describe the damage." };
   }
 
   const envelope = {
