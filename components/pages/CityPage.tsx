@@ -185,7 +185,7 @@ export function CityPage({ content }: { content: CityContent }) {
               ) : null}
             </div>
           </Reveal>
-          <div className="mt-[clamp(32px,4vw,56px)] grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-[clamp(18px,2vw,26px)]">
+          <div className="mt-[clamp(32px,4vw,56px)] grid grid-cols-1 gap-[clamp(18px,2vw,26px)] sm:grid-cols-2">
             {content.commonDamage.items.map((item, i) => (
               <Reveal key={item.title} delay={i * 60}>
                 <div className="flex h-full flex-col border-l-2 border-[rgba(142,206,52,0.35)] bg-[#121413] p-[clamp(22px,2.4vw,32px)]">
@@ -203,13 +203,24 @@ export function CityPage({ content }: { content: CityContent }) {
       </section>
 
       {/* How we work */}
-      <section className="border-t border-[rgba(255,255,255,0.07)] bg-[#0E100E] py-[clamp(64px,8vw,120px)]">
-        <div className="mx-auto grid max-w-[1300px] grid-cols-[repeat(auto-fit,minmax(320px,1fr))] items-start gap-[clamp(36px,5vw,80px)] px-[clamp(20px,5vw,56px)]">
+      <section className="border-t border-[rgba(255,255,255,0.07)] bg-[#0E100E] py-[clamp(56px,7vw,104px)]">
+        <div className="mx-auto grid max-w-[1300px] grid-cols-1 items-stretch gap-[clamp(28px,4vw,64px)] px-[clamp(20px,5vw,56px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)]">
           <Reveal>
-            <Eyebrow>{content.howWeWork.eyebrow}</Eyebrow>
-            <h2 className="mt-6 max-w-[18ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
-              {content.howWeWork.heading}
-            </h2>
+            <div className="flex h-full flex-col">
+              <Eyebrow>{content.howWeWork.eyebrow}</Eyebrow>
+              <h2 className="mt-6 max-w-[18ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
+                {content.howWeWork.heading}
+              </h2>
+              <div className="mt-auto pt-10">
+                <div
+                  aria-hidden="true"
+                  className="h-[2px] w-[36px] bg-[#8ECE34]"
+                />
+                <p className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8F948A]">
+                  24/7 &middot; Every call answered by our team
+                </p>
+              </div>
+            </div>
           </Reveal>
           <Reveal delay={120}>
             <p className="max-w-[62ch] text-[16px] leading-[1.8] text-[#C2C6BC] text-pretty">
@@ -235,7 +246,7 @@ export function CityPage({ content }: { content: CityContent }) {
               </p>
             </div>
           </Reveal>
-          <div className="mt-[clamp(32px,4vw,56px)] grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-[clamp(18px,2vw,26px)]">
+          <div className="mt-[clamp(32px,4vw,56px)] grid grid-cols-1 gap-[clamp(18px,2vw,26px)] sm:grid-cols-2 lg:grid-cols-4">
             {SERVICE_CATEGORIES.map((cat, i) => (
               <Reveal key={cat.slug} delay={i * 60}>
                 <Link
@@ -257,19 +268,51 @@ export function CityPage({ content }: { content: CityContent }) {
                 </Link>
               </Reveal>
             ))}
+            <Reveal delay={SERVICE_CATEGORIES.length * 60}>
+              <Link
+                href="/services"
+                className="group relative flex h-full flex-col justify-between overflow-hidden border border-[rgba(142,206,52,0.28)] bg-[radial-gradient(90%_120%_at_100%_0%,rgba(142,206,52,0.12),transparent_70%)] p-[clamp(22px,2.4vw,32px)] transition-[border-color,transform] duration-[400ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-[2px] hover:border-[#8ECE34]"
+              >
+                <div>
+                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                    Full Catalog
+                  </div>
+                  <h3 className="mt-5 text-[clamp(20px,1.8vw,24px)] font-bold leading-[1.15] tracking-[-0.025em] text-[#F4F5F1]">
+                    See every service we run in {content.name}.
+                  </h3>
+                  <p className="mt-3 text-[14px] leading-[1.7] text-[#9CA098] text-pretty">
+                    Twenty specific services across seven verticals &mdash; one crew, one point of contact.
+                  </p>
+                </div>
+                <span className="mt-6 font-mono text-[12px] font-bold uppercase tracking-[0.14em] text-[#8ECE34] transition-colors group-hover:text-[#A6E053]">
+                  All services &rarr;
+                </span>
+              </Link>
+            </Reveal>
           </div>
         </div>
       </section>
 
       {/* Why choose */}
-      <section className="relative overflow-hidden border-t border-[rgba(255,255,255,0.07)] bg-[#0E100E] py-[clamp(64px,8vw,120px)]">
+      <section className="relative overflow-hidden border-t border-[rgba(255,255,255,0.07)] bg-[#0E100E] py-[clamp(56px,7vw,104px)]">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(46%_60%_at_22%_100%,rgba(142,206,52,0.10),transparent_72%)]" />
-        <div className="relative mx-auto grid max-w-[1300px] grid-cols-[repeat(auto-fit,minmax(320px,1fr))] items-start gap-[clamp(36px,5vw,80px)] px-[clamp(20px,5vw,56px)]">
+        <div className="relative mx-auto grid max-w-[1300px] grid-cols-1 items-stretch gap-[clamp(28px,4vw,64px)] px-[clamp(20px,5vw,56px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)]">
           <Reveal>
-            <Eyebrow>{content.whyChoose.eyebrow}</Eyebrow>
-            <h2 className="mt-6 max-w-[18ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
-              {content.whyChoose.heading}
-            </h2>
+            <div className="flex h-full flex-col">
+              <Eyebrow>{content.whyChoose.eyebrow}</Eyebrow>
+              <h2 className="mt-6 max-w-[18ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
+                {content.whyChoose.heading}
+              </h2>
+              <div className="mt-auto pt-10">
+                <div
+                  aria-hidden="true"
+                  className="h-[2px] w-[36px] bg-[#8ECE34]"
+                />
+                <p className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8F948A]">
+                  Licensed &middot; Insured &middot; Direct Insurance Billing
+                </p>
+              </div>
+            </div>
           </Reveal>
           <Reveal delay={120}>
             <p className="max-w-[62ch] text-[16px] leading-[1.8] text-[#C2C6BC] text-pretty">
