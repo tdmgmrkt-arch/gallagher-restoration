@@ -95,6 +95,10 @@ export default function AboutPage() {
                 and grounded in doing the right thing for the customer. That&apos;s why our
                 neighbors keep calling us back and referring us to their friends.
               </p>
+              <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 border-t border-[rgba(255,255,255,0.07)] pt-6 font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A]">
+                <span>Licensed &middot; Insured</span>
+                <span className="text-[#C6CABF]">CSLB #1061640</span>
+              </div>
             </div>
           </Reveal>
         </div>

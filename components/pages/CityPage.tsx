@@ -7,6 +7,7 @@ import { CityMap } from "@/components/ui/CityMap";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { COMPANY, PHONE, SERVICE_CATEGORIES, CITIES_BY_COUNTY } from "@/lib/site";
+import { CITY_COORDS } from "@/lib/city-coords";
 import type { CityContent } from "@/lib/city-content";
 
 type CountyKey = keyof typeof CITIES_BY_COUNTY;
@@ -21,9 +22,11 @@ function getNearbyCities(slug: string, countySlug: string, limit = 6) {
 export function CityPage({ content }: { content: CityContent }) {
   const nearby = getNearbyCities(content.slug, content.countySlug);
 
+  const cityCoords = CITY_COORDS[content.slug];
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "EmergencyService",
+    "@id": "https://gallagherrestoration.com/#business",
     name: COMPANY.name,
     telephone: PHONE.display,
     url: `https://gallagherrestoration.com/${content.slug}`,
@@ -31,12 +34,22 @@ export function CityPage({ content }: { content: CityContent }) {
       "@type": "PostalAddress",
       addressLocality: "Canyon Lake",
       addressRegion: "CA",
+      postalCode: "92587",
       addressCountry: "US",
     },
     areaServed: [
       { "@type": "City", name: content.name, containedInPlace: content.countyName },
       { "@type": "AdministrativeArea", name: content.countyName },
     ],
+    ...(cityCoords
+      ? {
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: cityCoords[0],
+            longitude: cityCoords[1],
+          },
+        }
+      : {}),
     openingHours: "Mo-Su 00:00-24:00",
     priceRange: "$$",
   };
@@ -309,7 +322,7 @@ export function CityPage({ content }: { content: CityContent }) {
                   className="h-[2px] w-[36px] bg-[#8ECE34]"
                 />
                 <p className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8F948A]">
-                  Licensed &middot; Insured &middot; Direct Insurance Billing
+                  Licensed CSLB #1061640 &middot; Insured &middot; Direct Insurance Billing
                 </p>
               </div>
             </div>

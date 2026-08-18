@@ -1,8 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import { COMPANY, NAV, PHONE } from "@/lib/site";
+import { COMPANY, NAV, PHONE, SOCIAL_URLS } from "@/lib/site";
 
 const FOOTER_NAV = [{ label: "Home", href: "/" }, ...NAV];
+
+const SOCIALS = [
+  { label: "Facebook", href: SOCIAL_URLS[0] },
+  { label: "Instagram", href: SOCIAL_URLS[1] },
+];
 
 export function SiteFooter() {
   return (
@@ -19,6 +24,25 @@ export function SiteFooter() {
           <p className="mt-6 max-w-[34ch] text-[15px] leading-[1.7] text-[#8F948A] text-pretty">
             {COMPANY.tagline}
           </p>
+          <div className="mt-6 font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A]">
+            Licensed &middot; Insured
+          </div>
+          <div className="mt-2 text-[13px] text-[#C6CABF]">
+            CSLB License #{COMPANY.cslbLicense}
+          </div>
+          <div className="mt-5 flex items-center gap-4">
+            {SOCIALS.map((s) => (
+              <a
+                key={s.label}
+                href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[13px] text-[#C6CABF] transition-colors hover:text-[#8ECE34]"
+              >
+                {s.label}
+              </a>
+            ))}
+          </div>
         </div>
 
         <div>

@@ -45,12 +45,12 @@ export function Hero() {
           </Reveal>
           <Reveal delay={170}>
             <p className="mt-[24px] max-w-[54ch] text-[clamp(15px,1.2vw,18px)] leading-[1.65] text-[#C2C6BC] text-pretty">
-              Gallagher Restoration has been providing fire and water damage restoration services throughout Southern California for over 15 years.
+              Gallagher Restoration Co. is a family-owned 24/7 water, fire, and mold damage restoration company serving Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties for over 15 years. Our crews arrive on-site within 60 minutes and bill your insurance directly.
             </p>
           </Reveal>
           <Reveal delay={220}>
             <p className="mt-[12px] max-w-[54ch] text-[clamp(14px,1.1vw,16px)] leading-[1.65] text-[#9CA098] text-pretty">
-              Our 24-hour emergency restoration team is available 7 days a week and can be at your location within 60 minutes.
+              Emergency dispatch is answered by a real person day and night&mdash;never a call center.
             </p>
           </Reveal>
           <Reveal delay={280}>

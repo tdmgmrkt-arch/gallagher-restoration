@@ -19,7 +19,8 @@ export function CountyPage({ content }: { content: CountyContent }) {
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "EmergencyService",
+    "@id": "https://gallagherrestoration.com/#business",
     name: COMPANY.name,
     telephone: PHONE.display,
     url: `https://gallagherrestoration.com/${content.slug}`,
@@ -27,6 +28,7 @@ export function CountyPage({ content }: { content: CountyContent }) {
       "@type": "PostalAddress",
       addressLocality: "Canyon Lake",
       addressRegion: "CA",
+      postalCode: "92587",
       addressCountry: "US",
     },
     areaServed: [
@@ -277,7 +279,7 @@ export function CountyPage({ content }: { content: CountyContent }) {
               <div className="mt-auto pt-10">
                 <div className="h-[2px] w-[36px] bg-[#8ECE34]" />
                 <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
-                  Licensed &middot; Insured &middot; Direct Insurance Billing
+                  Licensed CSLB #1061640 &middot; Insured &middot; Direct Insurance Billing
                 </div>
               </div>
             </div>

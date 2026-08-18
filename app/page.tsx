@@ -9,10 +9,117 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { NewsGrid } from "@/components/sections/NewsGrid";
 import { Faq } from "@/components/sections/Faq";
 import { FinalCta } from "@/components/sections/FinalCta";
+import { COMPANY, PHONE, SOCIAL_URLS } from "@/lib/site";
+import { CITY_COORDS } from "@/lib/city-coords";
+
+const HQ_COORDS = CITY_COORDS["canyon-lake-ca"];
 
 export default function Home() {
+  const businessJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "EmergencyService",
+    "@id": "https://gallagherrestoration.com/#business",
+    name: COMPANY.name,
+    legalName: COMPANY.legalName,
+    description:
+      "24/7 water, fire, mold, and property damage restoration across Southern California. On-site within 60 minutes.",
+    url: "https://gallagherrestoration.com",
+    telephone: PHONE.display,
+    image: "https://gallagherrestoration.com/gallagher_fleet_rear.webp",
+    sameAs: SOCIAL_URLS,
+    hasCredential: {
+      "@type": "EducationalOccupationalCredential",
+      credentialCategory: "license",
+      name: `California Contractors State License Board (CSLB) #${COMPANY.cslbLicense}`,
+      recognizedBy: {
+        "@type": "GovernmentOrganization",
+        name: "California Contractors State License Board",
+        url: "https://www.cslb.ca.gov",
+      },
+    },
+    identifier: {
+      "@type": "PropertyValue",
+      propertyID: "CSLB License",
+      value: COMPANY.cslbLicense,
+    },
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Canyon Lake",
+      addressRegion: "CA",
+      postalCode: "92587",
+      addressCountry: "US",
+    },
+    geo: HQ_COORDS
+      ? {
+          "@type": "GeoCoordinates",
+          latitude: HQ_COORDS[0],
+          longitude: HQ_COORDS[1],
+        }
+      : undefined,
+    areaServed: [
+      { "@type": "AdministrativeArea", name: "Riverside County" },
+      { "@type": "AdministrativeArea", name: "San Bernardino County" },
+      { "@type": "AdministrativeArea", name: "Orange County" },
+      { "@type": "AdministrativeArea", name: "San Diego County" },
+      { "@type": "AdministrativeArea", name: "Los Angeles County" },
+    ],
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+      ],
+      opens: "00:00",
+      closes: "23:59",
+    },
+    priceRange: "$$",
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Restoration Services",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Water Damage Restoration",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Fire & Smoke Damage Restoration",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Mold Remediation",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Storm & Wind Damage Restoration",
+          },
+        },
+      ],
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(businessJsonLd) }}
+      />
       <Hero />
       <WildfireBanner />
       <ServiceAreas />

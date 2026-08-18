@@ -7,6 +7,18 @@
   "heroTitle": "Mold remediation in Southern California",
   "heroAccent": "containment through clearance",
   "heroIntro": "Gallagher Restoration Co. handles the full mold remediation process\u2014source moisture identification, negative-air containment, material removal, HEPA cleaning, and clearance testing\u2014across five Southern California counties. One crew, every step.",
+  "crossLinks": [
+    {
+      "label": "Mold inspection",
+      "href": "/mold-inspection-services",
+      "note": "Not sure yet? Start here"
+    },
+    {
+      "label": "Mold testing",
+      "href": "/mold-testing-services",
+      "note": "Air & surface sampling"
+    }
+  ],
   "proofStrip": [
     {"label": "Response Time", "value": "60 min", "hint": "Typical arrival across 5-county SoCal"},
     {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person"},

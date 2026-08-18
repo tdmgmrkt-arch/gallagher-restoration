@@ -27,9 +27,9 @@ export default function FaqsPage() {
   return (
     <>
       <PageHero
-        eyebrow="Common Questions"
-        title="Answers Before"
-        accent="You Call"
+        eyebrow="Restoration FAQs"
+        title="Water & Fire Damage Restoration FAQs \u2014"
+        accent="Southern California"
         intro="Emergencies are stressful and answers matter. Here are the questions Southern California homeowners ask us most often — grouped by damage type — and if yours isn't listed, our team answers the phone 24 hours a day, 7 days a week."
         crumbs={[{ label: "Home", href: "/" }, { label: "FAQs" }]}
         backgroundImage="/faqs-hero.webp"

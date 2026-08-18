@@ -30,6 +30,9 @@ export type ServiceContent = {
   /** 2-3 sentences, primary keyword + SoCal + differentiator. */
   heroIntro: string;
 
+  /** Optional above-the-fold cross-links to related/sibling services for intent forks. */
+  crossLinks?: { label: string; href: string; note?: string }[];
+
   /** 3 stat tiles rendered in the proximity/proof band. */
   proofStrip: { label: string; value: string; hint?: string }[];
 

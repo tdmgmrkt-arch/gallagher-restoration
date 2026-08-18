@@ -26,8 +26,34 @@ export function PageHero({
   backgroundPosition?: string;
   subtleBackground?: boolean;
 }) {
+  const breadcrumbJsonLd =
+    crumbs && crumbs.length > 1
+      ? {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: crumbs.map((c, i) => ({
+            "@type": "ListItem",
+            position: i + 1,
+            name: c.label,
+            ...(c.href
+              ? {
+                  item: c.href.startsWith("http")
+                    ? c.href
+                    : `https://gallagherrestoration.com${c.href === "/" ? "" : c.href}`,
+                }
+              : {}),
+          })),
+        }
+      : null;
+
   return (
     <section className="relative overflow-hidden border-b border-[rgba(255,255,255,0.07)] bg-[#08090A]">
+      {breadcrumbJsonLd ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        />
+      ) : null}
       {backgroundImage ? (
         <Image
           src={backgroundImage}

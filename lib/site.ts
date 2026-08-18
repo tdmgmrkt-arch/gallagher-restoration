@@ -6,9 +6,16 @@ export const PHONE = {
 
 export const COMPANY = {
   name: "Gallagher Restoration Co.",
+  legalName: "Gallagher Restoration Inc",
   city: "Canyon Lake, CA",
   tagline: "24/7 Water, Fire, Mold & Property Damage Restoration",
+  cslbLicense: "1061640",
 };
+
+export const SOCIAL_URLS = [
+  "https://www.facebook.com/GallagherRestorationCo",
+  "https://www.instagram.com/gallagher1restoration/",
+];
 
 export const NAV = [
   { label: "Services", href: "/services" },

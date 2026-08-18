@@ -35,6 +35,41 @@ export const metadata: Metadata = {
   },
 };
 
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://gallagherrestoration.com/#website",
+  url: "https://gallagherrestoration.com",
+  name: "Gallagher Restoration Co.",
+  publisher: { "@id": "https://gallagherrestoration.com/#business" },
+  inLanguage: "en-US",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate:
+        "https://gallagherrestoration.com/?s={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://gallagherrestoration.com/#organization",
+  name: "Gallagher Restoration Co.",
+  legalName: "Gallagher Restoration Inc",
+  url: "https://gallagherrestoration.com",
+  logo: "https://gallagherrestoration.com/gallagher_badge_logo.webp",
+  telephone: "(951) 541-0034",
+  areaServed: "Southern California",
+  sameAs: [
+    "https://www.facebook.com/GallagherRestorationCo",
+    "https://www.instagram.com/gallagher1restoration/",
+  ],
+};
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
@@ -43,6 +78,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${archivo.variable} ${jetbrainsMono.variable}`}
     >
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
         <TopBar />
         <SiteHeader />
         <main>{children}</main>

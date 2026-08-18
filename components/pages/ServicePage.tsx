@@ -154,15 +154,19 @@ export function ServicePage({ content }: { content: ServiceContent }) {
     "@context": "https://schema.org",
     "@type": "Service",
     name: content.heroTitle,
-    serviceType: `${categoryLabel} Damage Restoration`,
+    serviceType: content.heroTitle,
+    category: `${categoryLabel} Damage Restoration`,
     provider: {
-      "@type": "LocalBusiness",
+      "@type": "EmergencyService",
+      "@id": "https://gallagherrestoration.com/#business",
       name: COMPANY.name,
       telephone: PHONE.display,
+      url: "https://gallagherrestoration.com",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Canyon Lake",
         addressRegion: "CA",
+        postalCode: "92587",
         addressCountry: "US",
       },
     },
@@ -212,6 +216,33 @@ export function ServicePage({ content }: { content: ServiceContent }) {
         backgroundAlt={hero.alt}
         subtleBackground
       />
+
+      {content.crossLinks && content.crossLinks.length > 0 ? (
+        <section className="border-b border-[rgba(255,255,255,0.07)] bg-[#0B0C0B]">
+          <div className="mx-auto flex max-w-[1300px] flex-wrap items-center gap-[clamp(14px,2vw,28px)] px-[clamp(20px,5vw,56px)] py-[clamp(18px,2.4vw,30px)]">
+            <span className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+              Looking for something else?
+            </span>
+            <div className="flex flex-wrap gap-[10px]">
+              {content.crossLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="group inline-flex items-center gap-[10px] border border-[rgba(255,255,255,0.09)] bg-[#121413] px-[16px] py-[10px] text-[14px] leading-tight text-[#C6CABF] transition-colors hover:border-[#8ECE34] hover:text-[#F4F5F1]"
+                >
+                  <span className="font-medium">{link.label}</span>
+                  {link.note ? (
+                    <span className="hidden text-[12px] text-[#8F948A] sm:inline">
+                      &mdash; {link.note}
+                    </span>
+                  ) : null}
+                  <span className="font-mono text-[#8ECE34]">&rarr;</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       {/* Proof strip */}
       <section className="border-b border-[rgba(255,255,255,0.07)] bg-[#0B0C0B] py-[clamp(48px,6vw,88px)]">
@@ -358,7 +389,7 @@ export function ServicePage({ content }: { content: ServiceContent }) {
               <div className="mt-auto pt-10">
                 <div className="h-[2px] w-[36px] bg-[#8ECE34]" />
                 <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
-                  Licensed &middot; Insured &middot; Direct Insurance Billing
+                  Licensed CSLB #1061640 &middot; Insured &middot; Direct Insurance Billing
                 </div>
               </div>
             </div>
