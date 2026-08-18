@@ -1,0 +1,107 @@
+{
+  "slug": "huntington-beach-ca",
+  "name": "Huntington Beach",
+  "countySlug": "orange-county",
+  "countyName": "Orange County",
+  "proximityMinutes": 75,
+  "proximityMiles": 60,
+  "route": "SR-91 West then I-405 South",
+  "metaTitle": "Water & Fire Damage Restoration | Huntington Beach, CA",
+  "metaDescription": "Gallagher Restoration reaches Huntington Beach in ~75 min via SR-91 & I-405. Water, mold, fire & coastal damage — 24/7. Family-owned. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY · HUNTINGTON BEACH, CA",
+  "heroTitle": "Restoration services in Huntington Beach — coastal damage specialists, on-site in 75 minutes",
+  "heroAccent": "Salt air, marine mold, tidal surge — the coast creates damage the inland doesn't.",
+  "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Huntington Beach via SR-91 West and I-405 South — typically on-site within 75 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~75 min", "hint": "Typical drive from Canyon Lake via SR-91 West and I-405 South" },
+    { "label": "Distance", "value": "60 mi", "hint": "Canyon Lake to Huntington Beach" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+  ],
+  "localHook": "Huntington Beach sits directly on the Pacific — and the Pacific is not passive. The marine layer that rolls in off the water most mornings deposits moisture against every exterior surface in the city. Beach cottages and mid-century homes within a mile of the water accumulate that moisture in wall cavities, behind stucco, and inside framing that was built before modern vapor barriers were standard. The Huntington Harbour channel community faces a more direct exposure: tidal and storm surge events that push saltwater into bulkhead garages, boat slips, and ground-floor units. Bolsa Chica wetlands flooding affects the northern edge during significant storm events. Salt-air corrosion accelerates plumbing fixture failure on a timeline that inland properties don't experience. Gallagher takes SR-91 West to I-405 South and is typically on-site in any part of Huntington Beach within 75 minutes — bringing 15+ years of Southern California experience to a coastal damage profile that demands specific expertise.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "From downtown pier to Huntington Harbour",
+    "items": [
+      {
+        "name": "Downtown Huntington Beach and pier area",
+        "body": "Beach cottages and older residential within blocks of the pier carry original or early-generation plumbing in the most corrosive salt-air environment in Orange County. Cast iron drain lines and early copper supply in these properties fail at an accelerated rate compared to equivalent inland construction."
+      },
+      {
+        "name": "Huntington Harbour",
+        "body": "Channel community with boat-accessed properties and below-grade garages. Tidal surge and storm events push saltwater into bulkhead openings, garage slabs, and ground-floor living areas — a flooding scenario that requires specialized extraction and decontamination because saltwater carries a different contamination profile than residential plumbing water."
+      },
+      {
+        "name": "Sunset Beach",
+        "body": "Narrow peninsula community at the northern edge with some of the most direct ocean exposure in Huntington Beach. Marine layer mold intrusion behind exterior walls is a chronic condition in many Sunset Beach structures, not an isolated event."
+      },
+      {
+        "name": "Bolsa Chica area",
+        "body": "Properties adjacent to the Bolsa Chica wetlands face elevated storm flooding risk when rain events saturate the wetlands and overwhelm the drainage capacity. Surface water entry into ground-floor and slab-founded homes is a documented seasonal pattern in this zone."
+      },
+      {
+        "name": "Inland Huntington Beach tracts",
+        "body": "Mid-century and 1970s–1980s tract residential in the inland portions of the city. Less marine exposure than coastal properties, but aging plumbing and Santa Ana wind roof damage remain the dominant damage calls from these neighborhoods."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local damage profile",
+    "heading": "What the coast does to Huntington Beach properties",
+    "items": [
+      {
+        "title": "Marine layer mold behind coastal walls",
+        "body": "In Huntington Beach's beach-adjacent neighborhoods, the marine layer isn't a weather event — it's a daily condition. Moisture deposits against stucco, penetrates micro-cracks, and accumulates in wall cavities and behind bathroom tile over months and years. Mold colonies in coastal properties are often significantly more extensive than the visible surface discoloration suggests. Mold remediation here requires systematic assessment of the full wall assembly, not just the visible surface."
+      },
+      {
+        "title": "Salt-air corrosion on plumbing fixtures",
+        "body": "Salt-laden air accelerates corrosion on copper fittings, shutoff valves, and water heater pressure relief systems at a measurably faster rate than inland environments. Supply line connections that would last 20+ years inland may fail within 10–12 years within blocks of the water. When they fail, the water discharge is the same regardless of the cause — water extraction, water dry-out, and ceiling water damage repair are the immediate response."
+      },
+      {
+        "title": "Tidal and storm surge flooding — Huntington Harbour",
+        "body": "Huntington Harbour's channel-front properties face flooding scenarios that most of Southern California never encounters. Saltwater entry through bulkhead garages and ground-floor openings during a significant storm surge is a Category-level event — saltwater carries biological contamination distinct from residential plumbing water, and the materials it contacts require assessment beyond standard water damage protocols. Emergency water removal is the first step; material assessment follows."
+      },
+      {
+        "title": "Condo shared-wall water events",
+        "body": "Huntington Beach has a significant density of condo development — particularly in the inland and mid-city zones. Supply line failures in one unit penetrate ceilings and walls into adjacent units. Multi-unit documentation for insurance is a core Gallagher competency, particularly relevant in high-density coastal communities where unit owners and association coverage interact."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The process",
+    "heading": "From your call to a dry, restored property",
+    "body": "Call (951) 541-0034 — a real person answers, 24 hours a day. For Huntington Beach calls, we ask the specific questions that coastal properties require: is there saltwater involvement? Is the property directly on the Harbour channel? Is there active tidal exposure? These questions shape the containment response — saltwater events use different protocols than freshwater plumbing failures. A crew leaves Canyon Lake via SR-91 West and I-405 South and is typically on-site within 75 minutes. Containment and extraction first. Coastal mold assessments use professional-grade moisture mapping to find the full extent of wall cavity moisture before any scope decision is made. Marine mold is more pervasive than it appears — scoping it correctly from the start prevents return calls. Aaron and the team coordinate with the major insurance carriers directly. Documentation for coastal damage events often requires more detailed evidence than standard inland jobs — we provide it."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "15 years across Southern California — including the coast",
+    "body": "Coastal property damage in Huntington Beach is distinct from the water damage calls that dominate the Inland Empire market. Marine mold in wall cavities, saltwater intrusion at Huntington Harbour, and salt-air corrosion on plumbing fixtures all require specific knowledge that generic restoration franchises don't develop unless they work the coast regularly. Gallagher Restoration Co. has 15+ years of experience across Southern California's full range of climate zones and housing types — from Canyon Lake inland to the Pacific Ocean. IICRC-trained crews apply the correct protocols to each damage category. Professional-grade moisture mapping finds the full extent of marine moisture intrusion that visual inspection alone cannot detect. We handle water damage restoration, mold remediation, mold inspection services, sewage clean-up, fire damage restoration, and wildfire damage from a single family-owned operation. We coordinate with the major insurance carriers. Real person on the phone, 24/7."
+  },
+  "pricing": {
+    "eyebrow": "What it costs",
+    "heading": "Honest numbers on restoration pricing",
+    "body": "Water damage restoration in Huntington Beach ranges from $1,500 for a minor contained supply event to $15,000+ for a significant Harbour flooding event or a marine mold remediation project in a beach cottage that has been accumulating moisture inside wall cavities for years. Saltwater intrusion events are priced higher than freshwater events due to decontamination requirements for salt-affected materials. Marine mold remediation in coastal properties frequently requires full wall assembly removal rather than surface treatment — accurate scoping from the initial assessment is what keeps the project total from growing unexpectedly. We provide a written scope before work begins. Insurance coordination is standard on every job. Call (951) 541-0034 for a same-day assessment."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher Restoration reach Huntington Beach?",
+      "a": "Via SR-91 West and I-405 South from Canyon Lake, we're typically on-site in Huntington Beach within 75 minutes. We operate 24/7 — call (951) 541-0034 and a real person answers at any hour."
+    },
+    {
+      "q": "My Huntington Harbour home flooded from a storm surge — is saltwater different from regular water damage?",
+      "a": "Yes. Saltwater carries biological contamination and causes accelerated material degradation that freshwater does not. The assessment and remediation protocols are different — materials that could be dried in a standard freshwater event may need to be removed entirely after saltwater exposure. Emergency water removal is the immediate step; material assessment follows."
+    },
+    {
+      "q": "We found mold on an interior wall in our beach cottage near the pier — is this serious?",
+      "a": "In properties within blocks of the ocean, visible surface mold is almost always the symptom, not the full extent of the problem. Marine moisture accumulates inside wall cavities over time. We offer mold inspection services and mold testing services to assess the full scope before committing to a remediation plan. In coastal properties, scoping before action is particularly important."
+    },
+    {
+      "q": "Do you handle multi-unit condo water damage in Huntington Beach?",
+      "a": "Yes. Multi-unit water damage — whether from supply line failure or storm intrusion — is a routine Gallagher scope. We document per-unit boundary damage from the first hour on-site, which is what both individual unit owners and HOA carriers need to process the claim."
+    },
+    {
+      "q": "Can you handle the full process from initial water removal through reconstruction?",
+      "a": "Yes. Gallagher handles the full restoration path — emergency water removal, water dry-out, mold remediation if required, and reconstruction. You don't have to coordinate multiple contractors. The same family-owned crew manages the project from first call through final clearance."
+    }
+  ]
+}

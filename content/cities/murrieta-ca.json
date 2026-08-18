@@ -1,0 +1,106 @@
+{
+  "slug": "murrieta-ca",
+  "name": "Murrieta",
+  "countySlug": "riverside-county",
+  "countyName": "Riverside County",
+  "isHq": false,
+  "proximityMinutes": 15,
+  "proximityMiles": 10,
+  "route": "I-215 North",
+  "metaTitle": "Water & Fire Restoration | Murrieta, CA | Gallagher",
+  "metaDescription": "24/7 water, fire, mold & wildfire restoration in Murrieta. Gallagher on-site in ~30 min. IICRC-trained. Free assessment. (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 MURRIETA, CA",
+  "heroTitle": "Murrieta restoration services\u2014water, fire, mold, wildfire",
+  "heroAccent": "10 miles from Canyon Lake HQ.",
+  "heroIntro": "Gallagher Restoration Co. responds to water damage, fire damage, mold, wildfire, and sewage emergencies throughout Murrieta 24 hours a day. The crew is 10 miles from Canyon Lake and on-site in approximately 30 minutes. IICRC-trained technicians, professional-grade equipment, and full insurance coordination\u2014from first call through final reconstruction.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~30 min", "hint": "10 miles via I-215 North from Canyon Lake" },
+    { "label": "Distance", "value": "10 mi", "hint": "Via I-215 North" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Real person answers every call, every hour" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Gallagher has served 210+ Murrieta neighborhoods" }
+  ],
+  "localHook": "Murrieta is one of the most active service cities for Gallagher\u2014the crew has worked in more than 210 of its neighborhoods over the past 15 years. The city\u2019s housing stock spans 1990s tract neighborhoods that are now entering the high-risk plumbing failure window, brand-new construction with builder-grade fitting risks, and a historic downtown corridor on Kalmia Street with aging infrastructure. The western edge near the Santa Rosa Plateau carries wildfire exposure. Eastern hills face wind-driven rain and roof damage. The Copper Canyon and Whitewood corridors represent middle-age tract construction at peak slab-leak risk. Gallagher knows this city block by block\u2014and the 10-mile drive from Canyon Lake on I-215 North means the crew is on-site before most competitors finish taking the call.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "210+ Murrieta neighborhoods served",
+    "intro": "Gallagher responds throughout Murrieta\u2014every corridor, every age of housing stock.",
+    "items": [
+      {
+        "name": "Historic downtown \u2014 Kalmia Street corridor",
+        "body": "Downtown Murrieta\u2019s older commercial and residential buildings carry aging infrastructure across multiple systems. Water intrusion from failed roof envelopes and deteriorated plumbing is a recurring call in this corridor. We document historic structures carefully to support insurance claims and preservation requirements."
+      },
+      {
+        "name": "Copper Canyon & Whitewood",
+        "body": "1990s tract homes in Copper Canyon and Whitewood are now 25 to 35 years old\u2014squarely inside the typical failure window for original copper supply lines and galvanized drain lines. Slab leaks and slow subfloor moisture are the most common calls from these neighborhoods."
+      },
+      {
+        "name": "Los Alamos & western edge",
+        "body": "The western edge of Murrieta near the Santa Rosa Plateau faces wildfire smoke intrusion during fire seasons. Los Alamos area homes also carry new-construction fitting risks common to 2000s and 2010s tract development. We handle both smoke clean-up and water damage throughout this corridor."
+      },
+      {
+        "name": "Eastern hills",
+        "body": "Eastern Murrieta\u2019s hillside positions create roof and attic moisture exposure during wind-driven rain events. Flashing failures at roof penetrations are the most common water entry point. Thermal imaging identifies hidden moisture in attic assemblies before it reaches living spaces below."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Murrieta homes most",
+    "intro": "Murrieta\u2019s housing age, corridor geography, and wildfire exposure produce a consistent set of damage patterns across the city.",
+    "items": [
+      {
+        "title": "1990s tract plumbing entering the failure window",
+        "body": "Copper supply lines installed in Murrieta\u2019s 1990s construction wave are now 25 to 35 years old. Industry data places the typical failure window for sweated copper fittings at 25 to 50 years under normal conditions\u2014and Southern California\u2019s hard water accelerates corrosion. Slab leaks, joint failures, and pinhole leaks are the most frequent calls from Copper Canyon, Whitewood, and the Los Alamos corridor."
+      },
+      {
+        "title": "Builder-grade fitting failures in newer construction",
+        "body": "Murrieta\u2019s newest neighborhoods\u2014built in the 2000s and 2010s\u2014carry the flexible supply line and push-fit fitting risks common to California tract construction. These components fail before the structural systems of the home do, often producing significant water damage from a refrigerator line or washing machine supply hose."
+      },
+      {
+        "title": "Western wildfire smoke exposure and direct wildfire risk",
+        "body": "The western edge of Murrieta near the Santa Rosa Plateau faces smoke infiltration during regional fire seasons, and direct wildfire risk during extreme fire weather. Smoke and soot penetrate HVAC systems, ductwork, and wall assemblies. Gallagher\u2019s wildfire and smoke clean-up process addresses contamination at the structural level with full insurance documentation."
+      },
+      {
+        "title": "Eastern hills wind-driven roof damage",
+        "body": "Eastern Murrieta hillside homes experience wind-driven rain that forces water under roof tiles and through flashing failures. Attic saturation and ceiling damage are common results. Professional-grade moisture mapping identifies the full extent of penetration before drying begins."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Murrieta call looks like",
+    "body": "You call (951) 541-0034 and a real person answers every time. The crew departs Canyon Lake on I-215 North and is on-site in Murrieta in approximately 30 minutes. On arrival, professional-grade moisture meters and thermal imaging establish the full damage scope before a single fan is placed. You receive a clear, plain-language explanation of what was found and what the remediation plan looks like before work begins. Extraction and structural drying start the same visit. For wildfire and smoke jobs, soot deposition and air quality readings are documented from the first hour. Everything\u2014every affected area, every moisture reading, every affected material\u2014is photographed and logged. Gallagher works directly with major insurance carriers, preparing adjuster documentation and managing the carrier communication on your behalf. From first call through final reconstruction, the same crew stays on the job. 210-plus neighborhoods served means we know how Murrieta is built\u2014and how it fails."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Murrieta calls Gallagher",
+    "body": "Gallagher has worked more than 210 of Murrieta\u2019s neighborhoods over 15 years. That depth of local experience means the crew recognizes patterns\u2014which tracts have slab-leak concentrations, which hillside corridors take smoke damage in specific wind conditions, which downtown buildings have the most compromised infrastructure. Knowledge like that isn\u2019t available from a dispatch center 50 miles away. This is a family-owned operation. Aaron\u2019s crew handles each job from assessment through reconstruction\u2014no handoffs, no unfamiliar faces mid-project. IICRC-trained technicians bring professional-grade detection and drying equipment to every call. Insurance coordination is in-house: Gallagher works directly with major carriers, prepares the documentation, and manages the back-and-forth so the claim moves faster. Ten miles from Canyon Lake to Murrieta means rapid response in a city that sees a high volume of water and fire damage calls every month."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on Murrieta restoration cost",
+    "body": "Assessment is always free. We arrive, evaluate the full damage scope, and give you a clear picture before any work begins. Most residential restoration jobs in Murrieta fall between $500 and $15,000. 1990s slab leaks caught quickly fall toward the lower end. Multi-room floods, jobs with secondary mold, or post-fire wildfire restoration fall toward the higher end. Builder-grade fitting failures addressed within hours typically resolve at the lower end of the range. If you have homeowners insurance, Gallagher coordinates directly with your carrier\u2014we prepare the documentation and manage the adjuster communication so the claim moves faster."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher get to Murrieta?",
+      "a": "Murrieta is 10 miles from Canyon Lake HQ via I-215 North. Typical on-site time is approximately 30 minutes from your call. We move immediately\u2014real person answers, crew loads up."
+    },
+    {
+      "q": "Do you work with my insurance?",
+      "a": "Yes. Gallagher coordinates directly with major insurance carriers. We prepare scope documentation, moisture logs, and photo records for your adjuster, and we handle the carrier communication on your behalf."
+    },
+    {
+      "q": "What does restoration cost in Murrieta?",
+      "a": "Assessment is free. Most residential jobs fall between $500 and $15,000. 1990s tract slab leaks and builder-grade fitting failures typically fall in the low-to-mid range. Wildfire restoration and multi-room floods run higher. We explain scope clearly before any work begins."
+    },
+    {
+      "q": "Do you handle both mitigation and reconstruction?",
+      "a": "Yes. Gallagher handles the complete scope\u2014emergency mitigation, structural drying, mold remediation if needed, and full reconstruction. One crew, one company, start to finish."
+    },
+    {
+      "q": "My 1990s Murrieta home has had a slab leak\u2014how do I know there isn\u2019t more damage?",
+      "a": "A slab leak in a 1990s Murrieta home often means moisture has been present longer than the visible damage suggests. Gallagher uses professional-grade thermal imaging and moisture meters to map the full extent of saturation\u2014including subfloor assemblies and wall cavities that look dry on the surface. We document everything and give you a complete picture before any demolition begins."
+    }
+  ]
+}

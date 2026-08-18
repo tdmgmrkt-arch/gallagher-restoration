@@ -1,0 +1,109 @@
+{
+  "slug": "los-angeles-county",
+  "name": "Los Angeles County",
+  "shortName": "Los Angeles",
+  "metaTitle": "Los Angeles County Restoration | Gallagher Restoration Co.",
+  "metaDescription": "Water, fire, mold & wildfire restoration across LA County. 60-min response to Pomona, Glendale, Santa Clarita & more. Gallagher. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 LOS ANGELES COUNTY",
+  "heroTitle": "Property damage restoration in Los Angeles County",
+  "heroAccent": "wildfire, water, fire & mold",
+  "heroIntro": "Gallagher Restoration Co. serves Los Angeles County via SR-60, I-10, and I-5\u2014reaching Pomona, Glendale, Santa Clarita, Torrance, and Los Angeles city. A family-owned crew with 15+ years of SoCal restoration experience, including hands-on response to the 2025 Palisades and Eaton fire events. Available 24/7.",
+  "proofStrip": [
+    {"label": "Response Time", "value": "60 min", "hint": "Typical arrival to eastern/northern LA County cities"},
+    {"label": "Cities Served", "value": "5", "hint": "Pomona \u00b7 Glendale \u00b7 Santa Clarita \u00b7 Torrance \u00b7 LA"},
+    {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person, not a call center"},
+    {"label": "In Business", "value": "15+ yrs", "hint": "Family-owned, serving SoCal since 2009"}
+  ],
+  "overview": {
+    "eyebrow": "The County",
+    "heading": "Los Angeles County: the most complex restoration environment in SoCal",
+    "body": "Los Angeles County is the largest county by population in the United States, and its built environment reflects nearly a century of continuous residential expansion across terrain that was never well-suited to density. Canyon-adjacent developments in Santa Clarita and Glendale sit at the edge of active wildfire corridors. The South Bay flatlands around Torrance carry a high water table and a significant inventory of post-war housing. Pomona, at the far eastern edge of LA County and the nearest point to Canyon Lake, mixes mid-century residential with commercial and industrial development. The city of Los Angeles itself contains some of the most architecturally varied and historically significant housing stock in California\u2014some of it over 100 years old. In January 2025, the Palisades Fire and the Eaton Fire in Altadena produced some of the most extensive wildfire damage in LA County history, affecting thousands of structures and creating a restoration demand that persists into 2026. Gallagher Restoration Co. responded to both events and brings that direct field experience to every LA County job."
+  },
+  "topCities": [
+    {
+      "slug": "pomona-ca",
+      "name": "Pomona",
+      "blurb": "Nearest LA County city to Canyon Lake HQ\u2014accessible via SR-60 west in under an hour. Pomona's older residential core and mix of single-family and multi-family housing make water and mold damage among the most common calls here."
+    },
+    {
+      "slug": "glendale-ca",
+      "name": "Glendale",
+      "blurb": "Canyon-adjacent hillside developments above Glendale face real wildfire risk in Santa Ana wind conditions. The city's older Verdugo foothills neighborhoods also have elevated fire-defensible-space concerns that compound restoration complexity."
+    },
+    {
+      "slug": "santa-clarita",
+      "name": "Santa Clarita",
+      "blurb": "The Santa Clara River corridor and surrounding canyons make Santa Clarita one of the more wildfire-exposed communities in the LA County service area. The city's master-planned sections are newer, but canyon-edge neighborhoods carry significant fire and smoke intrusion risk."
+    },
+    {
+      "slug": "torrance-ca",
+      "name": "Torrance",
+      "blurb": "South Bay location near the water table and the coast creates elevated mold conditions. Torrance's dense post-war housing stock includes significant inventory of homes where original plumbing is reaching end-of-life service windows."
+    },
+    {
+      "slug": "los-angeles-ca",
+      "name": "Los Angeles",
+      "blurb": "The city encompasses everything from century-old craftsman bungalows with original cast iron plumbing to high-rise residential buildings. LA wildfire smoke events\u2014particularly the 2025 Palisades Fire\u2014have generated restoration need across properties nowhere near the direct burn area."
+    }
+  ],
+  "localContext": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What drives property damage in Los Angeles County",
+    "body": "Los Angeles County's property damage environment is shaped by three factors that interact in ways no other Southern California county quite replicates: extreme wildfire activity, century-old housing stock, and a climate that oscillates between extended drought and intense rain events. The 2025 wildfire season brought the consequences of this combination into sharp relief. The Palisades Fire destroyed and damaged thousands of structures in Pacific Palisades and adjacent communities. The Eaton Fire in Altadena\u2014a densely built neighborhood of mid-century homes on the foothill edge of Pasadena\u2014caused comparable structural loss. Gallagher Restoration Co. deployed crews to both events. The lessons from those responses inform every wildfire-related call the company handles in LA County today: smoke infiltration in surviving structures is more extensive than it appears on the surface, suppression water causes secondary water damage that requires professional drying, and the combination of fire, smoke, and suppression water frequently creates post-fire mold conditions within weeks of the event. Beyond wildfire, LA County's older urban core presents persistent water damage challenges. Properties in Los Angeles city, Glendale, and older Torrance corridors routinely carry plumbing installed before 1960. Some homes in established neighborhoods near downtown predate the Second World War. When these systems fail\u2014and they do\u2014cast iron drain line collapses, corroded copper supply lines, and degraded wax ring seals all produce water damage events that spread through multiple floors and units before they're detected. In Torrance and the South Bay, a high water table and coastal proximity add mold risk to any water event that isn't aggressively dried within the first 48 hours. The canyon terrain in Glendale and Santa Clarita concentrates debris flows and drainage events after heavy rain, adding exterior water intrusion to the list of damage drivers that restoration crews encounter in this part of the county."
+  },
+  "serviceLines": {
+    "eyebrow": "What We Handle",
+    "heading": "Restoration services across Los Angeles County",
+    "intro": "All services available across all 5 Los Angeles County cities, 24 hours a day.",
+    "items": [
+      {
+        "title": "Water damage",
+        "body": "Century-old plumbing in central LA, post-war pipe failures in Torrance, appliance events in Pomona\u2014Gallagher handles emergency extraction, structural drying, moisture mapping, and full reconstruction. One crew manages the job from first call through final repair."
+      },
+      {
+        "title": "Fire & smoke",
+        "body": "From kitchen fires in Glendale to wildfire smoke infiltration across the LA basin, Gallagher's fire and smoke restoration covers soot cleaning, odor neutralization, content restoration, and structural rebuild. The crew has direct 2025 wildfire response experience in the county."
+      },
+      {
+        "title": "Mold",
+        "body": "Post-wildfire mold and slow-leak mold in older LA housing stock are both recurring calls. Gallagher's mold services cover inspection, air quality testing, full remediation with proper containment, and the clearance documentation needed for insurance claims and real estate transactions."
+      },
+      {
+        "title": "Sewage",
+        "body": "Aging sewer infrastructure in central and east LA neighborhoods creates above-average sewage backup risk. Gallagher handles Category 3 sewage events with full containment, extraction, disinfection, and insurance-grade documentation anywhere in the LA County service area."
+      },
+      {
+        "title": "Wildfire",
+        "body": "Gallagher's wildfire restoration services in LA County draw on direct experience from the 2025 Palisades and Eaton fire responses\u2014smoke remediation, suppression water damage, ash cleanup, structural assessment, and the post-fire mold inspection every surviving structure in a burn perimeter should have."
+      }
+    ]
+  },
+  "whyLocal": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Proven in the 2025 LA fires. Ready for whatever comes next.",
+    "body": "Gallagher Restoration Co. did not sit on the sidelines during the January 2025 wildfire events in Los Angeles County. The crew responded to both the Palisades Fire in Pacific Palisades and the Eaton Fire in Altadena, working alongside homeowners and property managers navigating one of the most chaotic post-disaster environments in recent California history. That field experience\u2014not just training, but actual deployed response in the middle of LA County's worst wildfire event in decades\u2014is a credential that is not available to most restoration companies. It informs how Gallagher assesses smoke infiltration, documents suppression water damage for insurance, and identifies post-fire mold risk in structures that survived intact. From Canyon Lake, the crew reaches Pomona via SR-60 west in under an hour. Glendale is accessible via I-10 and SR-134. Santa Clarita via I-5 north. Torrance via I-10 and I-405. Los Angeles city itself spans enough geography that arrival times vary by specific address. Gallagher is direct about this: eastern and northern LA County cities fall within the 60-minute window; the Westside and South Bay take longer. What remains consistent regardless of location is a family-owned company that answers calls with a real person, dispatches IICRC-trained crews with professional-grade equipment, and coordinates directly with all major insurance carriers from the first hour of every job."
+  },
+  "faqs": [
+    {
+      "q": "Did Gallagher respond to the 2025 Palisades and Eaton fires in LA County?",
+      "a": "Yes. Gallagher Restoration Co. deployed crews to both the Palisades Fire in Pacific Palisades and the Eaton Fire in Altadena following the January 2025 wildfire events. The team assisted homeowners with smoke assessment, suppression water damage, and post-fire restoration across both affected areas. That direct field experience shapes how Gallagher approaches every wildfire-related call in LA County today."
+    },
+    {
+      "q": "My Glendale home is in a hillside canyon area. What wildfire-related damage should I look for even if it wasn't burned?",
+      "a": "Homes that survive near a wildfire often have smoke infiltration inside wall cavities, ductwork, and attic spaces\u2014areas that the eye cannot assess from the outside. Fire suppression water applied to a roof or exterior walls can also enter through vents and damaged flashing. Within three to six weeks after fire exposure, mold is common in structures that appeared undamaged. Gallagher provides post-fire inspection and assessment for exactly these scenarios."
+    },
+    {
+      "q": "How far is Canyon Lake from Pomona and how does that affect response time?",
+      "a": "Pomona is approximately 45 to 55 miles from Canyon Lake via SR-60 west. Under normal conditions, it is the most accessible LA County city in Gallagher's service area and typically falls within a 60-minute response window. Glendale, Santa Clarita, and Torrance are farther and may run 70 to 90 minutes depending on freeway conditions and time of day."
+    },
+    {
+      "q": "Does Gallagher handle water damage in very old Los Angeles properties, including multi-story buildings?",
+      "a": "Yes. Gallagher Restoration Co. handles water damage events in older construction, including pre-war buildings with cast iron plumbing and multi-story properties where water travels between floors before surfacing. The assessment process uses thermal imaging and moisture mapping to trace the full extent of spread, which is often larger than visible damage suggests in older structures."
+    },
+    {
+      "q": "Why does post-wildfire mold happen so quickly in LA County homes?",
+      "a": "Fire suppression water is applied in large volume to structures during firefighting operations. This water enters through roofs, vents, and broken windows, saturating insulation, framing, and wall cavities rapidly. Combined with the warm temperatures typical of a Southern California post-fire environment, mold colonization can begin within 24 to 48 hours of suppression. Homes that look dry from the outside may have significant internal moisture that will generate mold within weeks if not professionally dried."
+    }
+  ],
+  "allCitiesIntro": "Gallagher Restoration Co. serves 5 cities across Los Angeles County, with direct response experience from the 2025 Palisades and Eaton wildfire events. Select your city for local details."
+}

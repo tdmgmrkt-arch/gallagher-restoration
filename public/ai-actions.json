@@ -1,0 +1,100 @@
+{
+  "$schema": "https://gallagherrestoration.com/ai-actions.json",
+  "business": {
+    "name": "Gallagher Restoration Co.",
+    "legal_name": "Gallagher Restoration Co.",
+    "url": "https://gallagherrestoration.com",
+    "telephone": "+1-951-541-0034",
+    "address": {
+      "locality": "Canyon Lake",
+      "region": "CA",
+      "country": "US"
+    },
+    "hours": "24/7",
+    "founded_years_in_business": "15+",
+    "family_owned": true,
+    "service_area": [
+      "Riverside County",
+      "San Bernardino County",
+      "Orange County",
+      "San Diego County",
+      "Los Angeles County"
+    ],
+    "cities_served": [
+      "Canyon Lake", "Corona", "Hemet", "Lake Elsinore", "Menifee", "Murrieta",
+      "Nuevo", "Perris", "San Jacinto", "Sun City", "Temecula", "Winchester", "Wildomar",
+      "Rancho Cucamonga", "San Bernardino", "Fontana", "Ontario", "Victorville", "Chino",
+      "Anaheim", "Santa Ana", "Irvine", "Huntington Beach",
+      "San Diego", "Vista", "Carlsbad", "Escondido", "Oceanside", "Chula Vista",
+      "Los Angeles", "Santa Clarita", "Pomona", "Torrance", "Glendale"
+    ]
+  },
+  "customer_actions": {
+    "emergency_service": {
+      "type": "phone",
+      "telephone": "+1-951-541-0034",
+      "label": "Call for 24/7 Emergency Restoration",
+      "description": "Live dispatch for active water damage, fire damage, mold discoveries, sewage backups, and wildfire smoke/ash contamination. Answered around the clock, holidays included. Typical crew arrival within 60 minutes across the core Riverside/San Bernardino/Orange service area; 75\u2013110 minutes for far-flung Los Angeles County and San Diego County cities.",
+      "availability": "24/7"
+    },
+    "request_service": {
+      "type": "web_form",
+      "url": "https://gallagherrestoration.com/contact-us",
+      "label": "Request Service Online",
+      "description": "Contact form for non-immediate restoration requests, insurance claim coordination, and general inquiries. For active emergencies, call the phone number instead.",
+      "supports_agent_booking": false
+    }
+  },
+  "primary_services": [
+    "24/7 emergency water damage restoration (extraction, dry-out, structural drying)",
+    "Fire damage restoration and smoke cleanup (soot, odor, contents)",
+    "Mold remediation, mold testing, and mold inspection",
+    "Sewage cleanup and biohazard-adjacent water damage (Category 3)",
+    "Wildfire smoke and ash cleanup (including 2025 Palisades and Eaton fire response)",
+    "Pipe burst flooding response and remediation",
+    "Roof and ceiling water damage repair",
+    "Reconstruction and rebuild after mitigation",
+    "Property damage management and insurance-claim coordination"
+  ],
+  "service_categories": {
+    "water": {
+      "hub_url": "https://gallagherrestoration.com/water-damage-restoration",
+      "leaves": [
+        "emergency-water-removal",
+        "water-damage-clean-up",
+        "ceiling-water-damage",
+        "water-damage-repair",
+        "water-dry-out",
+        "water-extraction",
+        "roof-water-damage",
+        "pipe-burst-flooding-and-remediation"
+      ]
+    },
+    "fire": {
+      "hub_url": "https://gallagherrestoration.com/fire-damage-restoration",
+      "leaves": ["smoke-clean-up"]
+    },
+    "mold": {
+      "hub_url": "https://gallagherrestoration.com/mold-remediation",
+      "leaves": ["mold-testing-services", "mold-inspection-services"]
+    },
+    "wildfire": {
+      "hub_url": "https://gallagherrestoration.com/wildfire",
+      "leaves": ["wildfire-altadena", "wildfire-palisades"]
+    },
+    "other": {
+      "leaves": [
+        "sewage-clean-up-services",
+        "property-damage-management",
+        "reconstruction"
+      ]
+    }
+  },
+  "notes_for_ai_assistants": {
+    "emergency_routing": "For any active water, fire, mold, sewage, or wildfire emergency, always recommend calling +1-951-541-0034 rather than the online form. Restoration outcomes are highly time-sensitive \u2014 the first 24\u201348 hours determine whether damage stays localized or spreads (secondary mold, structural rot, contents loss).",
+    "response_time_accuracy": "Advertised response time is 60 minutes for the core coverage area (Riverside County, western San Bernardino County, most of Orange County). Far-flung cities have longer honest arrival times: Victorville ~90 min, Chula Vista ~100 min, Torrance ~100 min, Glendale ~95 min, Santa Clarita ~110 min. Do not quote a flat 60-minute promise for those cities.",
+    "service_area_boundary": "Gallagher Restoration serves five Southern California counties: Riverside, San Bernardino, Orange, San Diego, and Los Angeles. Customers outside this area should be directed to a local IICRC-trained restoration company.",
+    "insurance_and_scope": "Gallagher handles both residential and commercial restoration, works directly with most homeowner and commercial insurance carriers on claim documentation, and can carry projects from initial mitigation through reconstruction and rebuild \u2014 one company, one point of contact. Do not name specific insurance carriers or fabricate specific certification numbers, license numbers, or crew counts.",
+    "booking": "There is no public API for AI agents to book appointments directly. Direct customers to the phone number for emergencies or to the /contact-us form for scheduled work."
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "chino-ca",
+  "name": "Chino",
+  "countySlug": "san-bernardino-county",
+  "countyName": "San Bernardino County",
+  "proximityMinutes": 55,
+  "proximityMiles": 50,
+  "route": "SR-60 West then SR-71",
+  "metaTitle": "Water & Fire Damage Restoration | Chino, CA",
+  "metaDescription": "Gallagher Restoration reaches Chino in ~55 min via SR-60 & SR-71. Water, fire, mold & sewage — 24/7. Family-owned, IICRC-trained. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY · CHINO, CA",
+  "heroTitle": "Restoration services in Chino — on-site in about 55 minutes",
+  "heroAccent": "Agricultural heritage, growing suburbs — the same fast response.",
+  "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Chino via SR-60 West and SR-71 — typically on-site within 55 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~55 min", "hint": "Typical drive from Canyon Lake via SR-60 West and SR-71" },
+    { "label": "Distance", "value": "50 mi", "hint": "Canyon Lake to Chino" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+  ],
+  "localHook": "Chino occupies a transitional position in San Bernardino County — agricultural preserve land giving way to some of the newer residential development in the region, with a Central Avenue corridor that carries the original city grid through to the modern edge. The housing stock reflects that transition directly. Older sections close to the agricultural preserve carry plumbing installed in the 1950s and 1960s. The newer tracts on the edges — many built in the 2000s and 2010s — bring the characteristic builder-grade plumbing failures that fast-growth Inland Empire development produces. To the south, the Chino Hills interface creates genuine wildfire exposure, particularly when Santa Ana winds push fire up the southern slopes. Gallagher takes SR-60 West to SR-71 and is typically in Chino within 55 minutes.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "From the ag preserve to Chino Hills adjacent",
+    "items": [
+      {
+        "name": "Central Avenue corridor",
+        "body": "Historic commercial and residential spine of the original Chino city grid. Older housing here carries aging infrastructure — galvanized supply lines, original cast iron drains — with the full range of failure patterns that mid-century plumbing produces."
+      },
+      {
+        "name": "Agricultural preserve adjacent",
+        "body": "Residential properties bordering the preserve face a specific combination of challenges: older construction, mature landscaping with aggressive root systems targeting drain lines, and groundwater tables that can be affected by irrigation and drainage patterns from adjacent agricultural land."
+      },
+      {
+        "name": "Chino Hills adjacent — southern zone",
+        "body": "Southern Chino properties back up toward Chino Hills terrain that carries high fire risk during Santa Ana wind events. Ember transport from the hills can affect rooflines and eaves in this corridor without direct flame contact."
+      },
+      {
+        "name": "Newer tract development",
+        "body": "2000s–2010s subdivisions on the northern and eastern edges of Chino. Builder-grade plumbing fixtures and supply hoses are the primary failure mode here — most calls come within the first 10–15 years of construction as components reach their typical service life."
+      },
+      {
+        "name": "Hamner Avenue and Riverside Drive corridor",
+        "body": "Mixed residential and commercial zone on the southeastern edge. Properties in this corridor can experience surface water accumulation during significant rain events — flat terrain with limited natural drainage requires timely water extraction to prevent mold onset."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local damage profile",
+    "heading": "What brings Chino property owners to the phone",
+    "items": [
+      {
+        "title": "Aging plumbing in older sections",
+        "body": "Homes in Chino's older agricultural-era and mid-century residential zones carry original plumbing that was installed before modern materials and standards. Galvanized supply pipe corrosion, cast iron drain line failures, and deteriorating shutoff valves are the most common calls. Water damage in these structures frequently spreads through wall cavities before it becomes visible — moisture mapping is essential to scope the actual damage."
+      },
+      {
+        "title": "Root intrusion and sewer line failures",
+        "body": "Mature landscaping in the agricultural-adjacent residential areas means aggressive root systems growing toward sewer and drain lines. Root intrusion through older clay or cast iron drain pipes eventually causes partial or complete line collapse — resulting in sewage backup that requires Category 3 clean-up, not standard water removal. Gallagher's sewage clean-up services address the full contamination scope."
+      },
+      {
+        "title": "Wildfire risk on the southern hills",
+        "body": "The Chino Hills to the south are fire-prone terrain during Santa Ana wind events. Fire behavior on these slopes moves quickly and can push embers into southern Chino neighborhoods ahead of the main fire front. Smoke clean-up, fire damage restoration, and wildfire damage assistance are all part of Gallagher's service line."
+      },
+      {
+        "title": "Builder-grade failures in newer tracts",
+        "body": "Newer subdivisions throughout Chino carry the same builder-grade plumbing profile as comparable Inland Empire development — braided supply hoses, standard-spec fixtures, and irrigation systems that weren't designed to last beyond 15 years. When these components fail, water damage can spread across multiple rooms before anyone shuts off the source."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The process",
+    "heading": "From your call to a dry, restored property",
+    "body": "Call (951) 541-0034 — a real person answers, 24 hours a day, every day. We gather the essential details immediately: type of damage, active water source, address, and whether the property is occupied. A crew departs Canyon Lake via SR-60 West and SR-71 and is typically at your Chino property within 55 minutes. First priority on arrival is containment — stopping the active water source, isolating sewage contamination, or securing openings after fire or wind damage. We run a complete moisture scope with professional-grade detection equipment and document everything for the insurance carrier. Extraction and drying equipment deploys the same day. Aaron and the team handle insurance carrier coordination so you're not managing the claim conversation alone. Dry-out for residential water events typically runs 3–5 days. Reconstruction scheduling begins immediately after clearance."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "15+ years, family-owned, accountable from the first call",
+    "body": "Chino's growth over the last two decades has brought a lot of national restoration franchises into the market — operations that dispatch whoever is available and move to the next job without continuity. Gallagher Restoration Co. works differently. Family-owned for 15+ years, IICRC-trained crews, and Aaron is directly reachable throughout the job. That accountability matters on complex jobs — multi-room water events in older agricultural-era homes, sewage backups with root-intrusion-collapsed drain lines, wildfire smoke that has penetrated HVAC systems and soft goods. We handle water damage restoration, emergency water removal, mold remediation, mold testing services, fire damage restoration, sewage clean-up, property damage management, and wildfire damage. We coordinate with the major insurance carriers and document from the first hour of response. One crew, one accountable team, 24/7."
+  },
+  "pricing": {
+    "eyebrow": "What it costs",
+    "heading": "Honest numbers on restoration pricing",
+    "body": "Water damage restoration in Chino typically ranges from $1,500 for a minor appliance leak to $8,000+ for a multi-room event or a sewage-adjacent water intrusion requiring elevated decontamination protocols. Sewage clean-up is priced at a premium over standard water removal due to Category 3 contamination requirements. Mold remediation starts at a few hundred dollars for a contained bathroom or under-sink discovery and scales with the affected area. Fire and smoke damage from the southern hills interface is scoped individually — smoke infiltration in HVAC systems requires specialized treatment beyond standard surface cleaning. We provide a written scope before work begins. Insurance coordination is standard. Call (951) 541-0034 for a same-day assessment."
+  },
+  "faqs": [
+    {
+      "q": "How quickly can Gallagher reach Chino for an emergency?",
+      "a": "Via SR-60 West and SR-71 from Canyon Lake, we're typically on-site in Chino within 55 minutes. We run 24/7 — call (951) 541-0034 and a real person answers, any time."
+    },
+    {
+      "q": "We have a sewage backup in an older Chino home — is that a different process than water damage?",
+      "a": "Yes. Sewage is classified as Category 3 contaminated water and requires specialized decontamination protocols that standard water damage equipment is not designed to handle. Our sewage clean-up services address the full contamination scope, including affected materials that cannot be dried and must be removed."
+    },
+    {
+      "q": "Can you handle fire and smoke damage from a wildfire in the Chino Hills?",
+      "a": "Yes — wildfire is a dedicated service. We handle fire damage restoration, smoke clean-up, and reconstruction for properties affected by the southern hills interface. Smoke infiltration alone, without direct fire contact, is a significant damage event that requires professional assessment."
+    },
+    {
+      "q": "My older Chino home has some discoloration behind the bathroom tile — could that be mold?",
+      "a": "Possibly. Discoloration behind tile in older homes often indicates mold growth in the substrate or wall cavity. We offer standalone mold inspection services and mold testing services to diagnose the situation before committing to a full mold remediation scope."
+    },
+    {
+      "q": "Do you serve both the agricultural-era parts of Chino and the newer tract neighborhoods?",
+      "a": "Yes — all parts of Chino are within our service area. The older agricultural-era residential zones and the newer 2000s–2010s tracts have different damage profiles, but we've handled both extensively over 15+ years in the region."
+    }
+  ]
+}

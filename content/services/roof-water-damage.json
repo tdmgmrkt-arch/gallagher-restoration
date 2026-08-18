@@ -1,0 +1,102 @@
+{
+  "slug": "roof-water-damage",
+  "category": "water",
+  "parentSlug": "water-damage-restoration",
+  "metaTitle": "Roof Water Damage Repair SoCal | Gallagher Restoration",
+  "metaDescription": "Roof leak causing interior water damage? Gallagher Restoration handles emergency dry-in, attic inspection, ceiling drying, and insurance documentation — 24/7 across SoCal.",
+  "heroEyebrow": "24/7 Emergency \u00b7 Roof Water Damage",
+  "heroTitle": "Roof water damage repair",
+  "heroAccent": "Southern California",
+  "heroIntro": "When a roof fails, water doesn't stop at the sheathing \u2014 it moves through insulation, framing, and ceiling drywall before it shows up as a stain or drip. Gallagher Restoration Co. responds within 60 minutes to protect the interior, document the damage for your insurance claim, and dry out what the roof let in. We work alongside your roofer so repairs move in sequence, not in conflict.",
+  "proofStrip": [
+    {"label": "Response Time", "value": "60 min", "hint": "Typical arrival across 5-county SoCal"},
+    {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person"},
+    {"label": "Coverage", "value": "5 counties", "hint": "Riverside \u00b7 SB \u00b7 OC \u00b7 SD \u00b7 LA"}
+  ],
+  "whatItIs": {
+    "eyebrow": "The Basics",
+    "heading": "What is roof water damage?",
+    "body": "Roof water damage is interior structural and material damage caused by water entering through a compromised roof \u2014 whether from missing or cracked tiles, failed flashing, a punctured membrane, or wind-driven rain penetrating at the ridge or eaves. SoCal's infrequent but intense rain events are particularly damaging because roofing materials dry out and become brittle between storms, and drainage systems accumulate debris. The damage pathway typically runs: roof deck saturation, attic insulation absorption, ceiling framing moisture uptake, and finally ceiling drywall failure. By the time interior damage is visible, the attic assembly above it has often been wet for hours. Insurance claims for wind and storm events are time-sensitive \u2014 documentation at the time of loss is far stronger than documentation collected days later."
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "heading": "How we handle roof water damage",
+    "steps": [
+      {
+        "kicker": "Step 01",
+        "title": "Emergency dry-in and damage documentation",
+        "body": "We deploy tarps or temporary dry-in materials over the compromised roof area to stop active water entry. Simultaneously, we photograph and document all interior damage \u2014 attic, insulation, framing, ceiling \u2014 with moisture readings to establish the loss scope for your insurance adjuster."
+      },
+      {
+        "kicker": "Step 02",
+        "title": "Attic inspection, insulation removal, and structural drying",
+        "body": "Saturated insulation holds moisture against framing and decking indefinitely \u2014 it must come out before drying can begin. We remove affected insulation, inspect the attic structure for mold indicators, and deploy air movers and dehumidifiers in the attic cavity and ceiling assembly until dry standard is reached."
+      },
+      {
+        "kicker": "Step 03",
+        "title": "Interior reconstruction and roofer coordination",
+        "body": "We restore ceiling drywall, insulation, and interior finishes once the structure is verified dry. Roof deck repair is coordinated with your roofer \u2014 we handle the interior scope and communicate directly with their crew to ensure sequencing doesn't leave the structure open longer than necessary."
+      }
+    ]
+  },
+  "signs": {
+    "eyebrow": "When To Call",
+    "heading": "Signs you need roof water damage service now",
+    "intro": "Roof-source water damage rarely announces itself cleanly. These are the indicators worth acting on immediately.",
+    "items": [
+      {
+        "title": "Ceiling stain or drip after a rain event",
+        "body": "A stain that appears during or shortly after rain almost always traces to the roof. Don't wait for the rain to stop \u2014 call while it's still happening so documentation reflects the active event."
+      },
+      {
+        "title": "Wet or compressed attic insulation",
+        "body": "Insulation that looks matted, discolored, or feels wet to the touch has been absorbing moisture. Saturated fiberglass or blown insulation loses R-value immediately and creates a sustained moisture source against the framing above it."
+      },
+      {
+        "title": "Daylight visible in the attic",
+        "body": "Any visible light through the roof deck from inside the attic is an active penetration. If you can see sky, water enters the same path."
+      },
+      {
+        "title": "Musty attic odor after wet weather",
+        "body": "Mold grows on roof sheathing and attic framing faster than most homeowners expect \u2014 within 48 hours in a warm attic. A musty smell after rain indicates moisture has been present long enough for biological growth to begin."
+      },
+      {
+        "title": "Peeling interior ceiling paint along a straight line",
+        "body": "Peeling that follows a joist line or a straight edge indicates the paper face of the drywall above it is wet. The moisture source is almost always above the ceiling plane, not a condensation issue."
+      }
+    ]
+  },
+  "whyUs": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Interior drying expertise. Insurance-ready documentation.",
+    "body": "Roofers repair the roof. They are not equipped to perform structural drying, mold assessment, or insurance documentation for interior damage \u2014 and interior damage is where most of the cost accumulates. Gallagher Restoration Co. handles everything from the roof deck down. Our IICRC-trained technicians have managed roof-source water damage events across all five Southern California counties for over 15 years, from single-room ceiling intrusions to whole-attic saturation events. We produce the moisture readings, drying logs, and photographic documentation that insurance adjusters need to approve interior claim scopes \u2014 and we work directly with your adjuster rather than routing everything through you. Aaron built the company around one-crew accountability. Your roofer fixes the hole. We dry and restore what the water damaged before they got there."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Roof water damage repair costs",
+    "body": "Interior roof water damage repair in Southern California typically runs $1,200 to $8,500. This range covers the restoration scope only \u2014 attic insulation removal, structural drying, ceiling drywall repair, and interior finish work. Roof repair itself is a separate contractor scope and is not included in this range. The cost drivers are ceiling area affected, whether attic insulation requires full replacement, extent of framing moisture uptake, and whether mold remediation is needed. Large attic events or multi-room ceiling damage sit at the upper end. Gallagher Restoration provides a free on-site assessment \u2014 attic moisture mapping requires physical inspection and cannot be quoted by photo or phone. Most homeowner policies cover sudden storm and wind events. We document the claim from the moment we arrive and coordinate directly with your insurance carrier."
+  },
+  "faqs": [
+    {
+      "q": "Do I need a roofer and a restoration company, or can one handle it all?",
+      "a": "You need both, but they handle separate scopes. A roofer repairs the roof penetration \u2014 shingles, tiles, flashing, membrane. A restoration company dries and repairs the interior structure that water damaged before the roof was fixed: attic insulation, framing, ceiling drywall, and finishes. Gallagher Restoration coordinates directly with your roofer to sequence the work properly."
+    },
+    {
+      "q": "Should I file an insurance claim for roof water damage?",
+      "a": "If the damage was caused by a sudden storm, wind event, or unexpected roof failure, it is typically a covered peril under a standard homeowner's policy. Gradual leaks that developed over time are usually excluded. Document the damage as thoroughly as possible at the time of the event \u2014 time-stamped photos, moisture readings, and a written log. Gallagher Restoration can produce that documentation from the moment we arrive."
+    },
+    {
+      "q": "How long does it take to dry out an attic after a roof leak?",
+      "a": "Attic drying typically takes 4 to 7 days under professional equipment, depending on how long moisture was present and the density of the framing assembly. Saturated insulation must be removed first \u2014 it cannot be dried in place effectively. We take daily moisture readings and remove equipment only when framing and sheathing reach dry standard."
+    },
+    {
+      "q": "What happens if I don't remove wet attic insulation?",
+      "a": "Wet insulation pressed against roof sheathing and rafters holds moisture for weeks. That sustained contact promotes mold growth on the wood and continues to migrate moisture downward into the ceiling drywall. Removing saturated insulation and drying the cavity is not optional \u2014 it's what determines whether the attic remains structurally sound and mold-free."
+    },
+    {
+      "q": "How can I prevent water damage during extreme weather events?",
+      "a": "Install or upgrade to storm-resistant roofing, seal windows and doors, and consider a sump pump and backup generator for power-outage flooding. Keep gutters and downspouts clear so runoff moves away from the foundation, trim tree limbs that could puncture the roof in wind events, and schedule an annual roof inspection before Southern California's winter storm season."
+    }
+  ],
+  "relatedServices": ["ceiling-water-damage", "water-damage-restoration", "water-damage-repair"]
+}

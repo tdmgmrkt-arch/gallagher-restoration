@@ -1,0 +1,104 @@
+{
+  "slug": "orange-county",
+  "name": "Orange County",
+  "shortName": "Orange",
+  "metaTitle": "Orange County Restoration | Gallagher Restoration Co.",
+  "metaDescription": "Water, fire, mold & property damage restoration in Orange County. 60-min response, 24/7. Family-owned Gallagher Restoration Co. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 ORANGE COUNTY",
+  "heroTitle": "Property damage restoration in Orange County",
+  "heroAccent": "via SR-91 and I-5",
+  "heroIntro": "Gallagher Restoration Co. serves Orange County homeowners and property managers from Anaheim and Santa Ana down to Huntington Beach and Irvine. Water, fire, mold, and sewage damage handled by a family-owned crew with 15+ years of SoCal experience\u2014available 24/7, typically on-site within 60 minutes.",
+  "proofStrip": [
+    {"label": "Response Time", "value": "60 min", "hint": "Typical arrival via SR-91 / I-5 from Canyon Lake"},
+    {"label": "Cities Served", "value": "4", "hint": "Anaheim \u00b7 Santa Ana \u00b7 Irvine \u00b7 Huntington Beach"},
+    {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person, not a call center"},
+    {"label": "In Business", "value": "15+ yrs", "hint": "Family-owned, serving SoCal since 2009"}
+  ],
+  "overview": {
+    "eyebrow": "The County",
+    "heading": "Orange County: coastal density, aging cores, master-planned edges",
+    "body": "Orange County is one of the most densely populated counties in California, with a built environment that spans the full spectrum from century-old bungalows in Santa Ana to sprawling master-planned tracts in Irvine and south OC. The four cities Gallagher serves represent this range well. Anaheim and Santa Ana carry the densest concentrations of older housing stock\u2014mid-century construction with aging water infrastructure, many units converted to rental or multi-family over the decades. Irvine, by contrast, is one of the most extensively planned cities in California, built largely on former Irvine Company farmland from the 1970s onward, with a homogeneous tract character and shared-wall construction formats that accelerate moisture spread between units. Huntington Beach occupies the coastal end of the spectrum: marine layer fog is persistent, salt air is corrosive to exposed plumbing and flashing, and the warm-humid coastal microclimate creates the most favorable mold growth conditions in the county. Gallagher reaches this service area via SR-91 west from the I-15 interchange, with I-5 south providing access to Santa Ana and Irvine."
+  },
+  "topCities": [
+    {
+      "slug": "anaheim-ca",
+      "name": "Anaheim",
+      "blurb": "High density of older residential and multi-family units. Pipe failures in 1950s and 1960s-era housing here often affect adjacent units before detection\u2014fast response is critical to containing the spread."
+    },
+    {
+      "slug": "santa-ana-ca",
+      "name": "Santa Ana",
+      "blurb": "Older housing stock, high occupancy density, and a mix of residential and light commercial in close proximity. Water and mold damage events in Santa Ana frequently involve structures that haven't had modern plumbing updates."
+    },
+    {
+      "slug": "irvine-ca",
+      "name": "Irvine",
+      "blurb": "Master-planned tract construction means a water intrusion in one unit can migrate through shared walls into adjacent units quickly. Irvine homeowners and HOA property managers both need fast, documented response for shared-structure events."
+    },
+    {
+      "slug": "huntington-beach-ca",
+      "name": "Huntington Beach",
+      "blurb": "Coastal marine layer and persistent humidity make Huntington Beach the highest mold-risk city in Gallagher's Orange County footprint. Post-moisture events here require more aggressive drying protocols than inland properties."
+    }
+  ],
+  "localContext": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What drives property damage in Orange County",
+    "body": "Orange County's damage profile is shaped more by its built environment and coastal climate than by natural disaster frequency. The coastal microclimate is the most distinctive local factor. From Huntington Beach north along the coast, marine layer fog rolls in most mornings from spring through early fall\u2014locally called June Gloom, though it persists well into July and August. This sustained ambient humidity penetrates building envelopes, keeps building materials near their moisture saturation points, and means that any existing water intrusion\u2014a slow roof leak, a condensate line overflow, a failing window seal\u2014converts to active mold growth faster than it would in a drier inland location. A Huntington Beach property with a small water event that goes unaddressed for a week is almost certain to have mold behind the drywall. Anaheim and Santa Ana present the opposite of Irvine's master-planned uniformity. These are cities with significant pre-1970 housing inventory, including homes and apartment buildings where original copper supply lines have begun to pinhole due to age and water chemistry. Pinhole leaks are insidious: they can seep slowly inside wall cavities for months, saturating insulation and framing without triggering the acute water event that would prompt an immediate call. By the time the leak surfaces\u2014a stain on drywall, a soft floor\u2014the moisture has often spread six to eight feet in every direction from the source. In Irvine's shared-wall tract construction, water that enters from a second-floor bathroom or laundry can travel through fire-wall penetrations and reach an adjacent unit's interior before either homeowner notices. HOA involvement and multi-party insurance documentation are common in these events, and Gallagher's documentation process is built to handle them."
+  },
+  "serviceLines": {
+    "eyebrow": "What We Handle",
+    "heading": "Restoration services across Orange County",
+    "intro": "All services available across all 4 Orange County cities, 24 hours a day.",
+    "items": [
+      {
+        "title": "Water damage",
+        "body": "From pinhole leaks in Anaheim's older housing stock to appliance failures in Irvine's master-planned tracts, Gallagher handles emergency extraction, structural drying, moisture mapping, and full reconstruction across all four Orange County cities."
+      },
+      {
+        "title": "Fire & smoke",
+        "body": "Kitchen fires and electrical events in older Anaheim and Santa Ana homes often produce heavier soot loads than newer construction due to insulation and finish materials. Gallagher's fire and smoke cleanup covers the full structure\u2014odor neutralization, surface restoration, and rebuild."
+      },
+      {
+        "title": "Mold",
+        "body": "Orange County's coastal humidity makes mold remediation one of the most frequent calls from Huntington Beach properties. Gallagher provides mold inspection, air quality testing, complete remediation with containment, and clearance documentation for insurance and HOA purposes."
+      },
+      {
+        "title": "Sewage",
+        "body": "Sewer backups in high-density Orange County neighborhoods\u2014particularly in Santa Ana and older Anaheim corridors\u2014require immediate Category 3 response. Gallagher extracts, disinfects, and documents sewage events to protect occupants and satisfy adjuster requirements."
+      },
+      {
+        "title": "Wildfire",
+        "body": "Orange County properties in inland canyons and hillside communities face smoke intrusion risk from regional wildfire events. Gallagher handles post-fire smoke cleanup, ash removal, and the mold assessment that follows fire-suppression water application in exposed structures."
+      }
+    ]
+  },
+  "whyLocal": {
+    "eyebrow": "Why Gallagher",
+    "heading": "SoCal restoration from a crew that knows the coast",
+    "body": "Gallagher Restoration Co. is based in Canyon Lake, accessible to Orange County via SR-91 west from I-15. The western OC cities\u2014Anaheim and Santa Ana\u2014sit within a realistic 60-minute drive. Irvine and Huntington Beach are accessible via I-5 and SR-55 respectively, with arrival times that depend on corridor conditions. What Orange County property owners get with Gallagher is not a franchise company with regional call centers and rotating contractor rosters. It is a family-owned operation that has been handling SoCal restoration for more than 15 years, with IICRC-trained technicians and professional-grade drying equipment. Aaron and the crew coordinate directly with all major insurance carriers and build the claim documentation from the first hour of the job. In multi-unit or HOA properties\u2014common throughout Irvine and parts of Anaheim\u2014Gallagher's documentation process is thorough enough to support parallel insurance claims from multiple affected parties. Every call is answered by a real person. Every job stays with the same crew from extraction through reconstruction."
+  },
+  "faqs": [
+    {
+      "q": "How does marine layer humidity in Huntington Beach affect mold risk?",
+      "a": "Coastal Orange County's persistent marine layer keeps ambient humidity elevated for extended periods, particularly from spring through summer. This means that even a minor moisture intrusion\u2014a slow roof leak, an HVAC condensate overflow\u2014can generate mold growth inside wall cavities within 24 to 48 hours. Gallagher prioritizes rapid response and aggressive drying protocols for Huntington Beach properties specifically because of this accelerated mold timeline."
+    },
+    {
+      "q": "My Irvine condo shares walls with neighbors. What happens if water damage crosses into their unit?",
+      "a": "Shared-wall water events in Irvine tract construction are one of Gallagher's more common Orange County calls. The crew documents affected areas in both units simultaneously, which gives each homeowner and their respective insurers a clear record of origin and spread. Gallagher coordinates with all parties and the HOA if applicable\u2014there is no need for each neighbor to manage a separate restoration company."
+    },
+    {
+      "q": "Do you handle mold in older Anaheim or Santa Ana rentals and multi-family properties?",
+      "a": "Yes. Gallagher Restoration Co. serves both residential and light commercial properties, including rentals and multi-family units in older Orange County neighborhoods. The mold remediation process\u2014inspection, testing, containment, removal, air scrubbing, and clearance\u2014is the same regardless of property type. Documentation is provided to landlords, tenants, and insurance carriers as needed."
+    },
+    {
+      "q": "What's the difference between a pinhole leak cleanup and full water damage restoration?",
+      "a": "A pinhole leak that is caught within a day or two often allows a contained drying approach without wall demolition. A pinhole leak that has seeped undetected inside a wall cavity for weeks typically requires opening the wall, removing saturated insulation and drywall, and fully drying the framing before reconstruction. Gallagher's thermal imaging assessment determines which situation you're in before any demolition work begins."
+    },
+    {
+      "q": "Can Gallagher respond to an emergency in Anaheim or Santa Ana overnight?",
+      "a": "Yes. Gallagher Restoration Co. operates 24/7 and answers every call with a real person, not a recording or an answering service. A crew can be dispatched to any Orange County city at any hour. Call (951) 541-0034."
+    }
+  ],
+  "allCitiesIntro": "Gallagher Restoration Co. serves 4 cities across Orange County, from the older urban cores of Anaheim and Santa Ana to the coastal properties of Huntington Beach and master-planned Irvine."
+}

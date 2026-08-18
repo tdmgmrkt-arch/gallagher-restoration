@@ -1,0 +1,106 @@
+{
+  "slug": "san-jacinto-ca",
+  "name": "San Jacinto",
+  "countySlug": "riverside-county",
+  "countyName": "Riverside County",
+  "isHq": false,
+  "proximityMinutes": 30,
+  "proximityMiles": 27,
+  "route": "SR-74 East",
+  "metaTitle": "Water & Fire Restoration | San Jacinto, CA | Gallagher",
+  "metaDescription": "24/7 water, fire, mold & wildfire restoration in San Jacinto, CA. Gallagher on-site within 60 min. IICRC-trained. (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 SAN JACINTO, CA",
+  "heroTitle": "San Jacinto restoration services\u2014water, fire, mold, wildfire",
+  "heroAccent": "27 miles from Canyon Lake HQ.",
+  "heroIntro": "Gallagher Restoration Co. responds 24 hours a day to water damage, fire damage, mold, and wildfire emergencies throughout San Jacinto. From Canyon Lake, the crew travels SR-74 East and is on-site within 60 minutes. IICRC-trained technicians with professional-grade equipment handle every stage\u2014from valley-floor flooding to mountain-adjacent wildfire smoke.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~60 min", "hint": "27 miles via SR-74 East from Canyon Lake" },
+    { "label": "Distance", "value": "27 mi", "hint": "Via SR-74 East into the San Jacinto Valley" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Real person answers every call, every hour" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Serving the San Jacinto Valley throughout" }
+  ],
+  "localHook": "San Jacinto sits at the eastern end of the San Jacinto Valley, 27 miles from Canyon Lake on SR-74. The valley floor has active agricultural runoff exposure during heavy rain seasons\u2014water moves fast across flat terrain and enters homes at grade level before homeowners can react. The historic downtown carries aging plumbing infrastructure. Soboba Springs and the valley\u2019s newer residential developments have their own failure patterns. And the San Jacinto Mountains to the east push wildfire smoke directly into the valley during fire seasons. Gallagher has served this end of Riverside County for over 15 years. The crew travels SR-74 East and arrives within 60 minutes of your call\u2014fully equipped for every damage category the valley produces.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "San Jacinto neighborhoods Gallagher responds to",
+    "intro": "From historic downtown to the valley edges, Gallagher covers all of San Jacinto.",
+    "items": [
+      {
+        "name": "Historic downtown San Jacinto",
+        "body": "Downtown San Jacinto\u2019s older commercial and residential stock carries aging infrastructure\u2014galvanized plumbing, deteriorated roof envelopes, and outdated drain systems. Water intrusion and sewage backup calls from the downtown corridor require careful documentation for both insurance and historic preservation considerations."
+      },
+      {
+        "name": "Soboba Springs",
+        "body": "Soboba Springs carries a mix of ages and construction types. Ranch-style homes on the valley floor are vulnerable to grade-level water intrusion during agricultural runoff events. We respond throughout the Soboba Springs community with both extraction and full structural drying."
+      },
+      {
+        "name": "Valley floor residential",
+        "body": "Valley floor properties in San Jacinto face surface flooding and subsurface moisture intrusion when the valley drainage network is overwhelmed by rain or agricultural runoff. Low foundation clearances and older subfloor assemblies in this part of the city retain moisture significantly longer than hillside construction."
+      },
+      {
+        "name": "Mountain-adjacent and newer developments",
+        "body": "Properties on San Jacinto\u2019s eastern edge face smoke infiltration from the San Jacinto Mountains during fire seasons. Newer residential developments here also carry builder-grade fitting risks. We respond to both smoke and water damage throughout the city\u2019s eastern edges."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages San Jacinto homes most",
+    "intro": "Valley position, housing age, and mountain proximity create a specific damage profile throughout San Jacinto.",
+    "items": [
+      {
+        "title": "Valley agricultural runoff and surface flooding",
+        "body": "San Jacinto\u2019s valley-floor position means that during heavy rain events, agricultural and surface runoff reaches residential areas quickly. Grade-level water entry\u2014through garage slabs, door thresholds, and foundation gaps\u2014saturates flooring and wall base assemblies before extraction equipment can be deployed. Fast response within 24 hours dramatically limits secondary mold damage."
+      },
+      {
+        "title": "Older plumbing system deterioration",
+        "body": "San Jacinto\u2019s historic and mid-century residential stock contains galvanized and early-copper plumbing systems that are failing throughout the city. Corroded fittings, failing supply line connections, and deteriorated drain lines produce water damage that can go undetected inside wall cavities for weeks."
+      },
+      {
+        "title": "Wildfire smoke from San Jacinto Mountain fires",
+        "body": "The San Jacinto Mountains generate smoke events that descend into the valley during offshore wind conditions. Homes throughout San Jacinto receive smoke infiltration through HVAC systems, door gaps, and wall penetrations during significant fire events. Gallagher\u2019s smoke clean-up process addresses structural contamination with full insurance documentation."
+      },
+      {
+        "title": "Builder-grade fitting failures in newer construction",
+        "body": "Newer San Jacinto developments carry flexible supply line and push-fit fitting risks common across Riverside County. These components fail at higher rates than sweated copper and often produce significant water damage before homeowners become aware of a problem."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a San Jacinto call looks like",
+    "body": "You call (951) 541-0034 and a real person answers. The crew travels SR-74 East and is in San Jacinto within 60 minutes. On arrival, professional-grade moisture meters and thermal imaging assess the full damage scope before any equipment is placed. You receive a clear explanation of what was found and what the remediation plan looks like before work begins. For valley-floor flooding events, high-capacity extraction begins immediately upon arrival. For smoke and fire jobs, soot deposition is documented and measured from the first hour. Everything is photographed and logged\u2014your insurance carrier receives a clean documentation package from initial assessment through final scope. Gallagher works directly with major insurance carriers, managing the adjuster communication so you\u2019re not navigating two separate processes. The same crew handles the full job from first call through final reconstruction. No handoffs, no strangers mid-project."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why San Jacinto calls Gallagher",
+    "body": "San Jacinto is 27 miles from Canyon Lake on SR-74 East\u2014a straight-line drive that puts Gallagher on-site within 60 minutes of your call. In a valley-floor flooding event, where water spreads across flat terrain faster than it would in a hillside community, that response speed matters. Gallagher is a family-owned operation with over 15 years serving the San Jacinto Valley. The crew knows the valley\u2019s specific damage patterns\u2014agricultural runoff events, aging downtown infrastructure, mountain-smoke infiltration\u2014and knows how to document each one correctly for insurance. IICRC-trained technicians bring professional-grade drying and detection equipment to every job. Insurance coordination is in-house: Gallagher works directly with major carriers, preparing the documentation and managing the adjuster communication so your recovery moves forward without delays. One crew, complete accountability, from first call through final walkthrough."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on San Jacinto restoration cost",
+    "body": "Assessment is always free. We arrive, evaluate the full scope, and give you a clear picture before any work begins. Most residential restoration jobs in San Jacinto fall between $500 and $15,000. Valley-floor flooding events and jobs with secondary mold growth fall toward the upper end. Contained appliance failures and single-room water damage jobs fall lower. If you have homeowners insurance, Gallagher coordinates directly with your carrier\u2014we prepare the documentation and manage the adjuster communication to move your claim forward."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher get to San Jacinto?",
+      "a": "San Jacinto is 27 miles from Canyon Lake HQ via SR-74 East. Typical on-site time is within 60 minutes of your call. We move immediately\u2014a real person answers and the crew loads up right away."
+    },
+    {
+      "q": "Do you work with my insurance?",
+      "a": "Yes. Gallagher coordinates directly with major insurance carriers. We prepare scope documentation, moisture logs, and photo records, then manage the adjuster communication on your behalf."
+    },
+    {
+      "q": "What does restoration cost in San Jacinto?",
+      "a": "Assessment is free. Most residential jobs fall between $500 and $15,000. Valley flooding and mold-involved jobs run toward the upper range. We explain scope clearly before work begins."
+    },
+    {
+      "q": "Do you handle both mitigation and reconstruction?",
+      "a": "Yes. Gallagher handles the complete scope\u2014emergency mitigation, structural drying, mold remediation if needed, and full reconstruction. One crew, one company, start to finish."
+    },
+    {
+      "q": "What should I do if my valley-floor home floods during a rainstorm?",
+      "a": "Call (951) 541-0034 immediately. Shut off electricity to affected areas if safe to do so. Don\u2019t attempt to extract water with household equipment\u2014valley flood water can carry agricultural contamination that requires professional handling. Gallagher is on-site within 60 minutes with professional-grade extraction equipment and full documentation capability."
+    }
+  ]
+}

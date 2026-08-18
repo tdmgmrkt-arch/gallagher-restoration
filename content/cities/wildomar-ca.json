@@ -1,0 +1,106 @@
+{
+  "slug": "wildomar-ca",
+  "name": "Wildomar",
+  "countySlug": "riverside-county",
+  "countyName": "Riverside County",
+  "isHq": false,
+  "proximityMinutes": 8,
+  "proximityMiles": 5,
+  "route": "I-15 South",
+  "metaTitle": "Water & Fire Restoration | Wildomar, CA | Gallagher",
+  "metaDescription": "24/7 water, fire, mold & wildfire restoration in Wildomar, CA. Gallagher on-site in ~15 min. IICRC-trained. Free assessment. (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 WILDOMAR, CA",
+  "heroTitle": "Wildomar restoration services\u2014water, fire, mold, wildfire",
+  "heroAccent": "5 miles from Canyon Lake HQ.",
+  "heroIntro": "Gallagher Restoration Co. is 5 miles from Wildomar via I-15 South. When water is active in your home or smoke is in the air, that proximity is critical. We respond 24 hours a day to water damage, fire damage, mold, and wildfire emergencies throughout Wildomar\u2014Bear Creek, The Farm, and the older downtown corridor.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~15 min", "hint": "5 miles via I-15 South from Canyon Lake" },
+    { "label": "Distance", "value": "5 mi", "hint": "One of the closest cities to Gallagher HQ" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Real person answers every call, every hour" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Serving Wildomar and the I-15 corridor throughout" }
+  ],
+  "localHook": "Wildomar is 5 miles from Canyon Lake on I-15 South\u2014one of the closest cities to Gallagher\u2019s headquarters. Gallagher has served Wildomar for over 15 years, across its three distinct zones: Bear Creek\u2019s gated community with newer construction and hillside wildfire exposure, The Farm\u2019s residential-agricultural mix, and the older downtown corridor where aging plumbing and infrastructure issues are common. The I-15 corridor creates surface water concentration during heavy rain events that affects lower-lying streets in multiple parts of the city. Wildomar is close enough that the crew can be on-site before a second room takes water\u2014and that speed difference matters.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Wildomar neighborhoods Gallagher responds to",
+    "intro": "From Bear Creek to The Farm and older downtown Wildomar, we cover the full city.",
+    "items": [
+      {
+        "name": "Bear Creek",
+        "body": "Bear Creek is a gated community on Wildomar\u2019s hillside edge with newer construction and significant wildfire exposure from adjacent brush corridors. Builder-grade fitting risks common to 2000s California tract construction are active here. Smoke infiltration from hillside fires is a recurring call during fire seasons."
+      },
+      {
+        "name": "The Farm",
+        "body": "The Farm\u2019s residential-agricultural mix includes older ranch homes and newer residential development side by side. Aging plumbing in the older stock produces pinhole failures and slow drain line deterioration. Irrigation-system failures on larger lots can discharge significant water volume before owners are aware."
+      },
+      {
+        "name": "Older downtown Wildomar",
+        "body": "The older sections of downtown Wildomar carry aging infrastructure common to Riverside County\u2019s mid-20th-century stock. Galvanized supply lines, deteriorated roof systems, and failing drain lines produce both water damage and mold that require professional remediation with complete insurance documentation."
+      },
+      {
+        "name": "I-15 corridor streets",
+        "body": "Properties near the I-15 corridor in Wildomar experience concentrated surface runoff during heavy rain events. Water intrusion through foundation gaps, garage slabs, and grade-level entries is the primary pattern. Fast extraction prevents the 48-to-72-hour mold establishment window from being reached."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Wildomar homes most",
+    "intro": "Three distinct neighborhood profiles produce three distinct damage patterns\u2014all active in Wildomar.",
+    "items": [
+      {
+        "title": "I-15 corridor water intrusion from rain events",
+        "body": "The I-15 South corridor through Wildomar concentrates surface runoff from the surrounding hillsides during heavy rain events. Lower-lying properties on streets near the freeway take water intrusion through foundation gaps, door thresholds, and garage entries. Rapid extraction and structural drying stop mold from establishing within the critical 48-to-72-hour window."
+      },
+      {
+        "title": "Aging plumbing in older Wildomar sections",
+        "body": "The older residential sections of Wildomar carry plumbing systems that are 40 to 60 years old\u2014galvanized supply lines, cast-iron drain lines, and water heater connections at or past their service life. When these systems fail, water migrates inside wall cavities and under slab foundations before it surfaces visibly."
+      },
+      {
+        "title": "Hillside wildfire and smoke exposure in Bear Creek",
+        "body": "Bear Creek\u2019s hillside position and proximity to brush corridors creates both direct wildfire risk and recurring smoke infiltration risk. Smoke particles penetrate HVAC systems and wall assemblies in homes that may not be directly threatened. Gallagher handles wildfire and smoke clean-up with full insurance documentation throughout Bear Creek and the city\u2019s hillside sections."
+      },
+      {
+        "title": "Builder-grade failures in 2000s construction",
+        "body": "Wildomar\u2019s 2000s and 2010s residential construction carries the flexible supply line and push-fit fitting risks common across Riverside County tract builds. These components fail before the home\u2019s structural systems, often producing multi-room water damage from a single appliance line failure."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Wildomar call looks like",
+    "body": "You call (951) 541-0034 and a real person answers. The crew leaves Canyon Lake on I-15 South and is in Wildomar in approximately 15 minutes\u2014sometimes faster. On arrival, professional-grade moisture meters and thermal imaging establish the full damage scope before equipment is placed. For I-15 corridor water intrusion events, high-capacity extraction begins immediately. For Bear Creek wildfire or smoke calls, soot deposition is documented from the first hour. For older downtown plumbing failures, we locate the full extent of moisture migration before any demolition. You receive a clear, plain-language explanation of the damage and the remediation plan before work begins. Everything is photographed and logged from arrival. Gallagher works directly with major insurance carriers\u2014we prepare the adjuster documentation and manage the carrier communication on your behalf. The same crew handles the full job from first call through final reconstruction."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Wildomar calls Gallagher",
+    "body": "Five miles separates Gallagher\u2019s Canyon Lake headquarters from Wildomar. In an active water event, that proximity translates directly into how much gets salvaged. Gallagher has served Wildomar for over 15 years\u2014Bear Creek\u2019s hillside community, The Farm\u2019s rural edge, the older downtown corridor, and the I-15 streets in between. Every damage pattern this city produces is familiar ground. This is a family-owned operation. Aaron\u2019s crew responds with professional-grade equipment and the IICRC training to use it correctly on every job, from a single-room appliance failure to a multi-room flood event. Insurance coordination is in-house: Gallagher works directly with major carriers, prepares the documentation adjusters need, and manages that conversation so you\u2019re not navigating a claim process while your home is still wet. One crew, complete accountability, from the first call through the final walkthrough."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on Wildomar restoration cost",
+    "body": "Assessment is always free. We evaluate the full damage scope and give you a clear picture before any work begins. Most residential restoration jobs in Wildomar fall between $500 and $15,000. I-15 corridor flooding events and jobs with secondary mold involvement fall toward the upper end. Contained appliance failures and single-room water damage jobs caught quickly fall lower. Wildfire and smoke remediation scope varies by extent of infiltration. If you have homeowners insurance, Gallagher coordinates directly with your carrier\u2014we prepare the documentation and manage the adjuster communication."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher get to Wildomar?",
+      "a": "Wildomar is 5 miles from Canyon Lake HQ via I-15 South. Typical on-site time is approximately 15 minutes from your call\u2014sometimes faster. A real person answers, crew loads up immediately."
+    },
+    {
+      "q": "Do you work with my insurance?",
+      "a": "Yes. Gallagher coordinates directly with major insurance carriers. We prepare scope documentation, moisture logs, and photo records for your adjuster and manage the carrier communication on your behalf."
+    },
+    {
+      "q": "What does restoration cost in Wildomar?",
+      "a": "Assessment is free. Most residential jobs fall between $500 and $15,000. I-15 corridor floods and mold-involved jobs run toward the upper range. Appliance failures caught early typically fall lower. We explain scope before work begins."
+    },
+    {
+      "q": "Do you handle both mitigation and reconstruction?",
+      "a": "Yes. Gallagher handles the complete scope\u2014emergency mitigation, structural drying, mold remediation if needed, and full reconstruction. One crew, one company, start to finish."
+    },
+    {
+      "q": "Does Bear Creek\u2019s wildfire exposure require restoration even if my house wasn\u2019t burned?",
+      "a": "Often, yes. Smoke and soot from nearby brush and hillside fires infiltrate HVAC systems, ductwork, and wall assemblies in Bear Creek homes that may never have faced direct flames. Surface cleaning is not sufficient\u2014contaminated materials require professional treatment and documented remediation for insurance purposes. Gallagher handles smoke clean-up throughout Bear Creek and Wildomar\u2019s hillside corridors."
+    }
+  ]
+}

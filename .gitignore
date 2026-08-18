@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# agency internal (not for public repo)
+CLIENT.md
+ACTIVE_WORK.md
+design-reference/
+.claude/
+.playwright-mcp/
+
+# stray dev/reference images at repo root
+/*.png

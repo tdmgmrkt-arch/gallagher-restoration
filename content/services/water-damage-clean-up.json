@@ -1,0 +1,102 @@
+{
+  "slug": "water-damage-clean-up",
+  "category": "water",
+  "parentSlug": "water-damage-restoration",
+  "metaTitle": "Water Damage Clean-Up SoCal | Gallagher Restoration",
+  "metaDescription": "Water damage clean-up in Riverside, Orange, SB, San Diego & LA counties. Debris removal, sanitizing, contamination containment. Free assessment (951) 541-0034.",
+  "heroEyebrow": "24/7 Response \u00b7 Water Damage",
+  "heroTitle": "Water damage clean-up in Southern California",
+  "heroAccent": "removal, sanitizing, and prep for repair",
+  "heroIntro": "After the standing water is gone, the real work begins. Gallagher Restoration Co. provides full water damage clean-up across five Southern California counties\u2014removing damaged materials, sanitizing affected areas, containing contamination spread, and preparing the structure for reconstruction.",
+  "proofStrip": [
+    {"label": "Response Time", "value": "60 min", "hint": "Typical arrival across 5-county SoCal"},
+    {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person"},
+    {"label": "Coverage", "value": "5 counties", "hint": "Riverside \u00b7 SB \u00b7 OC \u00b7 SD \u00b7 LA"}
+  ],
+  "whatItIs": {
+    "eyebrow": "The Basics",
+    "heading": "What is water damage clean-up?",
+    "body": "Water damage clean-up is the systematic removal and sanitization phase that follows initial water extraction. Once standing water has been extracted, a structure is left with saturated materials, potential contamination, and conditions that will develop mold within 24 to 48 hours if left unaddressed. Clean-up covers the controlled demolition of materials that cannot be dried in place\u2014soaked drywall, saturated insulation, buckled flooring\u2014antimicrobial treatment of structural surfaces, containment to prevent contamination from spreading to unaffected areas, and the clearing and documentation of all debris for insurance purposes. It is not the same as extraction alone, and it is not the same as the reconstruction phase that follows. Clean-up is the bridge between stopping the event and repairing the structure."
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "heading": "How Gallagher handles water damage clean-up",
+    "steps": [
+      {
+        "kicker": "Step 01",
+        "title": "Contamination classification and containment",
+        "body": "The crew assesses whether the water event involved Category 1 (clean), Category 2 (gray), or Category 3 (black water) contamination. Containment barriers\u2014plastic sheeting, negative air pressure\u2014are installed before any demolition begins to prevent cross-contamination into unaffected rooms."
+      },
+      {
+        "kicker": "Step 02",
+        "title": "Controlled removal of unsalvageable materials",
+        "body": "Saturated drywall, insulation, flooring, and cabinetry that cannot be dried in place are removed in a controlled sequence. All debris is catalogued and bagged per contamination category. Documentation is prepared in parallel for the insurance adjuster."
+      },
+      {
+        "kicker": "Step 03",
+        "title": "Antimicrobial treatment of structural surfaces",
+        "body": "Exposed framing, subfloor, and concrete are treated with EPA-registered antimicrobial agents to halt mold colonization. In Category 2 and 3 events, this step is non-negotiable\u2014skipping it converts a clean-up job into a mold remediation job within days."
+      },
+      {
+        "kicker": "Step 04",
+        "title": "Clearance documentation and handoff to drying or repair",
+        "body": "Before the clean-up phase closes, moisture readings confirm that all remaining structural materials are within acceptable drying range. The structure is documented and ready for either continued structural drying or the reconstruction phase\u2014handled by the same Gallagher crew."
+      }
+    ]
+  },
+  "signs": {
+    "eyebrow": "When To Call",
+    "heading": "Signs you need water damage clean-up now",
+    "items": [
+      {
+        "title": "Water has been extracted but the structure still smells",
+        "body": "A persistent damp or sour odor after extraction means contaminated residue, mold spores, or wet material remains inside walls or under flooring. Extraction alone does not clean a water-damaged structure."
+      },
+      {
+        "title": "Drywall is soft, crumbling, or showing visible staining",
+        "body": "Drywall that has been wet for more than a few hours typically cannot be dried in place without trapping moisture inside. It needs to be removed before mold establishes behind the surface."
+      },
+      {
+        "title": "Flooring is delaminating, cupping, or separating",
+        "body": "Buckled hardwood, lifted tile, and delaminating laminate all indicate the subfloor below is wet. The surface material generally cannot be saved and needs to be removed to access and dry the structural layer beneath."
+      },
+      {
+        "title": "The water source was gray or black water",
+        "body": "Gray water from appliances or drains and black water from sewage or outdoor flooding require antimicrobial treatment of every surface the water contacted. Standard cleaning products are not sufficient."
+      },
+      {
+        "title": "Visible mold is already present",
+        "body": "If mold is visible on any surface within the affected area, clean-up must include mold containment protocols. Proceed to mold remediation in parallel\u2014do not attempt to clean mold with bleach and move on."
+      }
+    ]
+  },
+  "whyUs": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why homeowners call Gallagher for water damage clean-up",
+    "body": "Water damage clean-up is where short-cuts create long-term problems. A crew that removes visibly damaged material but skips antimicrobial treatment, or that closes walls before moisture readings confirm dryness, leaves behind the conditions for a mold claim six months later. Gallagher Restoration Co. has spent more than 15 years in Southern California learning where those shortcuts hide. IICRC-trained technicians follow contamination-specific protocols for every category of water event, document every material removed and every surface treated, and hand that documentation directly to your insurance carrier. The same crew handles clean-up, drying, and reconstruction\u2014Aaron built the company that way so that nothing falls through the gap between phases. Across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties, homeowners call (951) 541-0034 knowing a real person answers and a crew is on-site within 60 minutes."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Water damage clean-up pricing\u2014what to expect",
+    "body": "Every job starts with a free on-site assessment. Water damage clean-up in Southern California typically runs $1,000\u2013$7,500. The low end covers a contained single-room event with clean water, limited material removal, and straightforward antimicrobial treatment. The upper end reflects multi-room events involving Category 2 or 3 contamination, significant controlled demolition, and extensive documentation requirements for the insurance claim. Square footage of affected area, contamination category, and the volume of materials requiring removal are the primary cost drivers. Reconstruction costs\u2014replacing what was removed\u2014are separate and are quoted after the clean-up phase is complete and moisture clearance is confirmed. Gallagher Restoration Co. coordinates directly with your insurance carrier and documents everything needed for the adjuster from day one."
+  },
+  "faqs": [
+    {
+      "q": "What is the difference between water damage clean-up and water extraction?",
+      "a": "Water extraction removes standing liquid. Water damage clean-up addresses everything that follows: removing saturated materials that cannot be saved, treating structural surfaces with antimicrobials to prevent mold, containing contamination, and preparing the structure for drying and repair. Extraction is the first 30 minutes; clean-up is the next several days."
+    },
+    {
+      "q": "Can I do water damage clean-up myself?",
+      "a": "For small, clean-water events in non-porous areas\u2014a minor sink overflow on sealed tile, for example\u2014homeowner cleanup is possible. For any event involving carpet, drywall, insulation, subfloor, or gray or black water, professional clean-up is strongly recommended. The risk is hidden moisture that triggers mold and voids insurance coverage for secondary damage."
+    },
+    {
+      "q": "How quickly does mold start after water damage in Southern California?",
+      "a": "Mold can begin colonizing within 24 to 48 hours in warm, humid interior conditions\u2014faster in summer months in the Inland Empire and low-desert areas. Southern California's climate accelerates the timeline compared to cooler regions. Clean-up needs to begin within the first day to prevent mold from becoming a separate remediation project."
+    },
+    {
+      "q": "Does insurance cover water damage clean-up costs?",
+      "a": "Most standard California homeowners policies cover water damage clean-up when the source was sudden and accidental\u2014a burst pipe, appliance failure, or storm event. Gallagher Restoration Co. builds the documentation package from day one\u2014categorizing the event, itemizing removed materials, and photographing every phase\u2014so the adjuster has what is needed to process the claim."
+    }
+  ],
+  "relatedServices": ["water-damage-restoration", "mold-remediation", "water-damage-repair"]
+}

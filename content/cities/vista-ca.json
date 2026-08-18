@@ -1,0 +1,99 @@
+{
+  "slug": "vista-ca",
+  "name": "Vista",
+  "countySlug": "san-diego-county",
+  "countyName": "San Diego County",
+  "proximityMinutes": 80,
+  "proximityMiles": 70,
+  "route": "I-15 South \u2192 SR-78 West",
+  "metaTitle": "Water & Fire Restoration | Vista, CA | Gallagher",
+  "metaDescription": "Water, fire, mold, and sewage restoration in Vista, CA. IICRC-trained crews, 24/7 response\u2014on-site in roughly 80 min from Canyon Lake. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 VISTA, CA",
+  "heroTitle": "Vista restoration\u2014IICRC crews, around-the-clock response",
+  "heroAccent": "Canyon Lake to Vista: ~80 min via I-15 South and SR-78.",
+  "heroIntro": "Vista\u2019s hillside terrain and aging ranch housing stock create a specific damage profile\u2014wildfire exposure, slab leaks in 1970s foundations, and canyon runoff that has nowhere to go during a hard storm. Gallagher Restoration Co. dispatches from Canyon Lake around the clock. A real person answers every call.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~80 min", "hint": "Typical Canyon Lake to Vista drive via I-15 South \u2192 SR-78 West" },
+    { "label": "Distance", "value": "70 mi", "hint": "Canyon Lake HQ to Vista" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, every hour, real person answers" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned, Southern California\u2019s restoration team" }
+  ],
+  "localHook": "Vista sits at the junction of inland North County terrain and coastal climate influence\u2014a combination that produces damage patterns unique to the area. Shadowridge and the Foothill Drive corridor carry hillside wildfire exposure that intensifies during Santa Ana wind events; the same slopes channel runoff hard into lower-elevation yards and foundations during El Ni\u00f1o storms. Vista Village and the older ranch neighborhoods to the east hold 1970s and 1980s construction with slab-era plumbing now at or past its service window. A pinhole leak inside a slab runs silently for months, pushing up moisture through flooring and into wall cavities before the first sign of warping appears. Gallagher Restoration Co. has been working North County San Diego from Canyon Lake for over 15 years\u2014the drive via I-15 and SR-78 is consistent, and the damage profile here is familiar territory.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Shadowridge to Vista Village\u2014full coverage",
+    "items": [
+      {
+        "name": "Shadowridge",
+        "body": "Master-planned hillside community with canyon-adjacent wildfire exposure and 1980s\u201390s tract construction. Slab leaks and smoke infiltration are the most frequent calls. We handle full post-fire decontamination and precision slab-moisture extraction."
+      },
+      {
+        "name": "Vista Village",
+        "body": "Older commercial and residential core with a mix of ranch homes and early commercial buildings. Aging plumbing systems and storm-drain limitations combine to produce water intrusion calls after heavy rain. We\u2019ve responded here across multiple storm cycles."
+      },
+      {
+        "name": "Foothill Drive Corridor",
+        "body": "Hillside and canyon-adjacent properties along the Foothill Drive corridor carry elevated wildfire risk and slope-drainage issues that funnel runoff directly toward foundations during winter storms. Both fire and water damage responses are common in this area."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Vista homes most",
+    "items": [
+      {
+        "title": "Hillside wildfire exposure and smoke infiltration",
+        "body": "Vista\u2019s canyon edges and hillside neighborhoods sit in the path of North County fire corridors. Smoke and soot travel well beyond the visible fire perimeter, embedding in HVAC systems and porous materials. Gallagher performs systematic decontamination, surface cleaning, and post-fire odor remediation."
+      },
+      {
+        "title": "Slab leaks in 1970s\u201380s foundations",
+        "body": "Copper supply lines embedded in older Vista foundations are entering the failure window. A slab leak runs unseen\u2014raising water bills first, then surfacing as buckled flooring or mold behind baseboards. Professional-grade moisture detection locates the source without unnecessary demolition."
+      },
+      {
+        "title": "Canyon runoff and storm water intrusion",
+        "body": "Hard winter rain pushes water down Vista\u2019s hillsides faster than drainage infrastructure can handle. Homes at the base of slopes and near canyon outlets absorb ground-level intrusion into garages, lower levels, and crawl spaces. Rapid extraction and drying limit secondary mold growth."
+      },
+      {
+        "title": "Aging ranch-home plumbing failures",
+        "body": "Older ranch properties throughout Vista carry original or early-replaced galvanized supply lines. Corrosion-driven failures inside walls produce slow leaks that saturate insulation and framing for days before anyone notices. Full cavity drying is required to prevent mold establishment."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Vista call looks like",
+    "body": "Call (951) 541-0034\u2014a real person answers at any hour. Gallagher dispatches from Canyon Lake; the drive to Vista is roughly 80 minutes via I-15 South and SR-78 West. On arrival, the crew assesses the full damage scope with professional-grade moisture meters and thermal imaging\u2014not a visual estimate. You get a clear explanation of findings before any equipment is placed. Extraction, containment, and structural drying begin the same visit. Every job is documented from the first minute: photos, moisture readings, written logs. That record is what your insurance adjuster needs to move the claim forward. Gallagher coordinates directly with major insurance carriers, handling the back-and-forth so you are not managing two parallel conversations while your home is open. From first call through final reconstruction, the same crew carries the job. No handoffs mid-project."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Vista homeowners call Gallagher",
+    "body": "Vista\u2019s damage profile requires a contractor who understands hillside moisture dynamics, fire-smoke behavior in canyon corridors, and the particular failure patterns of 1970s\u201380s slab construction. Gallagher is a family-owned operation with 15 years of experience across North County terrain. IICRC-trained crews apply consistent drying and detection protocols across every damage category. Aaron\u2019s team is not a franchise with rotating crews\u2014the same people who assess your loss are the same people who complete the restoration. That continuity matters when a slab leak has saturated three rooms, or when smoke has moved through a home\u2019s HVAC system and the scope is still being defined. Direct insurance carrier coordination is standard on every job. Assessment is always free. Gallagher has been making the I-15 and SR-78 run into Vista for over 15 years\u2014this terrain is known ground, not a new service area."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on restoration cost in Vista",
+    "body": "Assessment is free. Most residential restoration jobs in Vista run between $1,500 and $18,000 depending on damage category, affected materials, and how long the source was active before discovery. Slab-leak responses involving subfloor replacement trend toward the mid-to-upper range. Canyon-runoff water intrusion into garages and crawl spaces tends to fall lower\u2014provided the call comes in fast. Wildfire smoke jobs depend heavily on whether HVAC systems were running during the event. Gallagher works directly with major insurance carriers. We prepare the scope documentation adjusters need and handle the coordination so the claim moves without you in the middle."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher reach Vista?",
+      "a": "From Canyon Lake HQ, the typical drive to Vista is roughly 80 minutes via I-15 South and SR-78 West. A real person answers every call at any hour of the day or night."
+    },
+    {
+      "q": "Do you handle slab leaks in Vista\u2019s older homes?",
+      "a": "Yes. Moisture detection, targeted extraction, and full structural drying are part of every slab-leak response. We document the scope with moisture readings and photos from the first visit\u2014essential for insurance claims involving hidden damage."
+    },
+    {
+      "q": "Can you respond to wildfire smoke damage in Vista?",
+      "a": "Yes. Post-fire smoke and soot contamination requires more than ventilation. Gallagher performs systematic surface decontamination, HVAC cleaning, and odor remediation. Canyon-adjacent neighborhoods in Vista are among our more frequent fire-damage calls in North County."
+    },
+    {
+      "q": "What about storm and canyon-runoff flooding?",
+      "a": "Yes. Ground-level water intrusion from hillside runoff during heavy rain requires rapid extraction and structural drying to prevent mold. Gallagher responds 24/7, including during active storm events."
+    },
+    {
+      "q": "What does restoration cost in Vista?",
+      "a": "Assessment is always free. Most jobs fall between $1,500 and $18,000. Category of damage, affected materials, and discovery timing all affect the final number. Gallagher coordinates directly with major insurance carriers and handles all adjuster documentation."
+    }
+  ]
+}

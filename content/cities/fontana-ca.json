@@ -1,0 +1,107 @@
+{
+  "slug": "fontana-ca",
+  "name": "Fontana",
+  "countySlug": "san-bernardino-county",
+  "countyName": "San Bernardino County",
+  "proximityMinutes": 55,
+  "proximityMiles": 50,
+  "route": "I-10 West",
+  "metaTitle": "Water & Fire Damage Restoration | Fontana, CA",
+  "metaDescription": "Gallagher Restoration reaches Fontana in ~55 min via I-10. Water, fire, mold & sewage damage — 24/7. Family-owned, IICRC-trained. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY · FONTANA, CA",
+  "heroTitle": "Restoration services in Fontana — on-site in about 55 minutes",
+  "heroAccent": "Old Fontana or new — we cover the whole city.",
+  "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Fontana via I-10 West — typically on-site within 55 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~55 min", "hint": "Typical drive from Canyon Lake via I-10 West" },
+    { "label": "Distance", "value": "50 mi", "hint": "Canyon Lake to Fontana" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+  ],
+  "localHook": "Fontana carries two distinct identities in the same city limits. The original 1950s neighborhoods near the historic downtown and the steel mill corridor are some of the oldest residential stock in San Bernardino County — houses that predate modern plumbing standards and, in many cases, were never replumbed. Then there's the newer Fontana: North Fontana's 2000s-era master-planned tracts, Sierra Lakes, and the rapid residential expansion of the last two decades. Builder-grade construction at speed creates its own failure patterns — supply hoses, expansion tank failures, slab leaks on brand-new pipe that wasn't installed to spec. High-desert wind is a shared risk across both zones, and storm runoff into low-lying areas is a seasonal certainty in the flatlands south of the freeway. Gallagher reaches Fontana via I-10 West in about 55 minutes.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "North Fontana to the historic core",
+    "items": [
+      {
+        "name": "North Fontana",
+        "body": "Master-planned 2000s development with slab-on-grade construction. Slab leaks and builder-grade plumbing failures are the most common calls. High-desert wind events can dislodge roofing on newer homes if installation tolerances were cut during the construction boom."
+      },
+      {
+        "name": "Sierra Lakes",
+        "body": "Planned community adjacent to the golf course with a mix of townhomes and single-family. Shared-wall plumbing events can spread laterally across multiple attached units before the originating leak is located."
+      },
+      {
+        "name": "Historic downtown Fontana",
+        "body": "Original mid-century and earlier housing stock with aging drain and supply infrastructure. Galvanized pipe corrosion and failing cast iron drains are routine findings during initial assessments in this corridor."
+      },
+      {
+        "name": "South Fontana",
+        "body": "Mixed residential and industrial-adjacent zones south of the I-10. Storm runoff accumulation during heavy rain events can push water under slab doors and into garages, requiring emergency water removal and full dry-out."
+      },
+      {
+        "name": "Jurupa Hills corridor",
+        "body": "Eastern edge of Fontana transitioning toward Rialto. Older single-family with mixed infrastructure vintage. Properties on lower terrain are susceptible to groundwater intrusion during and after significant storm events."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local damage profile",
+    "heading": "What brings Fontana homeowners to the phone",
+    "items": [
+      {
+        "title": "Aging plumbing in original neighborhoods",
+        "body": "Homes from the 1950s and 1960s in historic Fontana carry original galvanized supply lines that corrode from the inside. The first visible symptom is often a brown water stain on a ceiling or a sudden drop in water pressure — by that point, moisture has been saturating wall cavities for weeks. Water damage clean-up in these properties requires systematic moisture mapping, not just surface remediation."
+      },
+      {
+        "title": "Builder-grade failures in newer tracts",
+        "body": "Rapid 2000s tract development in North Fontana and Sierra Lakes introduced a high volume of builder-spec plumbing — flexible supply hoses, standard-grade fittings, and installation practices calibrated for speed. These components have a known failure window, and Gallagher receives a predictable volume of calls from Fontana's newer neighborhoods every year."
+      },
+      {
+        "title": "High-desert wind damage",
+        "body": "Fontana sits in the transition zone between the LA Basin climate and the High Desert — Santa Ana wind events hit hard here, particularly in the fall. Roof shingle loss, broken skylights, and toppled patio structures all create water intrusion pathways when rain follows the wind event."
+      },
+      {
+        "title": "Storm runoff and surface flooding",
+        "body": "South Fontana's flatter terrain creates surface water accumulation during storm events. Emergency water removal and water dry-out are the first interventions; secondary mold remediation is often required if extraction is delayed past 48 hours."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The process",
+    "heading": "From your call to a dry, restored property",
+    "body": "When you call (951) 541-0034, a real person answers. We gather the critical details immediately: type of damage, active water source, affected area, whether the structure is occupied. A crew leaves Canyon Lake via I-10 West and is typically in Fontana within 55 minutes. On arrival, the first job is containment — stopping the active water source, drying the floor if sewage is involved, or boarding and tarping a compromised roof. We run a full moisture assessment with professional-grade detection equipment and document everything for your insurance carrier in real time. Extraction and drying equipment deploys on the first visit. Aaron and the team manage the insurance carrier coordination directly — you don't have to learn their process. Dry-out for most residential water events takes 3–5 days, depending on materials and saturation depth. Reconstruction scheduling begins immediately after clearance."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "The same family-owned crew — every job, every time",
+    "body": "Fontana's size means there are a lot of restoration options listed on Google. What you won't get from a national franchise is a single accountable crew that stays on your job from the first call through the final reconstruction sign-off. Gallagher Restoration Co. has operated as a family-owned business for 15+ years. IICRC-trained crews mean every person on-site understands structural drying science, not just how to run equipment. Professional-grade moisture detection means we find the damage that's hiding in walls — not just the water that's visible. We handle water damage restoration, emergency water removal, mold remediation, fire damage restoration, sewage clean-up, and wildfire damage across the full Fontana service area. We coordinate with the major insurance carriers and give you a documented scope before any work begins. Call (951) 541-0034 — you'll reach a real person, not a national call center."
+  },
+  "pricing": {
+    "eyebrow": "What it costs",
+    "heading": "Honest numbers on restoration pricing",
+    "body": "Water damage restoration in Fontana typically ranges from $1,500 for a minor contained event to $8,000+ for a multi-room or slab leak scenario. Slab leak remediation in North Fontana's newer construction can run higher when concrete cutting and re-pipe work are required. Mold remediation starts at a few hundred dollars for a contained bathroom situation and scales with affected square footage. Fire and smoke damage is scoped individually. We provide a written estimate before work begins, document everything for the insurance carrier, and don't start additional scope without your approval. Call (951) 541-0034 for a same-day assessment."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher Restoration reach Fontana?",
+      "a": "We're typically on-site in Fontana within 55 minutes from our Canyon Lake base via I-10 West. We run 24/7 — call (951) 541-0034 and a real person answers, any hour."
+    },
+    {
+      "q": "My North Fontana home has a slab leak. What does that restoration process look like?",
+      "a": "Slab leaks require professional moisture mapping to locate the source before any remediation begins — cutting concrete in the wrong location creates more damage. We locate, document, extract, dry, and coordinate with your insurance carrier. Pipe burst flooding and remediation is a core Gallagher service."
+    },
+    {
+      "q": "Can you handle mold found in an older home near historic Fontana?",
+      "a": "Yes. Older homes with aging plumbing frequently have secondary mold growth inside wall cavities. We offer mold testing services and mold inspection services as standalone scopes, and mold remediation is included in full water damage projects when mold is discovered during the dry-out phase."
+    },
+    {
+      "q": "What counts as an emergency call versus something that can wait until morning?",
+      "a": "Anything involving active water, sewage, fire, or smoke is an emergency — the clock on secondary mold growth starts within 24–48 hours of water intrusion. A small ceiling stain from a past leak that's now dry is not an emergency, though you should still get it assessed. When in doubt, call — we'll tell you honestly."
+    },
+    {
+      "q": "Do you serve all parts of Fontana including South Fontana and Sierra Lakes?",
+      "a": "Yes. We serve the entire city — historic downtown Fontana, North Fontana, Sierra Lakes, South Fontana, and the Jurupa Hills corridor. The I-10 puts us in any part of Fontana within the same approximate response window."
+    }
+  ]
+}

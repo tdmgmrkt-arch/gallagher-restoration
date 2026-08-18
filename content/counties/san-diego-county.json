@@ -1,0 +1,109 @@
+{
+  "slug": "san-diego-county",
+  "name": "San Diego County",
+  "shortName": "San Diego",
+  "metaTitle": "San Diego County Restoration | Gallagher Restoration Co.",
+  "metaDescription": "Water, fire, mold & property damage restoration across San Diego County. 60-min response, 24/7. Family-owned Gallagher Restoration. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 SAN DIEGO COUNTY",
+  "heroTitle": "Property damage restoration in San Diego County",
+  "heroAccent": "via I-15 south",
+  "heroIntro": "Gallagher Restoration Co. reaches San Diego County via I-15 south from Canyon Lake, serving coastal cities, inland communities, and the wildland-urban interface from Chula Vista to Escondido. Water, fire, mold, and sewage damage handled by a family-owned crew with 15+ years of SoCal experience\u2014available 24/7.",
+  "proofStrip": [
+    {"label": "Response Time", "value": "60 min", "hint": "Typical arrival for north SD County via I-15 south"},
+    {"label": "Cities Served", "value": "6", "hint": "San Diego \u00b7 Carlsbad \u00b7 Oceanside \u00b7 Vista \u00b7 Escondido \u00b7 Chula Vista"},
+    {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person, not a call center"},
+    {"label": "In Business", "value": "15+ yrs", "hint": "Family-owned, serving SoCal since 2009"}
+  ],
+  "overview": {
+    "eyebrow": "The County",
+    "heading": "San Diego County: marine coast, inland valleys, and a wildfire edge",
+    "body": "San Diego County covers a striking range of microclimates within a relatively compact geography\u2014from the Pacific coast at Oceanside, Carlsbad, and Chula Vista, through the dense inland valleys of Escondido and Vista, to the urban core of San Diego city. This geographic range produces sharply different property damage profiles depending on which part of the county you're in. Coastal properties face persistent salt-air corrosion and marine layer humidity that accelerates mold growth and deteriorates plumbing hardware over time. Inland communities like Escondido and Vista sit at the edge of Southern California's most active wildland-urban interface terrain. And the older residential neighborhoods of downtown and central San Diego contain some of the most aged housing stock in the region\u2014mid-century and pre-war construction with original water infrastructure that has outlasted its design life by decades. Gallagher Restoration Co. reaches North San Diego County cities via I-15 south from Canyon Lake, a route that covers Carlsbad, Oceanside, Vista, and Escondido within a realistic 60-minute window. San Diego city and Chula Vista require additional transit time."
+  },
+  "topCities": [
+    {
+      "slug": "carlsbad-ca",
+      "name": "Carlsbad",
+      "blurb": "Coastal location means salt-air exposure accelerates corrosion on copper supply lines and flashing. Carlsbad's mix of lagoon-adjacent properties and hillside developments creates varied water intrusion risk by neighborhood."
+    },
+    {
+      "slug": "oceanside-ca",
+      "name": "Oceanside",
+      "blurb": "Marine environment and a significant inventory of older military-adjacent housing create a double exposure: corrosion-prone plumbing and aging construction that absorbs moisture faster than modern builds."
+    },
+    {
+      "slug": "escondido-ca",
+      "name": "Escondido",
+      "blurb": "Inland location on the wildland-urban interface edge. Escondido has seen close-proximity wildfire events in recent years, and the combination of older housing stock with post-fire smoke intrusion creates some of the most complex restoration calls in the county."
+    },
+    {
+      "slug": "vista-ca",
+      "name": "Vista",
+      "blurb": "Similar wildland exposure to Escondido, with a mix of agricultural-adjacent residential development. Vista's hilly terrain means water intrusion patterns are often driven by grade and drainage rather than simple pipe failure."
+    },
+    {
+      "slug": "san-diego-ca",
+      "name": "San Diego",
+      "blurb": "Downtown and central neighborhoods contain some of the oldest housing stock in Southern California. Pre-1950s construction with original cast iron and lead-soldered copper pipe means water damage events here often involve contaminated water classification and higher remediation complexity."
+    }
+  ],
+  "localContext": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What drives property damage in San Diego County",
+    "body": "San Diego County's damage profile is defined by three overlapping factors: coastal corrosion, wildfire exposure, and the consequences of housing stock that in many areas predates modern plumbing standards. Along the coast\u2014Oceanside, Carlsbad, and the beach neighborhoods of San Diego city\u2014salt air and marine humidity act on exposed metal continuously. Copper supply lines corrode from the outside in a coastal environment, not just from water chemistry on the inside. Flashing, roof penetrations, and plumbing hardware all degrade faster in this environment than the same materials would in Riverside or San Bernardino County. The result is a higher baseline rate of slow, cryptic leaks that go undetected until drywall shows staining or a musty odor emerges. Inland, the wildland-urban interface is a real and recurring hazard. Vista and Escondido have both experienced close-proximity wildfire events in recent years. The damage from these events extends well beyond homes in the direct fire path: smoke infiltration into sealed structures miles from the fire line is common, requiring post-fire mold assessment even in properties that show no soot or char. Wildfire suppression water\u2014applied by firefighting aircraft and crews\u2014introduces its own secondary moisture damage that is often underestimated by homeowners. In San Diego city's older neighborhoods\u2014North Park, Golden Hill, City Heights, and the historic districts downtown\u2014original plumbing from the 1930s through 1960s is still in daily use in a substantial percentage of properties. Cast iron drain lines crack and infiltrate. Original copper supply lines develop pinhole leaks. When these fail in a multi-story residential or mixed-use building, the water travels multiple floors before it surfaces."
+  },
+  "serviceLines": {
+    "eyebrow": "What We Handle",
+    "heading": "Restoration services across San Diego County",
+    "intro": "All services available across all 6 San Diego County cities, 24 hours a day.",
+    "items": [
+      {
+        "title": "Water damage",
+        "body": "From coastal plumbing failures in Oceanside to ancient cast iron drains giving out in central San Diego, Gallagher handles emergency extraction, structural drying with industrial dehumidification, moisture mapping, and full reconstruction anywhere in the San Diego County service area."
+      },
+      {
+        "title": "Fire & smoke",
+        "body": "Kitchen fires in older San Diego housing stock and post-wildfire smoke intrusion in Escondido and Vista homes both require different protocols than a standard structure fire. Gallagher's fire and smoke restoration covers the full spectrum\u2014from single-room soot to whole-structure smoke infiltration."
+      },
+      {
+        "title": "Mold",
+        "body": "Coastal marine humidity and cryptic slow leaks in older properties make mold one of the most common calls from San Diego County. Gallagher provides mold inspection, air quality testing, complete remediation with proper containment, and clearance documentation."
+      },
+      {
+        "title": "Sewage",
+        "body": "Aging sewer infrastructure in older San Diego neighborhoods creates a higher-than-average risk of drain line backup. Gallagher's sewage cleanup process handles Category 3 contamination events with full extraction, disinfection, and insurance-grade documentation."
+      },
+      {
+        "title": "Wildfire",
+        "body": "Escondido and Vista properties in the wildland-urban interface need post-fire assessment even when they survive visually intact. Gallagher handles smoke remediation, suppression water damage, ash cleanup, and the mold inspection that should follow any close-proximity fire event."
+      }
+    ]
+  },
+  "whyLocal": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Canyon Lake-based, I-15 direct to San Diego County",
+    "body": "Gallagher Restoration Co. is based in Canyon Lake, and I-15 south is a direct route to San Diego County's northern cities. Carlsbad, Oceanside, Vista, and Escondido are all within a realistic 60-minute response window from Canyon Lake under normal freeway conditions. San Diego city and Chula Vista are farther\u2014Gallagher is straightforward about this rather than citing a uniform arrival window that doesn't hold at the southern edge of the service area. What San Diego County property owners get with Gallagher is the same thing Riverside County homeowners get: a family-owned company that has operated in Southern California for more than 15 years, an IICRC-trained crew using professional-grade equipment, and a process that covers the job start to finish without handing the reconstruction phase to a separate contractor. Aaron and the team coordinate directly with all major insurance carriers and document the damage claim from hour one. Every call goes to a real person\u2014not a call center, not an automated routing system\u2014and a crew deploys immediately."
+  },
+  "faqs": [
+    {
+      "q": "How quickly can Gallagher reach Carlsbad or Escondido?",
+      "a": "Carlsbad and Escondido are both accessible from Canyon Lake via I-15 south in approximately 50 to 65 minutes under normal conditions. These are among the faster-response cities in the San Diego County footprint. Oceanside and Vista are similar. San Diego city and Chula Vista are farther and may run 75 to 90 minutes depending on traffic and time of day."
+    },
+    {
+      "q": "My home in Escondido is near a wildfire area. What should I check after a nearby fire, even if my house wasn't touched?",
+      "a": "After a wildfire burns within a mile of a residential structure, it's worth having a professional smoke assessment done even if the home looks undamaged. Wildfire smoke contains particulate matter and chemical compounds that infiltrate through HVAC systems, attic vents, and building gaps. Homes exposed to heavy smoke for 24 to 72 hours often have detectable contamination inside wall cavities and ductwork. Gallagher Restoration Co. provides post-fire mold and smoke inspections to assess actual intrusion levels."
+    },
+    {
+      "q": "Does Gallagher work on older downtown San Diego properties with original plumbing?",
+      "a": "Yes. Gallagher Restoration Co. regularly handles water damage in pre-1960 construction, including properties with original cast iron drains and aged copper supply lines. The assessment and remediation process accounts for older building materials, which often behave differently from modern construction during drying and reconstruction."
+    },
+    {
+      "q": "What does salt air corrosion have to do with water damage in coastal San Diego?",
+      "a": "Salt-laden air accelerates corrosion on copper supply lines, brass fittings, and flashing from the outside. In a coastal environment, a copper pipe that might last 50 years inland may develop pinhole leaks within 20 to 25 years. These leaks are slow, often invisible behind walls, and can saturate framing and insulation over months before any surface sign appears. Gallagher's thermal imaging assessment is particularly useful for detecting this type of hidden moisture in coastal properties."
+    },
+    {
+      "q": "Can one company handle both the water damage mitigation and the reconstruction in San Diego?",
+      "a": "Gallagher Restoration Co. handles the full scope\u2014emergency extraction, drying, remediation, and reconstruction\u2014with a single crew and a single point of contact. There is no second contractor for the rebuild phase. This eliminates the handoff gap that is common when a mitigation company finishes and a separate GC takes over, often weeks later."
+    }
+  ],
+  "allCitiesIntro": "Gallagher Restoration Co. serves 6 cities across San Diego County, from coastal Oceanside and Carlsbad to inland Escondido and Vista, through central San Diego and south to Chula Vista."
+}

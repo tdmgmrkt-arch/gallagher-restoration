@@ -1,0 +1,103 @@
+{
+  "slug": "san-diego-ca",
+  "name": "San Diego",
+  "countySlug": "san-diego-county",
+  "countyName": "San Diego County",
+  "proximityMinutes": 85,
+  "proximityMiles": 80,
+  "route": "I-15 South",
+  "metaTitle": "Water & Fire Restoration | San Diego, CA | Gallagher",
+  "metaDescription": "Water, fire, mold, and sewage restoration in San Diego. Family-owned, IICRC-trained, 24/7 response\u2014on-site in roughly 85 min from Canyon Lake. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 SAN DIEGO, CA",
+  "heroTitle": "San Diego restoration\u2014IICRC crews, 24/7 response",
+  "heroAccent": "Canyon Lake to San Diego: ~85 min via I-15.",
+  "heroIntro": "Water intrudes, fire burns, and mold spreads on no schedule\u2014especially not a convenient one. Gallagher Restoration Co. dispatches IICRC-trained crews from Canyon Lake to San Diego around the clock. The drive is roughly 85 minutes via I-15 South. A real person answers every call. Assessment is free.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~85 min", "hint": "Typical Canyon Lake to San Diego drive via I-15 South" },
+    { "label": "Distance", "value": "80 mi", "hint": "Canyon Lake HQ to central San Diego" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, every hour, real person answers" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned, Southern California\u2019s restoration team" }
+  ],
+  "localHook": "San Diego sits where three damage profiles intersect. Coastal neighborhoods from La Jolla to Hillcrest carry year-round marine layer\u2014that persistent low cloud that keeps humidity high and mold spore counts elevated inside homes that were never built to breathe the way coastal properties need to. Inland, downtown Craftsman and Victorian stock\u2014some a century old\u2014hides cast-iron sewer laterals and galvanized supply lines well past their service life. One failed joint in a wall cavity can saturate framing for weeks before anyone notices the smell. Rancho Bernardo and canyon-edge neighborhoods carry a different risk: wildfire smoke infiltration and post-fire soot contamination that travels far beyond where the flames stopped. Gallagher Restoration Co. has been dispatching from Canyon Lake into San Diego County for over 15 years. The drive is consistent. The work is thorough.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "From downtown to the canyon edge, San Diego covered",
+    "items": [
+      {
+        "name": "Downtown & Gaslamp",
+        "body": "Dense urban construction\u2014older mixed-use buildings, century-old plumbing, and shared drainage systems that overload during heavy rain. Water intrusion from aging rooflines and storm-drain backup are the most common calls we take in this corridor."
+      },
+      {
+        "name": "North Park & Hillcrest",
+        "body": "Classic San Diego bungalow stock from the 1910s through 1940s. Cast-iron sewer laterals, original supply lines, and minimal sub-floor ventilation create chronic moisture conditions. Mold behind tile and inside wall cavities is routine in homes this age."
+      },
+      {
+        "name": "Kearny Mesa & La Jolla",
+        "body": "Mid-century commercial corridors in Kearny Mesa and the coastal estates of La Jolla represent opposite ends of the same coastal moisture problem. Marine-layer mold and salt-air corrosion on plumbing fixtures accelerate damage across both areas."
+      },
+      {
+        "name": "Rancho Bernardo",
+        "body": "Inland planned community with 1970s\u201390s tract construction. Canyon-adjacent fire exposure is the primary risk\u2014smoke infiltration and soot contamination reach homes well beyond the active fire perimeter. We handle full post-fire deodorization and restoration."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages San Diego homes most",
+    "items": [
+      {
+        "title": "Coastal marine-layer mold",
+        "body": "San Diego\u2019s perpetual marine layer keeps interior humidity elevated in homes without proper vapor control. Mold colonizes behind drywall, inside attic spaces, and under flooring long before visible signs appear. IICRC-standard remediation stops the growth and documents the scope for insurance."
+      },
+      {
+        "title": "Aging downtown plumbing failures",
+        "body": "Craftsman and Victorian-era homes in downtown, North Park, and Hillcrest carry original or early-replaced plumbing. Galvanized supply lines and cast-iron drain stacks corrode from the inside out. A joint failure inside a wall cavity saturates framing before discovery and drives mold growth in 24\u201348 hours."
+      },
+      {
+        "title": "Cast-iron sewer lateral backups",
+        "body": "Many San Diego neighborhoods still rely on cast-iron sewer laterals that are 60 to 100 years old. Root intrusion and corrosion cause backups that push raw sewage into lower-level spaces. Sewage cleanup requires category-3 water protocols\u2014containment, extraction, disinfection, and controlled drying."
+      },
+      {
+        "title": "Canyon wildfire smoke and soot",
+        "body": "Inland and canyon-edge neighborhoods face smoke infiltration during regional fire events. Soot particles penetrate HVAC systems, settle on surfaces, and embed in porous materials well beyond the visible burn line. Post-fire cleaning requires more than ventilation\u2014it requires systematic surface and duct decontamination."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a San Diego call looks like",
+    "body": "Call (951) 541-0034 at any hour\u2014a real person answers. Gallagher dispatches from Canyon Lake; typical drive to San Diego is roughly 85 minutes via I-15 South. We do not route calls through a national dispatch center. On arrival, the crew assesses the full scope using professional-grade moisture meters and thermal imaging. You get a clear picture of what was found and what the remediation involves before any equipment is placed. Extraction, containment, and drying begin the same visit. Every job is documented from the first minute\u2014photos, moisture readings, written logs\u2014because insurance claims depend on a clean, timestamped record. Gallagher coordinates directly with major insurance carriers on your behalf, handling adjuster communication so you are not managing two parallel conversations while your home is wet. From initial assessment through final reconstruction, the same crew carries the job. No mid-project handoffs. No unfamiliar contractors showing up at your door."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why San Diego homeowners call Gallagher",
+    "body": "Most restoration companies serving San Diego are regional franchises dispatched from local branches with rotating crews and split accountability between mitigation and reconstruction. Gallagher is a family-owned operation with a single point of responsibility: Aaron and the same team that answers your call finishes your job. That continuity matters in a city with San Diego\u2019s range of housing stock. A 1920s North Park bungalow with aging plumbing requires different field judgment than a Rancho Bernardo tract home with smoke infiltration\u2014and different documentation than a La Jolla coastal property with mold behind cladding. IICRC-trained crews apply industry-standard drying and detection protocols across all categories of damage. Every job includes direct insurance carrier coordination, free assessment, and complete documentation. Gallagher has been working San Diego County from Canyon Lake for over 15 years. The drive is consistent. The work standard does not change because the address is farther from home base."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on restoration cost in San Diego",
+    "body": "Assessment is free. Most residential restoration jobs in San Diego fall between $1,500 and $20,000 depending on damage category, affected materials, and how long the moisture or soot was present before the call. Water mitigation alone runs lower; jobs that include mold remediation, sewer cleanup, or post-fire decontamination of older homes run higher. San Diego\u2019s older housing stock\u2014particularly downtown and North Park\u2014tends to involve more contained materials and harder-to-access cavities, which affects scope and cost. If you have homeowners insurance, Gallagher works directly with your carrier. We prepare the adjuster documentation and handle the back-and-forth so you are not stuck translating between two parties while your property sits open."
+  },
+  "faqs": [
+    {
+      "q": "How long does it take Gallagher to reach San Diego?",
+      "a": "From Canyon Lake HQ, the typical drive to central San Diego is roughly 85 minutes via I-15 South. Response time to north county areas like Rancho Bernardo runs closer to 70\u201375 minutes. A real person answers every call at any hour."
+    },
+    {
+      "q": "Do you handle mold caused by San Diego\u2019s marine layer?",
+      "a": "Yes. Coastal humidity-driven mold is one of the most common calls we take in San Diego. IICRC-trained crews assess hidden moisture, contain active growth, remediate affected materials, and document the full scope for insurance purposes."
+    },
+    {
+      "q": "Can you handle sewage backup in older San Diego homes?",
+      "a": "Yes. Category-3 sewage cleanup requires containment, extraction, disinfection, and controlled drying\u2014Gallagher handles the full sequence. Older cast-iron sewer laterals in North Park, Hillcrest, and downtown are a known failure point we work regularly."
+    },
+    {
+      "q": "Do you do post-fire smoke and soot cleanup in San Diego?",
+      "a": "Yes. Wildfire smoke infiltration affects canyon-edge neighborhoods well beyond the active burn perimeter. Gallagher performs systematic surface decontamination, HVAC cleaning, and odor remediation. For LA County wildfire losses, our wildfire-specific services pages cover the Eaton and Palisades fire zones."
+    },
+    {
+      "q": "What does restoration cost in San Diego?",
+      "a": "Assessment is always free. Most jobs fall between $1,500 and $20,000. Scope, discovery timing, and affected materials determine the final number. Gallagher coordinates directly with major insurance carriers and handles adjuster documentation on your behalf."
+    }
+  ]
+}

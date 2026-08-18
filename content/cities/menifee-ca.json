@@ -1,0 +1,106 @@
+{
+  "slug": "menifee-ca",
+  "name": "Menifee",
+  "countySlug": "riverside-county",
+  "countyName": "Riverside County",
+  "isHq": false,
+  "proximityMinutes": 12,
+  "proximityMiles": 8,
+  "route": "Newport Rd \u2192 I-215",
+  "metaTitle": "Water & Fire Restoration | Menifee, CA | Gallagher",
+  "metaDescription": "24/7 water, mold, fire & sewage restoration in Menifee, CA. Gallagher on-site in ~20 min. IICRC-trained. Free assessment. (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 MENIFEE, CA",
+  "heroTitle": "Menifee restoration services\u2014water, mold, fire, sewage",
+  "heroAccent": "8 miles from Canyon Lake HQ.",
+  "heroIntro": "Gallagher Restoration Co. responds 24 hours a day to water damage, mold, fire, and sewage emergencies throughout Menifee. Canyon Lake to Menifee is 8 miles\u2014the crew is on-site fast. IICRC-trained technicians with professional-grade equipment handle everything from Sun City slab leaks to new-construction fitting failures.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~20 min", "hint": "8 miles via Newport Rd to I-215 from Canyon Lake" },
+    { "label": "Distance", "value": "8 mi", "hint": "Via Newport Rd and I-215" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Real person answers, every hour of the day" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Serving Menifee and the I-215 corridor since the beginning" }
+  ],
+  "localHook": "Menifee is one of the fastest-growing cities in Riverside County\u2014and one of the most interesting from a damage-pattern standpoint. Sun City, the original 1960s retirement development that anchors the city\u2019s north end, has galvanized plumbing that is decades past its service life. Slab leaks and pinhole failures in Sun City are nearly a weekly occurrence. Meanwhile, newer neighborhoods like Audie Murphy Ranch and La Ladera carry builder-grade fitting risks common to California tract construction of the 2000s and 2010s. That combination\u2014very old systems failing from age and newer systems failing from quality\u2014keeps Gallagher active throughout Menifee. Eight miles from Canyon Lake via Newport Road to I-215 means a fast response in any part of the city.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Menifee neighborhoods Gallagher responds to",
+    "intro": "From Sun City\u2019s 1960s ranches to Audie Murphy Ranch\u2019s newer tracts, we cover all of Menifee.",
+    "items": [
+      {
+        "name": "Sun City",
+        "body": "Sun City\u2019s 1960s ranch homes were built with galvanized steel plumbing that is now 60-plus years old. Slab leaks, pinhole failures, and failing water heaters are near-weekly calls in this area. Many Sun City residents are seniors who discover damage later than most\u2014early response limits secondary damage."
+      },
+      {
+        "name": "Menifee Lakes",
+        "body": "Menifee Lakes sits at the city\u2019s center with a mix of 1980s and 1990s homes. Original plumbing in this range is entering the high-risk window for copper line failures. We respond to slab leaks and slow moisture intrusion throughout the Menifee Lakes community."
+      },
+      {
+        "name": "Audie Murphy Ranch",
+        "body": "This newer planned community carries the builder-grade fitting risks typical of 2000s and 2010s California tract construction. Flexible supply lines, push-fit fittings, and poorly flashed rooflines produce water damage that appears faster than owners expect from a \u201cnew\u201d home."
+      },
+      {
+        "name": "La Ladera",
+        "body": "La Ladera\u2019s hillside position creates rooftop and attic moisture exposure during rain events. Flashing failures and blocked gutters push water into framing cavities. We also respond to new-construction warranty-window failures throughout this neighborhood."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Menifee homes most",
+    "intro": "Two generations of housing stock create two very different damage profiles\u2014both common throughout Menifee.",
+    "items": [
+      {
+        "title": "1960s galvanized plumbing at end of service life",
+        "body": "Sun City\u2019s galvanized steel plumbing is failing throughout the neighborhood. Internal corrosion restricts flow for years before a pipe fails outright. When failure happens, water volume can be significant. Slab leaks in Sun City\u2019s post-tension concrete foundations require immediate professional response to prevent structural saturation and mold."
+      },
+      {
+        "title": "Builder-grade fitting failures in new construction",
+        "body": "Menifee\u2019s newer tracts were built with the standard flexible supply lines, push-fit fittings, and compression connections of California tract construction. These components fail at higher rates than sweated copper, often within 10 to 15 years. Refrigerator lines, washing machine supply hoses, and water heater connections are the most common failure points."
+      },
+      {
+        "title": "Roof flashing failures and attic moisture",
+        "body": "Both older and newer Menifee homes experience roof flashing failures during heavy rain events. Water enters at chimney flashings, skylight surrounds, and valley intersections, saturating attic insulation and ceiling assemblies before it becomes visible below. Thermal imaging identifies hidden moisture that visual inspection misses."
+      },
+      {
+        "title": "Sewage backups in aging drain lines",
+        "body": "Older sections of Menifee and Sun City have clay and cast-iron drain lines that are cracking and root-infiltrated. Sewage backups in these systems produce Category 3 contamination requiring full remediation\u2014not just extraction. Gallagher\u2019s sewage clean-up crews handle containment, removal, and documentation."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Menifee call looks like",
+    "body": "You call (951) 541-0034 and a real person answers\u2014not a machine, not a callback queue. The crew is in Menifee in approximately 20 minutes from Canyon Lake. On arrival, professional-grade moisture meters and thermal imaging establish the full damage picture before equipment is placed. You receive a plain-language explanation of what was found and what the remediation plan looks like\u2014before any work begins. Extraction and structural drying start the same visit. For Sun City slab-leak calls, we locate the moisture boundary precisely and dry only what needs drying, avoiding unnecessary demolition. For sewage events, full containment is established before any other work proceeds. All damage is photographed and logged from arrival. Gallagher coordinates directly with major insurance carriers\u2014we prepare the documentation and manage the adjuster communication on your behalf. The same crew stays on the job from first call through final reconstruction. No handoffs."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Menifee calls Gallagher",
+    "body": "Eight miles from Canyon Lake to Menifee means a fast response across the city\u2014from Sun City\u2019s north end to La Ladera\u2019s hillside lots. Gallagher is a family-owned operation with 15-plus years serving Menifee and the I-215 corridor. Sun City\u2019s senior community is a priority for us\u2014residents who may not notice a slab leak for days need a crew that can assess quickly, explain clearly, and document thoroughly for insurance. IICRC-trained technicians bring professional-grade drying and detection equipment to every job, regardless of size. Insurance coordination is handled in-house\u2014Gallagher works directly with major carriers, preparing the adjuster documentation and managing that communication so you\u2019re not navigating two separate processes. Whether the call is a 60-year-old galvanized pipe in Sun City or a builder-grade fitting failure in Audie Murphy Ranch, the response is the same: fast arrival, full scope assessment, complete documentation, and one crew through completion."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on Menifee restoration cost",
+    "body": "Assessment is always free. We arrive, evaluate the full damage scope, and give you a clear picture before any work begins. Most residential restoration jobs in Menifee run between $500 and $15,000. Sun City slab leaks typically fall in the mid-range depending on how long moisture was present before discovery. Sewage backup remediations and multi-room water damage jobs fall toward the higher end. Builder-grade fitting failures caught quickly often resolve at the lower end of that range. If you have homeowners insurance, Gallagher coordinates directly with your carrier and prepares the documentation your adjuster needs."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher get to Menifee?",
+      "a": "Menifee is 8 miles from Canyon Lake HQ via Newport Road and I-215. Typical on-site time is approximately 20 minutes from your call. We move immediately\u2014no dispatch delay."
+    },
+    {
+      "q": "Do you work with my insurance?",
+      "a": "Yes. Gallagher coordinates directly with major insurance carriers. We prepare the scope documentation, moisture readings, and photo records your adjuster needs, and we manage the carrier communication on your behalf."
+    },
+    {
+      "q": "What does restoration cost in Menifee?",
+      "a": "Assessment is free. Most residential jobs run between $500 and $15,000. Sun City slab leaks and sewage backups typically run in the mid-to-upper range depending on discovery timing and scope. We explain everything clearly before work begins."
+    },
+    {
+      "q": "Do you handle both mitigation and reconstruction?",
+      "a": "Yes. Gallagher covers the complete scope\u2014emergency mitigation, structural drying, mold remediation if needed, and reconstruction. One crew, one company, start to finish."
+    },
+    {
+      "q": "My Sun City home has had multiple plumbing issues\u2014is that normal?",
+      "a": "It\u2019s common. Sun City\u2019s original galvanized plumbing is now 60-plus years old and failing throughout the neighborhood. Pinhole leaks, slab leaks, and water heater failures in this age range are not isolated events\u2014they\u2019re a pattern. Gallagher responds to Sun City plumbing failures regularly and documents each job thoroughly for insurance."
+    }
+  ]
+}

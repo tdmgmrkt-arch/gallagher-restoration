@@ -1,0 +1,107 @@
+{
+  "slug": "victorville-ca",
+  "name": "Victorville",
+  "countySlug": "san-bernardino-county",
+  "countyName": "San Bernardino County",
+  "proximityMinutes": 90,
+  "proximityMiles": 75,
+  "route": "I-15 North then US-395",
+  "metaTitle": "Water & Fire Damage Restoration | Victorville, CA",
+  "metaDescription": "Gallagher Restoration reaches Victorville in ~90 min via I-15 & US-395. Water, fire, mold & wildfire — 24/7. Family-owned, IICRC-trained. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY · VICTORVILLE, CA",
+  "heroTitle": "Restoration services in Victorville — 24/7, High Desert coverage",
+  "heroAccent": "High Desert damage is different. So is the response it requires.",
+  "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Victorville via I-15 North and US-395 — typically on-site within 90 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~90 min", "hint": "Typical drive from Canyon Lake via I-15 North and US-395" },
+    { "label": "Distance", "value": "75 mi", "hint": "Canyon Lake to Victorville" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+  ],
+  "localHook": "Victorville operates under climate conditions that the rest of the Gallagher service area doesn't see. High Desert temperature swings of 40 degrees between a January night and afternoon are not unusual — and those extremes put mechanical stress on plumbing systems that Coastal or Inland Valley housing is never subjected to. Freeze events in exposed pipe runs, swamp cooler pan overflows, and drought-cycle slab movement are all damage mechanisms that don't exist in the same form 75 miles south. The city's housing stock runs from 1980s and 1990s desert tract homes along Bear Valley Road through the older ranch structures of Old Town Victorville to the lakefront community at Spring Valley Lake. Gallagher serves the full range, taking I-15 North through Cajon Pass and then US-395 into the High Desert — a 90-minute run that puts us on-site faster than any alternative this side of the Victor Valley.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "From Old Town to Spring Valley Lake",
+    "items": [
+      {
+        "name": "Old Town Victorville",
+        "body": "Historic commercial and residential core along the Mojave River. Oldest infrastructure in the city — original supply and drain systems in many structures. Water damage here often involves multiple failure modes discovered during a single scope assessment."
+      },
+      {
+        "name": "Spring Valley Lake",
+        "body": "Lakefront planned community with a mix of 1970s–1990s single-family homes. Aging plumbing and the elevated moisture environment near the water create conditions for slow leaks and mold growth inside wall cavities."
+      },
+      {
+        "name": "Bear Valley Road corridor",
+        "body": "Primary commercial and residential spine of modern Victorville. 1980s–2000s tract homes dominate this zone — exposed outdoor supply lines are especially vulnerable to freeze events during cold Desert nights."
+      },
+      {
+        "name": "Victorville foothills",
+        "body": "Eastern and southern approaches to the San Bernardino Mountains. Wildfire risk increases in this transitional zone. Brush fires moving down foothill slopes can deposit smoke intrusion and ember damage on structures well ahead of the visible fire line."
+      },
+      {
+        "name": "High Desert Estates and newer tract",
+        "body": "2000s-era tract development with slab construction. Drought-cycle ground movement is measurable in Victorville's clay soil — slab cracking and subsequent under-slab pipe stress are emerging damage patterns in this part of the city."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local damage profile",
+    "heading": "What the High Desert climate does to Victorville homes",
+    "items": [
+      {
+        "title": "Freeze-thaw pipe failures",
+        "body": "Victorville routinely sees overnight temperatures below freezing in January and February — conditions that can burst exposed copper pipe runs in uninsulated garage walls, outdoor risers, and poorly-insulated attic spaces. A single pipe burst event can discharge hundreds of gallons before anyone notices. Emergency water removal and pipe burst flooding and remediation are the immediate interventions."
+      },
+      {
+        "title": "Swamp cooler and evaporative system leaks",
+        "body": "Evaporative coolers are standard equipment in the High Desert, and they carry a predictable failure profile — pan corrosion, float valve failures, and supply line cracks that feed water into the ceiling or wall below the unit. Roof-mounted coolers that leak into attic insulation are particularly damaging and difficult to detect without moisture mapping equipment."
+      },
+      {
+        "title": "Drought-cycle slab movement",
+        "body": "Victorville's soil has measurable clay content. Extended drought cycles shrink the soil; subsequent rain events cause swelling. That movement cracks slab foundations and places stress on embedded plumbing — under-slab leaks that develop silently over months before surfacing as elevated water bills or warm spots on the floor."
+      },
+      {
+        "title": "Wildfire risk in foothill approaches",
+        "body": "The eastern and southern edges of Victorville back up to foothill terrain with high brush fuel loads. Wind-driven wildfire in this zone can deposit smoke intrusion across an entire neighborhood in hours, even where structures don't face direct flame contact. Smoke clean-up and fire damage restoration are both part of the Gallagher service line."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The process",
+    "heading": "From your call to a dry, restored property",
+    "body": "Call (951) 541-0034 — a real person answers at any hour. We get the critical details fast: damage type, whether the water source is still active, your address, whether utilities need emergency shutoff. A crew leaves Canyon Lake via I-15 North through Cajon Pass and then US-395 — typically on-site in Victorville within 90 minutes. High Desert response requires awareness of the additional hazards: freeze-burst pipe runs, swamp cooler access on the roof, or slab movement that complicates extraction. We run a full scope assessment with professional-grade moisture detection equipment and document everything for your insurance carrier immediately. Drying equipment is sized for the High Desert environment — lower ambient humidity actually accelerates structural drying relative to coastal conditions. Aaron and the team manage insurance coordination directly. Reconstruction scheduling follows clearance."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "The team that knows what High Desert damage actually looks like",
+    "body": "Restoration companies that primarily operate in the Inland Valley or on the coast often underestimate the specific failure patterns that the High Desert climate creates. Gallagher Restoration Co. has 15+ years of experience across Southern California's full climate range — coastal marine layer conditions, Inland Valley heat, and High Desert temperature extremes. IICRC-trained crews understand moisture science in environments where standard drying assumptions don't apply. Professional-grade equipment deployed correctly in Victorville's lower-humidity environment can often complete structural dry-out faster than comparable coastal jobs. We handle water damage restoration, emergency water removal, mold remediation, fire damage restoration, smoke clean-up, sewage clean-up, and wildfire damage. We coordinate with the major insurance carriers and provide a written scope before any work begins. Family-owned, real person on the phone, 24/7."
+  },
+  "pricing": {
+    "eyebrow": "What it costs",
+    "heading": "Honest numbers on restoration pricing",
+    "body": "Water damage restoration in Victorville typically ranges from $1,500 for a minor contained event to $8,000+ for a freeze-burst pipe event or swamp cooler discharge that has saturated ceiling and wall systems. Under-slab leak remediation can run higher when concrete cutting and re-pipe work are part of the scope. Mold remediation in High Desert properties is sometimes less expensive than in coastal areas due to lower ambient humidity — but swamp cooler-related mold in attic insulation is a contained exception. Fire and smoke damage from wildfire events is scoped individually. We provide written estimates before work begins and coordinate with the major insurance carriers on all claims. Call (951) 541-0034 for a same-day assessment."
+  },
+  "faqs": [
+    {
+      "q": "Does Gallagher Restoration serve Victorville even though it's 75 miles from Canyon Lake?",
+      "a": "Yes. Victorville is within our service area. We take I-15 North through Cajon Pass to US-395 and are typically on-site within 90 minutes. We run 24/7 — call (951) 541-0034 and a real person answers."
+    },
+    {
+      "q": "A pipe froze and burst in my Victorville garage. What should I do right now?",
+      "a": "Shut off the main water supply at the meter if you can do so safely — this stops additional discharge. Move valuables out of the water path. Then call us immediately at (951) 541-0034. The faster water extraction begins, the smaller the damage footprint. Pipe burst flooding and remediation is a core Gallagher service."
+    },
+    {
+      "q": "My swamp cooler leaked into the ceiling. Is that a serious water damage event?",
+      "a": "It depends on how long it ran before discovery. A few minutes of discharge may mean a contained ceiling replacement. Hours of discharge can saturate attic insulation, drywall, and framing — and create conditions for mold growth within 48 hours. Have it assessed with moisture mapping before assuming it's minor."
+    },
+    {
+      "q": "Can you handle wildfire smoke damage in the Victorville foothills?",
+      "a": "Yes. Smoke clean-up and fire damage restoration are both part of our service line. Smoke infiltration without direct fire contact is still a serious damage event — HVAC systems, insulation, and soft goods can be heavily contaminated even when the exterior of the structure looks undamaged."
+    },
+    {
+      "q": "How does drought-cycle slab movement lead to a water damage call?",
+      "a": "As soil shrinks during drought, it can pull away from slab edges and create movement stress on embedded plumbing. That stress eventually produces under-slab leaks — often detected first as a higher-than-normal water bill, warm spots on the floor, or a soft area in flooring. Water damage repair and pipe burst flooding and remediation cover this scenario."
+    }
+  ]
+}

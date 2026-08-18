@@ -1,0 +1,103 @@
+{
+  "slug": "oceanside-ca",
+  "name": "Oceanside",
+  "countySlug": "san-diego-county",
+  "countyName": "San Diego County",
+  "proximityMinutes": 85,
+  "proximityMiles": 75,
+  "route": "I-15 South \u2192 SR-78 West",
+  "metaTitle": "Water & Fire Restoration | Oceanside, CA | Gallagher",
+  "metaDescription": "Water, fire, mold, and sewage restoration in Oceanside, CA. IICRC-trained crews, 24/7 response\u2014on-site in roughly 85 min from Canyon Lake. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 OCEANSIDE, CA",
+  "heroTitle": "Oceanside restoration\u2014mold, water damage, fire, 24/7",
+  "heroAccent": "Canyon Lake to Oceanside: ~85 min via I-15 South and SR-78.",
+  "heroIntro": "Oceanside runs hard on the coast\u2014beach cottages, a working harbor, and Camp Pendleton-adjacent neighborhoods where heavy occupancy and rapid construction turnover create a distinct damage profile. Marine layer mold, coastal salt corrosion, and storm-drain overflow are the most common calls. Gallagher Restoration Co. dispatches 24/7 from Canyon Lake. A real person answers every call.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~85 min", "hint": "Typical Canyon Lake to Oceanside drive via I-15 South \u2192 SR-78 West" },
+    { "label": "Distance", "value": "75 mi", "hint": "Canyon Lake HQ to Oceanside" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, every hour, real person answers" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned, Southern California\u2019s restoration team" }
+  ],
+  "localHook": "Oceanside is the northernmost coastal city in San Diego County, and its proximity to the Pacific means the marine layer is not a seasonal inconvenience\u2014it is a permanent atmospheric condition. Beach cottages and bungalows near the harbor and downtown absorb moisture through imperfect building envelopes night after night. When that moisture has nowhere to escape, mold establishes itself behind walls, under floors, and in attic spaces quietly, over months. The city\u2019s older downtown plumbing\u2014cast-iron laterals and aging supply lines in properties that have changed hands many times since Camp Pendleton brought a population surge in the mid-20th century\u2014adds a second failure vector. Then there are the storm drains near the coast: heavy winter rain events overwhelm the drainage system, pushing water back toward low-lying residential lots in South Oceanside and near the harbor. Gallagher Restoration Co. has been working the Oceanside area from Canyon Lake for over 15 years.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Harbor to Fire Mountain\u2014Oceanside covered",
+    "items": [
+      {
+        "name": "Oceanside Harbor & downtown",
+        "body": "Older coastal properties near the harbor and downtown core carry the highest marine-layer humidity in the city. Mold growth in beach cottages and mixed-use buildings is routine. Aging supply lines and cast-iron laterals add plumbing-failure risk to an already moisture-intensive environment."
+      },
+      {
+        "name": "South Oceanside",
+        "body": "Lower-elevation residential lots in South Oceanside absorb storm-drain overflow during heavy coastal rain. Ground-level water intrusion into garages, lower floors, and crawl spaces is a recurring event in this corridor. Rapid extraction limits secondary mold growth."
+      },
+      {
+        "name": "Fire Mountain",
+        "body": "Hillside neighborhood with canyon-adjacent terrain and elevated wildfire exposure. Post-fire smoke infiltration and soot contamination reach Fire Mountain homes during North County fire events. Gallagher handles full post-fire decontamination including HVAC and porous material treatment."
+      },
+      {
+        "name": "Rancho Del Oro",
+        "body": "Planned residential community with 1980s\u201390s tract construction. Slab foundations with embedded copper supply lines are entering the service window for pinhole failures. The neighborhood\u2019s newer construction stock is slightly more insulated from coastal moisture than older areas but still vulnerable to slab-leak damage."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Oceanside homes most",
+    "items": [
+      {
+        "title": "Marine-layer mold in beach properties",
+        "body": "Oceanside\u2019s perpetual coastal humidity drives mold growth inside homes with inadequate vapor barriers and ventilation. Beach cottages and older bungalows are particularly vulnerable\u2014exterior wall assemblies absorb moisture from both sides. IICRC-standard remediation halts growth and documents the full scope."
+      },
+      {
+        "title": "Coastal salt corrosion on plumbing",
+        "body": "Salt-laden marine air accelerates corrosion on copper fittings, brass valves, and supply-line connections throughout Oceanside. Corroded joints fail gradually\u2014first as a slow drip inside a wall, then as saturated framing and mold. Properties within a few blocks of the harbor see this most often."
+      },
+      {
+        "title": "Storm-drain overflow and coastal flooding",
+        "body": "Heavy winter rain events overwhelm Oceanside\u2019s storm-drain infrastructure near the coast. South Oceanside and harbor-adjacent lots absorb ground-level intrusion into garages, lower levels, and crawl spaces. Gallagher responds 24/7, including during active storm events."
+      },
+      {
+        "title": "Older downtown plumbing failures",
+        "body": "Properties near downtown and the harbor that have changed hands multiple times since the mid-20th century often carry an unclear plumbing history. Original or early-replaced galvanized lines fail without warning. A supply-line failure inside a wall cavity requires full assessment, not just surface repair."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What an Oceanside call looks like",
+    "body": "Call (951) 541-0034 at any hour\u2014a real person answers. Gallagher dispatches from Canyon Lake; the drive to Oceanside is roughly 85 minutes via I-15 South and SR-78 West. On arrival, the crew assesses the full scope using professional-grade moisture meters and thermal imaging. Coastal properties require thorough cavity assessment\u2014moisture in Oceanside beach homes does not always surface in obvious locations. You get a clear explanation of findings before any equipment is placed. Extraction, containment, and drying begin the same visit. Every job is documented from minute one: photos, moisture logs, written scope. Insurance adjusters need that record to process claims efficiently. Gallagher coordinates directly with major insurance carriers, handling adjuster communication on your behalf. The same crew carries the job from first call through final reconstruction. No handoffs. No rotating contractors."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Oceanside homeowners call Gallagher",
+    "body": "Oceanside\u2019s coastal damage profile\u2014marine-layer mold, salt corrosion, storm flooding\u2014requires a crew with specific field experience in coastal construction behavior. Gallagher is a family-owned operation with 15 years of experience across North County San Diego. IICRC-trained crews apply consistent detection and drying protocols to every job category. Aaron\u2019s team carries full accountability from first call to final walkthrough\u2014no national franchise dispatch, no subcontractor handoffs mid-project. Assessment is always free. Direct insurance carrier coordination is standard. Gallagher has been making the I-15 and SR-78 run to Oceanside for over 15 years. This coastal terrain is known, not new."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on restoration cost in Oceanside",
+    "body": "Assessment is free. Most residential restoration jobs in Oceanside fall between $1,500 and $20,000 depending on damage category, affected materials, and how long the source was active. Marine-layer mold in older beach properties tends toward the mid-to-upper range when exterior walls and sub-floor assemblies are involved. Storm-flood responses that are caught quickly run lower. Salt-corrosion plumbing failures inside walls depend on how long moisture was present before discovery. Gallagher works directly with major insurance carriers and prepares all the documentation adjusters need."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher reach Oceanside?",
+      "a": "From Canyon Lake HQ, the typical drive to Oceanside is roughly 85 minutes via I-15 South and SR-78 West. A real person answers every call around the clock."
+    },
+    {
+      "q": "Do you handle marine-layer mold in Oceanside beach properties?",
+      "a": "Yes. Coastal humidity-driven mold is one of the most frequent calls we take in Oceanside. IICRC-trained crews assess hidden moisture, contain growth, remediate affected materials, and document everything for insurance."
+    },
+    {
+      "q": "Can you respond to storm flooding near the Oceanside harbor?",
+      "a": "Yes. Gallagher responds 24/7, including during active storm events. Ground-level water intrusion from storm-drain overflow is a known seasonal event in South Oceanside and harbor-adjacent neighborhoods."
+    },
+    {
+      "q": "What about post-fire smoke damage in Fire Mountain?",
+      "a": "Yes. Fire Mountain\u2019s hillside terrain carries canyon wildfire exposure. Gallagher handles full post-fire decontamination\u2014surface treatment, HVAC cleaning, and odor remediation\u2014following any regional fire event that sends smoke through this area."
+    },
+    {
+      "q": "What does restoration cost in Oceanside?",
+      "a": "Assessment is always free. Most jobs fall between $1,500 and $20,000. Category of damage, affected materials, and discovery timing determine the final number. Gallagher coordinates directly with major insurance carriers and handles all adjuster documentation."
+    }
+  ]
+}

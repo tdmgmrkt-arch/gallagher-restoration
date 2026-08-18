@@ -1,0 +1,98 @@
+{
+  "slug": "water-extraction",
+  "category": "water",
+  "parentSlug": "water-damage-restoration",
+  "metaTitle": "Water Extraction Services SoCal | Gallagher Restoration",
+  "metaDescription": "Professional water extraction removes standing water fast before it penetrates deeper. Gallagher Restoration deploys 24/7 across Southern California — on-site within 60 minutes.",
+  "heroEyebrow": "24/7 Emergency \u00b7 Water Extraction",
+  "heroTitle": "Water extraction services",
+  "heroAccent": "Southern California",
+  "heroIntro": "Extraction is step one \u2014 and the step that determines how much you'll pay for everything that follows. Gallagher Restoration Co. deploys professional-grade extraction equipment within 60 minutes of your call, 24 hours a day, across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties. The faster standing water is removed, the less it penetrates flooring, subfloor, and wall assemblies.",
+  "proofStrip": [
+    {"label": "Response Time", "value": "60 min", "hint": "Typical arrival across 5-county SoCal"},
+    {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person"},
+    {"label": "Coverage", "value": "5 counties", "hint": "Riverside \u00b7 SB \u00b7 OC \u00b7 SD \u00b7 LA"}
+  ],
+  "whatItIs": {
+    "eyebrow": "The Basics",
+    "heading": "What is water extraction?",
+    "body": "Water extraction is the mechanical removal of standing water from a structure using truck-mounted extractors, submersible pumps, and weighted extraction tools designed for carpet and porous flooring. It is the first mitigation step after any significant water intrusion event \u2014 not the only step. Extraction removes bulk liquid water. It does not remove moisture from within materials: drywall, subfloor, framing, insulation, and carpet padding all retain absorbed water after extraction is complete. That retained moisture is addressed in the drying phase using air movers and commercial dehumidifiers. The water category matters: Category 1 is clean supply-line water, Category 2 is gray water from appliance discharge or rain intrusion, and Category 3 is black water from sewage or floodwater. Category affects extraction protocol, PPE requirements, and whether porous materials can be dried in place or must be removed."
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "heading": "How we handle water extraction",
+    "steps": [
+      {
+        "kicker": "Step 01",
+        "title": "Water category assessment and safety",
+        "body": "Before extraction begins, we classify the water source \u2014 Category 1, 2, or 3 \u2014 and assess electrical safety in the affected area. Category 3 events require additional containment and PPE. This step takes minutes and determines the entire protocol that follows."
+      },
+      {
+        "kicker": "Step 02",
+        "title": "High-volume extraction",
+        "body": "We deploy truck-mounted extractors and submersible pumps appropriate to the volume and water type. For carpet, weighted extraction tools are used in multiple passes to pull absorbed water from the carpet face, padding, and subfloor surface before structural drying can begin."
+      },
+      {
+        "kicker": "Step 03",
+        "title": "Moisture mapping and dry-out setup",
+        "body": "Once bulk water is removed, we map residual moisture with calibrated meters and thermal imaging, then position air movers and dehumidifiers to begin the structural drying phase. Extraction and drying are separate services \u2014 we document where one ends and the other begins for your insurance record."
+      }
+    ]
+  },
+  "signs": {
+    "eyebrow": "When To Call",
+    "heading": "Signs you need professional water extraction now",
+    "intro": null,
+    "items": [
+      {
+        "title": "Visible standing water on any floor surface",
+        "body": "Any standing water more than a fraction of an inch should be extracted mechanically, not mopped. A mop moves surface water; it does not address what's already absorbed into the subfloor."
+      },
+      {
+        "title": "Carpet that feels saturated or spongy underfoot",
+        "body": "Saturated carpet padding holds far more water than the face fiber. Walking on wet carpet drives water deeper into the padding and subfloor. Weighted extraction is the only effective removal method."
+      },
+      {
+        "title": "Water wicking up baseboards or drywall",
+        "body": "Drywall wicks water upward through capillary action. If you can see a waterline on your drywall, the saturation inside the wall is already higher than the visible mark."
+      },
+      {
+        "title": "Flooded garage, utility room, or crawlspace",
+        "body": "These spaces hold water longer because airflow is limited. Submersible pumps and directed extraction are required \u2014 shop vacs and consumer wet-dry vacuums cannot move enough volume to matter."
+      },
+      {
+        "title": "Any Category 2 or 3 water source",
+        "body": "Washing machine overflow, dishwasher discharge, toilet backup, or exterior floodwater all classify as gray or black water. These require extraction under containment protocol \u2014 direct contact without PPE creates a health hazard."
+      }
+    ]
+  },
+  "whyUs": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Professional extraction, not improvisation.",
+    "body": "Consumer wet-dry vacuums and mop-and-bucket approaches leave 60 to 80 percent of absorbed water in place. That residual moisture is what drives mold growth, floor warping, and subfloor rot \u2014 the damage that turns a manageable water event into a five-figure rebuild. Gallagher Restoration Co. has performed water extraction across Southern California for over 15 years. Our IICRC-trained technicians use truck-mounted extraction systems and calibrated moisture meters \u2014 not judgment calls \u2014 to verify that bulk water is actually removed before dry-out equipment is deployed. We document every extraction step with moisture readings for your insurance carrier and coordinate directly with adjusters so the claim reflects what actually happened. Aaron started this company because he saw too many families handed off between contractors who each only handled part of the problem. We stay through extraction, drying, and reconstruction."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Water extraction service costs",
+    "body": "Professional water extraction in Southern California typically runs $500 to $3,500. Volume of standing water is the primary variable: a localized appliance overflow in a kitchen sits at the lower end; a flooded ground floor or saturated crawlspace sits at the upper end. Water category also affects cost \u2014 Category 2 and Category 3 events require additional containment and disposal protocols that add to the base extraction scope. Note that extraction cost is separate from structural drying cost. A complete water mitigation project combines extraction and dry-out, and total costs vary based on how long water was present before extraction began. Gallagher Restoration provides a free on-site assessment. We work directly with all major insurance carriers and document extraction scope and moisture readings to support your claim."
+  },
+  "faqs": [
+    {
+      "q": "What's the difference between water extraction and water dry-out?",
+      "a": "Extraction removes standing liquid water using pumps and vacuum equipment. Dry-out removes moisture that has absorbed into materials \u2014 drywall, framing, subfloor, carpet padding \u2014 using air movers and dehumidifiers over several days. You need both. Skipping extraction and going straight to air movers is ineffective; skipping dry-out after extraction leaves absorbed moisture in the structure."
+    },
+    {
+      "q": "Can I use a shop vac or rent a carpet cleaner instead of calling a professional?",
+      "a": "Consumer equipment lacks the airflow and vacuum lift of truck-mounted extraction systems. A shop vac can remove surface water from hard floors; it cannot extract absorbed water from carpet padding or pull moisture from a subfloor. For anything beyond a very small spill, professional extraction is the cost-effective choice \u2014 improper extraction leads to mold and structural damage that cost significantly more to remediate."
+    },
+    {
+      "q": "Does water category affect how extraction is done?",
+      "a": "Yes. Category 1 (clean water from a supply line) allows technicians to work in standard conditions and often permits porous materials to be dried in place. Category 2 (gray water from appliances or rain) and Category 3 (black water from sewage or flooding) require PPE, containment, and often the removal of porous materials that cannot be adequately disinfected through drying alone."
+    },
+    {
+      "q": "How quickly does water damage become a mold problem?",
+      "a": "Mold growth can begin within 24 to 48 hours under the right conditions \u2014 moisture, organic material, and temperatures above 60\u00b0F. Southern California's climate provides the temperature year-round. Speed of extraction is the single biggest factor in preventing mold. The longer standing water sits and the longer absorbed moisture remains in materials, the higher the mold risk."
+    }
+  ],
+  "relatedServices": ["emergency-water-removal", "water-dry-out", "pipe-burst-flooding-and-remediation"]
+}

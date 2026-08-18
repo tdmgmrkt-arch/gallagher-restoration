@@ -1,0 +1,98 @@
+{
+  "slug": "ceiling-water-damage",
+  "category": "water",
+  "parentSlug": "water-damage-restoration",
+  "metaTitle": "Ceiling Water Damage Repair SoCal | Gallagher Restoration",
+  "metaDescription": "Ceiling stain, sag, or active drip? Gallagher Restoration diagnoses the source and stops further damage — 24/7, on-site within 60 minutes across Southern California.",
+  "heroEyebrow": "24/7 Emergency \u00b7 Water Damage",
+  "heroTitle": "Ceiling water damage repair",
+  "heroAccent": "Southern California",
+  "heroIntro": "A ceiling stain isn't the problem \u2014 it's the symptom. Gallagher Restoration Co. traces ceiling water damage to its source, extracts moisture from the structure, and handles repairs from drywall to finish \u2014 so you're not chasing a different contractor for every phase. We're on-site within 60 minutes, 24 hours a day.",
+  "proofStrip": [
+    {"label": "Response Time", "value": "60 min", "hint": "Typical arrival across 5-county SoCal"},
+    {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person"},
+    {"label": "Coverage", "value": "5 counties", "hint": "Riverside \u00b7 SB \u00b7 OC \u00b7 SD \u00b7 LA"}
+  ],
+  "whatItIs": {
+    "eyebrow": "The Basics",
+    "heading": "What is ceiling water damage?",
+    "body": "Ceiling water damage occurs when moisture infiltrates from above \u2014 whether from a roof leak, second-floor plumbing failure, HVAC condensate line backup, or a bathroom pan overflow. The ceiling is almost never the origin point. Drywall absorbs water fast and loses structural integrity faster: a saturated ceiling panel can sag within hours and collapse within days. Beyond the collapse risk, trapped moisture between the drywall and the subfloor above creates ideal mold conditions within 24 to 48 hours. Proper remediation requires identifying the source, stopping active intrusion, removing saturated material, drying the structural cavity, and restoring the finished surface \u2014 in that order. Skipping straight to paint covers the stain but leaves moisture in the wall cavity."
+  },
+  "process": {
+    "eyebrow": "Our Process",
+    "heading": "How we handle ceiling water damage",
+    "steps": [
+      {
+        "kicker": "Step 01",
+        "title": "Source identification and safety check",
+        "body": "We use thermal imaging cameras and calibrated moisture meters to map the wet zone and trace it back to the origin \u2014 roof deck, supply line, condensate drain, or bathroom above. If the ceiling is actively sagging, we assess collapse risk before anyone works beneath it."
+      },
+      {
+        "kicker": "Step 02",
+        "title": "Controlled opening, extraction, and drying",
+        "body": "We cut precise inspection openings to access the cavity, extract standing moisture, and deploy high-capacity air movers and dehumidifiers targeted at the structural assembly. Moisture readings are logged daily until the cavity reaches dry standard \u2014 not estimated, measured."
+      },
+      {
+        "kicker": "Step 03",
+        "title": "Reconstruction and finish",
+        "body": "Once the structure is dry and any mold threat is cleared, we close the openings, texture-match the drywall, and restore the ceiling to pre-loss condition. One crew handles it start to finish \u2014 no handoff gap between mitigation and repair."
+      }
+    ]
+  },
+  "signs": {
+    "eyebrow": "When To Call",
+    "heading": "Signs you need ceiling water damage service now",
+    "intro": "Any one of these warrants a same-day call. Two or more is an emergency.",
+    "items": [
+      {
+        "title": "Visible stain or discoloration",
+        "body": "A yellow-brown ring or spreading dark patch means moisture has already reached the drywall paper. The saturation underneath is typically three to five times the size of the visible stain."
+      },
+      {
+        "title": "Sagging or bubbling drywall",
+        "body": "A ceiling that bows downward is holding water weight. This is a collapse warning \u2014 keep the area below clear and call immediately."
+      },
+      {
+        "title": "Active drip",
+        "body": "If water is dripping through, the cavity above is already saturated. The drip is overflow, not the full volume of water present."
+      },
+      {
+        "title": "Musty smell with no visible damage",
+        "body": "Moisture trapped inside a ceiling cavity produces a mildew odor before any stain appears. By the time you smell it, mold growth may already have started."
+      },
+      {
+        "title": "Peeling paint after a rain event or upstairs incident",
+        "body": "Paint peeling from a ceiling \u2014 especially in patterns that follow joist lines \u2014 indicates the paper face of the drywall is wet and the bond has failed."
+      }
+    ]
+  },
+  "whyUs": {
+    "eyebrow": "Why Gallagher",
+    "heading": "One crew. Source to finish.",
+    "body": "Most contractors handle either mitigation or reconstruction \u2014 not both. That gap costs homeowners weeks of scheduling and leaves moisture assessment in the hands of people who aren't certified to perform it. Gallagher Restoration Co. has handled ceiling water damage across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties for over 15 years. Our IICRC-trained technicians do the moisture mapping, the drying, and the rebuild under one agreement. Aaron built this company on the belief that families dealing with property damage deserve a single point of accountability \u2014 not a relay race between subcontractors. We document every moisture reading and every step for your insurance claim, and we work directly with all major carriers so you're not the intermediary."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Ceiling water damage repair costs",
+    "body": "Ceiling water damage repair in Southern California typically runs $600 to $4,500. A small localized stain with no structural involvement sits at the lower end. Costs rise with ceiling area affected, the complexity of reaching and repairing the source (a second-floor supply line is different from a condensate line), extent of mold growth, and whether full drywall replacement and texture matching are required. The range is wide because the source matters as much as the ceiling itself. Gallagher Restoration provides a free on-site assessment \u2014 we won't quote over the phone because an accurate number requires a moisture meter and a look above the surface. If the damage is covered by your homeowner's policy, we coordinate directly with your insurance adjuster and document the claim on your behalf."
+  },
+  "faqs": [
+    {
+      "q": "Can I just paint over the water stain and skip the repair?",
+      "a": "No. Paint over a water stain seals the surface but leaves moisture in the drywall and the cavity above it. That moisture continues to promote mold growth and drywall degradation. Within weeks, the stain typically bleeds through the new paint \u2014 and the underlying damage is now worse. The only permanent fix is drying the cavity to measurable dry standard before any finishing work."
+    },
+    {
+      "q": "How do you find where the water is actually coming from?",
+      "a": "We use thermal imaging cameras and calibrated moisture meters to detect temperature differentials and saturation levels inside the ceiling assembly without unnecessary demolition. Most source identification requires one or two small inspection cuts rather than opening the entire ceiling. We map the wet zone and work backward to the origin."
+    },
+    {
+      "q": "How long does ceiling water damage drying take?",
+      "a": "Drying a ceiling cavity typically takes 3 to 5 days under professional equipment \u2014 air movers, dehumidifiers, and daily moisture readings. Thicker assemblies or heavy saturation can extend that to 7 days. We don't remove equipment based on time \u2014 we remove it when the moisture readings confirm the material has reached dry standard."
+    },
+    {
+      "q": "Will my homeowner's insurance cover ceiling water damage?",
+      "a": "It depends on the cause. Sudden and accidental events \u2014 a pipe burst, an appliance failure, an HVAC overflow \u2014 are typically covered. Gradual leaks that developed over time are often excluded. Gallagher Restoration documents the damage and works directly with your adjuster. We won't give you a coverage opinion, but we'll give your insurer everything they need to make one."
+    }
+  ],
+  "relatedServices": ["roof-water-damage", "water-damage-restoration", "mold-remediation"]
+}

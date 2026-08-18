@@ -1,0 +1,99 @@
+{
+  "slug": "pomona-ca",
+  "name": "Pomona",
+  "countySlug": "los-angeles-county",
+  "countyName": "Los Angeles County",
+  "proximityMinutes": 55,
+  "proximityMiles": 45,
+  "route": "SR-60 West",
+  "metaTitle": "Water & Fire Restoration | Pomona, CA | Gallagher",
+  "metaDescription": "Water, fire, mold, and sewage restoration in Pomona, CA. IICRC-trained crews, 24/7 response\u2014on-site in roughly 55 min from Canyon Lake. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 POMONA, CA",
+  "heroTitle": "Pomona restoration\u2014water, fire, mold, sewage, 24/7",
+  "heroAccent": "Canyon Lake to Pomona: ~55 min via SR-60 West.",
+  "heroIntro": "Pomona sits 45 miles and roughly 55 minutes from Canyon Lake via SR-60\u2014close enough that Gallagher Restoration Co. is one of the faster response options for a city this size. Water damage in century-old downtown housing, hillside wildfire exposure, and aging plumbing across multiple eras of construction are the damage calls the city generates most. IICRC-trained crews dispatch 24/7. A real person answers every call.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~55 min", "hint": "Typical Canyon Lake to Pomona drive via SR-60 West" },
+    { "label": "Distance", "value": "45 mi", "hint": "Canyon Lake HQ to Pomona" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, every hour, real person answers" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned, Southern California\u2019s restoration team" }
+  ],
+  "localHook": "Pomona is one of the Inland Empire\u2019s most historically layered cities\u2014and that layering shows up directly in the restoration work. The historic downtown core and the Ganesha Hills neighborhoods hold homes from the 1920s and 1930s: original plaster construction, galvanized supply lines, cast-iron drain stacks, and plumbing configurations that predate modern building codes by several decades. When a joint fails inside a plaster wall in a 1928 Pomona bungalow, the moisture behavior is fundamentally different from a drywall failure\u2014it travels through the lathe structure, absorbs into original wood framing, and sets up mold conditions inside assemblies that are difficult to access without damaging finish materials. Ganesha Hills and Pomona\u2019s northeastern foothills carry wildfire exposure that has intensified as regional fire activity has increased. Hillside runoff during heavy rain periods pushes water toward lower-elevation residential lots along Phillips Ranch and downtown. Gallagher Restoration has been on SR-60 to Pomona for over 15 years.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Historic downtown to the foothills\u2014Pomona covered",
+    "items": [
+      {
+        "name": "Historic downtown Pomona",
+        "body": "Dense residential and mixed-use blocks with 1920s\u201340s construction. Galvanized plumbing, plaster walls, and cast-iron stacks are the norm here. Water-damage assessment in these properties requires specific protocols for older construction materials to avoid unnecessary damage to original finishes."
+      },
+      {
+        "name": "Phillips Ranch",
+        "body": "Planned residential community with 1970s\u201980s tract construction and slab foundations. Copper supply lines are in or approaching the failure window. Storm drainage can be a secondary concern when hillside runoff from adjacent terrain exceeds neighborhood drainage capacity."
+      },
+      {
+        "name": "Ganesha Hills",
+        "body": "Hillside community with direct wildfire exposure and a mix of mid-century and newer construction. Fire and smoke are the primary damage vectors. HVAC decontamination following smoke events is a recurring need in this elevated terrain."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Pomona homes most",
+    "items": [
+      {
+        "title": "Aging historic plumbing in downtown homes",
+        "body": "Pomona\u2019s 1920s and 1930s housing stock carries original or early-replaced plumbing that is now 80 to 100 years old. Galvanized supply lines corrode from the inside out; cast-iron stacks develop pinhole failures. Moisture inside plaster walls moves through lathe structure and into framing in ways that require careful, complete assessment before any drying protocol begins."
+      },
+      {
+        "title": "Hillside wildfire exposure and smoke infiltration",
+        "body": "Ganesha Hills and the northeastern foothills face increasing wildfire risk as regional fire seasons intensify. Smoke and soot infiltration embed in HVAC systems and porous materials during nearby fire events. Full post-fire decontamination\u2014not surface cleaning alone\u2014is required to address embedded soot and odor."
+      },
+      {
+        "title": "Hillside runoff and ground-level water intrusion",
+        "body": "Hard rain events push runoff from Pomona\u2019s hillside terrain toward lower-elevation residential lots. Garages, lower floors, and crawl spaces absorb ground-level intrusion faster than drainage infrastructure can discharge it. Gallagher responds during active storm events to begin extraction before secondary damage compounds."
+      },
+      {
+        "title": "Slab leaks in Phillips Ranch tract homes",
+        "body": "1970s and 1980s copper supply lines embedded in concrete slabs throughout Phillips Ranch are approaching or inside the failure window. Silent slab leaks raise water bills and migrate moisture under flooring for weeks before visible signs appear. Professional moisture detection locates the source efficiently."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Pomona call looks like",
+    "body": "Call (951) 541-0034 at any hour\u2014a real person answers. Gallagher dispatches from Canyon Lake; the drive to Pomona is roughly 55 minutes via SR-60 West. On arrival, the crew assesses the full scope with professional-grade moisture meters and thermal imaging. In Pomona\u2019s historic construction stock, assessment goes deeper than a visual walk-through\u2014plaster and lathe assemblies hold moisture in ways that require careful probing to map accurately. You get a clear explanation of findings before any equipment is placed. Extraction, containment, and structural drying begin the same visit. Every job is documented from the first minute: photos, moisture logs, written scope. That record is what insurance adjusters need. Gallagher coordinates directly with major insurance carriers and handles adjuster communication on your behalf. The same crew carries the job from first call through final reconstruction\u2014no handoffs, no rotating contractors."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Pomona homeowners call Gallagher",
+    "body": "Pomona\u2019s damage profile spans a century of construction history. A 1928 downtown bungalow with original plumbing inside plaster walls requires fundamentally different field judgment than a 1982 Phillips Ranch slab home with a copper supply-line failure. Gallagher is a family-owned operation with 15 years of experience across both historic and tract-era construction throughout Southern California. IICRC-trained crews apply consistent, appropriate protocols to every job. Pomona is one of the closer LA County cities to Canyon Lake\u2014roughly 55 minutes via SR-60 West. That proximity translates to a faster response time than most LA County restoration options. Assessment is always free. Direct insurance carrier coordination is standard. The same team that answers the call completes the job."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on restoration cost in Pomona",
+    "body": "Assessment is free. Most residential restoration jobs in Pomona fall between $1,500 and $18,000 depending on damage category, affected materials, and discovery timing. Historic construction in the downtown core can trend toward the upper range when plaster walls and original framing require careful, low-impact drying protocols to preserve finish materials. Slab-leak responses depend on whether subfloor replacement is required. Wildfire smoke jobs vary based on HVAC involvement and soot infiltration extent. Gallagher works directly with major insurance carriers and prepares all adjuster documentation."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher reach Pomona?",
+      "a": "From Canyon Lake HQ, the typical drive to Pomona is roughly 55 minutes via SR-60 West. Pomona is one of our closer LA County cities. A real person answers every call at any hour."
+    },
+    {
+      "q": "Do you work in Pomona\u2019s historic homes with plaster walls?",
+      "a": "Yes. Plaster and lathe construction requires specific moisture assessment and drying protocols that differ from modern drywall. We work Pomona\u2019s historic downtown stock regularly and document every step for insurance purposes."
+    },
+    {
+      "q": "Do you handle wildfire smoke damage in Ganesha Hills?",
+      "a": "Yes. Post-fire decontamination\u2014surface cleaning, HVAC remediation, and odor treatment\u2014is part of every smoke-damage response. Ganesha Hills and the northeastern foothills carry the highest fire-exposure risk in Pomona."
+    },
+    {
+      "q": "Can you respond to storm flooding and hillside runoff?",
+      "a": "Yes. Gallagher responds 24/7, including during active storm events. Ground-level water intrusion from hillside drainage requires rapid extraction within 24\u201348 hours to prevent secondary mold growth."
+    },
+    {
+      "q": "What does restoration cost in Pomona?",
+      "a": "Assessment is always free. Most jobs fall between $1,500 and $18,000. Scope, affected materials, and discovery timing determine the final number. Gallagher coordinates directly with major insurance carriers and handles all adjuster documentation."
+    }
+  ]
+}

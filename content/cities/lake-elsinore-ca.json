@@ -1,0 +1,106 @@
+{
+  "slug": "lake-elsinore-ca",
+  "name": "Lake Elsinore",
+  "countySlug": "riverside-county",
+  "countyName": "Riverside County",
+  "isHq": false,
+  "proximityMinutes": 10,
+  "proximityMiles": 5,
+  "route": "SR-74 West",
+  "metaTitle": "Water & Fire Restoration | Lake Elsinore, CA | Gallagher",
+  "metaDescription": "24/7 water, fire, mold & wildfire restoration in Lake Elsinore. Gallagher on-site in ~10 min. IICRC-trained. Free assessment. (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 LAKE ELSINORE, CA",
+  "heroTitle": "Lake Elsinore restoration\u2014flood, fire, mold, sewage",
+  "heroAccent": "5 miles from Canyon Lake HQ.",
+  "heroIntro": "Gallagher Restoration Co. is 5 miles from Lake Elsinore. When water is rising or smoke is in the air, that proximity is the difference between contained damage and a gutted structure. We respond 24 hours a day to water damage, fire damage, mold, wildfire, and sewage emergencies throughout Lake Elsinore and its surrounding neighborhoods.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~10 min", "hint": "5 miles from Canyon Lake HQ to Lake Elsinore" },
+    { "label": "Distance", "value": "5 mi", "hint": "Closest major city to Gallagher HQ" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Real person answers every call, every hour" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Serving Lake Elsinore since Gallagher\u2019s founding" }
+  ],
+  "localHook": "Lake Elsinore is the closest city to Gallagher\u2019s Canyon Lake headquarters\u2014just 5 miles. We\u2019ve been responding here for over 15 years, which means every neighborhood from the historic lakeshore to the Tuscany Hills tract above the freeway is familiar ground. This city carries a layered damage risk: the lake itself creates a flood-plain exposure that few other Riverside County cities share, the older downtown Craftsman and Spanish colonial stock has aging infrastructure, and the hillside communities above town face wildfire smoke intrusion and post-fire debris flow from adjacent canyons. When conditions combine\u2014a wet winter following a dry fire season\u2014Lake Elsinore\u2019s lower-lying lakeshore properties take on water in ways that require fast, professional response. We know this terrain and we\u2019re minutes away.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Neighborhoods we respond to in Lake Elsinore",
+    "intro": "From the historic lakeshore to the hillside tracts, Gallagher covers all of Lake Elsinore.",
+    "items": [
+      {
+        "name": "Lakeshore & historic downtown",
+        "body": "Downtown Lake Elsinore and the lakefront properties face the highest flood-plain exposure in the city. Heavy rain seasons push lake levels, and older storm drain infrastructure can\u2019t always keep pace. We respond to water intrusion, foundation moisture, and post-flood remediation throughout this corridor."
+      },
+      {
+        "name": "Tuscany Hills",
+        "body": "Tuscany Hills sits above the 15 freeway with hillside views\u2014and hillside exposure. Roof flashing failures, wind-driven rain, and fire-smoke infiltration from nearby canyon fires are the primary damage drivers. Newer construction here sometimes carries builder-grade fitting risks."
+      },
+      {
+        "name": "Canyon Hills",
+        "body": "Canyon Hills is one of Lake Elsinore\u2019s newer planned communities. Builder-grade plumbing components and irrigation-line failures are the most common water damage sources. Post-fire debris flow from adjacent canyons can reach the lower edges of this community after significant wildfire seasons."
+      },
+      {
+        "name": "Historic downtown Craftsman & Spanish corridors",
+        "body": "Older residential blocks near downtown contain 1920s through 1960s construction with original or near-original plumbing. Galvanized supply and drain lines, deteriorated wax ring seals, and aging water heaters produce both water damage and mold in these homes."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Lake Elsinore homes most",
+    "intro": "Lake Elsinore\u2019s geography creates a damage profile unlike most other Riverside County cities.",
+    "items": [
+      {
+        "title": "Flood-plain water intrusion from lakeshore properties",
+        "body": "Properties within the flood plain near the lake and its tributary channels face direct water intrusion risk during heavy rain seasons. Foundation seepage, slab saturation, and subfloor flooding are the primary patterns. Rapid extraction and complete structural drying are essential to preventing mold within 48 to 72 hours of an event."
+      },
+      {
+        "title": "Wildfire smoke intrusion and post-fire debris flow",
+        "body": "Lake Elsinore\u2019s hillside communities face wildfire smoke infiltration from canyon and mountain fires that move through the region. Smoke particles penetrate HVAC systems and wall assemblies. After a fire season, debris flows from denuded hillsides can reach lower-lying properties and produce both water and contamination damage."
+      },
+      {
+        "title": "Aging downtown plumbing systems",
+        "body": "Downtown Lake Elsinore\u2019s older housing stock carries plumbing that is decades past its design life. Galvanized steel supply lines produce discolored water before they fail completely. When they do fail, the water volume and velocity can saturate multiple rooms in minutes."
+      },
+      {
+        "title": "New-construction fitting failures in hillside tracts",
+        "body": "Tuscany Hills and Canyon Hills were built with the typical builder-grade plumbing components common to California tract construction. Flexible supply lines, plastic push-fit fittings, and compression connections fail at higher rates than sweated copper\u2014often within the first 10 to 15 years of the home\u2019s life."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Lake Elsinore call looks like",
+    "body": "You call (951) 541-0034 and a real person picks up. From Canyon Lake, the crew is in Lake Elsinore in approximately 10 minutes\u2014sometimes faster. On arrival, professional-grade moisture meters and thermal imaging define the full scope of damage before any equipment is placed. You hear exactly what was found and what the remediation plan looks like before work begins. Extraction and structural drying start the same visit. For lakeshore flood events, we deploy high-capacity extraction equipment immediately; for smoke and fire jobs, we document soot deposition and air quality readings from the first hour. Everything is photographed and logged from arrival\u2014your insurance adjuster will receive a clean documentation package. Gallagher works directly with major insurance carriers, managing the adjuster communication so you\u2019re not translating between a contractor and an insurance company while your home is still wet. Mitigation, drying, mold remediation if needed, and reconstruction are all handled by the same crew."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Lake Elsinore calls Gallagher first",
+    "body": "Five miles separates Gallagher\u2019s Canyon Lake headquarters from Lake Elsinore. That is the closest professional restoration response available to most of this city. In a flood event, where water damage compounds by the minute, having a crew on-site in 10 minutes instead of 45 or 60 makes a measurable difference in how much gets salvaged. Gallagher is family-owned and has served Lake Elsinore for over 15 years. We\u2019ve worked lakeshore flood events, downtown plumbing failures, hillside wildfire smoke jobs, and debris-flow cleanups in Canyon Hills. The city\u2019s specific damage profile\u2014flood plain, aging downtown, newer hillside tracts, wildfire exposure\u2014is familiar territory. IICRC-trained technicians bring professional-grade drying and detection equipment to every job. Insurance coordination is handled in-house. One company, one crew, complete accountability from first call through final reconstruction."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on Lake Elsinore restoration cost",
+    "body": "Assessment is always free. We arrive, evaluate the damage fully, and give you a clear scope picture before any work begins\u2014no charge. Most residential restoration jobs in Lake Elsinore fall between $500 and $15,000. Flood-plain water intrusion events and wildfire restoration jobs typically fall in the higher range due to scope and the documentation required. If you have homeowners insurance, Gallagher coordinates directly with your carrier. We prepare the documentation adjusters need and manage that communication on your behalf, which accelerates the claim timeline significantly."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher get to Lake Elsinore?",
+      "a": "Gallagher is 5 miles from Lake Elsinore. Typical response time is approximately 10 minutes from the moment you call. For flood events or active fire-adjacent smoke calls, we move immediately."
+    },
+    {
+      "q": "Do you work with my insurance?",
+      "a": "Yes. Gallagher coordinates directly with major insurance carriers. We prepare the documentation, moisture logs, and photo records your adjuster requires, and we manage the carrier communication on your behalf."
+    },
+    {
+      "q": "What does restoration cost in Lake Elsinore?",
+      "a": "Assessment is free. Most residential jobs fall between $500 and $15,000. Lakeshore flood events and wildfire restoration typically run toward the higher end of that range. We explain the full scope before work begins."
+    },
+    {
+      "q": "Do you handle both mitigation and reconstruction?",
+      "a": "Yes. Gallagher handles the complete scope\u2014emergency mitigation, structural drying, mold remediation if needed, and full reconstruction. One crew, one company, no handoffs."
+    },
+    {
+      "q": "Does my home need restoration after a nearby wildfire even if it wasn\u2019t burned?",
+      "a": "Often, yes. Smoke and soot from regional wildfires infiltrate HVAC systems, ductwork, and wall assemblies in homes that never directly faced flames. Surface cleaning is insufficient\u2014contaminated materials need documented treatment or replacement. Gallagher handles smoke clean-up and wildfire restoration for Lake Elsinore homes in the fire exposure zone."
+    }
+  ]
+}

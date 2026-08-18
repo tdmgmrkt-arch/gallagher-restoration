@@ -1,0 +1,102 @@
+{
+  "slug": "winchester-ca",
+  "name": "Winchester",
+  "countySlug": "riverside-county",
+  "countyName": "Riverside County",
+  "isHq": false,
+  "proximityMinutes": 20,
+  "proximityMiles": 15,
+  "route": "SR-79 East",
+  "metaTitle": "Water & Fire Restoration | Winchester, CA | Gallagher",
+  "metaDescription": "24/7 restoration in Winchester, CA\u2014water, sewage, fire & mold. Gallagher responds to rural Riverside County. IICRC-trained. (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 WINCHESTER, CA",
+  "heroTitle": "Winchester restoration services\u2014rural response, professional results",
+  "heroAccent": "15 miles from Canyon Lake HQ.",
+  "heroIntro": "Winchester is a rural community in Riverside County, and rural distance doesn\u2019t slow Gallagher down. Fifteen miles from Canyon Lake via SR-79 East, the crew responds to water damage, sewage backups, fire damage, and wildfire emergencies in Winchester\u2019s horse properties and rural residential homes 24 hours a day.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~40 min", "hint": "15 miles via SR-79 East from Canyon Lake" },
+    { "label": "Distance", "value": "15 mi", "hint": "Via SR-79 East" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Real person answers every call, every hour" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Serving rural Riverside County throughout the service area" }
+  ],
+  "localHook": "Winchester is a small, semi-rural community along SR-79 East\u2014horse properties, rural residential lots, and a community that still runs significantly on well water and private septic systems. Distance from municipal services means a water event here escalates faster than it would in an urbanized neighborhood. Gallagher serves Winchester because every property in Riverside County deserves professional restoration response\u2014not a callback that says the crew is two hours out. Fifteen miles via SR-79 East means the crew arrives in approximately 40 minutes with the equipment to work off-grid: professional-grade extraction, drying, and documentation that doesn\u2019t require municipal infrastructure.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Winchester and surrounding rural Riverside County",
+    "intro": "We respond throughout Winchester and the rural residential areas along SR-79 East.",
+    "items": [
+      {
+        "name": "Winchester rural residential",
+        "body": "Rural residential properties in Winchester sit on large lots with well and septic systems. When a supply line fails or a well pump surges, water volume can be significant before the source is shut off. We arrive equipped to assess, extract, and dry without municipal infrastructure."
+      },
+      {
+        "name": "Horse properties and outbuildings",
+        "body": "Winchester\u2019s horse properties often include outbuildings, barns, and tack rooms with their own water supply connections. These structures are vulnerable to supply-line failures and moisture intrusion from compromised roof assemblies. We document outbuilding damage for insurance alongside the main structure."
+      },
+      {
+        "name": "Hillside and brush-adjacent properties",
+        "body": "Winchester\u2019s hillside positions create direct wildfire exposure and smoke infiltration risk. Properties adjacent to dry brush corridors face both direct fire risk and smoke contamination risk during regional fire events. Gallagher handles wildfire and smoke clean-up documentation for rural properties."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Winchester properties most",
+    "intro": "Rural infrastructure, hillside positioning, and horse-property complexity create specific damage patterns in Winchester.",
+    "items": [
+      {
+        "title": "Well-water system failures",
+        "body": "Properties on private well systems face water damage events outside the experience of most restoration crews. Pressure-tank failures, pump surges, and aging poly supply lines can produce significant water volume before a homeowner can locate and close the isolation valve. We assess and dry well-system flood events completely."
+      },
+      {
+        "title": "Septic backups and Category 3 contamination",
+        "body": "Septic system failures in rural Winchester properties produce Category 3 sewage contamination that requires full professional remediation\u2014not household cleanup. Gallagher\u2019s sewage clean-up crews establish containment, remove contaminated materials, and produce the documentation insurance carriers require."
+      },
+      {
+        "title": "Hillside wildfire exposure and smoke infiltration",
+        "body": "Winchester\u2019s hillside and brush-adjacent properties face direct wildfire risk during extreme fire weather and smoke infiltration risk during regional fire events. Smoke penetrates HVAC systems and wall assemblies in homes that may be miles from the fire perimeter. We handle smoke clean-up and wildfire restoration with full insurance documentation."
+      },
+      {
+        "title": "Rural response coordination and aging ranch infrastructure",
+        "body": "Older ranch-style homes in Winchester carry aging plumbing systems that have never been replaced. Galvanized supply lines and failing drain systems produce water damage that travels inside wall cavities and under slab foundations for extended periods in rural homes where damage goes unnoticed longer."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Winchester call looks like",
+    "body": "You call (951) 541-0034 and a real person answers\u2014day or night. The crew travels SR-79 East and arrives in Winchester in approximately 40 minutes. Rural properties don\u2019t require special logistics\u2014Gallagher comes equipped with professional-grade extraction and drying equipment that operates independently of municipal water and power infrastructure. On arrival, we assess the full damage scope with moisture meters and thermal imaging before any equipment is placed. For septic events, containment is established immediately. For well-system floods, we locate the source and document the full discharge scope before drying begins. Everything is photographed and logged. Gallagher works directly with major insurance carriers, managing the adjuster documentation and communication on your behalf. The same crew handles the full job from first call through final reconstruction. Rural distance doesn\u2019t change the quality of the response or the professionalism of the documentation."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Winchester calls Gallagher",
+    "body": "Most restoration companies treat rural Riverside County as out-of-area. Gallagher does not. Fifteen miles on SR-79 East is a routine drive for a crew that has been serving all corners of Riverside County for over 15 years. Winchester\u2019s rural properties need a team that understands well-system failures, septic events, and the documentation requirements for insurance claims on rural and horse property. IICRC-trained technicians bring professional-grade equipment that operates off-grid. Insurance coordination is in-house\u2014Gallagher works directly with major carriers and prepares the documentation rural property owners need to move their claims forward. Family-owned, 15 years, one crew from first call through completion. Rural doesn\u2019t mean second-tier service."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on Winchester restoration cost",
+    "body": "Assessment is always free\u2014including the drive to Winchester. We evaluate the full damage scope and give you a clear picture before any work begins. Most residential and rural property restoration jobs run between $500 and $15,000. Septic backups and well-system floods affecting multiple rooms or outbuildings fall toward the mid-to-upper range. Smoke clean-up and wildfire restoration scope varies by extent of infiltration. If you have homeowners or rural property insurance, Gallagher coordinates directly with your carrier."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher get to Winchester?",
+      "a": "Winchester is 15 miles from Canyon Lake HQ via SR-79 East. Typical on-site time is approximately 40 minutes from your call. A real person answers and the crew moves immediately."
+    },
+    {
+      "q": "Do you work with my insurance?",
+      "a": "Yes. Gallagher coordinates directly with major insurance carriers. We prepare scope documentation, moisture logs, and photo records, and manage the adjuster communication on your behalf\u2014including for rural and horse-property policies."
+    },
+    {
+      "q": "What does restoration cost in Winchester?",
+      "a": "Assessment is free, including the drive out to Winchester. Most jobs fall between $500 and $15,000. Rural property events with outbuilding involvement or septic contamination typically run in the mid-to-upper range. We explain scope before work begins."
+    },
+    {
+      "q": "Do you handle both mitigation and reconstruction?",
+      "a": "Yes. Gallagher handles the complete scope\u2014emergency mitigation, structural drying, mold remediation if needed, and full reconstruction, including outbuildings. One crew, one company, start to finish."
+    },
+    {
+      "q": "My Winchester property has a well and septic\u2014do you work on those types of properties?",
+      "a": "Yes. Gallagher responds to well-system failures and septic backups in rural Riverside County properties regularly. We bring equipment that operates independently of municipal infrastructure and produce documentation to insurance standards for rural and horse-property policies."
+    }
+  ]
+}

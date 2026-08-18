@@ -1,0 +1,107 @@
+{
+  "slug": "san-bernardino-ca",
+  "name": "San Bernardino",
+  "countySlug": "san-bernardino-county",
+  "countyName": "San Bernardino County",
+  "proximityMinutes": 65,
+  "proximityMiles": 55,
+  "route": "I-215 North",
+  "metaTitle": "Water & Fire Damage Restoration | San Bernardino, CA",
+  "metaDescription": "Gallagher Restoration reaches San Bernardino in ~65 min via I-215. Water, fire, mold & sewage — 24/7. Family-owned, IICRC-trained. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY · SAN BERNARDINO, CA",
+  "heroTitle": "Restoration services in San Bernardino — on-site in about 65 minutes",
+  "heroAccent": "The county seat deserves a crew that shows up.",
+  "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to San Bernardino via I-215 North — typically on-site within 65 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~65 min", "hint": "Typical drive from Canyon Lake via I-215 North" },
+    { "label": "Distance", "value": "55 mi", "hint": "Canyon Lake to San Bernardino" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+  ],
+  "localHook": "San Bernardino is the county seat — a city of genuinely mixed vintage, from early 20th-century downtown commercial blocks to 1950s mid-century residential to the newer tract development that rings the university. That age spread creates an equally mixed damage profile. Downtown and the historic residential corridors carry original plumbing — cast iron drain lines, galvanized supply pipes — that fail quietly and spread moisture through wall cavities for weeks before anyone notices. The foothill neighborhoods on the northern and western edges face wildfire exposure that predates the 2003 Old Fire, which burned tens of thousands of acres and left a generation of residents who understand exactly how fast a wind-driven fire moves. Gallagher dispatches via I-215 North and covers every part of the city, from Verdemont to the downtown core.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Every district in San Bernardino",
+    "items": [
+      {
+        "name": "Downtown San Bernardino",
+        "body": "Commercial and residential mixed-use with a high concentration of pre-1960 structures. Aging drain lines and deteriorated supply plumbing mean water intrusion often tracks through multiple units or floor levels before the source is located."
+      },
+      {
+        "name": "University District",
+        "body": "Dense mid-century residential surrounding Cal State San Bernardino. High rental turnover means deferred maintenance is common — slow leaks and mold colonization behind bathroom tile are frequent discoveries during unit changeovers."
+      },
+      {
+        "name": "Verdemont",
+        "body": "Northern neighborhood with direct foothill exposure and Santa Ana wind loading. Brush fire risk is high, and the proximity to open terrain means ember transport during any significant fire event is a real structural threat."
+      },
+      {
+        "name": "North End",
+        "body": "Transitional zone between older mid-century housing and newer tract. Slab foundation construction common here — pipe burst events below the slab are costly and require specialized detection before any remediation can begin."
+      },
+      {
+        "name": "Historic residential corridors",
+        "body": "Bungalow and Craftsman-era blocks close to downtown carry the oldest infrastructure in the city. These properties often reveal multiple layers of previous water damage during initial assessment."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local damage profile",
+    "heading": "What brings San Bernardino property owners to the phone",
+    "items": [
+      {
+        "title": "Aging downtown plumbing failures",
+        "body": "Pre-war commercial and residential buildings in downtown San Bernardino carry infrastructure that was already decades old when the last major renovation occurred. Cast iron drain lines crack under root intrusion and corrosion. Galvanized supply lines develop pinhole leaks that soak insulation and framing before visible damage appears. Early detection through moisture mapping is the only way to scope these correctly."
+      },
+      {
+        "title": "Wildfire and smoke damage",
+        "body": "San Bernardino's northern and western foothills are active wildfire terrain. Smoke infiltration alone — independent of direct fire contact — contaminates HVAC systems, insulation, and soft goods throughout a structure. Fire damage restoration and smoke clean-up require different scopes, and we handle both."
+      },
+      {
+        "title": "Santa Ana wind damage",
+        "body": "The Santa Ana winds through Cajon Pass and the surrounding mountain gaps hit San Bernardino with documented regularity. Roof membrane failures, broken ridge tiles, and downed trees against structures all create rapid water intrusion pathways during the subsequent rain window."
+      },
+      {
+        "title": "Sewage and drain backups",
+        "body": "Older sewer infrastructure in the downtown and mid-century residential zones is susceptible to root intrusion and line collapse. Sewage backup is a Category 3 contamination event — it requires specialized clean-up, not standard water removal. Gallagher carries the equipment and training to handle it correctly."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The process",
+    "heading": "From your call to a dry, restored property",
+    "body": "Call (951) 541-0034 and a real person answers — 24 hours a day, every day of the year. We ask the right questions fast: type of damage, address, whether anyone is in the property, whether utilities need emergency shutoff. Our crew takes I-215 North from Canyon Lake and is typically on-site within 65 minutes. First priority is always containment — stopping active water, boarding breached openings, or isolating a sewage event before Category 3 contamination spreads through the structure. We then run a full scope assessment using professional-grade moisture detection equipment. Everything is documented in detail for your insurance carrier. Drying and remediation equipment deploys on the first visit. Aaron and the team communicate directly with you throughout — the adjuster process, the timeline, the next steps. We don't hand the file to a project manager and disappear. Reconstruction follows immediately after clearance sign-off."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Family-owned accountability in a market full of franchises",
+    "body": "San Bernardino is a city where a lot of national restoration chains run dispatch-and-subcontract operations — crews you've never met showing up in generic vans. Gallagher Restoration Co. doesn't work that way. Family-owned for 15+ years, IICRC-trained crews, and Aaron is reachable throughout the project. That matters most on complicated jobs — multi-unit water intrusion events in downtown buildings, wildfire damage claims that require thorough documentation, or mold remediation inside wall cavities that opened up in a property you're trying to sell. We handle water damage restoration, fire damage restoration, mold remediation, sewage clean-up, property damage management, and wildfire damage assistance from a single accountable team. We coordinate with the major insurance carriers and carry the documentation standards their adjusters expect. The work gets done right the first time because the name on the door belongs to the family doing the work."
+  },
+  "pricing": {
+    "eyebrow": "What it costs",
+    "heading": "Honest numbers on restoration pricing",
+    "body": "Water damage remediation in San Bernardino ranges from approximately $1,500 for a contained appliance leak to $10,000+ for a multi-room slab leak event with secondary mold growth. Sewage clean-up is priced by contamination zone and runs higher than standard water damage due to Category 3 protocols. Fire and smoke damage scopes vary significantly based on char depth and smoke penetration — a contained kitchen fire and a structure-wide smoke infiltration event are priced differently. Mold remediation costs depend on the affected square footage and whether HVAC systems require treatment. We provide a written scope before any work begins and coordinate directly with insurance from the first assessment. Call (951) 541-0034 for a same-day evaluation."
+  },
+  "faqs": [
+    {
+      "q": "How quickly can Gallagher Restoration reach San Bernardino?",
+      "a": "Via I-215 North from Canyon Lake, we're typically on-site in San Bernardino within 65 minutes. We run 24/7 — including nights, weekends, and holidays. Call (951) 541-0034 and a real person answers."
+    },
+    {
+      "q": "Do you handle water damage in older downtown San Bernardino buildings?",
+      "a": "Yes — older construction is routine for us. We carry professional-grade moisture detection equipment for mapping damage inside plaster walls, beneath tile, and in cavity spaces common in pre-war buildings. Water damage clean-up and pipe burst flooding and remediation are both part of our service line."
+    },
+    {
+      "q": "Can you handle fire and smoke damage from a wildfire event near San Bernardino?",
+      "a": "Yes. Wildfire is a dedicated service. We handle fire damage restoration, smoke clean-up, and reconstruction. Smoke infiltration — even without direct fire contact — is a serious damage event requiring specialized equipment and protocols."
+    },
+    {
+      "q": "What is sewage clean-up and why does it cost more than water removal?",
+      "a": "Sewage backup is classified as Category 3 contaminated water — it carries pathogens, bacteria, and biological material that standard water extraction equipment is not designed to handle safely. Our sewage clean-up services use specialized containment and decontamination protocols that meet the required safety standards."
+    },
+    {
+      "q": "Do you work with insurance carriers for damage claims in San Bernardino?",
+      "a": "Yes. We coordinate with the major insurance carriers and document damage from the first hour of the response. Thorough documentation at the mitigation stage prevents adjuster disputes later in the claim. You don't have to manage that process alone."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "temecula-ca",
+  "name": "Temecula",
+  "countySlug": "riverside-county",
+  "countyName": "Riverside County",
+  "isHq": false,
+  "proximityMinutes": 20,
+  "proximityMiles": 15,
+  "route": "I-15 South",
+  "metaTitle": "Water & Wildfire Restoration | Temecula, CA | Gallagher",
+  "metaDescription": "24/7 water, wildfire, fire & mold restoration in Temecula. Gallagher on-site within 45 min. IICRC-trained. Free assessment. (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 TEMECULA, CA",
+  "heroTitle": "Temecula restoration services\u2014water, wildfire, mold, fire",
+  "heroAccent": "15 miles from Canyon Lake HQ.",
+  "heroIntro": "Gallagher Restoration Co. responds 24 hours a day to water damage, wildfire restoration, mold, and fire emergencies throughout Temecula. From Canyon Lake, the crew is on I-15 South and on-site within 45 minutes. We\u2019ve worked Temecula\u2019s wine country hillsides, Old Town, and newer tracts for over 15 years.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~45 min", "hint": "15 miles via I-15 South from Canyon Lake" },
+    { "label": "Distance", "value": "15 mi", "hint": "Via I-15 South" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Real person answers every call, every hour" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Temecula wine country + hillside restoration since 2009" }
+  ],
+  "localHook": "Temecula is one of the most distinct service areas in Riverside County\u2014wine country hillsides north of Rancho California Road, newer master-planned tracts across the valley floor, Old Town\u2019s older commercial and residential buildings, and hillside estate properties on De Portola Road that face direct wildfire exposure. Gallagher has performed post-wildfire restoration work on the De Portola Road hillside and throughout the winery district after multiple fire seasons since 2020. We know how wildfire smoke infiltrates estate structures, how irrigation line breaks flood outbuildings and wine cellars, and how slab leaks develop in Temecula\u2019s newer tracts. Fifteen miles on I-15 South puts the crew on-site in under 45 minutes.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Temecula neighborhoods and wine country Gallagher responds to",
+    "intro": "From Old Town to De Portola Road and the valley tracts, Gallagher covers all of Temecula.",
+    "items": [
+      {
+        "name": "De Portola Rd hillside & wine country estates",
+        "body": "Hillside estates and winery properties north of Rancho California Road face direct wildfire smoke infiltration and post-fire debris flow risk. Irrigation line breaks\u2014supplying vineyards and landscaping\u2014flood outbuildings, storage structures, and wine cellars when they fail. Gallagher has responded to multiple wildfire restoration jobs in this corridor since 2020."
+      },
+      {
+        "name": "Redhawk & Paloma del Sol",
+        "body": "These large planned communities carry the slab leak and builder-grade fitting risks typical of 1990s and early 2000s California tract construction. Original copper plumbing in Redhawk and Paloma del Sol is entering the failure window. We respond to slab leaks and multi-room water damage throughout both communities."
+      },
+      {
+        "name": "Old Town Temecula",
+        "body": "Old Town\u2019s commercial and residential buildings carry aging infrastructure and are surrounded by properties that have seen significant renovation activity. Water intrusion from roof envelope failures and aging drain systems is the most common call here. We document Old Town structures with the detail insurance adjusters and historic preservation considerations require."
+      },
+      {
+        "name": "Western hillside edge",
+        "body": "Properties on Temecula\u2019s western hillside edge face both wildfire smoke exposure and rooftop flashing failure risk during winter wind events. Attic moisture from flashing failures can saturate insulation and ceiling assemblies across large areas before it becomes visible below."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Temecula properties most",
+    "intro": "Temecula\u2019s wine country position, hillside exposure, and housing age mix produce a distinctive damage profile.",
+    "items": [
+      {
+        "title": "Wildfire smoke intrusion in wine country and hillside estates",
+        "body": "The De Portola Road corridor and winery district have experienced repeated wildfire smoke events since 2020. Smoke and soot infiltrate HVAC systems, ductwork, wine storage areas, and wall assemblies in hillside estate structures. Restoration requires documentation of both visible and concealed contamination to support insurance claims on high-value properties."
+      },
+      {
+        "title": "Irrigation line breaks flooding outbuildings and wine cellars",
+        "body": "Irrigation systems serving Temecula\u2019s vineyards and estate landscaping carry significant water volume. When a main irrigation line fails, outbuildings, storage structures, and below-grade wine cellars can flood rapidly. We respond to irrigation-system flood events with high-capacity extraction and complete structural drying documentation."
+      },
+      {
+        "title": "Slab leaks in 1990s\u20132000s Temecula tracts",
+        "body": "Redhawk, Paloma del Sol, and other 1990s Temecula communities are now 25 to 30 years old\u2014the active failure window for original copper plumbing. Slab leaks in post-tension foundations produce moisture migration beneath finished flooring that can span multiple rooms before it surfaces visibly."
+      },
+      {
+        "title": "Rooftop flashing failures in hillside construction",
+        "body": "Hillside estate and custom-built homes in Temecula\u2019s wine country face complex rooflines with multiple penetrations, valleys, and transitions. Flashing failures at these points allow wind-driven rain to enter attic assemblies. Professional thermal imaging identifies the full extent of attic moisture before drying begins."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Temecula call looks like",
+    "body": "You call (951) 541-0034 and a real person answers. The crew leaves Canyon Lake on I-15 South and is in Temecula within 45 minutes. On arrival, professional-grade moisture meters and thermal imaging assess the full damage scope before any equipment is placed. For wine country estate calls, we understand the specific documentation requirements for high-value property insurance claims\u2014scope, photo records, and moisture readings are prepared to insurance-carrier standards from the first hour. For slab-leak calls in the valley tracts, thermal imaging precisely locates moisture migration beneath finished flooring before any demolition begins. Gallagher coordinates directly with major insurance carriers, preparing adjuster documentation and managing the carrier communication on your behalf. Whether the job is a Redhawk slab leak or a post-wildfire De Portola Road estate restoration, the same crew carries it from first call through final reconstruction. No handoffs, complete accountability."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Temecula calls Gallagher",
+    "body": "Temecula\u2019s wine country properties are high-value assets with specific documentation and remediation requirements that general contractors don\u2019t handle well. Gallagher has been working the De Portola Road hillside and winery district since the 2020 fire seasons\u2014real experience with post-wildfire restoration on estate structures, not a generic process applied to a new market. For Temecula\u2019s valley tracts, 15-plus years of serving 1990s Riverside County construction means the crew knows the slab-leak patterns cold. IICRC-trained technicians bring professional-grade thermal imaging, extraction, and drying equipment to every call, from a single-room appliance failure to a wine cellar flood. Gallagher is a family-owned operation\u2014Aaron\u2019s crew handles each job from assessment through reconstruction without handoffs. Insurance coordination is in-house: we work directly with major carriers and prepare the documentation high-value-property adjusters require."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on Temecula restoration cost",
+    "body": "Assessment is always free. We evaluate the full scope and give you a clear picture before any work begins\u2014no charge. Most residential restoration jobs in Temecula fall between $500 and $15,000. Valley-tract slab leaks and appliance failures fall toward the lower-to-mid range. Wine country estate restoration, post-wildfire smoke remediation, and multi-room flood events fall toward the upper range due to scope and documentation requirements. If you have homeowners or dwelling insurance, Gallagher works directly with your carrier\u2014we prepare the documentation and manage the adjuster communication to move the claim forward."
+  },
+  "notableWork": "Gallagher has performed post-wildfire restoration on multiple properties along the De Portola Road hillside and in the winery district following fire seasons since 2020\u2014smoke remediation, structural drying of estate outbuildings, and full insurance documentation on high-value properties.",
+  "faqs": [
+    {
+      "q": "How fast can Gallagher get to Temecula?",
+      "a": "Temecula is 15 miles from Canyon Lake HQ via I-15 South. Typical on-site time is within 45 minutes of your call. A real person answers\u2014we move immediately."
+    },
+    {
+      "q": "Do you work with my insurance?",
+      "a": "Yes. Gallagher coordinates directly with major insurance carriers. For Temecula\u2019s wine country properties, we prepare the high-value documentation adjusters require. We manage the carrier communication on your behalf."
+    },
+    {
+      "q": "What does restoration cost in Temecula?",
+      "a": "Assessment is free. Most residential jobs fall between $500 and $15,000. Wine country estate and post-wildfire restoration typically falls toward the upper end due to scope. Valley-tract slab leaks and appliance failures usually fall lower. We explain scope before work begins."
+    },
+    {
+      "q": "Do you handle both mitigation and reconstruction?",
+      "a": "Yes. Gallagher handles the complete scope\u2014emergency mitigation, structural drying, mold or smoke remediation if needed, and full reconstruction. One crew, one company, start to finish."
+    },
+    {
+      "q": "My Temecula wine country property had smoke from a nearby fire\u2014does that require professional remediation?",
+      "a": "Yes. Smoke and soot from nearby wildfire events infiltrate HVAC systems, wine storage areas, and wall assemblies in hillside estate structures. Surface cleaning is insufficient\u2014contaminated materials require documented treatment or replacement to meet insurance standards. Gallagher has direct experience with post-wildfire remediation in the De Portola Rd corridor and winery district."
+    }
+  ]
+}

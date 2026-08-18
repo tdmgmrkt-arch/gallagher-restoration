@@ -1,0 +1,107 @@
+{
+  "slug": "ontario-ca",
+  "name": "Ontario",
+  "countySlug": "san-bernardino-county",
+  "countyName": "San Bernardino County",
+  "proximityMinutes": 55,
+  "proximityMiles": 50,
+  "route": "I-10 West / SR-60",
+  "metaTitle": "Water & Fire Damage Restoration | Ontario, CA",
+  "metaDescription": "Gallagher Restoration reaches Ontario in ~55 min via I-10. Water, fire, mold & sewage — 24/7. Family-owned, IICRC-trained. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY · ONTARIO, CA",
+  "heroTitle": "Restoration services in Ontario — on-site in about 55 minutes",
+  "heroAccent": "Airport city, industrial corridor, master-planned neighborhoods — we cover all of it.",
+  "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Ontario via I-10 West or SR-60 — typically on-site within 55 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~55 min", "hint": "Typical drive from Canyon Lake via I-10 West or SR-60" },
+    { "label": "Distance", "value": "50 mi", "hint": "Canyon Lake to Ontario" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+  ],
+  "localHook": "Ontario's identity spans a wide range — international airport and logistics hub, one of the Inland Empire's older downtown cores, and one of its fastest-growing master-planned residential zones at Ontario Ranch. That spread creates a genuinely varied damage profile. Downtown Ontario and the older residential blocks near Euclid Avenue carry pre-war and mid-century plumbing that fails in predictable ways: galvanized pipes, failing cast iron drain lines, and deteriorated supply connections. The industrial corridor raises a different set of concerns, including storm-drain overwhelm during heavy rain events. Ontario Ranch, meanwhile, is new enough that most of its plumbing failures are still builder-grade supply hose and fixture failures rather than corrosion — but slab leaks in fast-poured foundations are showing up with increasing frequency. Gallagher takes I-10 West or SR-60 and is typically on-site within 55 minutes.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "From downtown Ontario to Ontario Ranch",
+    "items": [
+      {
+        "name": "Downtown Ontario",
+        "body": "Historic commercial and residential core with a high density of pre-1960 construction. Aging supply and drain infrastructure means water damage here often involves secondary spread through shared wall systems before the primary source is found."
+      },
+      {
+        "name": "Ontario Ranch",
+        "body": "Rapidly growing master-planned development in the city's south end. New construction doesn't mean problem-free — slab leaks, builder-grade supply failures, and irrigation system malfunctions are the dominant calls from this zone."
+      },
+      {
+        "name": "Euclid Avenue corridor",
+        "body": "Older mid-century single-family residential. Many homes still carry original plumbing from the 1950s and 1960s. Slow pinhole leaks from galvanized pipe corrode wall framing and subfloor materials long before visible signs appear."
+      },
+      {
+        "name": "Airport and industrial corridor",
+        "body": "Light industrial and commercial properties near Ontario International Airport. Storm-drain capacity is frequently overwhelmed during significant rain events, pushing surface water into warehouse slabs, loading docks, and adjacent residential streets."
+      },
+      {
+        "name": "North Ontario",
+        "body": "Transitional zone between older mid-century residential and newer tract. Mixed infrastructure vintage makes moisture assessment more complex — older pipe feeding newer additions means failure modes don't follow a single pattern."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local damage profile",
+    "heading": "What brings Ontario property owners to the phone",
+    "items": [
+      {
+        "title": "Aging downtown plumbing systems",
+        "body": "Pre-war and mid-century buildings in Ontario's downtown core carry infrastructure that was installed before modern standards. Cast iron drain lines corrode and crack. Galvanized supply pipes fail from the inside, often presenting as a sudden drop in pressure or a brown ceiling stain that's been growing quietly for months. Water damage repair in these structures frequently requires wall cavity access and systematic moisture mapping."
+      },
+      {
+        "title": "Industrial-adjacent and storm runoff flooding",
+        "body": "The industrial corridor near Ontario International Airport sits in low-lying terrain that receives concentrated runoff during significant rain events. When storm drains overwhelm, water backs up into commercial slabs and adjacent residential properties. Emergency water removal is time-critical — standing water past 48 hours dramatically accelerates mold growth in building materials."
+      },
+      {
+        "title": "Slab leaks in newer Ontario Ranch construction",
+        "body": "Fast-paced development at Ontario Ranch has produced a growing volume of slab leak calls. Builder-grade PEX and copper installed under production conditions occasionally fails at fittings or develops stress fractures. Slab leaks are difficult to detect visually — moisture mapping and acoustic detection are required for accurate scoping."
+      },
+      {
+        "title": "Builder-grade supply hose and fixture failures",
+        "body": "Ontario Ranch's newer homes share a common failure profile with other fast-growth Inland Empire communities — braided supply hoses under sinks and at appliances have a predictable service life. When they fail, they can discharge for hours before anyone notices. Water extraction and water dry-out are the immediate interventions."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The process",
+    "heading": "From your call to a dry, restored property",
+    "body": "Call (951) 541-0034 — a real person answers, 24 hours a day. We collect what matters: the type of damage, whether the water source is still active, the address, and whether anyone is on-site. A crew departs Canyon Lake via I-10 West or SR-60 and is typically at your Ontario property within 55 minutes. Containment is first — stopping active water or isolating a sewage event. Then we run a full scope assessment with professional-grade moisture detection equipment and document everything for the insurance carrier in real time. Extraction and drying equipment deploys the same visit. Aaron and the Gallagher team handle insurance carrier coordination directly — you won't be left to figure out the adjuster process alone. Standard residential water damage dry-out runs 3–5 days. Reconstruction scheduling follows immediately after clearance."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "A family-owned crew — not a dispatch franchise",
+    "body": "Ontario is served by national franchise restoration chains that run dispatch-only operations — subcontractors cycling through jobs with minimal oversight. Gallagher Restoration Co. is a family-owned business, 15+ years in operation, with IICRC-trained crews that stay on your project from the first response through final reconstruction. Aaron built the company on the premise that accountability requires continuity — the same people who diagnose the damage are the same people managing the dry-out and the rebuild. We handle water damage restoration, emergency water removal, mold remediation, fire damage restoration, sewage clean-up, property damage management, and wildfire damage. We serve residential and commercial properties across all of Ontario's neighborhoods — downtown, Ontario Ranch, the industrial corridor, and everything between. Professional-grade equipment and direct insurance coordination are standard on every job."
+  },
+  "pricing": {
+    "eyebrow": "What it costs",
+    "heading": "Honest numbers on restoration pricing",
+    "body": "Water damage restoration in Ontario typically ranges from $1,500 for a minor appliance leak to $9,000+ for a multi-room flooding event or a slab leak with secondary mold growth. Slab leak remediation at Ontario Ranch frequently involves concrete cutting and re-pipe work that adds to the project total — we scope and price this separately before any demolition. Sewage clean-up carries a premium over standard water removal due to Category 3 contamination protocols. Fire and smoke damage is individually scoped. Mold remediation starts at a few hundred dollars for a contained bathroom intrusion and scales with affected area. Written scope before work starts. Insurance coordination included. Call (951) 541-0034 for a same-day assessment."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher Restoration reach Ontario, CA?",
+      "a": "Via I-10 West or SR-60 from Canyon Lake, we're typically on-site in Ontario within 55 minutes. We operate 24/7 — call (951) 541-0034 and a real person answers, any hour."
+    },
+    {
+      "q": "We have a slab leak in our Ontario Ranch home — what happens first?",
+      "a": "The first step is accurate detection. We use professional-grade moisture mapping equipment to locate the leak before any concrete cutting begins. Then we document the scope for your insurance carrier, extract and dry, and coordinate the re-pipe and reconstruction. Pipe burst flooding and remediation is a core Gallagher service."
+    },
+    {
+      "q": "Can you handle water damage in an older commercial building near downtown Ontario?",
+      "a": "Yes — commercial and mixed-use properties are within our service scope. Older downtown buildings require more systematic moisture mapping due to shared wall systems and aging infrastructure, but the restoration process follows the same professional standard as residential jobs."
+    },
+    {
+      "q": "Is storm flooding different from a plumbing leak when it comes to restoration?",
+      "a": "The water removal and drying process is similar, but storm flooding often introduces outdoor contaminants — soil, bacteria, and debris — that elevate the damage classification. Proper assessment determines the correct remediation protocol. Emergency water removal and water dry-out are both part of our service line."
+    },
+    {
+      "q": "Do you offer mold testing and mold inspection in Ontario?",
+      "a": "Yes. We offer standalone mold testing services and mold inspection services. These are often the right first step after a slow leak is discovered in an older home or after a water event where the dry-out timeline is uncertain."
+    }
+  ]
+}

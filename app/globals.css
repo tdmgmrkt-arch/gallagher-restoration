@@ -1,26 +1,105 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-archivo);
+  --font-mono: var(--font-mono-jb);
+
+  --color-bg: #0B0C0B;
+  --color-bg-alt: #0E100E;
+  --color-bg-deep: #08090A;
+  --color-surface: #121413;
+  --color-input-bg: #0E100E;
+
+  --color-border: rgba(255, 255, 255, 0.09);
+  --color-border-soft: rgba(255, 255, 255, 0.07);
+  --color-border-strong: rgba(255, 255, 255, 0.18);
+
+  --color-text: #F4F5F1;
+  --color-text-2: #C2C6BC;
+  --color-text-3: #D4D8CE;
+  --color-muted: #9CA098;
+  --color-muted-2: #8F948A;
+  --color-meta: #7E837A;
+  --color-meta-dim: #5E635B;
+  --color-numeral-off: #2C302B;
+
+  --color-accent: #8ECE34;
+  --color-accent-hover: #A6E053;
+
+  --breakpoint-nav: 980px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: #0B0C0B;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #0B0C0B;
+  color: #F4F5F1;
+  font-family: var(--font-archivo), Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #8ECE34;
+  color: #0B0C0B;
+}
+
+/* --- Reveal on scroll --- */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition:
+    opacity 0.95s cubic-bezier(0.2, 0.7, 0.3, 1),
+    transform 0.95s cubic-bezier(0.2, 0.7, 0.3, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* --- Emergency dot pulse --- */
+@keyframes gr-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(0.82);
+  }
+}
+.gr-pulse {
+  animation: gr-pulse 2.4s ease-in-out infinite;
+}
+
+/* --- Reduced motion --- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .gr-pulse {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }

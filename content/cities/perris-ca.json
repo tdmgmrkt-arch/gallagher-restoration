@@ -1,0 +1,106 @@
+{
+  "slug": "perris-ca",
+  "name": "Perris",
+  "countySlug": "riverside-county",
+  "countyName": "Riverside County",
+  "isHq": false,
+  "proximityMinutes": 20,
+  "proximityMiles": 15,
+  "route": "I-215 North",
+  "metaTitle": "Water & Fire Restoration | Perris, CA | Gallagher",
+  "metaDescription": "24/7 water, fire, mold & sewage restoration in Perris, CA. Gallagher on-site within 60 min. IICRC-trained. Free assessment. (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 PERRIS, CA",
+  "heroTitle": "Perris restoration services\u2014water, fire, mold, sewage",
+  "heroAccent": "15 miles from Canyon Lake HQ.",
+  "heroIntro": "Gallagher Restoration Co. responds 24 hours a day to water damage, fire damage, mold, and sewage emergencies throughout Perris. Canyon Lake to Perris is 15 miles on I-215 North. IICRC-trained technicians with professional-grade equipment handle the full scope\u2014from I-215 corridor flooding to aging downtown plumbing failures.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~35 min", "hint": "15 miles via I-215 North from Canyon Lake" },
+    { "label": "Distance", "value": "15 mi", "hint": "Via I-215 North" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Real person answers every call, every hour" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Serving Perris and the I-215 corridor throughout" }
+  ],
+  "localHook": "Perris sits 15 miles north of Canyon Lake on I-215, and it carries a layered damage profile\u2014aging downtown infrastructure, 1990s tract neighborhoods entering the plumbing failure window, and active I-215 corridor flooding risk during heavy rain events. Downtown Perris has older commercial and residential buildings with systems that were never updated. The Villages of Avalon and May Ranch carry the typical risks of 1990s and 2000s California tract construction. Gallagher has served Perris for over 15 years and knows the difference between a quick appliance-line fix and a multi-room flood that requires days of professional drying. Fifteen miles via I-215 North means the crew arrives before most restoration companies finish dispatching.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Perris neighborhoods Gallagher responds to",
+    "intro": "From downtown Perris to the newer tract communities north of the freeway, we cover the full city.",
+    "items": [
+      {
+        "name": "Downtown Perris",
+        "body": "Downtown Perris carries aging commercial and residential infrastructure across multiple blocks. Water intrusion from deteriorated roof systems, corroded plumbing, and storm-drain back-pressure events are the most common calls. We document historic and older commercial structures carefully for insurance purposes."
+      },
+      {
+        "name": "Villages of Avalon",
+        "body": "This master-planned community carries the 1990s and 2000s tract construction risks\u2014copper supply lines approaching the failure window, flexible supply hose failures, and roof flashing deterioration. Slab leaks in post-tension foundations are the most common water damage source here."
+      },
+      {
+        "name": "May Ranch",
+        "body": "May Ranch is one of Perris\u2019s newer developments. Builder-grade fitting failures and irrigation-system overflows are the primary water damage sources in this neighborhood. New doesn\u2019t mean problem-free\u2014flexible supply lines and push-fit fittings fail within the first 10 to 15 years."
+      },
+      {
+        "name": "I-215 Corridor",
+        "body": "Properties near the I-215 corridor experience concentrated surface runoff during heavy rain events when the drainage network can\u2019t keep pace with Inland Valley storm systems. Water intrusion through foundations, garage slabs, and low-set entries is the primary pattern during major rain cycles."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Perris homes most",
+    "intro": "Perris\u2019s housing age, corridor position, and downtown infrastructure produce a consistent damage profile.",
+    "items": [
+      {
+        "title": "I-215 corridor flooding from heavy rain events",
+        "body": "Perris sits in a valley position along I-215 where heavy rain events concentrate surface runoff faster than storm drains can move it. Properties on lower-lying streets and near drainage channels take water intrusion through foundation gaps, garage entries, and low window sills. Fast extraction and complete structural drying prevent mold from establishing within 48 to 72 hours."
+      },
+      {
+        "title": "Aging downtown Perris plumbing systems",
+        "body": "Downtown Perris has commercial and residential buildings with plumbing systems that have never been replaced. Cast-iron drain lines, galvanized supply lines, and failing wax ring seals produce water damage and sewage contamination that requires professional remediation. We see regular calls from the downtown commercial corridor."
+      },
+      {
+        "title": "1990s tract construction entering the failure window",
+        "body": "Perris\u2019s 1990s neighborhood stock\u2014Villages of Avalon and the older tract sections\u2014is 25 to 35 years old and hitting the typical copper plumbing failure window. Slab leaks, elbow joint failures, and pinhole leaks are active risks throughout these neighborhoods."
+      },
+      {
+        "title": "Builder-grade failures in newer developments",
+        "body": "Newer Perris developments carry flexible supply line and push-fit fitting risks common to California tract construction. Refrigerator water lines, washing machine supply hoses, and water heater connections are the most frequent failure points. These failures often saturate multiple rooms before the homeowner realizes water is moving."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Perris call looks like",
+    "body": "You call (951) 541-0034 and a real person answers every hour of every day. The crew departs Canyon Lake on I-215 North and arrives in Perris in approximately 35 minutes. On arrival, professional-grade moisture meters and thermal imaging establish the full damage scope before equipment is placed. You receive a plain-language explanation of what was found and what the remediation plan looks like before work begins. For I-215 corridor flooding events, high-capacity extraction begins immediately. For downtown commercial calls, we document the full structural scope with the detail insurance adjusters require. Extraction and structural drying start the same visit. Everything is photographed and logged from arrival. Gallagher coordinates directly with major insurance carriers\u2014we prepare adjuster documentation and manage that communication on your behalf. The same crew handles the job from first call through final reconstruction. No handoffs, no subcontractors mid-project."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Perris calls Gallagher",
+    "body": "Gallagher is a family-owned restoration company with over 15 years serving Perris and the I-215 corridor. The 15-mile drive from Canyon Lake means the crew is on-site before the damage has time to compound through a second wall cavity or floor assembly. IICRC-trained technicians bring professional-grade detection and drying equipment to every job, from a single-room appliance failure to a multi-room flood event. Insurance coordination is in-house: Gallagher works directly with major carriers, prepares the documentation adjusters need, and manages the back-and-forth so your claim moves faster. The same crew carries every job from first call through final reconstruction\u2014no handoffs, complete accountability. Perris\u2019s mix of aging downtown infrastructure and newer tract communities means the crew has seen every damage pattern the city produces, and knows how to document each one correctly."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on Perris restoration cost",
+    "body": "Assessment is always free. We arrive, evaluate the full damage scope, and give you a clear picture before any work begins. Most residential and commercial restoration jobs in Perris fall between $500 and $15,000. I-215 corridor flooding events and downtown commercial jobs that require full structural drying fall toward the upper end. Contained appliance failures caught quickly fall toward the lower end. If you have homeowners or commercial property insurance, Gallagher coordinates directly with your carrier\u2014we prepare the documentation and manage the adjuster communication on your behalf."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher get to Perris?",
+      "a": "Perris is 15 miles from Canyon Lake HQ via I-215 North. Typical on-site time is approximately 35 minutes from your call. We move immediately\u2014real person answers, crew loads up."
+    },
+    {
+      "q": "Do you work with my insurance?",
+      "a": "Yes. Gallagher coordinates directly with major insurance carriers. We prepare scope documentation, moisture logs, and photo records for your adjuster and manage the carrier communication on your behalf."
+    },
+    {
+      "q": "What does restoration cost in Perris?",
+      "a": "Assessment is free. Most residential jobs fall between $500 and $15,000. Corridor flooding events and downtown commercial jobs run toward the upper range. We explain scope clearly before work begins."
+    },
+    {
+      "q": "Do you handle both mitigation and reconstruction?",
+      "a": "Yes. Gallagher handles the complete scope\u2014emergency mitigation, structural drying, mold remediation if needed, and full reconstruction. One crew, one company, no handoffs."
+    },
+    {
+      "q": "My Perris home floods every time it rains hard\u2014is that covered by insurance?",
+      "a": "Coverage depends on your specific policy and the source of water entry. Gallagher documents every flooding event thoroughly\u2014moisture readings, photo logs, and a written scope\u2014and coordinates directly with your carrier to support your claim. We can walk you through what the documentation shows before any work begins."
+    }
+  ]
+}

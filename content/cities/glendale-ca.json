@@ -1,0 +1,103 @@
+{
+  "slug": "glendale-ca",
+  "name": "Glendale",
+  "countySlug": "los-angeles-county",
+  "countyName": "Los Angeles County",
+  "proximityMinutes": 95,
+  "proximityMiles": 90,
+  "route": "SR-60 West \u2192 SR-134",
+  "metaTitle": "Water & Fire Restoration | Glendale, CA | Gallagher",
+  "metaDescription": "Water, fire, mold, and wildfire restoration in Glendale, CA. IICRC-trained crews, 24/7 response\u2014on-site in roughly 95 min from Canyon Lake. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 GLENDALE, CA",
+  "heroTitle": "Glendale restoration\u2014wildfire, water damage, aging plumbing, 24/7",
+  "heroAccent": "Canyon Lake to Glendale: ~95 min via SR-60 West and SR-134.",
+  "heroIntro": "Glendale is flanked by the Verdugo Mountains on the north and east\u2014terrain that has carried wildfire risk and hillside slope moisture for as long as the city has existed. Below that ridge line sits a century of residential construction: 1920s Craftsman bungalows in Adams Hill, hillside estates in Verdugo Woodlands, and dense mid-century condo development throughout the lower flatlands. Gallagher Restoration Co. dispatches IICRC-trained crews from Canyon Lake 24/7. A real person answers every call.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~95 min", "hint": "Typical Canyon Lake to Glendale drive via SR-60 West \u2192 SR-134" },
+    { "label": "Distance", "value": "90 mi", "hint": "Canyon Lake HQ to Glendale" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, every hour, real person answers" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned, Southern California\u2019s restoration team" }
+  ],
+  "localHook": "Glendale\u2019s position at the base of the Verdugo Mountains creates a specific and well-documented risk profile. The Verdugos carry active wildfire exposure\u2014the January 2025 Eaton fire burned through Altadena, adjacent to the Verdugo foothills, and sent smoke and ash through Glendale\u2019s hillside neighborhoods. Hillside slopes above Adams Hill, Verdugo Woodlands, and Kenneth Village are not just scenic: they channel runoff toward residential foundations during heavy rain events, and they expose homes to slope-drainage water intrusion that flat-terrain properties never experience. The city\u2019s older housing stock adds the third dimension. Glendale has some of the best-preserved 1920s and 1930s residential architecture in the San Fernando Valley region\u2014and that architecture contains original or early-replaced galvanized plumbing, lead-joint connections, and cast-iron drain stacks that have been in continuous service for 80 to 100 years. When a joint fails inside a plaster wall in a 1927 Glendale Craftsman, the moisture behavior is different from modern construction. Gallagher Restoration Co. has been working this terrain from Canyon Lake via SR-60 and SR-134 for over 15 years.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Adams Hill to Verdugo Woodlands\u2014Glendale covered",
+    "items": [
+      {
+        "name": "Adams Hill",
+        "body": "Hillside residential neighborhood with 1920s\u201930s Craftsman and Spanish-revival homes. Original and early-replaced plumbing is common throughout. Hillside slope drainage pushes water toward downhill properties during rain events. Water damage in these homes requires historic-construction assessment protocols."
+      },
+      {
+        "name": "Verdugo Woodlands",
+        "body": "Foothill neighborhood directly below the Verdugo Mountains with elevated wildfire and slope-drainage exposure. Hillside estates here absorb lateral moisture from slope runoff during heavy rain cycles. Fire and smoke response is frequent following Verdugo-area fire events."
+      },
+      {
+        "name": "Downtown Glendale & Kenneth Village",
+        "body": "Dense urban corridor with a mix of commercial, mid-century residential, and newer condos. High-density water intrusion\u2014shared-wall pipe failures, roof leaks in multi-unit buildings\u2014requires containment protocols designed for multi-tenant environments."
+      },
+      {
+        "name": "Chevy Chase & Brand Park area",
+        "body": "Older hillside and flat residential areas adjacent to canyon terrain. January 2025 Eaton fire smoke affected hillside properties in this corridor. Gallagher\u2019s wildfire-specific response addresses both direct fire and smoke contamination from the Altadena zone."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Glendale homes most",
+    "items": [
+      {
+        "title": "Verdugo Mountains wildfire and smoke exposure",
+        "body": "The Verdugo Mountains form Glendale\u2019s northern wall\u2014and they carry active fire terrain. The January 2025 Eaton fire burned through adjacent Altadena, sending smoke through Glendale\u2019s hillside neighborhoods. HVAC systems running during active smoke events distribute soot contamination through every room. Full post-fire decontamination addresses surfaces, ducts, and porous materials. Gallagher\u2019s Altadena-specific wildfire restoration service covers this zone directly."
+      },
+      {
+        "title": "Aging century-old plumbing",
+        "body": "Glendale\u2019s 1920s and 1930s residential stock carries plumbing that is 80 to 100 years old. Galvanized supply lines corrode from the inside; cast-iron stacks develop pinhole failures. Moisture inside plaster wall cavities travels through lathe and into original framing before surface signs appear. Assessment in historic Glendale homes requires specific protocols to map hidden moisture accurately."
+      },
+      {
+        "title": "Hillside slope water intrusion",
+        "body": "Homes below the Verdugo slopes in Adams Hill and Verdugo Woodlands absorb lateral moisture from hillside runoff during rain cycles. Water intrudes through foundation walls, window wells, and sub-floor penetrations. Rapid extraction and dehumidification limit the secondary mold window in these slope-adjacent properties."
+      },
+      {
+        "title": "Multi-unit building water intrusion",
+        "body": "Glendale\u2019s dense mid-century and newer condo corridor generates pipe-failure and roof-leak water intrusion in multi-unit buildings. A single failure on an upper floor affects multiple units below it. Assessment must account for the full affected scope, not just the unit of origin."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Glendale call looks like",
+    "body": "Call (951) 541-0034 at any hour\u2014a real person answers. Gallagher dispatches from Canyon Lake; the drive to Glendale is roughly 95 minutes via SR-60 West and SR-134. On arrival, the crew performs a full-scope assessment with professional-grade moisture meters and thermal imaging. In Glendale\u2019s historic Craftsman and Spanish-revival stock, this means going beyond visible surfaces into wall and sub-floor cavities that hold moisture in ways modern construction does not. For wildfire-affected properties, assessment includes HVAC contamination and surface soot inventory. You get a clear explanation of findings before any equipment is placed. Documentation starts immediately. Gallagher coordinates directly with major insurance carriers on every applicable claim, handling adjuster communication so the process moves without you in the middle. The same crew carries the job from first call through final reconstruction. No handoffs."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Glendale homeowners call Gallagher",
+    "body": "Glendale\u2019s damage profile requires a contractor who can work at the intersection of historic construction, hillside moisture, and active wildfire exposure\u2014often on the same property. Gallagher is a family-owned operation with 15 years of experience across these specific conditions throughout Southern California. IICRC-trained crews apply consistent protocols to every damage category. For January 2025 Eaton fire losses and smoke-affected Glendale properties adjacent to the Altadena zone, Gallagher offers dedicated wildfire restoration services that address both direct fire damage and the broader contamination footprint. Assessment is always free. Direct insurance coordination is standard. Aaron\u2019s team carries full accountability from first call to final walkthrough. The drive from Canyon Lake is roughly 95 minutes via SR-60 and SR-134. The work standard does not vary by drive time."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on restoration cost in Glendale",
+    "body": "Assessment is free. Most residential restoration jobs in Glendale fall between $2,000 and $22,000 depending on damage category, affected materials, and discovery timing. Historic construction in Adams Hill and Verdugo Woodlands trends toward the upper range when plaster walls, original framing, and difficult-to-access cavities are involved. Post-wildfire decontamination scopes vary based on proximity to the Altadena fire zone and the extent of HVAC and porous material exposure. Multi-unit water intrusion jobs depend on how many units were affected and the containment complexity. Gallagher works directly with major insurance carriers and prepares all adjuster documentation."
+  },
+  "faqs": [
+    {
+      "q": "How long does it take Gallagher to reach Glendale?",
+      "a": "From Canyon Lake HQ, the typical drive to Glendale is roughly 95 minutes via SR-60 West and SR-134. A real person answers every call around the clock and dispatches without delay."
+    },
+    {
+      "q": "Do you handle wildfire smoke damage from the January 2025 Eaton fire near Glendale?",
+      "a": "Yes. The Eaton fire in Altadena sent smoke through Glendale\u2019s hillside neighborhoods. Gallagher offers dedicated wildfire restoration for the Altadena zone, covering both direct fire damage and smoke contamination in homes outside the active burn perimeter."
+    },
+    {
+      "q": "Do you work in Glendale\u2019s historic Craftsman homes with plaster walls?",
+      "a": "Yes. Plaster and lathe construction holds moisture differently than drywall and requires specific assessment and drying protocols. We work Adams Hill and Verdugo Woodlands historic stock regularly, with complete documentation for insurance."
+    },
+    {
+      "q": "What about hillside slope water intrusion in Verdugo Woodlands?",
+      "a": "Yes. Slope drainage from the Verdugo Mountains pushes lateral moisture toward foundations in Adams Hill and Verdugo Woodlands. Gallagher assesses the full intrusion path, extracts moisture, and dries structural assemblies to prevent mold."
+    },
+    {
+      "q": "What does restoration cost in Glendale?",
+      "a": "Assessment is always free. Most jobs fall between $2,000 and $22,000. Scope, affected materials, and discovery timing determine the final number. Gallagher coordinates directly with major insurance carriers and handles all adjuster documentation on your behalf."
+    }
+  ]
+}

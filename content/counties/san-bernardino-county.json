@@ -1,0 +1,104 @@
+{
+  "slug": "san-bernardino-county",
+  "name": "San Bernardino County",
+  "shortName": "San Bernardino",
+  "metaTitle": "San Bernardino County Restoration | Gallagher Restoration",
+  "metaDescription": "Water, fire, mold & property damage restoration across San Bernardino County. 60-min response, 24/7. Gallagher Restoration Co. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 SAN BERNARDINO COUNTY",
+  "heroTitle": "Property damage restoration in San Bernardino County",
+  "heroAccent": "via I-15 and I-10",
+  "heroIntro": "Gallagher Restoration Co. serves San Bernardino County's Inland Empire corridor\u2014from the logistics-dense flatlands of Fontana and Ontario to the high desert communities of Victorville. Water, fire, mold, sewage, and wildfire damage handled by a family-owned crew, 24/7, typically on-site within 60 minutes.",
+  "proofStrip": [
+    {"label": "Response Time", "value": "60 min", "hint": "Typical arrival via I-15 / I-10 corridor"},
+    {"label": "Cities Served", "value": "6", "hint": "Rancho Cucamonga \u00b7 Ontario \u00b7 Fontana + 3 more"},
+    {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person, not a call center"},
+    {"label": "In Business", "value": "15+ yrs", "hint": "Family-owned, serving SoCal since 2009"}
+  ],
+  "overview": {
+    "eyebrow": "The County",
+    "heading": "San Bernardino County: scale, diversity, and distinct damage demands",
+    "body": "San Bernardino County is the largest county by land area in the continental United States. Gallagher's San Bernardino service zone concentrates on the western Inland Empire\u2014the dense urban and suburban arc from Chino and Ontario through Fontana, Rancho Cucamonga, and San Bernardino city itself, and up the I-15 to Victorville at the high desert edge. This corridor is one of the highest-traffic logistics zones in North America, home to tens of thousands of warehouse employees, industrial workers, and the residential neighborhoods that have grown around the distribution economy. Property damage here takes several forms: burst water lines in post-war single-family homes that pre-date modern PEX plumbing, industrial and commercial fire events near distribution facilities, and wildland-urban interface fire risk climbing the foothills above Rancho Cucamonga and San Bernardino. Gallagher reaches this service area via I-15 north from Canyon Lake, placing the western IE cities within a realistic 60-minute response window."
+  },
+  "topCities": [
+    {
+      "slug": "rancho-cucamonga-ca",
+      "name": "Rancho Cucamonga",
+      "blurb": "Foothills location means wildfire ember intrusion risk from the San Gabriel foothills is real. A mix of late-1970s tract homes and newer master-planned developments creates varied plumbing and construction vintage throughout the city."
+    },
+    {
+      "slug": "san-bernardino-ca",
+      "name": "San Bernardino",
+      "blurb": "Significant inventory of pre-1970 housing stock with aging water infrastructure. Deferred maintenance and older pipe materials mean water damage events here often involve larger affected areas by the time the call comes in."
+    },
+    {
+      "slug": "fontana-ca",
+      "name": "Fontana",
+      "blurb": "One of the fastest-growing cities in the county, mixing 1950s industrial-era housing with new subdivisions. The combination produces a wide range of construction quality and plumbing vintage across a relatively compact geographic footprint."
+    },
+    {
+      "slug": "ontario-ca",
+      "name": "Ontario",
+      "blurb": "Dense residential neighborhoods adjacent to a major logistics corridor. Water damage near industrial-zoned areas can involve commercial or mixed-use properties that require a crew experienced with both residential and commercial restoration protocols."
+    }
+  ],
+  "localContext": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What drives property damage in San Bernardino County",
+    "body": "San Bernardino County's geography creates a three-zone damage environment that Gallagher navigates on a regular basis. In the western Inland Empire\u2014Chino, Ontario, Fontana, Rancho Cucamonga\u2014the dominant patterns are aging housing stock, high occupancy density, and wildfire risk at the urban-foothill edge. Homes in San Bernardino city itself and in older Fontana neighborhoods frequently carry original cast iron or galvanized steel drain lines. When these fail, the event is often a slow leak that migrates undetected into subfloor or slab before any visible sign appears\u2014a category of damage that grows expensive proportionally to how long it goes unchecked. In Victorville and the high desert, extreme temperature swings are the primary driver. Summer highs above 100\u00b0F and winter nights that drop to freezing create repeated expansion-contraction cycles in pipes, fittings, and roofing membranes. Pipes that would hold for decades in coastal climates crack here within ten to fifteen years. The foothills above Rancho Cucamonga and the wildland perimeter north of San Bernardino city represent the county's most active wildland-urban interface. A fire event in this terrain generates not just structural damage but heavy smoke infiltration into entire neighborhoods, requiring post-fire mold assessment in homes that experienced no direct flame contact. Gallagher runs the I-15 corridor from Canyon Lake to serve this zone efficiently, with Ontario and Chino accessible via I-10 interchange."
+  },
+  "serviceLines": {
+    "eyebrow": "What We Handle",
+    "heading": "Restoration services across San Bernardino County",
+    "intro": "All services available across all 6 San Bernardino County cities, 24 hours a day.",
+    "items": [
+      {
+        "title": "Water damage",
+        "body": "Aging infrastructure in San Bernardino and Fontana, slab leaks in Ontario-area homes, freeze-thaw pipe failures in Victorville\u2014Gallagher handles emergency extraction, full structural drying, moisture mapping, and reconstruction across the entire San Bernardino County service area."
+      },
+      {
+        "title": "Fire & smoke",
+        "body": "From kitchen fires in Rancho Cucamonga residential tracts to post-wildfire smoke intrusion throughout the foothill communities, Gallagher's fire and smoke restoration covers content cleaning, odor neutralization, structural surface cleaning, and rebuild."
+      },
+      {
+        "title": "Mold",
+        "body": "Slow leaks behind walls in San Bernardino's older housing stock create ideal mold growth conditions. Gallagher provides mold inspection, testing, and complete remediation\u2014contained and documented to insurance standards."
+      },
+      {
+        "title": "Sewage",
+        "body": "Sewer backups in high-density residential and mixed-use properties require Category 3 handling. Gallagher's sewage cleanup process covers full containment, extraction, disinfection, and documentation across all San Bernardino County cities."
+      },
+      {
+        "title": "Wildfire",
+        "body": "Homes in the San Gabriel and San Bernardino foothills face ember and smoke intrusion risk every fall. Gallagher handles post-fire assessment, ash and soot cleanup, smoke odor elimination, and the structural remediation that follows close-proximity wildfire events."
+      }
+    ]
+  },
+  "whyLocal": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Riverside County roots, Inland Empire reach",
+    "body": "Gallagher Restoration Co. is headquartered in Canyon Lake, which puts the crew in a direct I-15 north position relative to San Bernardino County's western IE corridor. Rancho Cucamonga, Ontario, Fontana, and San Bernardino city are all within a realistic 60-minute drive under normal conditions. Chino is reachable via SR-71 north. Victorville, at the high desert edge, requires more time\u2014the crew is transparent about arrival windows rather than overpromising. What Gallagher brings to San Bernardino County is the same thing it brings to Riverside County: a family-owned operation with more than 15 years of SoCal restoration experience, IICRC-trained technicians, professional-grade equipment, and a direct relationship with the homeowner from first call to final walkthrough. There is no franchised triage system, no subcontractor handoff for the rebuild phase. Aaron and the crew coordinate directly with all major insurance carriers, document the job for the adjuster from day one, and stay on the job until it is done. A real person answers at (951) 541-0034 regardless of what time the damage happens."
+  },
+  "faqs": [
+    {
+      "q": "Can Gallagher reach Victorville and the high desert cities in under an hour?",
+      "a": "Victorville is approximately 80 miles from Canyon Lake via I-15 north. Under typical conditions, arrival runs 75 to 90 minutes\u2014Gallagher is transparent about this rather than citing a 60-minute window that doesn't apply at that distance. For cities in the western Inland Empire (Ontario, Rancho Cucamonga, Fontana, San Bernardino, Chino), the 60-minute target is realistic."
+    },
+    {
+      "q": "Do you handle fire and smoke damage from wildland fires in the San Bernardino foothills?",
+      "a": "Yes. Gallagher Restoration Co. has experience with post-wildfire restoration including smoke infiltration in homes that were not directly in the fire's path. Wildfire smoke contains fine particulate and chemical compounds that require different treatment protocols than cooking or structure fire smoke\u2014Gallagher's crew is trained for both."
+    },
+    {
+      "q": "My home in San Bernardino city is older. Does the age of the house affect the restoration process?",
+      "a": "It does. Pre-1970 homes often have cast iron drain lines, galvanized supply lines, and older building materials that respond differently to water intrusion and moisture. Gallagher's crew accounts for construction vintage during the initial assessment and adjusts the drying and remediation approach accordingly."
+    },
+    {
+      "q": "How does Gallagher handle mold found during a water damage job?",
+      "a": "When mold is discovered during a water damage restoration job, Gallagher can shift directly into mold remediation without requiring the homeowner to schedule a second company. The same crew handles containment, removal, air scrubbing, and clearance testing. Everything is documented for the insurance claim."
+    },
+    {
+      "q": "What's the first step if a pipe bursts in my Rancho Cucamonga home at 2 AM?",
+      "a": "Call (951) 541-0034. A real person answers around the clock\u2014not a recording, not a call center. The first instruction is always the same: shut off the water supply at the main if you can safely reach it. A crew will be dispatched immediately and will walk you through steps to limit damage while they're in transit."
+    }
+  ],
+  "allCitiesIntro": "Gallagher Restoration Co. serves 6 cities across San Bernardino County's western Inland Empire corridor and high desert edge. Select your city for local response details."
+}

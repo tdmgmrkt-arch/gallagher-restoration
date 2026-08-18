@@ -1,0 +1,111 @@
+# Gallagher Restoration Co.
+
+> Gallagher Restoration Co. is a family-owned, IICRC-trained restoration company serving Southern California for 15+ years. 24/7 emergency response for water, fire, mold, sewage, and wildfire damage across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties. Phone: (951) 541-0034. Headquartered in Canyon Lake, CA.
+
+For structured, machine-readable customer actions (emergency phone, request service, primary services, service area), see: https://gallagherrestoration.com/ai-actions.json
+
+## About
+
+Gallagher Restoration Co. provides residential and commercial property damage restoration throughout Southern California. Services span emergency mitigation (water extraction, structural drying, smoke and soot removal, mold containment) through full reconstruction and rebuild. Family-owned, IICRC-trained, and available 24/7/365. Typical crew arrival is within 60 minutes across the core coverage area; far-flung cities in Los Angeles and San Diego counties honestly run 75\u2013110 minutes.
+
+Owner and lead: Aaron Gallagher.
+
+## Core Pages
+
+- [Home](https://gallagherrestoration.com/): Overview of services, coverage area, and 24/7 emergency response.
+- [About](https://gallagherrestoration.com/about): Company history, family ownership, values, and team.
+- [Services](https://gallagherrestoration.com/services): Full catalog of restoration services organized by category.
+- [Service Areas](https://gallagherrestoration.com/service-areas): 5-county coverage map with county and city links.
+- [Contact Us](https://gallagherrestoration.com/contact-us): Contact form, phone, and what-to-expect steps.
+- [FAQs](https://gallagherrestoration.com/faqs): Common questions about restoration, insurance, and process.
+- [News](https://gallagherrestoration.com/news): Restoration guides and company updates.
+
+## Services
+
+### Water Damage
+- [Water Damage Restoration (hub)](https://gallagherrestoration.com/water-damage-restoration): Complete water damage restoration overview.
+- [Emergency Water Removal](https://gallagherrestoration.com/emergency-water-removal): Immediate standing-water extraction, 24/7 response.
+- [Water Damage Clean-Up](https://gallagherrestoration.com/water-damage-clean-up): Post-flood cleanup and sanitation.
+- [Ceiling Water Damage](https://gallagherrestoration.com/ceiling-water-damage): Ceiling stain, sag, and collapse response.
+- [Water Damage Repair](https://gallagherrestoration.com/water-damage-repair): Structural repair after water damage.
+- [Water Dry-Out](https://gallagherrestoration.com/water-dry-out): Structural drying with air movers and dehumidification.
+- [Water Extraction](https://gallagherrestoration.com/water-extraction): Truck-mounted and portable extraction equipment.
+- [Roof Water Damage](https://gallagherrestoration.com/roof-water-damage): Roof leak damage and interior water intrusion.
+- [Pipe Burst Flooding and Remediation](https://gallagherrestoration.com/pipe-burst-flooding-and-remediation): Burst pipe response, mitigation, and rebuild.
+
+### Fire and Smoke
+- [Fire Damage Restoration (hub)](https://gallagherrestoration.com/fire-damage-restoration): Post-fire structural, soot, and odor restoration.
+- [Smoke Clean-Up](https://gallagherrestoration.com/smoke-clean-up): Smoke odor and soot removal from structure and contents.
+
+### Mold
+- [Mold Remediation (hub)](https://gallagherrestoration.com/mold-remediation): Containment, removal, and remediation of mold growth.
+- [Mold Testing](https://gallagherrestoration.com/mold-testing-services): Air and surface sampling for mold identification.
+- [Mold Inspection](https://gallagherrestoration.com/mold-inspection-services): Visual and moisture-mapping inspections.
+
+### Wildfire
+- [Wildfire (hub)](https://gallagherrestoration.com/wildfire): Wildfire smoke, ash, and debris cleanup.
+- [Wildfire Restoration \u2014 Altadena](https://gallagherrestoration.com/wildfire-altadena): Response to the 2025 Eaton Fire zone.
+- [Wildfire Restoration \u2014 Palisades](https://gallagherrestoration.com/wildfire-palisades): Response to the 2025 Palisades Fire zone.
+
+### Other
+- [Sewage Clean-Up](https://gallagherrestoration.com/sewage-clean-up-services): Category-3 sewage backup and biohazard cleanup.
+- [Property Damage Management](https://gallagherrestoration.com/property-damage-management): End-to-end damage management and insurance coordination.
+- [Reconstruction](https://gallagherrestoration.com/reconstruction): Full rebuild and reconstruction after mitigation.
+
+## Counties
+
+- [Riverside County](https://gallagherrestoration.com/riverside-county): HQ county. Fastest response across Southwest Riverside.
+- [San Bernardino County](https://gallagherrestoration.com/san-bernardino-county): Three-zone coverage; honest ~90 min for Victorville.
+- [Orange County](https://gallagherrestoration.com/orange-county): Coastal marine-layer mold and HOA multi-party projects.
+- [San Diego County](https://gallagherrestoration.com/san-diego-county): Salt-air corrosion and downtown cast-iron plumbing failures.
+- [Los Angeles County](https://gallagherrestoration.com/los-angeles-county): 2025 Palisades and Eaton fire response.
+
+## Cities
+
+### Riverside County
+- [Canyon Lake](https://gallagherrestoration.com/canyon-lake-ca) (HQ)
+- [Corona](https://gallagherrestoration.com/corona-ca)
+- [Hemet](https://gallagherrestoration.com/hemet-ca)
+- [Lake Elsinore](https://gallagherrestoration.com/lake-elsinore-ca)
+- [Menifee](https://gallagherrestoration.com/menifee-ca)
+- [Murrieta](https://gallagherrestoration.com/murrieta-ca)
+- [Nuevo](https://gallagherrestoration.com/nuevo-ca)
+- [Perris](https://gallagherrestoration.com/perris-ca)
+- [San Jacinto](https://gallagherrestoration.com/san-jacinto-ca)
+- [Sun City](https://gallagherrestoration.com/sun-city-ca)
+- [Temecula](https://gallagherrestoration.com/temecula-ca)
+- [Winchester](https://gallagherrestoration.com/winchester-ca)
+- [Wildomar](https://gallagherrestoration.com/wildomar-ca)
+
+### San Bernardino County
+- [Rancho Cucamonga](https://gallagherrestoration.com/rancho-cucamonga-ca)
+- [San Bernardino](https://gallagherrestoration.com/san-bernardino-ca)
+- [Fontana](https://gallagherrestoration.com/fontana-ca)
+- [Ontario](https://gallagherrestoration.com/ontario-ca)
+- [Victorville](https://gallagherrestoration.com/victorville-ca)
+- [Chino](https://gallagherrestoration.com/chino-ca)
+
+### Orange County
+- [Anaheim](https://gallagherrestoration.com/anaheim-ca)
+- [Santa Ana](https://gallagherrestoration.com/santa-ana-ca)
+- [Irvine](https://gallagherrestoration.com/irvine-ca)
+- [Huntington Beach](https://gallagherrestoration.com/huntington-beach-ca)
+
+### San Diego County
+- [San Diego](https://gallagherrestoration.com/san-diego-ca)
+- [Vista](https://gallagherrestoration.com/vista-ca)
+- [Carlsbad](https://gallagherrestoration.com/carlsbad-ca)
+- [Escondido](https://gallagherrestoration.com/escondido-ca)
+- [Oceanside](https://gallagherrestoration.com/oceanside-ca)
+- [Chula Vista](https://gallagherrestoration.com/chula-vista-ca)
+
+### Los Angeles County
+- [Los Angeles](https://gallagherrestoration.com/los-angeles-ca)
+- [Santa Clarita](https://gallagherrestoration.com/santa-clarita)
+- [Pomona](https://gallagherrestoration.com/pomona-ca)
+- [Torrance](https://gallagherrestoration.com/torrance-ca)
+- [Glendale](https://gallagherrestoration.com/glendale-ca)
+
+## Optional
+
+- [Emergency Line: (951) 541-0034](tel:9515410034): 24/7 live dispatch for active restoration emergencies.

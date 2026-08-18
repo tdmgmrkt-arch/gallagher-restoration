@@ -1,0 +1,103 @@
+{
+  "slug": "torrance-ca",
+  "name": "Torrance",
+  "countySlug": "los-angeles-county",
+  "countyName": "Los Angeles County",
+  "proximityMinutes": 100,
+  "proximityMiles": 85,
+  "route": "SR-60 West \u2192 I-110 South",
+  "metaTitle": "Water & Fire Restoration | Torrance, CA | Gallagher",
+  "metaDescription": "Water, fire, and mold restoration in Torrance, CA. IICRC-trained crews, 24/7 response\u2014on-site in roughly 100 min from Canyon Lake. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 TORRANCE, CA",
+  "heroTitle": "Torrance restoration\u2014water damage, mold, fire, 24/7 response",
+  "heroAccent": "Canyon Lake to Torrance: ~100 min via SR-60 West and I-110 South.",
+  "heroIntro": "Torrance\u2019s South Bay location puts it at the convergence of two persistent damage forces: a high water table that drives below-grade moisture intrusion, and coastal salt air that accelerates corrosion on plumbing and structural components throughout mid-century housing stock. Gallagher Restoration Co. dispatches IICRC-trained crews from Canyon Lake 24/7. A real person answers every call.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~100 min", "hint": "Typical Canyon Lake to Torrance drive via SR-60 West \u2192 I-110 South" },
+    { "label": "Distance", "value": "85 mi", "hint": "Canyon Lake HQ to Torrance" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, every hour, real person answers" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned, Southern California\u2019s restoration team" }
+  ],
+  "localHook": "Torrance occupies a South Bay position that combines the worst aspects of coastal moisture and below-grade water pressure. The city\u2019s mid-century residential fabric\u2014Old Torrance craftsmen, Hollywood Riviera ranches, Southwood\u2019s post-war tracts\u2014sits on terrain where the water table runs high enough to push hydrostatic pressure against foundation walls and basement floors during and after heavy rain. That pressure finds every crack, every deteriorated seal, every aging floor drain. Salt air from the Pacific accelerates corrosion on copper supply lines, brass fittings, and exterior plumbing penetrations throughout neighborhoods within two to three miles of the coastline. A fitting that would last 40 years in Riverside might fail in 25 in Torrance\u2019s coastal environment. Add aging mid-century plumbing in a city where a significant share of the housing stock was built between 1945 and 1965, and the damage picture is predictable. Gallagher Restoration Co. has been making the SR-60 and I-110 run to Torrance for over 15 years.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Old Torrance to the Hollywood Riviera\u2014full coverage",
+    "items": [
+      {
+        "name": "Old Torrance",
+        "body": "Historic residential core with Craftsman and Spanish-revival homes from the 1920s\u201340s. Aging supply lines, cast-iron drain stacks, and original plumbing configurations are common. Water damage in Old Torrance often involves difficult-to-access wall and sub-floor cavities in original construction."
+      },
+      {
+        "name": "Hollywood Riviera",
+        "body": "Coastal hillside neighborhood with a mix of mid-century ranch homes and newer construction. High proximity to the ocean means elevated salt-air corrosion on plumbing components and coastal humidity that keeps interior moisture levels elevated. Mold and plumbing failures are both common."
+      },
+      {
+        "name": "Southwood",
+        "body": "Post-war residential neighborhood with 1950s\u201360s construction throughout. Below-grade moisture intrusion is a recurring problem in homes with slab-on-grade and shallow-basement configurations where the water table runs high. Rapid extraction and dehumidification are the standard response."
+      },
+      {
+        "name": "Walteria",
+        "body": "Inland Torrance neighborhood with a mix of mid-century and newer residential. Slightly removed from direct coastal salt-air exposure but still affected by the South Bay\u2019s elevated ambient humidity. Aging mid-century plumbing and slab-foundation moisture are both active failure vectors here."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Torrance homes most",
+    "items": [
+      {
+        "title": "Below-grade water intrusion from high water table",
+        "body": "Torrance\u2019s water table runs high enough in many neighborhoods to push hydrostatic pressure against foundation walls and floor slabs during and after rain events. Below-grade spaces\u2014garages, lower floors, utility rooms\u2014absorb this intrusion when seals age or foundation walls crack. Rapid extraction, dehumidification, and targeted waterproofing assessment limit the secondary damage window."
+      },
+      {
+        "title": "Coastal salt-air corrosion on plumbing",
+        "body": "Salt-laden marine air accelerates corrosion on copper supply lines, brass fittings, and exterior plumbing penetrations throughout Torrance\u2019s coastal and near-coastal neighborhoods. A fitting that would last 40 years inland fails in 20 to 25 years under salt-air exposure. Corroded joints produce slow leaks inside walls that saturate framing before detection."
+      },
+      {
+        "title": "Aging mid-century plumbing failures",
+        "body": "A large share of Torrance\u2019s housing stock was built between 1945 and 1965. Original or early-replaced galvanized supply lines in these properties are 60 to 80 years old\u2014well past expected service life. Failures inside walls and under slabs are statistically predictable. Full cavity assessment and drying prevent secondary mold."
+      },
+      {
+        "title": "Mold from chronic coastal humidity",
+        "body": "Torrance\u2019s South Bay proximity keeps ambient humidity elevated year-round. Homes with inadequate vapor barriers, aging window seals, or HVAC systems that cycle imperfectly accumulate moisture in wall cavities and sub-floor spaces. Mold establishes quietly, often discovered during a remodel or sale."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Torrance call looks like",
+    "body": "Call (951) 541-0034 at any hour\u2014a real person answers. Gallagher dispatches from Canyon Lake; the drive to Torrance is roughly 100 minutes via SR-60 West and I-110 South. On arrival, the crew assesses the full scope with professional-grade moisture meters and thermal imaging. Below-grade moisture intrusion in Torrance requires thorough foundation assessment\u2014not just the visible water surface. Salt-air corrosion failures inside walls require complete cavity mapping before any drying begins. You get a clear explanation of findings before equipment is placed. Extraction, containment, and structural drying begin the same visit. Documentation starts immediately: photos, moisture logs, written scope for insurance. Gallagher coordinates directly with major insurance carriers, handling adjuster communication on your behalf. The same crew carries the job from first call through final reconstruction."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Torrance homeowners call Gallagher",
+    "body": "Torrance\u2019s restoration needs require a contractor who understands South Bay moisture dynamics: below-grade hydrostatic pressure, salt-air corrosion timelines, and the specific failure patterns of mid-century construction under coastal conditions. Gallagher is a family-owned operation with 15 years of experience across coastal and inland Southern California. IICRC-trained crews apply consistent drying and detection protocols to every damage category. Aaron\u2019s team carries full accountability from first call to final walkthrough\u2014no handoffs, no franchise routing. Assessment is always free. Direct insurance carrier coordination is standard. Gallagher acknowledges that Torrance is roughly 100 minutes from Canyon Lake via SR-60 and I-110. What does not change with drive time is the crew standard or the documentation quality."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on restoration cost in Torrance",
+    "body": "Assessment is free. Most residential restoration jobs in Torrance fall between $1,500 and $20,000 depending on damage category, affected materials, and how long the source was active. Below-grade water intrusion jobs that recur seasonally suggest an underlying foundation issue beyond the restoration scope\u2014Gallagher documents those findings accurately. Mid-century plumbing failures inside walls depend on discovery timing; jobs caught quickly run lower than jobs where moisture has been present for weeks. Gallagher works directly with major insurance carriers and prepares all adjuster documentation."
+  },
+  "faqs": [
+    {
+      "q": "How long does it take Gallagher to reach Torrance?",
+      "a": "From Canyon Lake HQ, the typical drive to Torrance is roughly 100 minutes via SR-60 West and I-110 South. A real person answers every call around the clock and dispatches without delay."
+    },
+    {
+      "q": "Do you handle below-grade water intrusion from Torrance\u2019s high water table?",
+      "a": "Yes. Hydrostatic pressure against foundation walls and floor slabs is a known mechanism in Torrance\u2019s South Bay terrain. Gallagher performs full below-grade extraction, dehumidification, and moisture mapping to document scope accurately for insurance."
+    },
+    {
+      "q": "What about salt-air corrosion plumbing failures in coastal Torrance?",
+      "a": "Yes. Corroded supply lines and fittings in Torrance\u2019s coastal neighborhoods produce slow leaks inside walls. Gallagher assesses the full affected cavity, extracts moisture, and dries the assembly completely to prevent mold establishment."
+    },
+    {
+      "q": "Can you work in Torrance\u2019s mid-century homes?",
+      "a": "Yes. Mid-century construction in Old Torrance, Southwood, and Hollywood Riviera has specific plumbing failure patterns and wall assembly characteristics. We work this housing stock regularly and document every scope element for insurance."
+    },
+    {
+      "q": "What does restoration cost in Torrance?",
+      "a": "Assessment is always free. Most jobs fall between $1,500 and $20,000. Scope, affected materials, and discovery timing determine the final number. Gallagher coordinates directly with major insurance carriers and handles all adjuster documentation."
+    }
+  ]
+}

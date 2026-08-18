@@ -1,0 +1,107 @@
+{
+  "slug": "canyon-lake-ca",
+  "name": "Canyon Lake",
+  "countySlug": "riverside-county",
+  "countyName": "Riverside County",
+  "isHq": true,
+  "proximityMinutes": 0,
+  "proximityMiles": 0,
+  "route": "Local",
+  "metaTitle": "Water & Fire Restoration | Canyon Lake, CA | Gallagher",
+  "metaDescription": "Canyon Lake's local restoration crew. Water, fire, mold, sewage\u201424/7 response, on-site fast. IICRC-trained. Call Gallagher: (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 CANYON LAKE, CA",
+  "heroTitle": "Canyon Lake's restoration company\u2014right here, right now",
+  "heroAccent": "Home base. Zero drive time.",
+  "heroIntro": "Gallagher Restoration Co. is headquartered inside Canyon Lake\u2014not a regional dispatch center 40 miles away. When you call at 2 a.m., Aaron's crew loads up and rolls in minutes. We know this community because we live and work inside its gates.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~10 min", "hint": "Typical HQ-to-door time inside Canyon Lake" },
+    { "label": "Distance", "value": "HQ", "hint": "We are based inside Canyon Lake" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, every hour, real person answers" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Serving Canyon Lake and Riverside County since day one" }
+  ],
+  "localHook": "Canyon Lake is a gated lakefront community, not a typical suburb\u2014and water damage here plays by different rules. Aging copper plumbing in 1970s and 1980s tract homes, seawall seepage after heavy rain cycles, dock-adjacent moisture that never fully dries, boathouse mold that builds quietly over a season. Gallagher Restoration has been the first call for homeowners around Holiday Harbor, East Bay, and the private coves for over 15 years. We work alongside the Canyon Lake POA and local property managers regularly\u2014so access coordination, gate protocols, and HOA documentation requirements are familiar ground, not a surprise. This is home. Every job inside these gates carries the weight of a neighbor doing right by another neighbor.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Every corner of Canyon Lake, gates included",
+    "intro": "From the main lake estates to the quieter inland streets, we respond throughout the community.",
+    "items": [
+      {
+        "name": "Holiday Harbor",
+        "body": "Lakefront and dock-adjacent homes here see recurring moisture intrusion at foundation lines. We\u2019ve responded to more water calls in Holiday Harbor than any other Canyon Lake enclave\u2014seawall weeping and aging copper supply lines are the usual culprits."
+      },
+      {
+        "name": "East Bay",
+        "body": "East Bay\u2019s 1970s\u201380s construction stock means galvanized and early-copper plumbing that is reaching the end of its service life. Pinhole failures and slow slab leaks are common\u2014and often go unnoticed until flooring buckles or mold appears behind cabinetry."
+      },
+      {
+        "name": "Main Lake Estates",
+        "body": "Larger lakefront properties carry more exposure\u2014longer plumbing runs, boat-dock ice machines, exterior structures prone to mold in shaded corners. We work these properties with the scale and documentation that estate owners and their insurers expect."
+      },
+      {
+        "name": "Private Coves & Inland Streets",
+        "body": "Canyon Lake\u2019s interior residential streets still carry the fire-smoke and mold risks common to all Inland Empire communities. Proximity means we\u2019re here before the damage spreads."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Canyon Lake homes most",
+    "intro": "Geography and housing age create a predictable damage profile here. These are the calls we take most often.",
+    "items": [
+      {
+        "title": "Seawall seepage and foundation moisture",
+        "body": "Lakefront properties absorb lateral moisture through aging seawalls and foundation cracks. Left untreated, it saturates subfloor assemblies and produces chronic mold. Early intervention\u2014moisture mapping, targeted extraction, and controlled drying\u2014stops the cycle before structural repair becomes necessary."
+      },
+      {
+        "title": "Aging copper and galvanized plumbing failures",
+        "body": "Homes built in the 1970s and 1980s are entering or past the typical 40\u201350-year service window for copper supply lines. Pinhole leaks, joint failures, and sudden pipe bursts are all active risks. We dry affected assemblies completely to prevent secondary mold growth."
+      },
+      {
+        "title": "Dock and boathouse mold",
+        "body": "Boathouses and dock structures stay humid year-round. Mold colonizes wood framing, fiberglass panels, and stored equipment faster than most owners expect. Our IICRC-trained crews remediate these spaces and document the work for insurance and POA compliance."
+      },
+      {
+        "title": "Ice machine and appliance leaks",
+        "body": "Dock ice machines and built-in appliances are a persistent water source in lakefront homes. A slow supply-line leak behind a refrigerator or under a boathouse sink can saturate subfloor and wall cavities for weeks before discovery."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Canyon Lake call looks like",
+    "body": "You call (951) 541-0034\u2014a real person answers, every hour of every day. Because Gallagher is headquartered inside Canyon Lake, the crew is typically on-site within 10 minutes of that call. We know the gate protocols; access is never a delay. On arrival, we assess the full scope with professional-grade moisture meters and thermal imaging\u2014not a visual guess. You get a clear explanation of what we found and what comes next before a single piece of equipment is placed. Extraction, drying, and containment begin the same visit. If fire or mold is involved, we document everything with photos and written logs from minute one\u2014because your insurance claim depends on a clean paper trail. We work directly with major insurance carriers on your behalf, handling the adjuster coordination so you don\u2019t have to manage two conversations at once. From first call through final reconstruction, the same crew stays on the job. No handoffs. No strangers showing up at your door."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Canyon Lake calls Gallagher first",
+    "body": "Most restoration companies serving Riverside County are dispatched from 30 to 50 miles away. Gallagher is based inside Canyon Lake. That difference is 20 to 40 minutes of active water damage to your home before anyone arrives\u2014damage that compounds with every passing minute. Beyond proximity, this is a family-owned operation with 15 years of history inside these gates. Aaron and the crew have worked with the Canyon Lake POA and local property managers long enough to understand the documentation requirements, gate procedures, and community standards that outside contractors get wrong. IICRC-trained crews use professional-grade drying and detection equipment\u2014the same standard restoration contractors bring to commercial losses, applied to every Canyon Lake home regardless of size. We coordinate directly with major insurance carriers, which means one point of contact for you from assessment through completion. When the job is done, the same people who started it finish it."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on restoration cost",
+    "body": "Assessment is free\u2014no charge to show up, evaluate the damage, and give you a clear picture of scope. Most residential restoration jobs in Canyon Lake fall between $500 and $15,000 depending on the category of damage, the materials affected, and how long the moisture was present before discovery. Water mitigation alone runs lower; jobs that include mold remediation, structural drying of lakefront assemblies, or post-fire restoration run higher. If you have homeowners insurance, Gallagher works directly with your carrier. We prepare the documentation adjusters need and handle the back-and-forth so the process moves faster. You\u2019re not left translating between a contractor and an adjuster while your home sits wet."
+  },
+  "notableWork": "Gallagher has served dozens of Holiday Harbor and East Bay homeowners over 15+ years\u2014seawall moisture jobs, boathouse mold remediations, and slab-leak responses that required full-assembly drying within the POA\u2019s documentation requirements.",
+  "faqs": [
+    {
+      "q": "How fast can Gallagher get to Canyon Lake?",
+      "a": "Gallagher is headquartered inside Canyon Lake. Typical on-site time is around 10 minutes from your call\u2014often faster depending on crew location at the time. Gate access is not a delay; we know the protocols."
+    },
+    {
+      "q": "Do you work with my insurance?",
+      "a": "Yes. Gallagher coordinates directly with major insurance carriers. We prepare the scope documentation, photo logs, and moisture readings your adjuster needs, and we handle the coordination on your behalf so you\u2019re not caught between two conversations."
+    },
+    {
+      "q": "What does restoration cost in Canyon Lake?",
+      "a": "Assessment is always free. Most residential jobs run between $500 and $15,000. Scope, affected materials, and discovery timing all affect the final number. Lakefront properties with seawall moisture or mold involvement typically fall toward the higher end of that range."
+    },
+    {
+      "q": "Do you handle both mitigation and reconstruction?",
+      "a": "Yes. Gallagher handles the full scope\u2014emergency mitigation, structural drying, mold remediation, and reconstruction. The same crew carries the job through completion. You won\u2019t be handed off to a separate contractor mid-project."
+    },
+    {
+      "q": "Can you work within Canyon Lake POA rules?",
+      "a": "Yes. We\u2019ve worked alongside the Canyon Lake POA and local property managers for over 15 years. Gate protocols, HOA documentation requirements, and community standards are familiar territory. We handle the paperwork so POA approval isn\u2019t a bottleneck in your recovery."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "rancho-cucamonga-ca",
+  "name": "Rancho Cucamonga",
+  "countySlug": "san-bernardino-county",
+  "countyName": "San Bernardino County",
+  "proximityMinutes": 60,
+  "proximityMiles": 55,
+  "route": "I-15 North",
+  "metaTitle": "Water & Fire Damage Restoration | Rancho Cucamonga",
+  "metaDescription": "Gallagher Restoration reaches Rancho Cucamonga in ~60 min via I-15. Water, fire, mold & wildfire damage — 24/7. Family-owned, IICRC-trained. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY · RANCHO CUCAMONGA, CA",
+  "heroTitle": "Restoration services in Rancho Cucamonga — on-site in about 60 minutes",
+  "heroAccent": "Damage doesn't hold business hours.",
+  "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Rancho Cucamonga via I-15 North — typically on-site within 60 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~60 min", "hint": "Typical drive from Canyon Lake via I-15 North" },
+    { "label": "Distance", "value": "55 mi", "hint": "Canyon Lake to Rancho Cucamonga" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+  ],
+  "localHook": "Rancho Cucamonga sits at the base of the San Gabriel Mountains where the Santa Ana winds funnel through Cajon Pass with enough force to tear roofing and push embers across dry hillside communities. The city grew fast — most of its housing stock dates from the 1980s through the 2000s, with master-planned tracts in Terra Vista and Victoria Gardens area layered over older Alta Loma ranch lots. That mixed-vintage housing profile creates a predictable damage pattern: aging supply lines and galvanized pipe in the older foothill parcels, builder-grade plumbing failures in the newer tracts, and wind-driven roof damage that opens the envelope to water intrusion. Gallagher's crew takes I-15 North directly into the city, usually arriving within the hour. We coordinate with the major insurance carriers so you're not navigating the claim alone.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Every corner of Rancho Cucamonga",
+    "items": [
+      {
+        "name": "Alta Loma",
+        "body": "Older foothill parcels with mature landscaping and aging supply lines. Hillside runoff during hard rain events can overwhelm drainage and enter through garage slabs or crawl space vents."
+      },
+      {
+        "name": "Etiwanda",
+        "body": "Historic district on the eastern edge with a mix of original ranch-era structures and newer infill. Windward exposure makes this area particularly vulnerable to Santa Ana roof damage."
+      },
+      {
+        "name": "Terra Vista",
+        "body": "1980s planned community with dense townhome clusters. Shared-wall plumbing events in one unit can spread quickly to adjacent properties before anyone detects moisture."
+      },
+      {
+        "name": "Victoria Gardens area",
+        "body": "Newer master-planned development with slab-on-grade construction. Builder-grade fixtures and irrigation systems account for a disproportionate share of slow-leak water damage calls."
+      },
+      {
+        "name": "North Rancho Cucamonga foothills",
+        "body": "Direct wildfire exposure corridor into the San Bernardino National Forest. Wind-driven ember events can deposit fire damage on rooflines and eaves well ahead of the fire front itself."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local damage profile",
+    "heading": "What brings Rancho Cucamonga homeowners to the phone",
+    "items": [
+      {
+        "title": "Santa Ana wind roof damage",
+        "body": "Gusts through Cajon Pass regularly exceed 60 mph in Rancho Cucamonga — enough to strip shingles, crack tile, and break ridge caps. Once the roof envelope opens, the next rainfall drives water into attic insulation, drywall, and framing. The water damage timeline starts the moment the wind event ends."
+      },
+      {
+        "title": "Foothill wildfire exposure",
+        "body": "The northern edge of Rancho Cucamonga borders fire-prone foothill terrain. Smoke intrusion, ember ignition, and fire damage to eaves and attic spaces are realistic risks during any significant San Bernardino County fire event. Gallagher handles fire damage restoration and smoke clean-up."
+      },
+      {
+        "title": "Aging tract plumbing failures",
+        "body": "Homes built in the 1970s–1990s in Alta Loma and Etiwanda carry original galvanized or early copper supply lines. Corrosion-driven pinhole leaks and failed shutoff valves are the most common water damage calls from these neighborhoods."
+      },
+      {
+        "title": "Builder-grade failures in newer tracts",
+        "body": "Rapid 2000s–2010s development in Victoria Gardens and Terra Vista brought volume construction with builder-grade fixtures. Supply hose failures under sinks and at refrigerator icemakers account for a predictable share of the water damage calls from these areas."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The process",
+    "heading": "From your call to a dry, restored property",
+    "body": "When you call (951) 541-0034, a real person — not a voicemail system — answers. We gather the essential details: type of damage, affected area, whether utilities need to be shut off. A crew departs Canyon Lake via I-15 North and is typically on your property within 60 minutes. First on-site priority is stabilization — stopping active water, boarding compromised openings after a fire, or containing a sewage event before contamination spreads. We conduct a full scope assessment and document everything for your insurance carrier. Drying and remediation equipment deploys the same day. Aaron and the team stay in contact with you throughout the process, and we coordinate directly with the major insurance carriers — you don't have to manage that conversation alone. Most residential water damage cases move from initial response through dry-out in 3–5 days, depending on the extent of saturation and the materials involved. Reconstruction scheduling follows immediately after clearance."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "15 years, family-owned, and a real person on the phone",
+    "body": "Gallagher Restoration Co. has been a family-owned operation in Southern California for more than 15 years. Aaron built the business on a simple premise: show up fast, do the work right, and treat every property like it belongs to someone you know. That's not marketing language — it's the operating model. IICRC-trained crews mean the people walking into your home understand the science of moisture, structural drying, and safe mold remediation. Professional-grade equipment means drying happens at the pace the job demands, not the pace that's cheapest. When you call us for water damage restoration, fire damage restoration, mold remediation, sewage clean-up, or wildfire damage — from Rancho Cucamonga or anywhere in our service area — you get the same crew accountability and the same direct communication. No subcontractors cycling in and out. No national franchise scripts. A family-run team that's been doing this in Southern California since the early 2000s."
+  },
+  "pricing": {
+    "eyebrow": "What it costs",
+    "heading": "Honest numbers on restoration pricing",
+    "body": "Water damage restoration in Rancho Cucamonga typically runs between $1,500 and $8,000+ depending on the affected square footage, material types, and how long the moisture was present before mitigation began. Fire and smoke damage is scoped individually — remediation costs scale with char depth, smoke penetration, and whether structural reconstruction is required. Mold remediation ranges from a few hundred dollars for a contained bathroom intrusion to several thousand for a whole-attic or crawl-space event. We provide a written scope before work begins. We coordinate with the major insurance carriers and document the claim properly from day one — which typically prevents disputes at the adjuster stage. Call (951) 541-0034 for a same-day assessment."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher Restoration reach Rancho Cucamonga?",
+      "a": "From our Canyon Lake headquarters via I-15 North, we're typically on-site in Rancho Cucamonga within 60 minutes of your call. We run 24/7 — nights, weekends, and holidays."
+    },
+    {
+      "q": "Does Gallagher work with homeowner insurance in Rancho Cucamonga?",
+      "a": "Yes. We coordinate with the major insurance carriers and document damage thoroughly from the first hour on-site. Our documentation helps the adjuster process move faster and with fewer disputes."
+    },
+    {
+      "q": "What should I do immediately after wind-driven roof damage lets in water?",
+      "a": "Move valuables away from the wet area and avoid standing water until it's confirmed safe. Call us right away — the faster mitigation equipment is deployed, the lower the total damage footprint. We can board and tarp the roof breach on the same visit."
+    },
+    {
+      "q": "Can you handle mold found during a water damage repair in Alta Loma?",
+      "a": "Yes. Mold remediation is part of our core services. If mold is discovered during water damage clean-up or a water dry-out, we scope and address it in the same project. We also offer standalone mold testing services and mold inspection services."
+    },
+    {
+      "q": "Do you handle wildfire damage in Rancho Cucamonga's foothill communities?",
+      "a": "Yes — wildfire is a dedicated service. We handle fire damage restoration, smoke clean-up, and the full reconstruction path for properties in Alta Loma, Etiwanda, and the northern foothill zones of Rancho Cucamonga."
+    }
+  ]
+}

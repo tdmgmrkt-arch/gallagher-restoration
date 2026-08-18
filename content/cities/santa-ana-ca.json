@@ -1,0 +1,107 @@
+{
+  "slug": "santa-ana-ca",
+  "name": "Santa Ana",
+  "countySlug": "orange-county",
+  "countyName": "Orange County",
+  "proximityMinutes": 60,
+  "proximityMiles": 45,
+  "route": "SR-91 West then SR-55",
+  "metaTitle": "Water & Fire Damage Restoration | Santa Ana, CA",
+  "metaDescription": "Gallagher Restoration reaches Santa Ana in ~60 min via SR-91 & SR-55. Water, fire, mold & sewage — 24/7. Family-owned, IICRC-trained. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY · SANTA ANA, CA",
+  "heroTitle": "Restoration services in Santa Ana — on-site in about 60 minutes",
+  "heroAccent": "Orange County's urban core — the oldest housing stock in the county.",
+  "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Santa Ana via SR-91 West and SR-55 — typically on-site within 60 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~60 min", "hint": "Typical drive from Canyon Lake via SR-91 West and SR-55" },
+    { "label": "Distance", "value": "45 mi", "hint": "Canyon Lake to Santa Ana" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+  ],
+  "localHook": "Santa Ana is Orange County's seat of government and, in significant stretches, its oldest city. The downtown historic district, Floral Park, and French Park carry housing from the 1900s through the 1920s — some of the oldest residential stock in Southern California. That age creates a specific and demanding damage profile. Original cast iron drain lines in these neighborhoods have been cracking and root-intruding for decades. The high-density apartment corridors that run through much of South Santa Ana create a different problem: water intrusion events that spread between units before anyone locates the source. Storm drain capacity is a perennial concern during heavy rain years — downtown Santa Ana has documented cases of street flooding that backs into basements and ground-floor commercial spaces. Gallagher takes SR-91 West to SR-55 and is typically in Santa Ana within 60 minutes.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "From Floral Park to South Santa Ana",
+    "items": [
+      {
+        "name": "Floral Park",
+        "body": "Among the most architecturally significant historic neighborhoods in Orange County, with homes dating to the 1910s and 1920s. Original plumbing in these structures is a century old in some cases — when it fails, it fails inside wall cavities that contain irreplaceable historic materials. Careful moisture mapping and restoration-aware demolition are required."
+      },
+      {
+        "name": "French Park",
+        "body": "Another historic residential district with pre-war housing. Proximity to downtown Santa Ana means shared storm drain infrastructure that can overwhelm during heavy rain. Properties in French Park frequently report water intrusion through basement entries and ground-floor openings when the street floods."
+      },
+      {
+        "name": "Downtown Santa Ana",
+        "body": "Mixed commercial and residential with a concentration of pre-1950 construction. High foot-traffic commercial ground floors are particularly vulnerable to storm drain backup events. When downtown floods, the timeline from street water to building interior is measured in minutes."
+      },
+      {
+        "name": "South Santa Ana",
+        "body": "High-density apartment and multi-family residential. Water intrusion events — whether from plumbing failure or storm — can penetrate multiple units across two or three floors before the source is isolated. Multi-unit documentation for insurance purposes is a core Gallagher competency."
+      },
+      {
+        "name": "Midtown Santa Ana",
+        "body": "Transitional zone between historic residential and mid-century apartment density. Mixed infrastructure vintage — original bungalows next to 1960s apartment buildings — creates a varied damage profile on the same block."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local damage profile",
+    "heading": "What brings Santa Ana property owners to the phone",
+    "items": [
+      {
+        "title": "Century-old plumbing systems",
+        "body": "Floral Park and French Park properties carry original or first-generation-replacement plumbing in a climate warm enough to encourage year-round biological activity in failing drain lines. Cast iron pipe that has been deteriorating for 80–100 years develops fractures that pass sewage into the surrounding soil and, in slab-founded structures, into the building interior. These are not standard water damage events — they require Category 3 protocols and thorough structural assessment."
+      },
+      {
+        "title": "High-density apartment water intrusion",
+        "body": "South Santa Ana's apartment corridors generate a consistent volume of inter-unit water intrusion calls. A supply line failure in a third-floor unit saturates the unit below before anyone notices the dripping ceiling. By the time the source is found, water has spread through multiple ceiling and wall systems. Water extraction and water dry-out are immediate interventions — multi-unit documentation follows."
+      },
+      {
+        "title": "Storm drain overwhelm during heavy rain",
+        "body": "Downtown Santa Ana's storm drain infrastructure dates from an era when the city's surface coverage was far lower than it is today. During a significant Pacific storm, the system can overwhelm — backing water up into street-level and below-grade commercial spaces. Emergency water removal in commercial buildings requires equipment scaled for large-volume, fast-entry scenarios."
+      },
+      {
+        "title": "Sewage backup in older city infrastructure",
+        "body": "Santa Ana's original sewer mains under the downtown and historic residential areas are among the oldest in Orange County. Root intrusion, soil movement, and material fatigue produce partial collapses that back sewage into building interiors. Sewage clean-up is a Category 3 contamination event requiring specialized protocols — not something to address with a standard wet-vac."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The process",
+    "heading": "From your call to a dry, restored property",
+    "body": "Call (951) 541-0034 — a real person answers, any hour. We gather the critical details fast: type of damage, whether the source is active, the address, and whether commercial ground-floor or multi-unit complications apply. A crew leaves Canyon Lake via SR-91 West and SR-55 and is typically at your Santa Ana property within 60 minutes. Containment first — stopping the active source, isolating sewage contamination, or identifying and sealing storm-entry points in a commercial flooding scenario. Then a full scope assessment with professional-grade moisture detection equipment. Multi-unit events get individual unit documentation in real time for the insurance carrier. Extraction and drying equipment deploys the same visit. Aaron and the team handle the insurance coordination. Standard residential dry-out takes 3–5 days. Reconstruction scheduling begins at clearance."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Historic buildings, high-density housing — the same accountable response",
+    "body": "Santa Ana is one of the most complex cities in Southern California when it comes to property damage response — historic buildings that require preservation-aware restoration, multi-unit complexes with complicated insurance ownership, and aging city infrastructure that creates recurring event scenarios. Gallagher Restoration Co. brings 15+ years of experience across this full range. IICRC-trained crews understand the moisture science and Category 3 contamination protocols that older and high-density buildings demand. Professional-grade equipment means accurate detection before any destructive assessment begins — particularly important in historic structures where preserving original materials is part of the scope. We handle water damage restoration, sewage clean-up, mold remediation, fire damage restoration, and property damage management across all of Santa Ana. We coordinate with the major insurance carriers and document from the first hour on-site. Family-owned — Aaron and the team, every job."
+  },
+  "pricing": {
+    "eyebrow": "What it costs",
+    "heading": "Honest numbers on restoration pricing",
+    "body": "Water damage restoration in Santa Ana ranges from $1,500 for a minor single-unit appliance leak to $15,000+ for a multi-unit event in a high-density building or a severe storm flooding scenario affecting a commercial ground floor. Sewage clean-up in older Santa Ana properties with Category 3 contamination runs higher than standard water removal due to decontamination protocol requirements. Historic building water damage repair costs more than standard tract construction because original materials require specialist treatment. Mold remediation scales with affected square footage and the presence of mold inside HVAC systems. Written scope before work begins. Insurance coordination standard. Call (951) 541-0034 for a same-day assessment."
+  },
+  "faqs": [
+    {
+      "q": "How quickly can Gallagher Restoration reach Santa Ana?",
+      "a": "Via SR-91 West and SR-55 from Canyon Lake, we're typically on-site in Santa Ana within 60 minutes. We run 24/7 — call (951) 541-0034 and a real person answers, any hour."
+    },
+    {
+      "q": "We have water damage in a Floral Park historic home — can you handle original materials?",
+      "a": "Yes. Historic construction requires professional moisture mapping to avoid unnecessary demolition of irreplaceable materials. We assess first, then scope only the demolition that's required for proper remediation. Water damage repair in historic structures is a specialized scope we've handled for 15+ years."
+    },
+    {
+      "q": "Our apartment building in South Santa Ana has water coming through from the unit above — what happens first?",
+      "a": "First: locate and stop the source. Second: assess the extent of penetration across unit boundaries using moisture mapping equipment. Third: document each affected unit individually for insurance purposes. We handle multi-unit water damage events as a routine scope — the insurance documentation process is something we manage for you."
+    },
+    {
+      "q": "Santa Ana had a significant rainstorm and water came in through our downtown storefront. Is that covered by insurance?",
+      "a": "Storm-driven flooding coverage depends on your policy. We document the event thoroughly from the first assessment — that documentation is what your broker and adjuster need to process the claim. We also coordinate directly with the major insurance carriers on the remediation scope. Call us first and let us help build the claim record."
+    },
+    {
+      "q": "What's the difference between a sewage backup and standard water damage?",
+      "a": "Sewage is Category 3 contaminated water — it contains pathogens, bacteria, and biological material that standard water extraction equipment is not rated to handle safely. Our sewage clean-up services use specialized containment and decontamination protocols. Affected materials that cannot be decontaminated are removed rather than dried. Standard water damage clean-up protocols do not apply."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "hemet-ca",
+  "name": "Hemet",
+  "countySlug": "riverside-county",
+  "countyName": "Riverside County",
+  "isHq": false,
+  "proximityMinutes": 30,
+  "proximityMiles": 25,
+  "route": "SR-74 East",
+  "metaTitle": "Water & Fire Restoration | Hemet, CA | Gallagher",
+  "metaDescription": "24/7 restoration in Hemet, CA\u2014water, fire, mold, sewage. Gallagher on-site within 60 min. IICRC-trained. Free assessment. (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 HEMET, CA",
+  "heroTitle": "Hemet restoration services\u2014water, fire, mold, sewage",
+  "heroAccent": "30 min from Canyon Lake HQ.",
+  "heroIntro": "Gallagher Restoration Co. responds to water damage, fire damage, mold, and sewage emergencies throughout Hemet and the San Jacinto Valley 24 hours a day. From Canyon Lake, the crew is on-site within 60 minutes. IICRC-trained technicians with professional-grade equipment handle the full scope\u2014mitigation through reconstruction.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~60 min", "hint": "Typical HQ-to-Hemet response via SR-74 East" },
+    { "label": "Distance", "value": "25 mi", "hint": "Via SR-74 East from Canyon Lake" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Real person answers, every hour" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Serving Riverside County across the full valley" }
+  ],
+  "localHook": "Hemet sits at the floor of the San Jacinto Valley, 25 miles east of Canyon Lake on SR-74. It\u2019s a city defined as much by its retirement communities as by its older downtown core\u2014and both come with specific damage risks. Plumbing installed in the 1950s, 1960s, and 1970s is failing throughout the older residential stock. Retirement developments built across the following decades have their own aging infrastructure. The valley\u2019s heat extremes stress AC systems to the point of condensate failure, producing ceiling and wall damage that\u2019s easy to miss until it\u2019s significant. Gallagher serves Hemet because the San Jacinto Valley is core Riverside County territory\u2014and because many Hemet residents, particularly in senior communities, discover damage late and need a team that moves fast and explains clearly.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Hemet neighborhoods Gallagher responds to",
+    "intro": "We serve all of Hemet\u2014downtown, East Hemet, and the valley\u2019s retirement communities.",
+    "items": [
+      {
+        "name": "East Hemet",
+        "body": "East Hemet\u2019s residential stock is a mix of 1960s and 1970s tract homes with original or near-original plumbing. Slow slab leaks and galvanized drain failures are the most common calls here. Water migrates under finished flooring for weeks before visible damage appears."
+      },
+      {
+        "name": "Downtown historic district",
+        "body": "Downtown Hemet\u2019s older building stock\u2014commercial and residential\u2014carries aging infrastructure risk across multiple systems. Water intrusion from deteriorating rooflines and failed envelope sealing is a recurring pattern. We document historic structures carefully to support both insurance claims and preservation considerations."
+      },
+      {
+        "name": "Retirement communities",
+        "body": "Hemet\u2019s retirement developments are large and densely occupied. Property managers in these communities call Gallagher when plumbing failures, sewage backups, or storm-related water intrusion affect multiple units. We coordinate multi-unit responses with efficiency and minimal disruption to residents."
+      },
+      {
+        "name": "Mobile home communities",
+        "body": "Manufactured and mobile home communities throughout the Hemet valley face moisture intrusion through skirting, underbelly insulation, and aging supply connections. These structures require different drying protocols than site-built homes, and our crew is trained for both."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Hemet homes most",
+    "intro": "Hemet\u2019s age of housing stock and valley climate produce a consistent set of damage categories.",
+    "items": [
+      {
+        "title": "Aging retirement-community plumbing failures",
+        "body": "Plumbing systems in Hemet\u2019s older retirement developments are failing at an increasing rate. Supply line failures, corroded copper fittings, and failing water heaters produce water damage that can affect multiple units before management is notified. We work directly with property managers to coordinate rapid response and full documentation."
+      },
+      {
+        "title": "Mobile home water intrusion",
+        "body": "Manufactured homes in the Hemet valley experience moisture intrusion through skirting gaps, roof membrane failures, and deteriorated supply connections. Subfloor assemblies in these structures absorb water quickly and retain it longer than site-built construction. Early extraction is critical."
+      },
+      {
+        "title": "Valley heat and AC condensate failures",
+        "body": "Hemet\u2019s summer temperatures routinely exceed 105\u00b0F, driving AC systems to near-continuous operation. Condensate drain lines clog or disconnect under this load, allowing water to accumulate in air handler cabinets, ceiling cavities, and attic spaces. We see multiple condensate-failure calls every summer."
+      },
+      {
+        "title": "1950s\u201370s plumbing system deterioration",
+        "body": "The oldest residential sections of Hemet contain homes with galvanized steel plumbing still in service. These systems corrode from the inside out, producing restricted flow, discolored water, and eventual pipe failure. When a galvanized line fails, the water volume and subsequent damage can be substantial."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Hemet call looks like",
+    "body": "You call (951) 541-0034 and a real person answers\u2014day or night. The crew departs Canyon Lake on SR-74 East and arrives in Hemet within 60 minutes under normal conditions. On arrival, we assess the full damage scope with moisture meters and thermal imaging before any equipment is placed. You receive a plain-language explanation of the damage and the remediation plan before work begins\u2014no surprises. Extraction and structural drying start the same visit. For senior residents and retirement community property managers, we make the process as clear and low-stress as possible: one point of contact, consistent crew, written documentation at every stage. Gallagher coordinates directly with major insurance carriers. We prepare the adjuster documentation and manage that conversation so you\u2019re not navigating two separate processes while your home is still wet. We handle everything from initial mitigation through final reconstruction, with the same crew carrying the job from start to finish."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Hemet calls Gallagher",
+    "body": "Hemet is 25 miles from our Canyon Lake headquarters\u2014a straight shot on SR-74 East. Most emergency calls in the valley receive a crew on-site within 60 minutes. That matters in a city where a significant portion of the housing stock is occupied by senior residents who may not catch damage early. Speed and clear communication are the two things that matter most when water is moving through a home, and Gallagher brings both. This is a family-owned operation, not a franchise. Aaron\u2019s crew is the same team from first call to final walkthrough\u2014no handoffs, no unfamiliar faces arriving mid-job. IICRC-trained technicians use professional-grade detection and drying equipment, and the documentation we produce meets the standards major insurance carriers require. Gallagher also has direct experience with Hemet\u2019s retirement community property managers\u2014multi-unit coordination, HOA documentation, and minimal resident disruption are part of how we operate here."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on Hemet restoration cost",
+    "body": "Assessment is free. Gallagher arrives, evaluates the damage, and gives you a clear scope picture at no charge. Most residential restoration jobs in Hemet fall between $500 and $15,000. A contained appliance leak runs lower. Multi-room water damage, jobs with mold involvement, or post-fire restoration run higher. Retirement community and multi-unit jobs are scoped individually. If you have homeowners or renters insurance, Gallagher works directly with your carrier\u2014we prepare the documentation and handle the adjuster coordination so the claim moves faster and you\u2019re not caught in the middle."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher get to Hemet?",
+      "a": "From Canyon Lake HQ, Hemet is 25 miles via SR-74 East. Typical on-site time is within 60 minutes of your call. We move immediately\u2014no callback queue, no dispatch delay."
+    },
+    {
+      "q": "Do you work with my insurance?",
+      "a": "Yes. Gallagher coordinates directly with major insurance carriers. We prepare scope documentation, moisture readings, and photo logs, then manage the adjuster communication on your behalf."
+    },
+    {
+      "q": "What does restoration cost in Hemet?",
+      "a": "Assessment is free. Most jobs run between $500 and $15,000 depending on damage type, materials affected, and how long moisture was present. We give you a clear explanation of scope before any work begins."
+    },
+    {
+      "q": "Do you handle both mitigation and reconstruction?",
+      "a": "Yes. Gallagher handles the complete job\u2014emergency mitigation, structural drying, mold remediation if needed, and full reconstruction. Same crew, start to finish."
+    },
+    {
+      "q": "Do you work with retirement community property managers?",
+      "a": "Yes. Gallagher has direct experience coordinating with property managers in Hemet\u2019s retirement communities. We handle multi-unit responses, produce the documentation HOAs and management companies require, and minimize disruption to residents throughout the process."
+    }
+  ]
+}

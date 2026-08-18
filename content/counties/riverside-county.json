@@ -1,0 +1,114 @@
+{
+  "slug": "riverside-county",
+  "name": "Riverside County",
+  "shortName": "Riverside",
+  "metaTitle": "Riverside County Restoration | Gallagher Restoration Co.",
+  "metaDescription": "Water, fire, mold & sewage restoration across Riverside County. Gallagher Restoration Co. responds within 60 minutes, 24/7. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 RIVERSIDE COUNTY",
+  "heroTitle": "Property damage restoration in Riverside County",
+  "heroAccent": "headquartered in Canyon Lake",
+  "heroIntro": "Gallagher Restoration Co. is based in Canyon Lake and has served Riverside County homeowners and property managers for more than 15 years. Water, fire, mold, sewage, and wildfire damage\u2014handled by one family-owned crew, available around the clock, typically on-site within 60 minutes.",
+  "proofStrip": [
+    {"label": "Response Time", "value": "60 min", "hint": "Typical on-site arrival across Riverside County"},
+    {"label": "Cities Served", "value": "13", "hint": "Canyon Lake \u00b7 Temecula \u00b7 Murrieta + 10 more"},
+    {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person, not a call center"},
+    {"label": "In Business", "value": "15+ yrs", "hint": "Family-owned, Canyon Lake HQ since 2009"}
+  ],
+  "overview": {
+    "eyebrow": "The County",
+    "heading": "Riverside County: the footprint Gallagher knows best",
+    "body": "Riverside County stretches from the eastern edge of the Inland Empire out to the edge of the Coachella Valley\u2014more than 7,200 square miles of suburban tracts, hillside developments, lakefront communities, wine country, and high desert. Population growth over the past two decades has made it one of the fastest-expanding counties in California, which means a wide mix of housing stock: new master-planned communities in Menifee and Wildomar alongside post-war ranches in Perris and Hemet, early-1960s Sun City retirement villages, and the distinctive lakefront homes of Canyon Lake. That diversity of construction eras and types directly shapes the damage patterns Gallagher encounters every week. Gallagher Restoration Co. is not a company that dispatches from Los Angeles or San Diego and arrives two hours later. The crew is based in Canyon Lake\u2014at the geographic heart of the county\u2014and can reach most Riverside County addresses in under an hour."
+  },
+  "topCities": [
+    {
+      "slug": "canyon-lake-ca",
+      "name": "Canyon Lake",
+      "blurb": "Gallagher's home base. The lakefront setting and high share of single-story homes with flat or low-slope roofs mean water intrusion and moisture management are recurring calls. The crew knows this city block by block."
+    },
+    {
+      "slug": "temecula-ca",
+      "name": "Temecula",
+      "blurb": "Wine country homes in the western hills face real wildfire smoke intrusion risk during Santa Ana wind events. The city's rapid residential growth also means many homes built in the 1990s and early 2000s are entering their first major plumbing-failure cycle."
+    },
+    {
+      "slug": "murrieta-ca",
+      "name": "Murrieta",
+      "blurb": "Dense master-planned tracts and a high concentration of two-story homes mean upstairs water events\u2014appliance leaks, supply line failures\u2014often saturate ceilings before the homeowner notices. Fast extraction matters here more than most."
+    },
+    {
+      "slug": "menifee-ca",
+      "name": "Menifee",
+      "blurb": "One of the county's fastest-growing cities with a large percentage of homes built after 2005. New construction is not immune to damage\u2014irrigation system failures and HVAC condensate line clogs are common calls in Menifee."
+    },
+    {
+      "slug": "lake-elsinore-ca",
+      "name": "Lake Elsinore",
+      "blurb": "Situated in a natural flood basin, Lake Elsinore sees basement and crawl-space flooding events after heavy rain cycles that rarely affect neighboring cities. Storm-driven water intrusion here requires a crew that understands the local drainage dynamics."
+    },
+    {
+      "slug": "corona-ca",
+      "name": "Corona",
+      "blurb": "Older residential corridors in north Corona carry aging water infrastructure. A burst pipe in a 1970s ranch-style home in this part of the city can saturate subfloor faster than the same event in newer construction\u2014Gallagher arrives before it spreads."
+    }
+  ],
+  "localContext": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What drives property damage in Riverside County",
+    "body": "Riverside County's climate creates a specific and predictable damage calendar. Summers push interior temperatures high enough that deferred HVAC maintenance\u2014clogged condensate drain lines in particular\u2014becomes a ceiling water damage call by August. Fall brings Santa Ana wind events that drive wildfire smoke into living spaces along the western ridgelines from Temecula to Wildomar, and the same dry winds accelerate fire spread through hillside developments. Winter rain years following drought cycles deliver hard-impact flooding to communities in the Lake Elsinore basin and along the San Jacinto River corridor. The county's housing stock compounds all of this. Sun City\u2014developed in the early 1960s\u2014still has a significant inventory of homes with original galvanized steel plumbing. That pipe corrodes from the inside, restricts flow, and eventually fails at fittings without warning. Hemet and San Jacinto share similar vintage housing. Meanwhile, the newer tracts in Menifee, Winchester, and Wildomar face different vulnerabilities: high-density framing, shared walls, and irrigation systems that can leak undetected into slab foundations for months. Freeway access from Canyon Lake runs in every direction\u2014I-15 north and south, SR-74 west toward Hemet, SR-79 toward San Jacinto\u2014which is why Gallagher can realistically promise a 60-minute arrival window across the full 13-city footprint."
+  },
+  "serviceLines": {
+    "eyebrow": "What We Handle",
+    "heading": "Restoration services across Riverside County",
+    "intro": "Every service Gallagher offers is available across all 13 Riverside County cities, around the clock.",
+    "items": [
+      {
+        "title": "Water damage",
+        "body": "From burst galvanized pipes in Sun City to irrigation slab leaks in Menifee to upstairs appliance failures in Murrieta\u2014Gallagher handles emergency water removal, structural drying, moisture mapping, and full reconstruction. One crew through extraction to final paint."
+      },
+      {
+        "title": "Fire & smoke",
+        "body": "Kitchen fires and fireplace accidents generate soot that migrates far beyond the room of origin. Gallagher's fire and smoke cleanup process covers the full structure\u2014content cleaning, odor neutralization, surface restoration, and rebuild\u2014across all Riverside County homes."
+      },
+      {
+        "title": "Mold",
+        "body": "Riverside County's warm summers and periodic moisture events create conditions where mold can colonize inside wall cavities within 48 hours of a water event. Gallagher provides mold inspection, testing, and full remediation\u2014safely contained, properly documented."
+      },
+      {
+        "title": "Sewage",
+        "body": "Sewer line backups and drain overflows are Category 3 contamination events requiring specialized handling. Gallagher's sewage cleanup crews are trained to contain, extract, disinfect, and document these jobs for insurance purposes anywhere in the county."
+      },
+      {
+        "title": "Wildfire",
+        "body": "Western Riverside County communities\u2014Temecula, Wildomar, Canyon Lake, Lake Elsinore\u2014sit within or adjacent to active wildland-urban interface. Gallagher handles smoke intrusion, ash removal, soot cleanup, and the structural assessment that follows a close-proximity wildfire event."
+      }
+    ]
+  },
+  "whyLocal": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Based in Canyon Lake, built for Riverside County",
+    "body": "Most restoration companies serving Riverside County dispatch from outside the county\u2014from the San Fernando Valley, the 91 corridor near Los Angeles, or centralized dispatch hubs that cover all of Southern California from a single location. The result is a service that looks 24/7 on paper but realistically arrives two to three hours after the call. Gallagher Restoration Co. is different because it is rooted here. Aaron and the crew live and work in Riverside County. Canyon Lake is the headquarters, which puts the team within a realistic 60-minute drive of every city on this list\u2014including Winchester and Nuevo, which sit at the outer edges of the service area. That proximity matters most in the first hour of a water or fire event, when the difference between a drying job and a demolition-and-rebuild job is still being decided by how fast moisture spreads. Gallagher has been family-owned for more than 15 years, coordinates directly with all major insurance carriers, and answers every call with a real person who can deploy a crew immediately. There is no offshore answering service, no franchise triage system\u2014just the team."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher reach my home in Riverside County?",
+      "a": "Gallagher Restoration Co. is headquartered in Canyon Lake, near the center of the county. The typical on-site arrival time is 60 minutes or less across all 13 cities in the Riverside County service area. Remote cities like Winchester and Nuevo may run slightly longer depending on traffic and time of call."
+    },
+    {
+      "q": "Does Gallagher handle both the cleanup and the repairs, or do I need to hire a second contractor?",
+      "a": "Gallagher handles the full job\u2014from the first emergency call through extraction, structural drying, remediation, and final reconstruction. The same crew manages every phase. There is no handoff to a separate rebuild contractor, which eliminates the scheduling gaps and liability gray areas that come with using multiple companies."
+    },
+    {
+      "q": "Is water damage from a burst pipe covered by my California homeowners policy?",
+      "a": "Sudden and accidental water damage from a burst pipe is covered by most standard California homeowners insurance policies. Gradual leaks are typically excluded. Gallagher Restoration Co. documents the event and coordinates directly with your adjuster from day one, building the claim file as the job progresses."
+    },
+    {
+      "q": "What should I do while waiting for the restoration crew to arrive?",
+      "a": "Turn off the water source if you can safely reach the shutoff. Do not run fans over standing water containing sewage or gray water. Move valuables out of wet areas if you can do so without entering a structurally compromised space. Leave the electrical panel alone if there is any water near it\u2014wait for the crew."
+    },
+    {
+      "q": "Sun City has old galvanized pipes. Does Gallagher have experience with these homes?",
+      "a": "Yes. Gallagher regularly responds to water damage events in Sun City and other Riverside County communities with 1960s-era construction. Galvanized pipe failures often release discolored or contaminated water, which changes the cleanup and remediation protocol. The crew knows how to handle the classification and documentation correctly."
+    }
+  ],
+  "allCitiesIntro": "Gallagher Restoration Co. serves 13 cities across Riverside County. Select your city for response time, local context, and direct service information."
+}

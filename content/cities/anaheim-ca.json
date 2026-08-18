@@ -1,0 +1,107 @@
+{
+  "slug": "anaheim-ca",
+  "name": "Anaheim",
+  "countySlug": "orange-county",
+  "countyName": "Orange County",
+  "proximityMinutes": 55,
+  "proximityMiles": 40,
+  "route": "SR-91 West",
+  "metaTitle": "Water & Fire Damage Restoration | Anaheim, CA",
+  "metaDescription": "Gallagher Restoration reaches Anaheim in ~55 min via SR-91. Water, fire, mold & wildfire — 24/7. Family-owned, IICRC-trained. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY · ANAHEIM, CA",
+  "heroTitle": "Restoration services in Anaheim — on-site in about 55 minutes",
+  "heroAccent": "From the Colony's century-old Craftsmans to Anaheim Hills' fire-exposed ridges.",
+  "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Anaheim via SR-91 West — typically on-site within 55 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~55 min", "hint": "Typical drive from Canyon Lake via SR-91 West" },
+    { "label": "Distance", "value": "40 mi", "hint": "Canyon Lake to Anaheim" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+  ],
+  "localHook": "Anaheim spans roughly a century of California residential construction in a single city boundary. The Anaheim Colony historic district carries Craftsman bungalows and early California homes from the 1910s and 1920s — structures that have outlived multiple generations of plumbing systems and often carry the original or near-original infrastructure. West Anaheim's 1950s and 1960s tract housing sits in the middle. Then there's Anaheim Hills on the eastern edge — master-planned hillside communities from the 1970s through the 2000s with direct wildfire exposure to the Cleveland National Forest. The Platinum Triangle and newer condo developments add high-density shared-wall events to the mix. Gallagher takes SR-91 West from Canyon Lake and is typically on-site in any part of Anaheim within 55 minutes.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Every district of Anaheim",
+    "items": [
+      {
+        "name": "Anaheim Colony (historic district)",
+        "body": "The oldest residential neighborhood in Anaheim, with housing stock dating to the early 1900s. Century-old plumbing systems, original cast iron drain lines, and galvanized supply pipes are standard findings. Water damage in these structures often reveals decades of previous unrepaired intrusion inside wall cavities."
+      },
+      {
+        "name": "Anaheim Hills",
+        "body": "Eastern hillside communities with direct exposure to the Cleveland National Forest fire corridor. Wind-driven wildfire and ember transport are legitimate seasonal risks. Anaheim Hills' 1980s–2000s master-planned homes also experience hillside runoff entering through foundation vents and garage slabs during heavy rain."
+      },
+      {
+        "name": "West Anaheim",
+        "body": "1950s and 1960s tract residential with aging supply and drain infrastructure. This zone generates a high volume of galvanized pipe failure calls — properties at the 60–70-year mark are entering or past the typical service life of original plumbing."
+      },
+      {
+        "name": "Platinum Triangle",
+        "body": "High-density condo and apartment development adjacent to Angel Stadium. Shared-wall plumbing events in one unit can spread to adjacent units laterally and vertically before the source is isolated — rapid response is critical in multi-story buildings."
+      },
+      {
+        "name": "North Anaheim and Brookhurst corridor",
+        "body": "Mixed residential and commercial with a blend of mid-century and newer construction. Aging commercial properties in this corridor sometimes carry original industrial-spec plumbing that fails catastrophically rather than gradually."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local damage profile",
+    "heading": "What brings Anaheim property owners to the phone",
+    "items": [
+      {
+        "title": "Century-old Colony housing systems",
+        "body": "Anaheim Colony homes built in the 1910s and 1920s carry original or first-generation replacement plumbing. Cast iron drain lines that have survived 100 years crack under root intrusion and corrosion stress. When they fail, they often do so silently — black water backing up into floor drains or a persistent musty odor are sometimes the first signs. Thorough moisture mapping is required to scope these correctly."
+      },
+      {
+        "title": "Anaheim Hills wildfire and smoke exposure",
+        "body": "Anaheim Hills sits directly adjacent to the Cleveland National Forest — a fire-prone corridor that has produced multiple significant events. Smoke infiltration can penetrate structures well beyond the visible fire perimeter, contaminating HVAC systems, insulation, and stored contents. Fire damage restoration and smoke clean-up are both part of Gallagher's service line."
+      },
+      {
+        "title": "High-density condo shared-wall water events",
+        "body": "The Platinum Triangle and Anaheim's newer high-density developments create conditions where a single plumbing failure can affect 3–6 units. Insurance coordination across multiple unit owners and HOA documentation requirements make these jobs more complex than standard single-family events — Gallagher handles multi-unit water damage as a routine scope."
+      },
+      {
+        "title": "Aging mid-century tract plumbing",
+        "body": "West Anaheim's 1950s and 1960s housing stock is now 60–70 years old. Galvanized pipe entering its failure window, deteriorated supply line connections, and aging water heater pressure relief systems all generate a consistent volume of water damage calls from this part of the city every year."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The process",
+    "heading": "From your call to a dry, restored property",
+    "body": "Call (951) 541-0034 and a real person answers — 24 hours a day, every day. We collect what matters: the type of damage, whether water is still active, the address, and whether multiple units may be affected (critical in condo situations). A crew departs Canyon Lake via SR-91 West and is typically at your Anaheim property within 55 minutes. Containment first — active water off, sewage isolated, fire openings boarded. Then a full scope assessment with professional-grade moisture detection equipment. Everything is documented for your insurance carrier in real time. In multi-unit condo situations, we document individual unit boundaries carefully for the adjuster process. Drying equipment deploys the same visit. Aaron and the team handle the insurance carrier conversation directly. Standard residential dry-out runs 3–5 days. Reconstruction follows after clearance."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Family-owned accountability — across the full Anaheim range",
+    "body": "Anaheim's damage profile is more diverse than most cities its size — century-old Colony homes, high-density Platinum Triangle condos, Anaheim Hills fire-interface properties, mid-century West Anaheim tract houses. A national franchise running a dispatch model won't necessarily send someone who understands the specific failure patterns of a 1920s Craftsman versus a 2010 condo tower. Gallagher Restoration Co. is family-owned, IICRC-trained, and has 15+ years of experience across Southern California's full housing range. Aaron and the crew bring the same direct accountability to every job — the person you talk to at the start of the project is the same person responsible for the outcome. We handle water damage restoration, fire damage restoration, mold remediation, sewage clean-up, property damage management, and wildfire damage. We coordinate with the major insurance carriers and document from the first hour. Call (951) 541-0034."
+  },
+  "pricing": {
+    "eyebrow": "What it costs",
+    "heading": "Honest numbers on restoration pricing",
+    "body": "Water damage restoration in Anaheim typically ranges from $1,500 for a minor appliance leak in a single unit to $12,000+ for a multi-unit condo event or a significant slab leak in an older Colony home with secondary mold growth. Multi-unit events are scoped and documented per unit for insurance purposes — the total project cost depends on how many units are affected and the extent of penetration into shared wall systems. Anaheim Hills fire and smoke damage is scoped individually based on char depth and smoke penetration. Mold remediation starts at a few hundred dollars and scales with affected square footage. Written scope before work begins. Insurance coordination standard. Call (951) 541-0034 for a same-day assessment."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher reach Anaheim for a water or fire emergency?",
+      "a": "Via SR-91 West from Canyon Lake, we're typically on-site in Anaheim within 55 minutes. We operate 24/7 — call (951) 541-0034 and a real person answers, any hour of the day."
+    },
+    {
+      "q": "We have water damage in an Anaheim Colony historic home — can you work in older structures?",
+      "a": "Yes — older construction is routine for us. Century-old homes require professional-grade moisture mapping to find damage inside plaster walls and under original flooring. Water damage clean-up and water damage repair in these structures takes more care to avoid damaging irreplaceable historic materials, and we approach them accordingly."
+    },
+    {
+      "q": "Our condo in the Platinum Triangle has a water leak from the unit above — who is responsible?",
+      "a": "Liability depends on the source of the leak and your HOA's master policy. We document damage by unit boundary from the first hour on-site, which is the information the adjuster process requires. Coordinate with your HOA immediately and call us — detailed documentation from the start prevents disputes later."
+    },
+    {
+      "q": "Can Gallagher handle wildfire smoke damage in Anaheim Hills?",
+      "a": "Yes — wildfire damage assistance is a dedicated Gallagher service. Smoke infiltration in Anaheim Hills can penetrate HVAC systems and building cavities even when structures don't face direct fire. Smoke clean-up and fire damage restoration both require specialized equipment and protocols."
+    },
+    {
+      "q": "Does Gallagher do mold testing and mold inspection in Anaheim?",
+      "a": "Yes. We offer standalone mold testing services and mold inspection services. These are often the right first step after a slow leak is discovered in an older Anaheim Colony home, or after any water event where the dry-out timeline is uncertain and mold risk is elevated."
+    }
+  ]
+}

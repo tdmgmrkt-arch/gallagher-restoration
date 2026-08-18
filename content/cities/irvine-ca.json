@@ -1,0 +1,107 @@
+{
+  "slug": "irvine-ca",
+  "name": "Irvine",
+  "countySlug": "orange-county",
+  "countyName": "Orange County",
+  "proximityMinutes": 70,
+  "proximityMiles": 55,
+  "route": "SR-91 West then I-5 South",
+  "metaTitle": "Water & Fire Damage Restoration | Irvine, CA",
+  "metaDescription": "Gallagher Restoration reaches Irvine in ~70 min via SR-91 & I-5. Water, fire, mold & wildfire — 24/7. Family-owned, IICRC-trained. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY · IRVINE, CA",
+  "heroTitle": "Restoration services in Irvine — on-site in about 70 minutes",
+  "heroAccent": "Master-planned doesn't mean damage-proof.",
+  "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Irvine via SR-91 West and I-5 South — typically on-site within 70 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~70 min", "hint": "Typical drive from Canyon Lake via SR-91 West and I-5 South" },
+    { "label": "Distance", "value": "55 mi", "hint": "Canyon Lake to Irvine" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+  ],
+  "localHook": "Irvine's master-planned identity creates a specific set of expectations about property condition — uniform construction standards, HOA management, newer materials. But master-planning doesn't insulate a city from water damage, fire exposure, or mold. Woodbridge's 1970s and early 1980s housing is now old enough that original supply lines are approaching end-of-life. Northwood and Turtle Rock's canyon-adjacent lots face real fire interface exposure from the Irvine Open Space and the Santa Ana Mountains. Great Park and Portola Springs are new enough that builder-grade supply failures and slab issues are starting to emerge. And throughout Irvine, the density of attached and condo construction means a single plumbing failure can cascade across multiple HOA-managed units — with complex documentation requirements attached. Gallagher takes SR-91 West to I-5 South and is typically in Irvine within 70 minutes.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Every village in Irvine",
+    "items": [
+      {
+        "name": "Woodbridge",
+        "body": "One of Irvine's original planned villages, with housing from the late 1970s and early 1980s. Original plumbing in Woodbridge is now 40–50 years old — copper supply lines with soldered joints are approaching or past their typical service life in many properties."
+      },
+      {
+        "name": "Northwood and Turtle Rock",
+        "body": "Canyon-adjacent communities with direct exposure to the Irvine Open Space Preserve and the Santa Ana Mountains fire interface. Ember transport during Santa Ana wind events can affect homes in these communities well before a visible fire line arrives."
+      },
+      {
+        "name": "Great Park neighborhoods",
+        "body": "Among the newest residential development in Irvine. Builder-grade plumbing and fixtures in production-pace construction produce a predictable failure pattern — supply hose failures and slab issues are the most common calls from this zone, typically within the first 10–15 years of construction."
+      },
+      {
+        "name": "Portola Springs",
+        "body": "Hillside development at the eastern edge of Irvine, adjacent to open space. Fire interface exposure is real in Portola Springs — the combination of canyon terrain and dry fuel during fire season creates conditions for rapid fire spread toward the community."
+      },
+      {
+        "name": "University Park and West Irvine",
+        "body": "Mid-vintage planned communities from the 1980s and 1990s. A high density of attached condominiums and townhomes means shared-wall plumbing events are common — one failed supply line can penetrate two to four units before the source is found."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local damage profile",
+    "heading": "What brings Irvine property owners to the phone",
+    "items": [
+      {
+        "title": "Builder-grade plumbing failures in tract construction",
+        "body": "Irvine's villages span a 50-year development timeline, and every vintage has its characteristic failure mode. Woodbridge's copper joint failures. University Park's aging supply hoses. Great Park's production-pace fittings. The common thread across all of them: builder-grade materials that weren't designed to last indefinitely, installed at volume, and eventually failing in predictable patterns. Water damage restoration following these events is the single most common restoration call from Irvine."
+      },
+      {
+        "title": "HOA-managed shared-wall water events",
+        "body": "A significant portion of Irvine's housing is attached — townhomes, condos, and cluster homes where one unit's plumbing failure becomes another unit's water damage event. HOA-managed properties carry additional documentation requirements: individual unit damage must be scoped separately, and the question of whether the source is within the HOA's master policy or the individual owner's HO-6 policy matters from day one. Gallagher documents multi-unit events for this reason."
+      },
+      {
+        "title": "Canyon-adjacent wildfire and smoke exposure",
+        "body": "Turtle Rock, Northwood, and Portola Springs sit at the edge of Irvine's open space — terrain that connects directly to the Santa Ana Mountains fire corridor. During a significant wind event, ember transport can reach these neighborhoods ahead of any visible smoke. Fire damage restoration and smoke clean-up are both part of the Gallagher service line."
+      },
+      {
+        "title": "Mold behind builder-finish materials",
+        "body": "Irvine's production-built housing often uses finish materials — paints, sealed tile, synthetic flooring — that trap moisture behind them rather than allowing it to surface visibly. Slow leaks from supply lines or condensation from HVAC systems can generate significant mold colonies inside wall cavities before any visible sign appears. Mold inspection services and mold testing services are the right first step when you suspect a hidden problem."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The process",
+    "heading": "From your call to a dry, restored property",
+    "body": "Call (951) 541-0034 — a real person answers, 24 hours a day. We collect the essential details: type of damage, whether the source is active, address, and whether it's a condo or attached property (because HOA documentation requirements are different from single-family jobs). A crew departs Canyon Lake via SR-91 West and I-5 South and is typically at your Irvine property within 70 minutes. Containment first. Then a full scope assessment using professional-grade moisture detection — particularly important in Irvine's sealed-finish construction where moisture hides behind surfaces. Multi-unit events get per-unit boundary documentation from the first hour. Drying equipment deploys on the initial visit. Aaron and the team manage insurance carrier coordination. HOA coordination is something we've handled across Irvine's village communities — we know how the documentation process works. Reconstruction scheduling begins at clearance."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "The crew that understands Irvine's specific damage profile",
+    "body": "Irvine's master-planned aesthetic creates a false sense that damage events here are simpler than they are elsewhere. In practice, Irvine's high density of attached housing, HOA governance requirements, canyon-adjacent fire interface, and 50 years of mixed-vintage construction make it one of the more complex service areas in Orange County. Gallagher Restoration Co. has 15+ years of experience handling exactly this kind of complexity — family-owned, IICRC-trained, and accountable through every stage of the project. We handle water damage restoration, emergency water removal, mold remediation, mold testing services, fire damage restoration, smoke clean-up, sewage clean-up, property damage management, and wildfire damage. We coordinate with the major insurance carriers and document multi-unit events to the standard that Irvine's HOA-governed communities require. Aaron and the crew — not a subcontractor — on your job."
+  },
+  "pricing": {
+    "eyebrow": "What it costs",
+    "heading": "Honest numbers on restoration pricing",
+    "body": "Water damage restoration in Irvine ranges from $1,500 for a minor contained supply hose event to $12,000+ for a multi-unit condo event with penetration across shared walls and ceilings. HOA-governed multi-unit events require individual unit scoping, which adds documentation time but is necessary to protect each owner's insurance interests. Mold remediation behind Irvine's sealed-finish construction can be more labor-intensive than standard work — finish materials must be carefully removed and replaced rather than dried in place. Wildfire and smoke damage from the canyon interface is scoped individually. We provide written estimates before work begins and coordinate with the major insurance carriers from the first assessment. Call (951) 541-0034 for a same-day evaluation."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher reach Irvine for a water or fire emergency?",
+      "a": "Via SR-91 West and I-5 South from Canyon Lake, we're typically on-site in Irvine within 70 minutes. We operate 24/7 — call (951) 541-0034 and a real person answers at any hour."
+    },
+    {
+      "q": "My Irvine condo has water damage from the unit above. Does the HOA or my HO-6 policy cover it?",
+      "a": "The coverage question depends on the source of the water and your HOA's master policy language. What we can do is document the damage by unit boundary from the first hour on-site, which is what both the HOA's carrier and your individual carrier need to process the claim. We coordinate with the major insurance carriers and can help you navigate the adjuster process."
+    },
+    {
+      "q": "Can you handle wildfire smoke damage in Turtle Rock or Portola Springs?",
+      "a": "Yes — wildfire damage assistance is a dedicated Gallagher service. Smoke infiltration in canyon-adjacent communities can penetrate HVAC systems and wall cavities even without direct fire contact. We handle smoke clean-up and fire damage restoration in Irvine's fire-interface neighborhoods."
+    },
+    {
+      "q": "How do you find mold behind Irvine's sealed-finish construction?",
+      "a": "Professional-grade moisture mapping detects moisture content inside wall assemblies without destructive opening. When moisture is confirmed in a location with documented mold risk conditions — inside a wall cavity that held a slow leak, for instance — we scope the minimum necessary opening to assess and remediate the mold. Mold inspection services and mold testing services are available as standalone scopes."
+    },
+    {
+      "q": "Does Gallagher handle water damage in newer Great Park neighborhoods?",
+      "a": "Yes. Great Park's newer construction is within our service area. Builder-grade supply hose failures and early slab issues are common in newer Irvine development. We handle water damage restoration and pipe burst flooding and remediation regardless of the construction vintage."
+    }
+  ]
+}

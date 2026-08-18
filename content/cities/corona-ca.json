@@ -1,0 +1,106 @@
+{
+  "slug": "corona-ca",
+  "name": "Corona",
+  "countySlug": "riverside-county",
+  "countyName": "Riverside County",
+  "isHq": false,
+  "proximityMinutes": 25,
+  "proximityMiles": 22,
+  "route": "I-15 North \u2192 SR-91",
+  "metaTitle": "Water & Fire Restoration | Corona, CA | Gallagher",
+  "metaDescription": "24/7 water, fire, mold & sewage restoration in Corona, CA. Gallagher is on-site within 60 min. IICRC-trained. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 CORONA, CA",
+  "heroTitle": "Corona restoration services\u2014on-site within 60 minutes",
+  "heroAccent": "25 min from Canyon Lake HQ.",
+  "heroIntro": "Gallagher Restoration Co. responds to water, fire, mold, and sewage emergencies across Corona 24 hours a day. The crew leaves Canyon Lake and is typically on-site within 60 minutes\u2014often less. IICRC-trained technicians, professional-grade equipment, and direct insurance coordination from first call through final reconstruction.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~60 min", "hint": "Typical Canyon Lake HQ to Corona response" },
+    { "label": "Distance", "value": "22 mi", "hint": "Via I-15 North to SR-91" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Real person answers every call, every hour" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Serving Riverside County since the beginning" }
+  ],
+  "localHook": "Corona is one of Riverside County\u2019s largest cities\u2014roughly 170,000 residents spread across a mix of 1980s and 1990s tract neighborhoods, newer master-planned communities, and foothill corridors that carry their own weather and fire exposure. Gallagher has responded to jobs across Sierra Del Oro, South Corona, Coronita, Corona Hills, and the Green River corridor for years. The SR-91 corridor sees concentrated water intrusion events when heavy rain cycles move through the Inland Valleys, and the foothill edges carry recurring wildfire smoke exposure. We know this geography and what it does to homes. The drive from Canyon Lake is 22 miles on I-15 North to SR-91\u2014our crews are prepared to roll the moment you call.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Neighborhoods across Corona we respond to",
+    "intro": "From the 91 corridor to the foothill edges, we cover all of Corona.",
+    "items": [
+      {
+        "name": "Sierra Del Oro",
+        "body": "Hillside homes in Sierra Del Oro face rooftop and attic moisture intrusion during winter storm events. Roof flashing failures and blocked gutters push water into framing cavities that stay wet long after the rain stops. Early drying prevents structural damage."
+      },
+      {
+        "name": "South Corona",
+        "body": "South Corona\u2019s newer master-planned tracts carry builder-grade fitting risks\u2014flexible supply lines and plastic push-fit joints that fail under pressure or age. We see slab leaks and appliance-line failures regularly in this part of the city."
+      },
+      {
+        "name": "Coronita & Corona Hills",
+        "body": "These 1980s and 1990s neighborhoods are entering the high-risk window for original plumbing systems. Copper supply lines and galvanized drain lines in this age range produce pinhole leaks and slow failures that saturate subfloor assemblies before owners notice."
+      },
+      {
+        "name": "Green River Corridor",
+        "body": "The Green River area carries concentrated runoff risk when the Santa Ana River basin receives heavy rainfall. We respond to water intrusion and flooding events in this corridor and document losses thoroughly for insurance claims."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Corona homes most",
+    "intro": "Corona\u2019s housing stock, corridor geography, and Inland Valley weather create a consistent damage pattern across the city.",
+    "items": [
+      {
+        "title": "SR-91 corridor water intrusion from rain events",
+        "body": "When atmospheric river events move through the Inland Valleys, the SR-91 corridor concentrates runoff. Homes along low-lying streets and near drainage channels experience water intrusion through foundations, garage slabs, and door thresholds. Rapid extraction and drying are critical to preventing mold within 48 to 72 hours."
+      },
+      {
+        "title": "Aging 1980s\u201390s tract plumbing failures",
+        "body": "Copper and galvanized plumbing installed during the 1980s and 1990s is reaching or past its service life in large sections of Corona. Pinhole leaks, joint failures at elbows, and slab leaks beneath finished flooring are the most common water damage sources we see in these neighborhoods."
+      },
+      {
+        "title": "Foothill wildfire smoke exposure",
+        "body": "Corona\u2019s foothill edges\u2014Sierra Del Oro and Corona Hills\u2014face smoke infiltration and soot deposition during regional wildfire events. Smoke particles penetrate HVAC systems, ductwork, and wall cavities. Proper remediation requires more than surface cleaning; contaminated materials need documented treatment or replacement."
+      },
+      {
+        "title": "Builder-grade fitting failures in newer construction",
+        "body": "Master-planned communities built in the 2000s and 2010s use fittings and flexible supply lines that fail before the home\u2019s structural systems do. Washing machine supply lines, refrigerator water lines, and water heater connections are common failure points."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Corona call looks like",
+    "body": "You call (951) 541-0034 and a real person answers\u2014not a voicemail, not an answering service that takes a message. The crew departs Canyon Lake and is on-site in Corona within 60 minutes under typical conditions. On arrival, we assess with professional-grade moisture meters and thermal imaging before a single fan gets placed. You hear a clear explanation of what we found and what the remediation plan looks like before work begins. Extraction and structural drying start the same visit. Every damaged area is photographed and logged from the first hour\u2014insurance carriers require a documented chain of custody from initial damage through final restoration, and that documentation starts the moment we walk in. Gallagher coordinates directly with major carriers on your behalf. You don\u2019t manage two separate conversations while your home is still wet. The same crew handles the job from first call to final walkthrough. No handoffs, no subcontractors appearing mid-project with no context."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Corona homeowners call Gallagher",
+    "body": "Gallagher Restoration is a family-owned operation based in Canyon Lake\u2014not a franchise with a national call center routing your job to whoever is available. When you call, Aaron\u2019s crew responds. That means consistent quality, direct accountability, and a team that stays on the job from start to finish. The 22-mile run from Canyon Lake to Corona takes roughly 25 minutes. Most emergency calls in Corona receive a crew on-site within 60 minutes\u2014faster than the industry average for a city this size. IICRC-trained technicians bring professional-grade drying and detection equipment to every job, whether it\u2019s a $1,200 appliance leak or a multi-room flood. Insurance coordination is handled in-house. Gallagher works directly with major carriers, prepares adjuster documentation, and manages the back-and-forth so you can focus on your family while the recovery moves forward. Fifteen-plus years in Riverside County means the crew has seen every damage pattern this region produces\u2014and knows how to document it correctly."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on restoration cost in Corona",
+    "body": "Assessment is free. No charge to arrive, evaluate the damage, and give you a clear picture of scope and what it will take to fix it. Most residential restoration jobs in Corona run between $500 and $15,000 depending on damage category, affected materials, and how long moisture was present before discovery. Water mitigation for a contained appliance leak falls toward the lower end. Multi-room floods, jobs with secondary mold growth, or post-fire restoration fall significantly higher. If you have homeowners insurance, Gallagher prepares the documentation your adjuster requires and coordinates directly with your carrier\u2014cutting the time between damage and approved scope."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher get to Corona?",
+      "a": "From Canyon Lake HQ, the crew typically arrives in Corona within 60 minutes. The drive is 22 miles via I-15 North to SR-91. Response time can be faster depending on crew position at the time of your call."
+    },
+    {
+      "q": "Do you work with my insurance?",
+      "a": "Yes. Gallagher coordinates directly with major insurance carriers. We prepare the scope documentation, moisture logs, and photo records your adjuster needs, and we handle the carrier communication on your behalf."
+    },
+    {
+      "q": "What does restoration cost in Corona?",
+      "a": "Assessment is free. Most residential jobs in Corona fall between $500 and $15,000. The final number depends on damage type, affected materials, and how long the moisture was present. We provide a clear scope explanation before work begins."
+    },
+    {
+      "q": "Do you handle both mitigation and reconstruction?",
+      "a": "Yes. Gallagher covers the full scope\u2014emergency mitigation, structural drying, mold remediation if needed, and reconstruction. One crew, one company, start to finish."
+    },
+    {
+      "q": "Does wildfire smoke from foothill fires damage my home\u2019s interior?",
+      "a": "Yes\u2014smoke and soot particles from regional wildfires penetrate HVAC systems, ductwork, and wall cavities. Surface cleaning isn\u2019t enough. Gallagher\u2019s smoke clean-up process addresses contaminated materials at the structural level and documents the remediation for insurance."
+    }
+  ]
+}

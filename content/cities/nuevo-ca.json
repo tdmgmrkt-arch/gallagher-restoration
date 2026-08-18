@@ -1,0 +1,102 @@
+{
+  "slug": "nuevo-ca",
+  "name": "Nuevo",
+  "countySlug": "riverside-county",
+  "countyName": "Riverside County",
+  "isHq": false,
+  "proximityMinutes": 25,
+  "proximityMiles": 20,
+  "route": "SR-74 East",
+  "metaTitle": "Water & Fire Restoration | Nuevo, CA | Gallagher",
+  "metaDescription": "24/7 restoration in Nuevo, CA\u2014water, sewage, fire & mold. Gallagher responds to rural Riverside County. IICRC-trained. (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY \u00b7 NUEVO, CA",
+  "heroTitle": "Nuevo restoration services\u2014rural response, no delays",
+  "heroAccent": "Rural Riverside County. We come to you.",
+  "heroIntro": "Nuevo is an unincorporated rural community in Riverside County, and rural distance doesn\u2019t slow Gallagher down. Twenty miles from Canyon Lake via SR-74 East, the crew responds to water damage, sewage backups, fire damage, and mold in Nuevo\u2019s ranch and rural residential properties 24 hours a day.",
+  "proofStrip": [
+    { "label": "On-Site In", "value": "~45 min", "hint": "20 miles via SR-74 East from Canyon Lake" },
+    { "label": "Distance", "value": "20 mi", "hint": "Rural Riverside County via SR-74 East" },
+    { "label": "Availability", "value": "24 / 7", "hint": "Real person answers every call, every hour" },
+    { "label": "In Business", "value": "15+ yrs", "hint": "Serving rural Riverside County across the full service area" }
+  ],
+  "localHook": "Nuevo is a small, unincorporated rural community northeast of Canyon Lake\u2014the kind of place where properties run on well water, most homes have septic systems, and the nearest municipal water response is a long drive away. Gallagher serves Nuevo because Riverside County\u2019s rural stretches deserve the same professional response as the urban core. Rural properties face specific damage risks that general contractors aren\u2019t equipped to handle: well-system water events, septic backups producing Category 3 contamination, and wildfire exposure from the surrounding hills. Twenty miles via SR-74 East means the crew arrives within 45 minutes and brings professional-grade equipment that doesn\u2019t require municipal infrastructure to operate.",
+  "neighborhoods": {
+    "eyebrow": "Areas We Serve",
+    "heading": "Nuevo and surrounding rural Riverside County",
+    "intro": "We respond throughout Nuevo and the unincorporated rural areas surrounding it.",
+    "items": [
+      {
+        "name": "Nuevo rural residential",
+        "body": "Newer rural residential development in Nuevo mixes manufactured and site-built homes on large lots. These properties sit on well and septic systems, and distance from municipal services means damage events escalate faster without professional response. We arrive equipped to work off-grid."
+      },
+      {
+        "name": "Older ranch properties",
+        "body": "Nuevo\u2019s older ranch homes carry aging plumbing and infrastructure common to Riverside County\u2019s mid-20th-century rural stock. Galvanized supply lines, aged septic tanks, and deteriorated drain fields produce both water damage and contamination that requires professional-grade remediation."
+      },
+      {
+        "name": "Hillside and brush-adjacent properties",
+        "body": "Properties on Nuevo\u2019s hillsides and brush-adjacent lots face active wildfire risk. Smoke infiltration from regional fires affects interiors even when a structure is not directly threatened. We handle smoke clean-up, post-fire assessment, and wildfire restoration documentation throughout the area."
+      }
+    ]
+  },
+  "commonDamage": {
+    "eyebrow": "Local Damage Profile",
+    "heading": "What damages Nuevo properties most",
+    "intro": "Rural infrastructure and hillside positioning create damage patterns specific to Nuevo and unincorporated Riverside County.",
+    "items": [
+      {
+        "title": "Well-water system failures and pressure-line bursts",
+        "body": "Properties on private well systems face water damage events that municipal-water homeowners rarely encounter. Pressure-tank failures, well pump surges, and aging poly supply lines can discharge significant water volume before a homeowner can shut off the source. We assess and dry the full scope of well-system water damage events."
+      },
+      {
+        "title": "Septic backups and Category 3 contamination",
+        "body": "Septic system backups in rural properties produce Category 3 sewage contamination that requires full professional remediation\u2014not cleanup with household products. Gallagher\u2019s sewage clean-up crews establish containment, remove contaminated materials, and document the remediation to insurance standards."
+      },
+      {
+        "title": "Wildfire exposure and smoke infiltration",
+        "body": "Nuevo\u2019s hillside and brush-adjacent positions create direct wildfire risk and smoke intrusion risk during Riverside County fire seasons. Smoke particles penetrate wall assemblies and HVAC systems in homes that may be miles from the fire perimeter. We handle both post-fire assessment and smoke clean-up with full documentation."
+      },
+      {
+        "title": "Aging ranch infrastructure and plumbing deterioration",
+        "body": "Older ranch homes in Nuevo carry galvanized and early-copper plumbing past its service life. Slow leaks inside wall cavities and under slab foundations produce mold before visible damage appears. Professional moisture mapping identifies the full scope before drying and remediation begin."
+      }
+    ]
+  },
+  "howWeWork": {
+    "eyebrow": "The Process",
+    "heading": "What a Nuevo call looks like",
+    "body": "You call (951) 541-0034 and a real person answers\u2014no machine, no message queue. The crew leaves Canyon Lake on SR-74 East and arrives in Nuevo within approximately 45 minutes. Rural properties don\u2019t require special logistics\u2014we come with professional-grade extraction and drying equipment that operates independently of municipal infrastructure. On arrival, the full damage scope is assessed with moisture meters and thermal imaging before any equipment is placed. You receive a plain-language explanation of the damage and the remediation plan before work begins. For septic events, full containment is established immediately. For well-system floods, we locate and document the source before drying begins. Gallagher works directly with major insurance carriers\u2014we prepare the adjuster documentation and handle that communication on your behalf. The same crew stays on the job from first call through final reconstruction. Rural distance doesn\u2019t change the quality of the response."
+  },
+  "whyChoose": {
+    "eyebrow": "Why Gallagher",
+    "heading": "Why Nuevo calls Gallagher",
+    "body": "Most restoration companies don\u2019t prioritize rural Riverside County. Gallagher does. Twenty miles is 45 minutes on SR-74 East\u2014a manageable distance for a crew that is already equipped and ready to move. Nuevo\u2019s rural properties need a team that understands well systems, septic events, and the documentation requirements for insurance claims in unincorporated county areas. Gallagher is a family-owned operation with 15 years serving all of Riverside County, urban core and rural edge alike. IICRC-trained technicians bring professional-grade drying and detection equipment that operates off municipal infrastructure. Insurance coordination is in-house\u2014we work directly with major carriers and prepare the documentation rural property owners need to move their claims forward. One crew, complete accountability, start to finish."
+  },
+  "pricing": {
+    "eyebrow": "What It Costs",
+    "heading": "Honest numbers on Nuevo restoration cost",
+    "body": "Assessment is always free\u2014including the drive to rural Nuevo. We evaluate the full damage scope and give you a clear picture before any work begins. Most residential and rural property restoration jobs run between $500 and $15,000 depending on damage type, affected materials, and discovery timing. Septic backups and well-system floods that affect multiple rooms fall toward the mid-to-upper range. Smoke clean-up and wildfire restoration scope varies significantly by the extent of infiltration. If you have homeowners insurance, Gallagher coordinates directly with your carrier."
+  },
+  "faqs": [
+    {
+      "q": "How fast can Gallagher get to Nuevo?",
+      "a": "Nuevo is 20 miles from Canyon Lake HQ via SR-74 East. Typical on-site time is approximately 45 minutes from your call. We respond immediately\u2014rural distance doesn\u2019t mean slower dispatch."
+    },
+    {
+      "q": "Do you work with my insurance?",
+      "a": "Yes. Gallagher coordinates directly with major insurance carriers. We prepare scope documentation, moisture logs, and photo records, and manage the adjuster communication on your behalf."
+    },
+    {
+      "q": "What does restoration cost in Nuevo?",
+      "a": "Assessment is free, including the drive out to Nuevo. Most jobs fall between $500 and $15,000. Septic events and well-system floods affecting multiple spaces typically run in the mid-to-upper range. We explain scope before work begins."
+    },
+    {
+      "q": "Do you handle both mitigation and reconstruction?",
+      "a": "Yes. Gallagher handles the complete scope\u2014emergency mitigation, structural drying, mold remediation if needed, and reconstruction. One crew, one company, from first call through final walkthrough."
+    },
+    {
+      "q": "My property is on a well and septic\u2014can you handle those kinds of water events?",
+      "a": "Yes. Gallagher responds to well-system pressure failures and septic backups in rural Riverside County properties regularly. We bring professional-grade extraction and drying equipment that operates independently of municipal infrastructure, and we document the full remediation for insurance."
+    }
+  ]
+}
