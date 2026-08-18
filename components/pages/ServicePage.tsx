@@ -239,13 +239,21 @@ export function ServicePage({ content }: { content: ServiceContent }) {
       </section>
 
       {/* What it is */}
-      <section className="bg-[#0B0C0B] py-[clamp(64px,8vw,120px)]">
-        <div className="mx-auto grid max-w-[1300px] grid-cols-[repeat(auto-fit,minmax(320px,1fr))] items-start gap-[clamp(36px,5vw,80px)] px-[clamp(20px,5vw,56px)]">
+      <section className="bg-[#0B0C0B] py-[clamp(56px,7vw,104px)]">
+        <div className="mx-auto grid max-w-[1300px] grid-cols-1 items-stretch gap-[clamp(36px,5vw,80px)] px-[clamp(20px,5vw,56px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)]">
           <Reveal>
-            <Eyebrow>{content.whatItIs.eyebrow}</Eyebrow>
-            <h2 className="mt-6 max-w-[18ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
-              {content.whatItIs.heading}
-            </h2>
+            <div className="flex h-full flex-col">
+              <Eyebrow>{content.whatItIs.eyebrow}</Eyebrow>
+              <h2 className="mt-6 max-w-[18ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
+                {content.whatItIs.heading}
+              </h2>
+              <div className="mt-auto pt-10">
+                <div className="h-[2px] w-[36px] bg-[#8ECE34]" />
+                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                  24/7 &middot; Same-day response across SoCal
+                </div>
+              </div>
+            </div>
           </Reveal>
           <Reveal delay={120}>
             <p className="max-w-[62ch] text-[16px] leading-[1.8] text-[#C2C6BC] text-pretty">
@@ -304,7 +312,7 @@ export function ServicePage({ content }: { content: ServiceContent }) {
             </div>
           </Reveal>
 
-          <div className="mt-[clamp(32px,4vw,56px)] grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-[clamp(18px,2vw,26px)]">
+          <div className="mt-[clamp(32px,4vw,56px)] grid grid-cols-1 gap-[clamp(18px,2vw,26px)] sm:grid-cols-2 lg:grid-cols-3">
             {content.signs.items.map((item, i) => (
               <Reveal key={item.title} delay={i * 60}>
                 <div className="flex h-full flex-col border-l-2 border-[rgba(142,206,52,0.35)] bg-[#121413] p-[clamp(22px,2.4vw,32px)]">
@@ -317,19 +325,43 @@ export function ServicePage({ content }: { content: ServiceContent }) {
                 </div>
               </Reveal>
             ))}
+            <Reveal delay={content.signs.items.length * 60}>
+              <a
+                href={PHONE.href}
+                className="group flex h-full flex-col justify-between border-l-2 border-[#8ECE34] bg-[radial-gradient(90%_120%_at_100%_0%,rgba(142,206,52,0.12),transparent_70%)] p-[clamp(22px,2.4vw,32px)] transition-colors hover:bg-[#121413]"
+              >
+                <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  Not sure?
+                </div>
+                <h3 className="mt-5 text-[clamp(17px,1.5vw,21px)] font-bold leading-[1.25] tracking-[-0.02em] text-[#F4F5F1]">
+                  Call {PHONE.display} &mdash; we&apos;ll tell you if it&rsquo;s an emergency.
+                </h3>
+                <span className="mt-6 font-mono text-[11px] font-bold uppercase tracking-[0.2em] text-[#8ECE34] transition-colors group-hover:text-[#A6E053]">
+                  Call now &rarr;
+                </span>
+              </a>
+            </Reveal>
           </div>
         </div>
       </section>
 
       {/* Why us */}
-      <section className="relative overflow-hidden border-t border-[rgba(255,255,255,0.07)] bg-[#0E100E] py-[clamp(64px,8vw,120px)]">
+      <section className="relative overflow-hidden border-t border-[rgba(255,255,255,0.07)] bg-[#0E100E] py-[clamp(56px,7vw,104px)]">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(46%_60%_at_78%_0%,rgba(142,206,52,0.08),transparent_72%)]" />
-        <div className="relative mx-auto grid max-w-[1300px] grid-cols-[repeat(auto-fit,minmax(320px,1fr))] items-start gap-[clamp(36px,5vw,80px)] px-[clamp(20px,5vw,56px)]">
+        <div className="relative mx-auto grid max-w-[1300px] grid-cols-1 items-stretch gap-[clamp(36px,5vw,80px)] px-[clamp(20px,5vw,56px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)]">
           <Reveal>
-            <Eyebrow>{content.whyUs.eyebrow}</Eyebrow>
-            <h2 className="mt-6 max-w-[18ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
-              {content.whyUs.heading}
-            </h2>
+            <div className="flex h-full flex-col">
+              <Eyebrow>{content.whyUs.eyebrow}</Eyebrow>
+              <h2 className="mt-6 max-w-[18ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
+                {content.whyUs.heading}
+              </h2>
+              <div className="mt-auto pt-10">
+                <div className="h-[2px] w-[36px] bg-[#8ECE34]" />
+                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                  Licensed &middot; Insured &middot; Direct Insurance Billing
+                </div>
+              </div>
+            </div>
           </Reveal>
           <Reveal delay={120}>
             <p className="max-w-[62ch] text-[16px] leading-[1.8] text-[#C2C6BC] text-pretty">
@@ -340,14 +372,22 @@ export function ServicePage({ content }: { content: ServiceContent }) {
       </section>
 
       {/* Pricing */}
-      <section className="border-t border-[rgba(255,255,255,0.07)] bg-[#0B0C0B] py-[clamp(64px,8vw,120px)]">
+      <section className="border-t border-[rgba(255,255,255,0.07)] bg-[#0B0C0B] py-[clamp(56px,7vw,104px)]">
         <div className="mx-auto max-w-[1300px] px-[clamp(20px,5vw,56px)]">
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] items-start gap-[clamp(36px,5vw,80px)]">
+          <div className="grid grid-cols-1 items-stretch gap-[clamp(36px,5vw,80px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)]">
             <Reveal>
-              <Eyebrow>{content.pricing.eyebrow}</Eyebrow>
-              <h2 className="mt-6 max-w-[18ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
-                {content.pricing.heading}
-              </h2>
+              <div className="flex h-full flex-col">
+                <Eyebrow>{content.pricing.eyebrow}</Eyebrow>
+                <h2 className="mt-6 max-w-[18ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
+                  {content.pricing.heading}
+                </h2>
+                <div className="mt-auto pt-10">
+                  <div className="h-[2px] w-[36px] bg-[#8ECE34]" />
+                  <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                    Insurance-Billed &middot; No Deductible Games
+                  </div>
+                </div>
+              </div>
             </Reveal>
             <Reveal delay={120}>
               <p className="max-w-[62ch] text-[16px] leading-[1.8] text-[#C2C6BC] text-pretty">
