@@ -110,22 +110,20 @@ export function CityPage({ content }: { content: CityContent }) {
       {/* Local hook */}
       <section className="relative overflow-hidden bg-[#0B0C0B] py-[clamp(64px,8vw,120px)]">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(46%_60%_at_78%_0%,rgba(142,206,52,0.08),transparent_72%)]" />
-        <div className="relative mx-auto max-w-[1300px] px-[clamp(20px,5vw,56px)]">
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] items-start gap-[clamp(36px,5vw,80px)]">
-            <Reveal>
+        <div className="relative mx-auto grid max-w-[1300px] grid-cols-1 items-start gap-[clamp(36px,5vw,64px)] px-[clamp(20px,5vw,56px)] lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)]">
+          <Reveal>
+            <div className="flex flex-col">
               <Eyebrow>{content.isHq ? "Our Home Base" : "On the Ground"}</Eyebrow>
               <h2 className="mt-6 max-w-[16ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
                 {content.isHq ? `${content.name} is home.` : `We know ${content.name}.`}
               </h2>
-            </Reveal>
-            <Reveal delay={120}>
-              <p className="max-w-[60ch] text-[16px] leading-[1.8] text-[#C2C6BC] text-pretty">
+              <p className="mt-7 max-w-[54ch] text-[16px] leading-[1.8] text-[#C2C6BC] text-pretty">
                 {content.localHook}
               </p>
-            </Reveal>
-          </div>
+            </div>
+          </Reveal>
 
-          <Reveal delay={200} className="mt-[clamp(40px,5vw,72px)] block">
+          <Reveal delay={140}>
             <CityMap activeSlug={content.slug} activeName={content.name} />
           </Reveal>
         </div>
