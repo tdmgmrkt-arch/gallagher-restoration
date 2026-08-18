@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { LeadForm } from "@/components/sections/LeadForm";
@@ -12,29 +11,6 @@ export const metadata: Metadata = {
     "Call (951) 541-0034 or request service online. Gallagher Restoration answers 24/7 and dispatches crews across Southern California within 60 minutes.",
   alternates: { canonical: "/contact-us" },
 };
-
-const CONTACT_BLOCKS = [
-  {
-    kicker: "Emergency Line",
-    label: "24/7 Phone",
-    value: PHONE.display,
-    href: PHONE.href,
-    hint: "Answered around the clock, holidays included.",
-  },
-  {
-    kicker: "Headquarters",
-    label: "Address",
-    value: ADDRESS.fullDisplay,
-    href: GBP.directionsUrl,
-    hint: "Serving Southern California from Canyon Lake. Tap for directions.",
-  },
-  {
-    kicker: "Response Time",
-    label: "On-Site In",
-    value: "60 minutes",
-    hint: "Typical arrival across our five-county service area.",
-  },
-];
 
 const EXPECT_STEPS = [
   {
@@ -57,50 +33,131 @@ const EXPECT_STEPS = [
 export default function ContactUsPage() {
   return (
     <>
-      <PageHero
-        eyebrow="24/7 Emergency Response"
-        title="Contact"
-        accent="Gallagher Restoration"
-        intro="Water, fire, mold, or wildfire damage doesn't wait — and neither do we. Call our emergency line for immediate dispatch, or send us the details below and we'll be in touch right away."
-        crumbs={[{ label: "Home", href: "/" }, { label: "Contact Us" }]}
-        backgroundImage="/contact-hero.webp"
-        backgroundAlt="Gallagher Restoration crew responding to an emergency call"
-        backgroundPosition="center 55%"
-      />
+      <section className="relative overflow-hidden border-b border-[rgba(255,255,255,0.07)] bg-[#08090A]">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_60%_at_10%_50%,rgba(142,206,52,0.08),transparent_70%)]" />
+        <div className="relative mx-auto max-w-[1300px] px-[clamp(20px,5vw,56px)] pb-[clamp(20px,2.4vw,32px)] pt-[clamp(56px,7vw,88px)]">
+          <Reveal>
+            <nav
+              aria-label="Breadcrumb"
+              className="mb-6 flex flex-wrap items-center gap-[10px] font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A]"
+            >
+              <Link href="/" className="transition-colors hover:text-[#8ECE34]">
+                Home
+              </Link>
+              <span className="text-[#3F4340]">/</span>
+              <span className="text-[#C6CABF]">Contact Us</span>
+            </nav>
+          </Reveal>
+          <Reveal delay={60}>
+            <div className="flex flex-wrap items-end justify-between gap-x-8 gap-y-4">
+              <div>
+                <Eyebrow>24/7 Emergency Response</Eyebrow>
+                <h1 className="mt-4 max-w-[22ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em] text-balance">
+                  Contact <span className="text-[#8ECE34]">{COMPANY.name}</span>
+                </h1>
+              </div>
+              <a
+                href={PHONE.href}
+                className="group hidden items-center gap-[10px] font-mono text-[13px] font-bold uppercase tracking-[0.18em] text-[#8ECE34] transition-transform hover:translate-x-[4px] md:inline-flex"
+              >
+                <span className="relative inline-flex h-[8px] w-[8px]">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#8ECE34] opacity-70" />
+                  <span className="relative inline-flex h-[8px] w-[8px] rounded-full bg-[#8ECE34]" />
+                </span>
+                Or call now &rarr;
+              </a>
+            </div>
+          </Reveal>
+        </div>
+      </section>
 
       {/* Horizontal 3-up: contact info blocks span full width above the form */}
-      <section className="border-b border-[rgba(255,255,255,0.07)] bg-[#0B0C0B] py-[clamp(48px,6vw,88px)]">
+      <section className="border-b border-[rgba(255,255,255,0.07)] bg-[#0B0C0B] py-[clamp(32px,4vw,56px)]">
         <div className="mx-auto max-w-[1300px] px-[clamp(20px,5vw,56px)]">
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-[clamp(18px,2.2vw,28px)]">
-            {CONTACT_BLOCKS.map((b, i) => {
-              const content = (
-                <div className="flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(24px,2.6vw,36px)] transition-[border-color,transform] duration-[400ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-[2px] hover:border-[rgba(142,206,52,0.35)]">
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
-                    {b.kicker}
-                  </div>
-                  <div className="mt-6 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
-                    {b.label}
-                  </div>
-                  <div className="mt-2 text-[clamp(17px,1.9vw,24px)] font-bold leading-[1.25] tracking-[-0.025em] text-[#F4F5F1]">
-                    {b.value}
-                  </div>
-                  <p className="mt-auto pt-4 text-[14px] leading-[1.7] text-[#8F948A] text-pretty">
-                    {b.hint}
-                  </p>
+          <div className="grid grid-cols-1 items-stretch gap-[clamp(16px,2vw,24px)] md:grid-cols-2 lg:grid-cols-3">
+            {/* Emergency Line — primary CTA */}
+            <Reveal>
+              <Link
+                href={PHONE.href}
+                className="group flex h-full flex-col border-l-2 border-[#8ECE34] bg-[radial-gradient(90%_120%_at_100%_0%,rgba(142,206,52,0.14),transparent_72%)] p-[clamp(20px,2.2vw,30px)] transition-colors hover:bg-[#121413]"
+              >
+                <div className="flex items-center gap-[10px] font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                  <span className="relative inline-flex h-[8px] w-[8px]">
+                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#8ECE34] opacity-70" />
+                    <span className="relative inline-flex h-[8px] w-[8px] rounded-full bg-[#8ECE34]" />
+                  </span>
+                  Emergency Line
                 </div>
-              );
-              return (
-                <Reveal key={b.kicker} delay={i * 90}>
-                  {b.href ? (
-                    <Link href={b.href} className="block h-full">
-                      {content}
-                    </Link>
-                  ) : (
-                    content
-                  )}
-                </Reveal>
-              );
-            })}
+                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
+                  24/7 Dispatch
+                </div>
+                <div className="mt-2 whitespace-nowrap text-[clamp(24px,2.7vw,34px)] font-extrabold leading-[1.05] tracking-[-0.035em] text-[#F4F5F1] transition-colors group-hover:text-[#8ECE34]">
+                  {PHONE.display}
+                </div>
+                <p className="mt-3 max-w-[32ch] text-[14px] leading-[1.6] text-[#9CA098] text-pretty">
+                  A real person picks up around the clock &mdash; holidays, weekends, 3 a.m.
+                </p>
+                <span className="mt-auto pt-5 font-mono text-[12px] font-bold uppercase tracking-[0.16em] text-[#8ECE34] transition-transform group-hover:translate-x-[4px]">
+                  Call now &rarr;
+                </span>
+              </Link>
+            </Reveal>
+
+            {/* Headquarters — secondary CTA */}
+            <Reveal delay={90}>
+              <Link
+                href={GBP.directionsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(20px,2.2vw,30px)] transition-[border-color,transform] duration-[350ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-[2px] hover:border-[rgba(142,206,52,0.35)]"
+              >
+                <div className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                  Headquarters
+                </div>
+                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
+                  Canyon Lake HQ
+                </div>
+                <div className="mt-2 text-[clamp(22px,2.4vw,30px)] font-extrabold leading-[1.15] tracking-[-0.03em] text-[#F4F5F1]">
+                  Canyon Lake, CA
+                </div>
+                <div className="mt-2 text-[14px] leading-[1.5] text-[#C6CABF]">
+                  {ADDRESS.street}
+                  <br />
+                  <span className="text-[#8F948A]">
+                    {ADDRESS.locality}, {ADDRESS.region} {ADDRESS.postalCode}
+                  </span>
+                </div>
+                <span className="mt-auto pt-5 font-mono text-[12px] font-bold uppercase tracking-[0.16em] text-[#8ECE34] transition-transform group-hover:translate-x-[4px]">
+                  Get directions &rarr;
+                </span>
+              </Link>
+            </Reveal>
+
+            {/* Response Time — stat tile */}
+            <Reveal delay={180}>
+              <div className="flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(20px,2.2vw,30px)]">
+                <div className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                  Response Time
+                </div>
+                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
+                  Typical Arrival
+                </div>
+                <div className="mt-1 flex items-baseline gap-[10px]">
+                  <span className="text-[clamp(42px,5vw,64px)] font-extrabold leading-none tracking-[-0.045em] text-[#F4F5F1]">
+                    60
+                  </span>
+                  <span className="font-mono text-[13px] font-bold uppercase tracking-[0.22em] text-[#8ECE34]">
+                    minutes
+                  </span>
+                </div>
+                <p className="mt-3 max-w-[32ch] text-[14px] leading-[1.6] text-[#9CA098] text-pretty">
+                  On-site across our five-county service area &mdash; often faster in Southwest Riverside.
+                </p>
+                <div className="mt-auto pt-5 font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  24 / 7 &middot; 365 Days a Year
+                </div>
+              </div>
+            </Reveal>
           </div>
         </div>
       </section>
@@ -179,14 +236,15 @@ export default function ContactUsPage() {
             </div>
           </Reveal>
           <Reveal delay={100}>
-            <div className="aspect-[16/9] w-full overflow-hidden border border-[rgba(255,255,255,0.09)] bg-[#121413]">
+            <div className="relative aspect-[16/9] w-full overflow-hidden border border-[rgba(255,255,255,0.06)] bg-[#0B0C0B]">
               <iframe
                 title="Gallagher Restoration headquarters location on Google Maps"
-                src="https://www.google.com/maps?q=31672+Railroad+Canyon+Rd,+Canyon+Lake,+CA+92587&output=embed"
+                src="https://www.google.com/maps?q=31672+Railroad+Canyon+Rd,+Canyon+Lake,+CA+92587&hl=en&z=14&t=m&output=embed"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="h-full w-full border-0 [filter:invert(0.92)_hue-rotate(180deg)_saturate(0.7)]"
+                className="absolute inset-0 h-full w-full border-0 [filter:grayscale(1)_invert(0.92)_contrast(0.88)_hue-rotate(180deg)_brightness(0.95)]"
               />
+              <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_70%_at_50%_50%,transparent_60%,rgba(11,12,11,0.55)_100%)]" />
             </div>
           </Reveal>
         </div>
