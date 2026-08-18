@@ -116,85 +116,93 @@ export const TESTIMONIALS = [
   },
 ] as const;
 
+/**
+ * Blog post index — kept in sync with content/blog/*.json.
+ * Full article bodies live in content/blog/*.json and are loaded via
+ * lib/blog-content.ts on the server. Do NOT import blog-content here —
+ * lib/site.ts is pulled into client bundles.
+ * Sorted newest first.
+ */
 export const POSTS = [
   {
     slug: "qualified-experts-for-you-needs",
     title: "Qualified Experts for Your Needs",
     excerpt:
-      "Learn more about the experienced professionals behind Gallagher Restoration and our commitment to providing dependable restoration services.",
-    image: "/news_qualified_experts.webp",
+      "The people who make Gallagher Restoration what it is \u2014 IICRC- and ANSI-certified technicians who treat every property like their own.",
+    image: "/blog/qualified-experts.jpg",
     category: "Company",
-    datePublished: "2024-08-22",
-    dateModified: "2024-08-22",
+    datePublished: "2025-02-19",
+    dateModified: "2025-02-19",
   },
   {
     slug: "the-passion-behind-gallagher-restoration",
     title: "The Passion Behind Gallagher Restoration",
-    excerpt: "Discover the story, values, and passion behind the Gallagher Restoration team.",
-    image: "/news_passion_behind.webp",
+    excerpt:
+      "How a Canyon Lake upbringing, a chance opportunity, and a lifelong commitment to community shaped the company Aaron Gallagher built.",
+    image: "/blog/passion-behind.jpg",
     category: "Company",
-    datePublished: "2024-06-10",
-    dateModified: "2024-06-10",
+    datePublished: "2025-01-23",
+    dateModified: "2025-01-23",
   },
   {
     slug: "how-gallagher-restoration-can-save-turkey-day",
     title: "How Gallagher Restoration Can Save Turkey Day",
     excerpt:
-      "Learn how preparation and fast professional restoration services can help when unexpected property damage strikes during the holidays.",
-    image: "/news_turkey_day.webp",
+      "Thanksgiving is one of the most common days for household emergencies. Here is what usually goes wrong \u2014 and how to keep the holiday on track.",
+    image: "/blog/turkey-day.jpg",
     category: "Seasonal",
-    datePublished: "2024-11-15",
-    dateModified: "2024-11-15",
+    datePublished: "2024-11-27",
+    dateModified: "2024-11-27",
   },
   {
     slug: "how-to-prepare-your-southern-california-home-for-winter",
     title: "How to Prepare Your Southern California Home for Winter",
     excerpt:
-      "Practical tips for preparing your Southern California property for winter weather and preventing common seasonal damage.",
-    image: "/news_winter_prep.webp",
+      "SoCal winters are mild \u2014 but rain, wind, and colder temps still cause real damage. Eight practical steps to winterize your Southern California home.",
+    image: "/blog/winter-prep.jpg",
     category: "Seasonal",
-    datePublished: "2024-11-20",
-    dateModified: "2024-11-20",
+    datePublished: "2024-10-18",
+    dateModified: "2024-10-18",
   },
   {
     slug: "most-common-fire-damage-in-a-home",
     title: "Most Common Fire Damage in a Home",
     excerpt:
-      "Learn about common types of residential fire damage and what homeowners should know about the restoration process.",
-    image: "/news_common_fire_damage.webp",
+      "Cooking is the leading cause of home fires and injury. Here is what starts kitchen fires \u2014 and how homeowners keep them from starting in the first place.",
+    image: "/blog/most-common-fire.jpg",
     category: "Fire",
-    datePublished: "2025-01-14",
-    dateModified: "2025-01-14",
+    datePublished: "2024-08-22",
+    dateModified: "2024-08-22",
   },
   {
     slug: "fire-damage-the-basics",
     title: "Fire Damage \u2014 The Basics",
     excerpt:
       "Understand the fundamentals of fire damage, smoke damage, and the professional restoration process.",
-    image: "/news_fire_basics.webp",
+    image: "/blog/fire-damage-basics.jpg",
     category: "Fire",
-    datePublished: "2025-02-28",
-    dateModified: "2025-02-28",
-  },
-  {
-    slug: "the-basics-of-water-damage",
-    title: "The Basics of Water Damage",
-    excerpt:
-      "A homeowner's introduction to water damage — how it starts, why it spreads fast, and what a professional restoration process actually looks like.",
-    image: "/news_fire_basics.webp",
-    category: "Water",
-    datePublished: "2025-04-11",
-    dateModified: "2025-04-11",
+    datePublished: "2024-08-01",
+    dateModified: "2024-08-01",
   },
   {
     slug: "what-is-water-fire-and-mold-restoration",
     title: "What Is Water, Fire, and Mold Restoration?",
     excerpt:
       "An overview of the three most common categories of restoration work and what to expect when you call a professional.",
-    image: "/news_passion_behind.webp",
+    image: "/blog/what-is-water-fire-mold.jpg",
     category: "Company",
-    datePublished: "2025-07-25",
-    dateModified: "2025-07-25",
+    datePublished: "2024-07-11",
+    dateModified: "2024-07-11",
+  },
+  {
+    slug: "the-basics-of-water-damage",
+    title: "The Basics of Water Damage",
+    excerpt:
+      "A homeowner's introduction to water damage \u2014 how it starts, why it spreads fast, and what a professional restoration process actually looks like.",
+    image: "/blog/basics-water-damage.jpg",
+    category: "Water",
+    datePublished: "2024-06-26",
+    dateModified: "2024-06-26",
   },
 ] as const;
 

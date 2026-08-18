@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 
+import { BLOG_POSTS, BLOG_SLUGS } from "@/lib/blog-content";
 import { CITY_SLUGS } from "@/lib/city-content";
 import { COUNTY_SLUGS } from "@/lib/county-content";
 import { SERVICE_SLUGS } from "@/lib/service-content";
@@ -53,5 +54,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticEntries, ...serviceEntries, ...countyEntries, ...cityEntries];
+  const blogEntries = BLOG_SLUGS.map((slug) => {
+    const post = BLOG_POSTS[slug];
+    return {
+      url: `${BASE_URL}/news/${slug}`,
+      lastModified: new Date(post.dateModified),
+      changeFrequency: "yearly" as const,
+      priority: 0.5,
+    };
+  });
+
+  return [
+    ...staticEntries,
+    ...serviceEntries,
+    ...countyEntries,
+    ...cityEntries,
+    ...blogEntries,
+  ];
 }

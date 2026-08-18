@@ -1,0 +1,38 @@
+{
+  "slug": "most-common-fire-damage-in-a-home",
+  "title": "Most Common Fire Damage in a Home",
+  "excerpt": "Cooking is the leading cause of home fires and injury. Here is what starts kitchen fires \u2014 and how homeowners keep them from starting in the first place.",
+  "category": "Fire",
+  "author": "Aaron Gallagher",
+  "datePublished": "2024-08-22",
+  "dateModified": "2024-08-22",
+  "image": "/blog/most-common-fire.jpg",
+  "imageAlt": "Editorial illustration of a residential kitchen with warm cooking-related fire risk imagery",
+  "body": [
+    { "type": "p", "text": "When you think about the heart of a home, the kitchen often comes to mind. It is where families gather, meals are prepared, and memories are made. It is also the most hazardous place in the house. Cooking is the leading cause of home fires and fire-related injuries." },
+    { "type": "h2", "text": "The alarming statistics" },
+    { "type": "p", "text": "According to the National Fire Protection Association (NFPA), cooking is responsible for nearly half of all home fires. Between 2014 and 2018, U.S. fire departments responded to an estimated 172,900 home fires per year caused by cooking activities. These fires resulted in an annual average of 550 civilian deaths, 4,820 injuries, and approximately $1 billion in direct property damage." },
+    { "type": "p", "text": "These numbers are sobering \u2014 and they highlight a critical issue: many of these fires are preventable with proper awareness and simple habits." },
+    { "type": "h2", "text": "How kitchen fires start" },
+    { "type": "ol", "items": [
+      "Unattended cooking. The biggest single cause. A moment of distraction \u2014 the door, the kids, the phone \u2014 is often all it takes for grease or oil to overheat and ignite.",
+      "Grease fires. Overheated oil or fat ignites and spreads fast. Grease fires can't be extinguished with water; water makes them worse.",
+      "Flammable objects near the stove. Dish towels, paper towels, oven mitts \u2014 anything combustible near a heat source is a fire waiting to happen.",
+      "Faulty appliances. Malfunctioning or poorly maintained toasters, microwaves, and stovetops start fires through worn cords, bad wiring, or overheating elements."
+    ]},
+    { "type": "h2", "text": "The impact of kitchen fires" },
+    { "type": "p", "text": "The damage caused by kitchen fires extends beyond property loss. The financial toll is significant, but the emotional and psychological impact on those involved can be profound. Homes are seen as safe havens; when that sense of security is shattered by fire, the emotional recovery can be as challenging as the physical one. Kitchen fires can also result in severe injuries \u2014 burns, smoke inhalation, and other fire-related harm are common in such a confined, frequently used space." },
+    { "type": "h2", "text": "Preventing kitchen fires: practical habits" },
+    { "type": "ol", "items": [
+      "Never leave cooking unattended. Stay in the kitchen while cooking, especially when using high heat or oil.",
+      "Be mindful of what you wear. Avoid loose clothing with long sleeves that could catch fire while cooking.",
+      "Keep flammable objects away. Towels, oven mitts, paper towels, and packaging should stay clear of the stovetop.",
+      "Maintain your appliances. Regularly check for signs of wear or malfunction. Replace faulty equipment immediately.",
+      "Know how to handle grease fires. Never use water. Smother the flames with a lid, use a fire extinguisher, or douse small fires with baking soda.",
+      "Install and maintain smoke detectors. Test them regularly \u2014 they are your first line of defense.",
+      "Educate your family. Make sure everyone knows the risks and rules \u2014 especially children learning to use the stove."
+    ]},
+    { "type": "h2", "text": "Wrapping it all up" },
+    { "type": "p", "text": "The kitchen is a central part of our homes, and it poses significant fire risks. Understanding the common causes of kitchen fires and taking proactive steps to prevent them protects your home and your family. The best way to fight a fire is to prevent it from starting in the first place." }
+  ]
+}
