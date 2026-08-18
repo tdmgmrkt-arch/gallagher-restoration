@@ -127,6 +127,7 @@ export function ServicePage({ content }: { content: ServiceContent }) {
         crumbs={crumbs}
         backgroundImage={CATEGORY_HERO[content.category].src}
         backgroundAlt={CATEGORY_HERO[content.category].alt}
+        subtleBackground
       />
 
       {/* Proof strip */}
