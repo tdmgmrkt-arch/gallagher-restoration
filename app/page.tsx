@@ -80,6 +80,7 @@ export default function Home() {
       closes: "23:59",
     },
     priceRange: "$$",
+    founder: { "@id": "https://gallagherrestoration.com/#aaron-gallagher" },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Restoration Services",

@@ -146,11 +146,11 @@ export default async function BlogPostPage({ params }: PageProps<"/news/[slug]">
     image: post.image
       ? [`https://gallagherrestoration.com${post.image}`]
       : undefined,
-    author: {
-      "@type": "Person",
-      name: post.author,
-      url: "https://gallagherrestoration.com/about",
-    },
+    about:
+      post.slug === "the-passion-behind-gallagher-restoration"
+        ? { "@id": "https://gallagherrestoration.com/#aaron-gallagher" }
+        : undefined,
+    author: { "@id": "https://gallagherrestoration.com/#aaron-gallagher" },
     publisher: {
       "@type": "Organization",
       "@id": "https://gallagherrestoration.com/#organization",
