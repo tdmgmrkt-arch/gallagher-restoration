@@ -207,7 +207,7 @@ export default function ContactUsPage() {
 
           <Reveal delay={140}>
             <div className="border border-[rgba(255,255,255,0.1)] bg-[#121413] p-[clamp(26px,3.2vw,44px)] lg:sticky lg:top-[120px]">
-              <LeadForm />
+              <LeadForm variant="full" />
             </div>
           </Reveal>
         </div>
