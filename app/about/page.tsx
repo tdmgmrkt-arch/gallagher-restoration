@@ -9,7 +9,7 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { FinalCta } from "@/components/sections/FinalCta";
 
 export const metadata: Metadata = {
-  title: "About Gallagher Restoration Co. | Family-Owned Restoration in Southern California",
+  title: "About Gallagher Restoration Co. | 15+ Years Serving SoCal",
   description:
     "Family-owned restoration company serving Southern California for over 15 years. Learn about the Gallagher family, our values, and how we help homeowners recover from disaster.",
   alternates: { canonical: "/about" },

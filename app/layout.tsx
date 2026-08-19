@@ -21,8 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title:
-    "Gallagher Restoration Co. \u2014 Water, Fire & Mold Restoration | Southern California",
+  title: "24/7 Water, Fire & Mold Restoration SoCal | Gallagher",
   description:
     "24/7 emergency water, fire, and mold damage restoration across Riverside, San Bernardino, Orange, and San Diego counties. On-site within 60 minutes. Call (951) 541-0034.",
   metadataBase: new URL("https://gallagherrestoration.com"),

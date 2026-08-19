@@ -26,8 +26,11 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getBlogPost(slug);
   if (!post) return {};
+  const brandedTitle = post.title.includes("Gallagher")
+    ? post.title
+    : `${post.title} | Gallagher Restoration`;
   return {
-    title: `${post.title} | Gallagher Restoration Co.`,
+    title: brandedTitle,
     description: post.excerpt,
     alternates: { canonical: `/news/${post.slug}` },
     openGraph: {
