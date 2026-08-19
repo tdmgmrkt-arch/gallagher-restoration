@@ -31,6 +31,24 @@ export const metadata: Metadata = {
       "24/7 water, fire, mold, and property damage restoration in Southern California. Crews on site within 60 minutes.",
     type: "website",
     locale: "en_US",
+    url: "https://gallagherrestoration.com",
+    siteName: "Gallagher Restoration Co.",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Gallagher Restoration Co. — 24/7 water, fire, and mold restoration serving Southern California",
+        type: "image/jpeg",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gallagher Restoration Co.",
+    description:
+      "24/7 water, fire, mold, and property damage restoration in Southern California. Crews on site within 60 minutes.",
+    images: ["/og-image.jpg"],
   },
 };
 
