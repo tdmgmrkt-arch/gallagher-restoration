@@ -47,7 +47,7 @@ export default function NewsPage() {
               <div className="relative overflow-hidden bg-[#0E100E]">
                 <Image
                   src={featured.image}
-                  alt={featured.title}
+                  alt={featured.imageAlt}
                   width={1200}
                   height={800}
                   sizes="(min-width: 980px) 50vw, 100vw"
@@ -90,7 +90,7 @@ export default function NewsPage() {
                   <div className="mb-6 overflow-hidden bg-[#121413]">
                     <Image
                       src={p.image}
-                      alt={p.title}
+                      alt={p.imageAlt}
                       width={800}
                       height={450}
                       sizes="(min-width: 980px) 33vw, 100vw"

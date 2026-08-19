@@ -39,7 +39,7 @@ export function NewsGrid() {
                 <div className="mb-6 overflow-hidden bg-[#121413]">
                   <Image
                     src={p.image}
-                    alt={p.title}
+                    alt={p.imageAlt}
                     width={800}
                     height={450}
                     sizes="(min-width: 980px) 33vw, 100vw"
