@@ -130,6 +130,8 @@ export const POSTS = [
     excerpt:
       "The people who make Gallagher Restoration what it is \u2014 IICRC- and ANSI-certified technicians who treat every property like their own.",
     image: "/blog/qualified-experts.jpg",
+    imageAlt:
+      "Gallagher Restoration certified restoration technicians on a Southern California job site",
     category: "Company",
     datePublished: "2025-02-19",
     dateModified: "2025-02-19",
@@ -140,6 +142,8 @@ export const POSTS = [
     excerpt:
       "How a Canyon Lake upbringing, a chance opportunity, and a lifelong commitment to community shaped the company Aaron Gallagher built.",
     image: "/blog/passion-behind.jpg",
+    imageAlt:
+      "Aaron Gallagher \u2014 founder of Gallagher Restoration \u2014 in Canyon Lake, California",
     category: "Company",
     datePublished: "2025-01-23",
     dateModified: "2025-01-23",
@@ -150,6 +154,8 @@ export const POSTS = [
     excerpt:
       "Thanksgiving is one of the most common days for household emergencies. Here is what usually goes wrong \u2014 and how to keep the holiday on track.",
     image: "/blog/turkey-day.jpg",
+    imageAlt:
+      "Thanksgiving dinner table setting representing holiday household emergency preparedness",
     category: "Seasonal",
     datePublished: "2024-11-27",
     dateModified: "2024-11-27",
@@ -160,6 +166,8 @@ export const POSTS = [
     excerpt:
       "SoCal winters are mild \u2014 but rain, wind, and colder temps still cause real damage. Eight practical steps to winterize your Southern California home.",
     image: "/blog/winter-prep.jpg",
+    imageAlt:
+      "Southern California home exterior prepared for the winter rainy season",
     category: "Seasonal",
     datePublished: "2024-10-18",
     dateModified: "2024-10-18",
@@ -170,6 +178,8 @@ export const POSTS = [
     excerpt:
       "Cooking is the leading cause of home fires and injury. Here is what starts kitchen fires \u2014 and how homeowners keep them from starting in the first place.",
     image: "/blog/most-common-fire.jpg",
+    imageAlt:
+      "Editorial illustration of a residential kitchen with warm cooking-related fire risk imagery",
     category: "Fire",
     datePublished: "2024-08-22",
     dateModified: "2024-08-22",
@@ -180,6 +190,7 @@ export const POSTS = [
     excerpt:
       "Understand the fundamentals of fire damage, smoke damage, and the professional restoration process.",
     image: "/blog/fire-damage-basics.jpg",
+    imageAlt: "Fire damage restoration basics editorial hero image",
     category: "Fire",
     datePublished: "2024-08-01",
     dateModified: "2024-08-01",
@@ -190,6 +201,8 @@ export const POSTS = [
     excerpt:
       "An overview of the three most common categories of restoration work and what to expect when you call a professional.",
     image: "/blog/what-is-water-fire-mold.jpg",
+    imageAlt:
+      "Technician performing emergency water removal in a Southern California home",
     category: "Company",
     datePublished: "2024-07-11",
     dateModified: "2024-07-11",
@@ -200,6 +213,8 @@ export const POSTS = [
     excerpt:
       "A homeowner's introduction to water damage \u2014 how it starts, why it spreads fast, and what a professional restoration process actually looks like.",
     image: "/blog/basics-water-damage.jpg",
+    imageAlt:
+      "Water pooled across the floor of a flooded Southern California home interior",
     category: "Water",
     datePublished: "2024-06-26",
     dateModified: "2024-06-26",
