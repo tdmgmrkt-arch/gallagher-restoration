@@ -6,6 +6,7 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { COMPANY, PHONE, SERVICE_CATEGORIES, CITIES_BY_COUNTY } from "@/lib/site";
+import { COUNTY_LABEL_COORDS } from "@/lib/city-coords";
 import type { CountyContent } from "@/lib/county-content";
 
 type CountyKey = keyof typeof CITIES_BY_COUNTY;
@@ -17,6 +18,7 @@ export function CountyPage({ content }: { content: CountyContent }) {
     isHq?: boolean;
   }> = CITIES_BY_COUNTY[content.slug as CountyKey] ?? [];
 
+  const countyCoords = COUNTY_LABEL_COORDS[content.slug];
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "EmergencyService",
@@ -40,6 +42,15 @@ export function CountyPage({ content }: { content: CountyContent }) {
         containedInPlace: content.name,
       })),
     ],
+    ...(countyCoords
+      ? {
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: countyCoords[0],
+            longitude: countyCoords[1],
+          },
+        }
+      : {}),
     openingHours: "Mo-Su 00:00-24:00",
     priceRange: "$$",
   };
