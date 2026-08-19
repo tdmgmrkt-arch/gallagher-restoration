@@ -7,16 +7,32 @@
   "proximityMiles": 45,
   "route": "SR-91 West then SR-55",
   "metaTitle": "Water & Fire Damage Restoration | Santa Ana, CA",
-  "metaDescription": "Gallagher Restoration reaches Santa Ana in ~60 min via SR-91 & SR-55. Water, fire, mold & sewage — 24/7. Family-owned, IICRC-trained. Call (951) 541-0034.",
+  "metaDescription": "Water, fire, mold & wildfire restoration in Santa Ana, CA. 24/7 IICRC-trained response—on-site ~60 min. (951) 541-0034.",
   "heroEyebrow": "24/7 EMERGENCY · SANTA ANA, CA",
   "heroTitle": "Restoration services in Santa Ana — on-site in about 60 minutes",
   "heroAccent": "Orange County's urban core — the oldest housing stock in the county.",
   "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Santa Ana via SR-91 West and SR-55 — typically on-site within 60 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
   "proofStrip": [
-    { "label": "On-Site In", "value": "~60 min", "hint": "Typical drive from Canyon Lake via SR-91 West and SR-55" },
-    { "label": "Distance", "value": "45 mi", "hint": "Canyon Lake to Santa Ana" },
-    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
-    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+    {
+      "label": "On-Site In",
+      "value": "~60 min",
+      "hint": "Typical drive from Canyon Lake via SR-91 West and SR-55"
+    },
+    {
+      "label": "Distance",
+      "value": "45 mi",
+      "hint": "Canyon Lake to Santa Ana"
+    },
+    {
+      "label": "Availability",
+      "value": "24 / 7",
+      "hint": "Every day, including holidays"
+    },
+    {
+      "label": "In Business",
+      "value": "15+ yrs",
+      "hint": "Family-owned since the early 2000s"
+    }
   ],
   "localHook": "Santa Ana is Orange County's seat of government and, in significant stretches, its oldest city. The downtown historic district, Floral Park, and French Park carry housing from the 1900s through the 1920s — some of the oldest residential stock in Southern California. That age creates a specific and demanding damage profile. Original cast iron drain lines in these neighborhoods have been cracking and root-intruding for decades. The high-density apartment corridors that run through much of South Santa Ana create a different problem: water intrusion events that spread between units before anyone locates the source. Storm drain capacity is a perennial concern during heavy rain years — downtown Santa Ana has documented cases of street flooding that backs into basements and ground-floor commercial spaces. Gallagher takes SR-91 West to SR-55 and is typically in Santa Ana within 60 minutes.",
   "neighborhoods": {

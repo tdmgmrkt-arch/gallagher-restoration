@@ -5,27 +5,43 @@
   "countyName": "Los Angeles County",
   "proximityMinutes": 90,
   "proximityMiles": 80,
-  "route": "SR-60 West \u2192 I-10 West",
+  "route": "SR-60 West → I-10 West",
   "metaTitle": "Water & Fire Restoration | Los Angeles, CA | Gallagher",
-  "metaDescription": "Water, fire, mold, and wildfire restoration in Los Angeles, CA. IICRC-trained crews, 24/7 response\u2014on-site in roughly 90 min from Canyon Lake. Call (951) 541-0034.",
-  "heroEyebrow": "24/7 EMERGENCY \u00b7 LOS ANGELES, CA",
-  "heroTitle": "Los Angeles restoration\u2014water, fire, wildfire, mold, 24/7",
+  "metaDescription": "Water, fire, mold & wildfire restoration in Los Angeles, CA. 24/7 IICRC-trained response—on-site ~90 min. (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY · LOS ANGELES, CA",
+  "heroTitle": "Los Angeles restoration—water, fire, wildfire, mold, 24/7",
   "heroAccent": "Canyon Lake to Los Angeles: ~90 min via SR-60 West and I-10.",
-  "heroIntro": "Los Angeles holds a century\u2019s worth of plumbing failures in its walls and a wildfire scar across its hills that is still being measured. Water intrusion, mold, fire damage, and post-wildfire smoke cleanup are active needs across every corner of the city. Gallagher Restoration Co. dispatches IICRC-trained crews from Canyon Lake 24/7. A real person answers every call.",
+  "heroIntro": "Los Angeles holds a century’s worth of plumbing failures in its walls and a wildfire scar across its hills that is still being measured. Water intrusion, mold, fire damage, and post-wildfire smoke cleanup are active needs across every corner of the city. Gallagher Restoration Co. dispatches IICRC-trained crews from Canyon Lake 24/7. A real person answers every call.",
   "proofStrip": [
-    { "label": "On-Site In", "value": "~90 min", "hint": "Typical Canyon Lake to central LA drive via SR-60 West \u2192 I-10 West" },
-    { "label": "Distance", "value": "80 mi", "hint": "Canyon Lake HQ to central Los Angeles" },
-    { "label": "Availability", "value": "24 / 7", "hint": "Every day, every hour, real person answers" },
-    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned, Southern California\u2019s restoration team" }
+    {
+      "label": "On-Site In",
+      "value": "~90 min",
+      "hint": "Typical Canyon Lake to central LA drive via SR-60 West → I-10 West"
+    },
+    {
+      "label": "Distance",
+      "value": "80 mi",
+      "hint": "Canyon Lake HQ to central Los Angeles"
+    },
+    {
+      "label": "Availability",
+      "value": "24 / 7",
+      "hint": "Every day, every hour, real person answers"
+    },
+    {
+      "label": "In Business",
+      "value": "15+ yrs",
+      "hint": "Family-owned, Southern California’s restoration team"
+    }
   ],
-  "localHook": "Los Angeles in 2025 became something different. The January Eaton fire in Altadena and the Palisades fire on the Westside together produced the most destructive wildfire event in the city\u2019s recorded history\u2014and the damage did not stop at the fire perimeter. Smoke, soot, and airborne ash moved through neighborhoods miles from the active burn, contaminating HVAC systems, embedding in porous materials, and depositing toxic particulate on surfaces in homes that never saw a flame. That layer of wildfire damage sits on top of Los Angeles\u2019s existing restoration profile: a century-old plumbing network in Craftsman bungalows and Spanish-revival apartment courts, high-density water intrusion in mid-century apartment buildings, and storm-drain systems that overflow when the city gets a real rain event. Gallagher Restoration Co. has been working Los Angeles from Canyon Lake via SR-60 for over 15 years. The wildfire calls since January 2025 have added a new dimension to that history.",
+  "localHook": "Los Angeles in 2025 became something different. The January Eaton fire in Altadena and the Palisades fire on the Westside together produced the most destructive wildfire event in the city’s recorded history—and the damage did not stop at the fire perimeter. Smoke, soot, and airborne ash moved through neighborhoods miles from the active burn, contaminating HVAC systems, embedding in porous materials, and depositing toxic particulate on surfaces in homes that never saw a flame. That layer of wildfire damage sits on top of Los Angeles’s existing restoration profile: a century-old plumbing network in Craftsman bungalows and Spanish-revival apartment courts, high-density water intrusion in mid-century apartment buildings, and storm-drain systems that overflow when the city gets a real rain event. Gallagher Restoration Co. has been working Los Angeles from Canyon Lake via SR-60 for over 15 years. The wildfire calls since January 2025 have added a new dimension to that history.",
   "neighborhoods": {
     "eyebrow": "Areas We Serve",
-    "heading": "From downtown to the Westside\u2014Los Angeles covered",
+    "heading": "From downtown to the Westside—Los Angeles covered",
     "items": [
       {
         "name": "Downtown & Koreatown",
-        "body": "Dense urban construction with a mix of century-old commercial buildings, 1920s\u201340s residential, and modern high-rise. Aging plumbing systems and shared drainage infrastructure create water-intrusion calls that require precise scope control to contain in multi-unit environments."
+        "body": "Dense urban construction with a mix of century-old commercial buildings, 1920s–40s residential, and modern high-rise. Aging plumbing systems and shared drainage infrastructure create water-intrusion calls that require precise scope control to contain in multi-unit environments."
       },
       {
         "name": "Hollywood & Silver Lake",
@@ -33,11 +49,11 @@
       },
       {
         "name": "West LA & Mid-City",
-        "body": "Mid-century residential and newer construction with a mix of apartment buildings and single-family homes. High-density water intrusion\u2014roof leaks, appliance failures, and shared-wall pipe bursts\u2014is the most common call. The Palisades fire smoke zone extended east through West LA in January 2025."
+        "body": "Mid-century residential and newer construction with a mix of apartment buildings and single-family homes. High-density water intrusion—roof leaks, appliance failures, and shared-wall pipe bursts—is the most common call. The Palisades fire smoke zone extended east through West LA in January 2025."
       },
       {
         "name": "Altadena-adjacent & hillside neighborhoods",
-        "body": "The January 2025 Eaton fire produced direct structural losses in Altadena and smoke infiltration across a wide swath of northeast LA neighborhoods. Gallagher\u2019s wildfire-specific services\u2014including Altadena and Palisades zone response\u2014address both direct fire damage and the broader contamination footprint."
+        "body": "The January 2025 Eaton fire produced direct structural losses in Altadena and smoke infiltration across a wide swath of northeast LA neighborhoods. Gallagher’s wildfire-specific services—including Altadena and Palisades zone response—address both direct fire damage and the broader contamination footprint."
       }
     ]
   },
@@ -47,11 +63,11 @@
     "items": [
       {
         "title": "Wildfire smoke, soot, and post-fire contamination",
-        "body": "The January 2025 Eaton and Palisades fires left a contamination footprint that extends well beyond burned structures. Soot and toxic ash settled on surfaces, entered HVAC systems, and embedded in porous materials across a wide swath of the city. Gallagher\u2019s dedicated wildfire restoration services\u2014including specific response for the Altadena and Palisades zones\u2014address the full contamination scope."
+        "body": "The January 2025 Eaton and Palisades fires left a contamination footprint that extends well beyond burned structures. Soot and toxic ash settled on surfaces, entered HVAC systems, and embedded in porous materials across a wide swath of the city. Gallagher’s dedicated wildfire restoration services—including specific response for the Altadena and Palisades zones—address the full contamination scope."
       },
       {
         "title": "Century-old plumbing systems",
-        "body": "Los Angeles\u2019s oldest residential neighborhoods carry original or early-replaced plumbing in buildings from the 1900s through 1930s. Galvanized supply lines, cast-iron stacks, and lead-joint fittings fail without warning inside plaster walls and under century-old flooring. Full cavity assessment is required, not surface repair."
+        "body": "Los Angeles’s oldest residential neighborhoods carry original or early-replaced plumbing in buildings from the 1900s through 1930s. Galvanized supply lines, cast-iron stacks, and lead-joint fittings fail without warning inside plaster walls and under century-old flooring. Full cavity assessment is required, not surface repair."
       },
       {
         "title": "High-density apartment water intrusion",
@@ -59,24 +75,24 @@
       },
       {
         "title": "Storm-drain overflow downtown",
-        "body": "Los Angeles\u2019s storm-drain infrastructure was designed for typical Southern California rainfall\u2014not the concentrated rain events that El Ni\u00f1o cycles produce. Downtown and low-lying areas absorb drainage backup into lower-level commercial and residential spaces. Gallagher responds during active rain events."
+        "body": "Los Angeles’s storm-drain infrastructure was designed for typical Southern California rainfall—not the concentrated rain events that El Niño cycles produce. Downtown and low-lying areas absorb drainage backup into lower-level commercial and residential spaces. Gallagher responds during active rain events."
       }
     ]
   },
   "howWeWork": {
     "eyebrow": "The Process",
     "heading": "What a Los Angeles call looks like",
-    "body": "Call (951) 541-0034 at any hour\u2014a real person answers. Gallagher dispatches from Canyon Lake; the drive to central Los Angeles is roughly 90 minutes via SR-60 West and I-10 West. On arrival, the crew performs a full-scope assessment with professional-grade moisture meters and thermal imaging. In multi-unit buildings, scope assessment includes adjacent units when necessary. In wildfire-affected homes, the assessment includes HVAC contamination, surface soot sampling locations, and porous material inventory. You get a clear picture of findings before equipment is placed. Documentation starts immediately: photos, moisture logs, written scope. That record is what insurance adjusters need. Gallagher coordinates directly with major insurance carriers on your behalf\u2014handling adjuster communication so you are not managing two conversations while your home or building is compromised. The same crew carries the job from first call to final reconstruction."
+    "body": "Call (951) 541-0034 at any hour—a real person answers. Gallagher dispatches from Canyon Lake; the drive to central Los Angeles is roughly 90 minutes via SR-60 West and I-10 West. On arrival, the crew performs a full-scope assessment with professional-grade moisture meters and thermal imaging. In multi-unit buildings, scope assessment includes adjacent units when necessary. In wildfire-affected homes, the assessment includes HVAC contamination, surface soot sampling locations, and porous material inventory. You get a clear picture of findings before equipment is placed. Documentation starts immediately: photos, moisture logs, written scope. That record is what insurance adjusters need. Gallagher coordinates directly with major insurance carriers on your behalf—handling adjuster communication so you are not managing two conversations while your home or building is compromised. The same crew carries the job from first call to final reconstruction."
   },
   "whyChoose": {
     "eyebrow": "Why Gallagher",
     "heading": "Why Los Angeles homeowners call Gallagher",
-    "body": "Los Angeles\u2019s restoration needs in 2025 and 2026 are not what they were in 2024. The January wildfire events created a scale of contamination that requires contractors with both wildfire-specific protocols and broad restoration capability\u2014from century-old bungalow plumbing failures to high-rise water intrusion to Altadena post-fire cleanup. Gallagher is a family-owned operation with 15 years of experience across Southern California. IICRC-trained crews apply consistent protocols across all damage categories. Aaron\u2019s team carries full accountability from first call to final walkthrough\u2014no national franchise routing, no mid-project handoffs. Assessment is always free. Direct insurance carrier coordination is standard. For January 2025 wildfire losses specifically, Gallagher offers dedicated wildfire restoration services for both the Altadena and Palisades fire zones. The drive from Canyon Lake is roughly 90 minutes. The work standard does not change because the address is Los Angeles."
+    "body": "Los Angeles’s restoration needs in 2025 and 2026 are not what they were in 2024. The January wildfire events created a scale of contamination that requires contractors with both wildfire-specific protocols and broad restoration capability—from century-old bungalow plumbing failures to high-rise water intrusion to Altadena post-fire cleanup. Gallagher is a family-owned operation with 15 years of experience across Southern California. IICRC-trained crews apply consistent protocols across all damage categories. Aaron’s team carries full accountability from first call to final walkthrough—no national franchise routing, no mid-project handoffs. Assessment is always free. Direct insurance carrier coordination is standard. For January 2025 wildfire losses specifically, Gallagher offers dedicated wildfire restoration services for both the Altadena and Palisades fire zones. The drive from Canyon Lake is roughly 90 minutes. The work standard does not change because the address is Los Angeles."
   },
   "pricing": {
     "eyebrow": "What It Costs",
     "heading": "Honest numbers on restoration cost in Los Angeles",
-    "body": "Assessment is free. Most residential restoration jobs in Los Angeles fall between $2,000 and $25,000 depending on damage category, affected materials, and discovery timing. Multi-unit water intrusion jobs trend higher due to containment complexity and coordinated access requirements. Post-wildfire decontamination scopes vary widely based on proximity to the burn perimeter, HVAC exposure, and the extent of soot infiltration into porous materials. Gallagher works directly with major insurance carriers\u2014including those handling the large volume of wildfire claims from January 2025\u2014and prepares full adjuster documentation on every job."
+    "body": "Assessment is free. Most residential restoration jobs in Los Angeles fall between $2,000 and $25,000 depending on damage category, affected materials, and discovery timing. Multi-unit water intrusion jobs trend higher due to containment complexity and coordinated access requirements. Post-wildfire decontamination scopes vary widely based on proximity to the burn perimeter, HVAC exposure, and the extent of soot infiltration into porous materials. Gallagher works directly with major insurance carriers—including those handling the large volume of wildfire claims from January 2025—and prepares full adjuster documentation on every job."
   },
   "faqs": [
     {
@@ -89,7 +105,7 @@
     },
     {
       "q": "Can you work in multi-unit apartment buildings in Los Angeles?",
-      "a": "Yes. Multi-unit water intrusion requires containment protocols and coordinated access that differ from single-family work. Gallagher\u2019s IICRC-trained crews assess the full affected scope including adjacent units when a pipe failure affects multiple floors."
+      "a": "Yes. Multi-unit water intrusion requires containment protocols and coordinated access that differ from single-family work. Gallagher’s IICRC-trained crews assess the full affected scope including adjacent units when a pipe failure affects multiple floors."
     },
     {
       "q": "Do you handle century-old plumbing failures in historic LA homes?",

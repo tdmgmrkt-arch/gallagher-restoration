@@ -2,21 +2,37 @@
   "slug": "property-damage-management",
   "category": "property",
   "metaTitle": "Property Damage Management SoCal | Gallagher Restoration",
-  "metaDescription": "Single-point project management for property damage across 5 SoCal counties. Mitigation, trades coordination, insurance documentation. 24/7. (951) 541-0034.",
-  "heroEyebrow": "Mitigation Through Reconstruction \u00b7 One Contact",
+  "metaDescription": "Single-point PM for property damage across 5 SoCal counties. Mitigation, trades, insurance docs. 24/7. (951) 541-0034.",
+  "heroEyebrow": "Mitigation Through Reconstruction · One Contact",
   "heroTitle": "Property damage management in Southern California",
   "heroAccent": "single-source coordination from first call through final inspection",
   "heroIntro": "A major property loss generates three simultaneous problems: the physical damage, the insurance process, and the coordination of multiple trades. Gallagher Restoration Co. manages all three under one project team for homeowners, property managers, HOAs, and commercial property owners across five Southern California counties.",
   "proofStrip": [
-    {"label": "Response Time", "value": "60 min", "hint": "Typical arrival across 5-county SoCal"},
-    {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person"},
-    {"label": "Coverage", "value": "5 counties", "hint": "Riverside \u00b7 SB \u00b7 OC \u00b7 SD \u00b7 LA"},
-    {"label": "In Business", "value": "15+ yrs", "hint": "Serving Southern California since 2009"}
+    {
+      "label": "Response Time",
+      "value": "60 min",
+      "hint": "Typical arrival across 5-county SoCal"
+    },
+    {
+      "label": "Availability",
+      "value": "24 / 7",
+      "hint": "Answered by a real person"
+    },
+    {
+      "label": "Coverage",
+      "value": "5 counties",
+      "hint": "Riverside · SB · OC · SD · LA"
+    },
+    {
+      "label": "In Business",
+      "value": "15+ yrs",
+      "hint": "Serving Southern California since 2009"
+    }
   ],
   "whatItIs": {
     "eyebrow": "The Basics",
     "heading": "What is property damage management?",
-    "body": "Property damage management is coordinated project oversight of the full damage-response lifecycle\u2014mitigation, remediation, trade coordination, insurance documentation, and reconstruction\u2014under a single company and point of contact. Most property losses require more than one trade: a water event may need a plumber to fix the source, a restoration company to mitigate and dry, an HVAC contractor if ductwork was affected, and a general contractor for reconstruction. Without a central coordinator, homeowners and property managers chase separate schedules, separate documentation standards, and separate invoices\u2014all while managing an insurance process that requires everything to be itemized in a specific format. Gallagher Restoration Co. functions as the general contractor and primary contact for the full job: managing in-house mitigation, coordinating licensed subcontractors for trades outside direct scope, and producing unified documentation for the insurance carrier. This service is particularly valuable for property managers overseeing multiple units, out-of-area landlords, and HOAs responding to common-area damage events."
+    "body": "Property damage management is coordinated project oversight of the full damage-response lifecycle—mitigation, remediation, trade coordination, insurance documentation, and reconstruction—under a single company and point of contact. Most property losses require more than one trade: a water event may need a plumber to fix the source, a restoration company to mitigate and dry, an HVAC contractor if ductwork was affected, and a general contractor for reconstruction. Without a central coordinator, homeowners and property managers chase separate schedules, separate documentation standards, and separate invoices—all while managing an insurance process that requires everything to be itemized in a specific format. Gallagher Restoration Co. functions as the general contractor and primary contact for the full job: managing in-house mitigation, coordinating licensed subcontractors for trades outside direct scope, and producing unified documentation for the insurance carrier. This service is particularly valuable for property managers overseeing multiple units, out-of-area landlords, and HOAs responding to common-area damage events."
   },
   "process": {
     "eyebrow": "Our Process",
@@ -30,17 +46,17 @@
       {
         "kicker": "Step 02",
         "title": "Mitigation and trade coordination",
-        "body": "Gallagher handles in-house mitigation\u2014water extraction, structural drying, smoke remediation, mold containment\u2014and coordinates licensed subcontractors for plumbing, electrical, roofing, and HVAC work the job requires. All trade schedules are managed through one project contact so the property owner is not coordinating between vendors."
+        "body": "Gallagher handles in-house mitigation—water extraction, structural drying, smoke remediation, mold containment—and coordinates licensed subcontractors for plumbing, electrical, roofing, and HVAC work the job requires. All trade schedules are managed through one project contact so the property owner is not coordinating between vendors."
       },
       {
         "kicker": "Step 03",
         "title": "Insurance documentation and adjuster coordination",
-        "body": "Unified documentation\u2014photo logs, written scope, moisture readings, trade invoices, and timeline records\u2014is maintained throughout the job and formatted to meet adjuster requirements. Gallagher communicates directly with the insurance carrier, reducing the documentation burden on the property owner."
+        "body": "Unified documentation—photo logs, written scope, moisture readings, trade invoices, and timeline records—is maintained throughout the job and formatted to meet adjuster requirements. Gallagher communicates directly with the insurance carrier, reducing the documentation burden on the property owner."
       },
       {
         "kicker": "Step 04",
         "title": "Reconstruction and final inspection",
-        "body": "The reconstruction phase\u2014drywall, flooring, paint, trim, fixtures\u2014is managed under the same project oversight. The job closes with a final inspection, a documented clearance of any remediated areas, and a complete project file for the insurance carrier and property records."
+        "body": "The reconstruction phase—drywall, flooring, paint, trim, fixtures—is managed under the same project oversight. The job closes with a final inspection, a documented clearance of any remediated areas, and a complete project file for the insurance carrier and property records."
       }
     ]
   },
@@ -63,7 +79,7 @@
       },
       {
         "title": "Insurance claim requiring detailed line-item documentation",
-        "body": "Insurance adjusters require specific documentation formats\u2014Xactimate-compatible scopes, photo logs with time stamps, drying logs, and trade invoices with clear cost attribution. Gallagher builds this documentation from day one, not at the end of the job."
+        "body": "Insurance adjusters require specific documentation formats—Xactimate-compatible scopes, photo logs with time stamps, drying logs, and trade invoices with clear cost attribution. Gallagher builds this documentation from day one, not at the end of the job."
       },
       {
         "title": "Large-loss or catastrophic event requiring prioritized sequencing",
@@ -74,21 +90,21 @@
   "whyUs": {
     "eyebrow": "Why Gallagher",
     "heading": "Why property managers and homeowners choose Gallagher for damage management",
-    "body": "The most common property damage complaint is not about the initial event\u2014it is about what happened between the first company and the second one. Gallagher Restoration Co. built its model around eliminating that gap. After 15 years of managing mitigation-through-reconstruction jobs across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties, the company handles the full project scope in-house or under coordinated subcontracts\u2014one project manager, one documentation package, one final invoice structure. Property managers overseeing units in Murrieta, Temecula, or across the Inland Empire particularly benefit from having a restoration partner who coordinates trades rather than handing off between them. Aaron and the Gallagher team manage insurance communication directly, which reduces adjuster calls on the property owner side and keeps the claim file clean. Call (951) 541-0034 any hour."
+    "body": "The most common property damage complaint is not about the initial event—it is about what happened between the first company and the second one. Gallagher Restoration Co. built its model around eliminating that gap. After 15 years of managing mitigation-through-reconstruction jobs across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties, the company handles the full project scope in-house or under coordinated subcontracts—one project manager, one documentation package, one final invoice structure. Property managers overseeing units in Murrieta, Temecula, or across the Inland Empire particularly benefit from having a restoration partner who coordinates trades rather than handing off between them. Aaron and the Gallagher team manage insurance communication directly, which reduces adjuster calls on the property owner side and keeps the claim file clean. Call (951) 541-0034 any hour."
   },
   "pricing": {
     "eyebrow": "What It Costs",
     "heading": "Property damage management pricing",
-    "body": "For most residential jobs, Gallagher Restoration Co.'s project management is built into the overall mitigation and reconstruction scope\u2014there is no separate coordination fee on standard residential losses. For larger commercial or multi-unit events where coordination represents significant standalone work, project management is priced into the overall project scope and itemized in the insurance documentation. Every job begins with a free on-site assessment to define the full scope, identify the trades involved, and produce the initial documentation for the insurance carrier. Residential losses managed by Gallagher typically fall in the $2,000\u2013$50,000 range depending on the cause, scope, and reconstruction required. Large-loss commercial events can exceed that significantly. No price is firm without a written on-site scope."
+    "body": "For most residential jobs, Gallagher Restoration Co.'s project management is built into the overall mitigation and reconstruction scope—there is no separate coordination fee on standard residential losses. For larger commercial or multi-unit events where coordination represents significant standalone work, project management is priced into the overall project scope and itemized in the insurance documentation. Every job begins with a free on-site assessment to define the full scope, identify the trades involved, and produce the initial documentation for the insurance carrier. Residential losses managed by Gallagher typically fall in the $2,000–$50,000 range depending on the cause, scope, and reconstruction required. Large-loss commercial events can exceed that significantly. No price is firm without a written on-site scope."
   },
   "faqs": [
     {
       "q": "What is the difference between a restoration company and a general contractor?",
-      "a": "A restoration company specializes in damage mitigation\u2014water extraction, drying, smoke remediation, mold containment\u2014while a general contractor manages reconstruction. Gallagher Restoration Co. operates across both phases, handling mitigation in-house and managing reconstruction through direct crews and coordinated licensed subcontractors. For the property owner, this means one contact from first assessment through final inspection."
+      "a": "A restoration company specializes in damage mitigation—water extraction, drying, smoke remediation, mold containment—while a general contractor manages reconstruction. Gallagher Restoration Co. operates across both phases, handling mitigation in-house and managing reconstruction through direct crews and coordinated licensed subcontractors. For the property owner, this means one contact from first assessment through final inspection."
     },
     {
       "q": "Can Gallagher take over a job that another company started?",
-      "a": "Yes. Gallagher Restoration Co. can assume project management mid-job\u2014after mitigation by another company, after an adjuster estimate is issued, or after construction has started but stalled. A free on-site assessment documents the current condition and identifies what remains in the scope."
+      "a": "Yes. Gallagher Restoration Co. can assume project management mid-job—after mitigation by another company, after an adjuster estimate is issued, or after construction has started but stalled. A free on-site assessment documents the current condition and identifies what remains in the scope."
     },
     {
       "q": "How does property damage management work for property managers with multiple units?",
@@ -99,5 +115,9 @@
       "a": "Yes. Gallagher Restoration Co. coordinates directly with insurance adjusters from day one, producing Xactimate-compatible documentation, photo logs, drying records, and trade invoices in the format adjusters require. The goal is a complete, clean claim file that reduces disputes and speeds payment."
     }
   ],
-  "relatedServices": ["reconstruction", "water-damage-restoration", "fire-damage-restoration"]
+  "relatedServices": [
+    "reconstruction",
+    "water-damage-restoration",
+    "fire-damage-restoration"
+  ]
 }

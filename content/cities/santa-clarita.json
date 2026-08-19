@@ -5,27 +5,43 @@
   "countyName": "Los Angeles County",
   "proximityMinutes": 110,
   "proximityMiles": 100,
-  "route": "SR-60 West \u2192 I-5 North",
+  "route": "SR-60 West → I-5 North",
   "metaTitle": "Water & Fire Restoration | Santa Clarita, CA | Gallagher",
-  "metaDescription": "Water, fire, mold, and wildfire restoration in Santa Clarita, CA. IICRC-trained crews, 24/7 response\u2014on-site in roughly 110 min from Canyon Lake. Call (951) 541-0034.",
-  "heroEyebrow": "24/7 EMERGENCY \u00b7 SANTA CLARITA, CA",
-  "heroTitle": "Santa Clarita restoration\u2014wildfire, water, slab leaks, 24/7",
+  "metaDescription": "Water, fire, mold & wildfire restoration in Santa Clarita, CA. 24/7 IICRC-trained response—on-site ~110 min. (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY · SANTA CLARITA, CA",
+  "heroTitle": "Santa Clarita restoration—wildfire, water, slab leaks, 24/7",
   "heroAccent": "Canyon Lake to Santa Clarita: ~110 min via SR-60 West and I-5 North.",
-  "heroIntro": "Santa Clarita\u2019s canyon terrain and Santa Ana wind corridor have produced two significant fire events in the past decade\u2014the 2016 Sand Fire and the 2019 Tick Fire. The same landscape that drives wildfire risk also channels the hard winds that strip roofing and push smoke deep into homes. Gallagher Restoration Co. dispatches IICRC-trained crews from Canyon Lake at any hour. A real person answers every call.",
+  "heroIntro": "Santa Clarita’s canyon terrain and Santa Ana wind corridor have produced two significant fire events in the past decade—the 2016 Sand Fire and the 2019 Tick Fire. The same landscape that drives wildfire risk also channels the hard winds that strip roofing and push smoke deep into homes. Gallagher Restoration Co. dispatches IICRC-trained crews from Canyon Lake at any hour. A real person answers every call.",
   "proofStrip": [
-    { "label": "On-Site In", "value": "~110 min", "hint": "Typical Canyon Lake to Santa Clarita drive via SR-60 West \u2192 I-5 North" },
-    { "label": "Distance", "value": "100 mi", "hint": "Canyon Lake HQ to Santa Clarita" },
-    { "label": "Availability", "value": "24 / 7", "hint": "Every day, every hour, real person answers" },
-    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned, Southern California\u2019s restoration team" }
+    {
+      "label": "On-Site In",
+      "value": "~110 min",
+      "hint": "Typical Canyon Lake to Santa Clarita drive via SR-60 West → I-5 North"
+    },
+    {
+      "label": "Distance",
+      "value": "100 mi",
+      "hint": "Canyon Lake HQ to Santa Clarita"
+    },
+    {
+      "label": "Availability",
+      "value": "24 / 7",
+      "hint": "Every day, every hour, real person answers"
+    },
+    {
+      "label": "In Business",
+      "value": "15+ yrs",
+      "hint": "Family-owned, Southern California’s restoration team"
+    }
   ],
-  "localHook": "Santa Clarita\u2019s master-planned communities\u2014Valencia, Saugus, Newhall, Canyon Country\u2014were built in organized phases from the 1970s through the 2000s. That means slab-foundation copper supply lines across much of the housing stock are now 25 to 50 years old, spread across a wide service-life range depending on the neighborhood. In Newhall\u2019s older tracts, some lines are past the 50-year mark. In Canyon Country\u2019s newer phases, the 30-year threshold is approaching. The 2016 Sand Fire and the 2019 Tick Fire burned through adjacent canyons and sent smoke into thousands of homes. Santa Ana winds during fire season do not respect city limits\u2014roof damage from wind events is a recurring claim in Stevenson Ranch and Saugus, separate from fire entirely. Gallagher Restoration Co. has been dispatching from Canyon Lake via SR-60 and I-5 for over 15 years. Santa Clarita\u2019s canyon fire history is not an abstract risk\u2014it is a call volume we know.",
+  "localHook": "Santa Clarita’s master-planned communities—Valencia, Saugus, Newhall, Canyon Country—were built in organized phases from the 1970s through the 2000s. That means slab-foundation copper supply lines across much of the housing stock are now 25 to 50 years old, spread across a wide service-life range depending on the neighborhood. In Newhall’s older tracts, some lines are past the 50-year mark. In Canyon Country’s newer phases, the 30-year threshold is approaching. The 2016 Sand Fire and the 2019 Tick Fire burned through adjacent canyons and sent smoke into thousands of homes. Santa Ana winds during fire season do not respect city limits—roof damage from wind events is a recurring claim in Stevenson Ranch and Saugus, separate from fire entirely. Gallagher Restoration Co. has been dispatching from Canyon Lake via SR-60 and I-5 for over 15 years. Santa Clarita’s canyon fire history is not an abstract risk—it is a call volume we know.",
   "neighborhoods": {
     "eyebrow": "Areas We Serve",
-    "heading": "Valencia to Canyon Country\u2014Santa Clarita covered",
+    "heading": "Valencia to Canyon Country—Santa Clarita covered",
     "items": [
       {
         "name": "Valencia",
-        "body": "Santa Clarita\u2019s largest and most established community with planned development dating from the 1970s. Slab-foundation copper supply lines in older Valencia tracts are well into the failure window. Water-damage calls here often involve slow-developing slab leaks that surface as buckled flooring."
+        "body": "Santa Clarita’s largest and most established community with planned development dating from the 1970s. Slab-foundation copper supply lines in older Valencia tracts are well into the failure window. Water-damage calls here often involve slow-developing slab leaks that surface as buckled flooring."
       },
       {
         "name": "Saugus & Canyon Country",
@@ -33,7 +49,7 @@
       },
       {
         "name": "Newhall",
-        "body": "Older Santa Clarita core with some of the valley\u2019s earliest residential construction. Plumbing in Newhall\u2019s older homes carries higher failure risk than newer areas. Historic commercial buildings near downtown Newhall also carry aging infrastructure."
+        "body": "Older Santa Clarita core with some of the valley’s earliest residential construction. Plumbing in Newhall’s older homes carries higher failure risk than newer areas. Historic commercial buildings near downtown Newhall also carry aging infrastructure."
       },
       {
         "name": "Stevenson Ranch",
@@ -46,16 +62,16 @@
     "heading": "What damages Santa Clarita homes most",
     "items": [
       {
-        "title": "Canyon wildfire damage\u2014Tick Fire, Sand Fire, and beyond",
-        "body": "Santa Clarita\u2019s canyon terrain has channeled two major fire events in recent years. The 2019 Tick Fire and the 2016 Sand Fire both produced direct structural losses and wide smoke contamination zones. Post-fire remediation addresses both: structural fire damage in burned properties, and HVAC decontamination, surface cleaning, and odor remediation in smoke-exposed homes beyond the fire line."
+        "title": "Canyon wildfire damage—Tick Fire, Sand Fire, and beyond",
+        "body": "Santa Clarita’s canyon terrain has channeled two major fire events in recent years. The 2019 Tick Fire and the 2016 Sand Fire both produced direct structural losses and wide smoke contamination zones. Post-fire remediation addresses both: structural fire damage in burned properties, and HVAC decontamination, surface cleaning, and odor remediation in smoke-exposed homes beyond the fire line."
       },
       {
         "title": "Santa Ana wind roof damage and water intrusion",
-        "body": "High-wind events during Santa Ana conditions strip shingles, lift tile, and compromise roof penetrations across Santa Clarita\u2019s hillside and canyon-adjacent neighborhoods. A compromised roofline during a storm event drives water intrusion into attic spaces, ceiling assemblies, and interior walls. Rapid response limits the secondary mold window."
+        "body": "High-wind events during Santa Ana conditions strip shingles, lift tile, and compromise roof penetrations across Santa Clarita’s hillside and canyon-adjacent neighborhoods. A compromised roofline during a storm event drives water intrusion into attic spaces, ceiling assemblies, and interior walls. Rapid response limits the secondary mold window."
       },
       {
         "title": "Slab leaks in tract-era foundations",
-        "body": "Copper supply lines in concrete slab foundations throughout Valencia, Saugus, and Canyon Country span a 30 to 50-year age range. Older Newhall tracts carry the highest failure probability. Pinhole leaks raise water bills and migrate moisture under flooring before discovery\u2014professional detection and full assembly drying are required."
+        "body": "Copper supply lines in concrete slab foundations throughout Valencia, Saugus, and Canyon Country span a 30 to 50-year age range. Older Newhall tracts carry the highest failure probability. Pinhole leaks raise water bills and migrate moisture under flooring before discovery—professional detection and full assembly drying are required."
       },
       {
         "title": "Mold in wind-damaged and smoke-exposed homes",
@@ -66,12 +82,12 @@
   "howWeWork": {
     "eyebrow": "The Process",
     "heading": "What a Santa Clarita call looks like",
-    "body": "Call (951) 541-0034 at any hour\u2014a real person answers. Gallagher dispatches from Canyon Lake; the drive to Santa Clarita is roughly 110 minutes via SR-60 West and I-5 North. That is the longest drive in our LA County coverage area\u2014we are honest about it. What does not change is that a real person answers every call and the same IICRC-trained crew that responds is the crew that completes the job. On arrival, professional-grade moisture meters and thermal imaging assess the full scope\u2014roof assemblies, wall cavities, slab surfaces. For wildfire-affected properties, the assessment includes HVAC system contamination and surface soot inventory. You get a clear explanation before any equipment is placed. Documentation starts immediately. Gallagher coordinates directly with major insurance carriers on every applicable claim, handling the adjuster communication so the process moves without you in the middle."
+    "body": "Call (951) 541-0034 at any hour—a real person answers. Gallagher dispatches from Canyon Lake; the drive to Santa Clarita is roughly 110 minutes via SR-60 West and I-5 North. That is the longest drive in our LA County coverage area—we are honest about it. What does not change is that a real person answers every call and the same IICRC-trained crew that responds is the crew that completes the job. On arrival, professional-grade moisture meters and thermal imaging assess the full scope—roof assemblies, wall cavities, slab surfaces. For wildfire-affected properties, the assessment includes HVAC system contamination and surface soot inventory. You get a clear explanation before any equipment is placed. Documentation starts immediately. Gallagher coordinates directly with major insurance carriers on every applicable claim, handling the adjuster communication so the process moves without you in the middle."
   },
   "whyChoose": {
     "eyebrow": "Why Gallagher",
     "heading": "Why Santa Clarita homeowners call Gallagher",
-    "body": "Santa Clarita\u2019s damage profile requires a contractor with specific wildfire expertise and deep experience in slab-foundation water damage across a wide range of construction ages. Gallagher is a family-owned operation with 15 years of restoration history across the canyon and valley terrain of Southern California. IICRC-trained crews handle every damage category\u2014fire, smoke, water, mold, wind\u2014with consistent protocols and complete documentation. Aaron\u2019s team does not hand off mid-project. Assessment is always free. Direct insurance carrier coordination is standard on every job. Gallagher acknowledges that Santa Clarita is near the far end of the drive from Canyon Lake\u2014roughly 110 minutes via SR-60 and I-5. The crew quality and accountability standard are the same regardless of drive time."
+    "body": "Santa Clarita’s damage profile requires a contractor with specific wildfire expertise and deep experience in slab-foundation water damage across a wide range of construction ages. Gallagher is a family-owned operation with 15 years of restoration history across the canyon and valley terrain of Southern California. IICRC-trained crews handle every damage category—fire, smoke, water, mold, wind—with consistent protocols and complete documentation. Aaron’s team does not hand off mid-project. Assessment is always free. Direct insurance carrier coordination is standard on every job. Gallagher acknowledges that Santa Clarita is near the far end of the drive from Canyon Lake—roughly 110 minutes via SR-60 and I-5. The crew quality and accountability standard are the same regardless of drive time."
   },
   "pricing": {
     "eyebrow": "What It Costs",
@@ -81,11 +97,11 @@
   "faqs": [
     {
       "q": "How long does it take Gallagher to reach Santa Clarita?",
-      "a": "From Canyon Lake HQ, the typical drive to Santa Clarita is roughly 110 minutes via SR-60 West and I-5 North. That is an honest number\u2014Santa Clarita is the farthest point in our LA County coverage. A real person answers every call around the clock and dispatches without delay."
+      "a": "From Canyon Lake HQ, the typical drive to Santa Clarita is roughly 110 minutes via SR-60 West and I-5 North. That is an honest number—Santa Clarita is the farthest point in our LA County coverage. A real person answers every call around the clock and dispatches without delay."
     },
     {
       "q": "Do you handle wildfire damage from the 2019 Tick Fire and 2016 Sand Fire areas?",
-      "a": "Yes. Gallagher responds to both direct fire and smoke damage in Santa Clarita\u2019s canyon corridors. Post-fire scope includes structural assessment, HVAC decontamination, surface soot cleaning, and odor remediation in smoke-exposed homes beyond the burn perimeter."
+      "a": "Yes. Gallagher responds to both direct fire and smoke damage in Santa Clarita’s canyon corridors. Post-fire scope includes structural assessment, HVAC decontamination, surface soot cleaning, and odor remediation in smoke-exposed homes beyond the burn perimeter."
     },
     {
       "q": "Can you respond to wind-damage water intrusion in Santa Clarita?",
@@ -93,7 +109,7 @@
     },
     {
       "q": "What about slab leaks in Valencia and Canyon Country?",
-      "a": "Yes. Slab-foundation copper supply lines in Santa Clarita\u2019s 1970s\u20132000s tract homes span a wide failure window. Professional moisture detection locates the source without unnecessary concrete removal. Full assembly drying follows to prevent secondary mold."
+      "a": "Yes. Slab-foundation copper supply lines in Santa Clarita’s 1970s–2000s tract homes span a wide failure window. Professional moisture detection locates the source without unnecessary concrete removal. Full assembly drying follows to prevent secondary mold."
     },
     {
       "q": "What does restoration cost in Santa Clarita?",

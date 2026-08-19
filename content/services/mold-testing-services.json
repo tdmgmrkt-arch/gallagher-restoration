@@ -3,21 +3,37 @@
   "category": "mold",
   "parentSlug": "mold-remediation",
   "metaTitle": "Mold Testing Services SoCal | Lab Analysis | Gallagher Restoration",
-  "metaDescription": "Mold testing across Riverside, Orange, San Bernardino, San Diego & LA counties. Air sampling, surface swabs, accredited lab analysis, actionable reports. Call (951) 541-0034.",
-  "heroEyebrow": "Health & Property \u00b7 Mold",
+  "metaDescription": "Mold testing across 5 SoCal counties. Air sampling, surface swabs, accredited lab analysis, actionable reports. (951) 541-0034.",
+  "heroEyebrow": "Health & Property · Mold",
   "heroTitle": "Mold testing services in Southern California",
   "heroAccent": "air sampling, lab analysis, actionable reports",
-  "heroIntro": "Gallagher Restoration Co. collects air and surface samples, submits them to an accredited third-party laboratory, and delivers a written report identifying mold species, spore counts, and recommended next steps\u2014across five Southern California counties.",
+  "heroIntro": "Gallagher Restoration Co. collects air and surface samples, submits them to an accredited third-party laboratory, and delivers a written report identifying mold species, spore counts, and recommended next steps—across five Southern California counties.",
   "proofStrip": [
-    {"label": "Response Time", "value": "60 min", "hint": "Typical arrival across 5-county SoCal"},
-    {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person"},
-    {"label": "Coverage", "value": "5 counties", "hint": "Riverside \u00b7 SB \u00b7 OC \u00b7 SD \u00b7 LA"},
-    {"label": "In Business", "value": "15+ yrs", "hint": "Serving Southern California since 2009"}
+    {
+      "label": "Response Time",
+      "value": "60 min",
+      "hint": "Typical arrival across 5-county SoCal"
+    },
+    {
+      "label": "Availability",
+      "value": "24 / 7",
+      "hint": "Answered by a real person"
+    },
+    {
+      "label": "Coverage",
+      "value": "5 counties",
+      "hint": "Riverside · SB · OC · SD · LA"
+    },
+    {
+      "label": "In Business",
+      "value": "15+ yrs",
+      "hint": "Serving Southern California since 2009"
+    }
   ],
   "whatItIs": {
     "eyebrow": "The Basics",
     "heading": "What is professional mold testing?",
-    "body": "Mold testing is a diagnostic process that answers two specific questions: is mold present, and what species and concentration is it? The answers come from laboratory analysis of air and surface samples collected on-site\u2014not from a visual assessment alone.\n\nAir sampling captures airborne spore counts in each tested room and compares them to an outdoor baseline. Surface swabs and tape lifts identify what species are growing on a specific material. Samples are submitted to an accredited independent laboratory; results typically return within two to four business days. The final report identifies species, spore concentrations, and the comparison to baseline that helps distinguish a normal indoor environment from one requiring remediation.\n\nMold testing is diagnostic, not remediation. Testing determines scope and guides the remediation plan\u2014it does not clean or remove mold. If testing confirms elevated levels, mold remediation is the next step."
+    "body": "Mold testing is a diagnostic process that answers two specific questions: is mold present, and what species and concentration is it? The answers come from laboratory analysis of air and surface samples collected on-site—not from a visual assessment alone.\n\nAir sampling captures airborne spore counts in each tested room and compares them to an outdoor baseline. Surface swabs and tape lifts identify what species are growing on a specific material. Samples are submitted to an accredited independent laboratory; results typically return within two to four business days. The final report identifies species, spore concentrations, and the comparison to baseline that helps distinguish a normal indoor environment from one requiring remediation.\n\nMold testing is diagnostic, not remediation. Testing determines scope and guides the remediation plan—it does not clean or remove mold. If testing confirms elevated levels, mold remediation is the next step."
   },
   "process": {
     "eyebrow": "Our Process",
@@ -26,7 +42,7 @@
       {
         "kicker": "Step 01",
         "title": "On-site scoping and sample plan",
-        "body": "A Gallagher technician walks the property, identifies areas of concern, and establishes a sampling plan. Every test includes at least one outdoor baseline air sample so indoor counts can be compared against local ambient conditions\u2014a step that distinguishes a meaningful elevation from normal outdoor variation."
+        "body": "A Gallagher technician walks the property, identifies areas of concern, and establishes a sampling plan. Every test includes at least one outdoor baseline air sample so indoor counts can be compared against local ambient conditions—a step that distinguishes a meaningful elevation from normal outdoor variation."
       },
       {
         "kicker": "Step 02",
@@ -36,19 +52,19 @@
       {
         "kicker": "Step 03",
         "title": "Laboratory analysis",
-        "body": "The accredited lab analyzes each sample, identifies mold species present, quantifies spore concentrations, and returns results within two to four business days. Lab fees are included in the testing cost\u2014no separate invoice from the lab."
+        "body": "The accredited lab analyzes each sample, identifies mold species present, quantifies spore concentrations, and returns results within two to four business days. Lab fees are included in the testing cost—no separate invoice from the lab."
       },
       {
         "kicker": "Step 04",
         "title": "Written report and recommendations",
-        "body": "Gallagher delivers a written report that presents the lab findings in plain language: which species were found, at what concentrations, how those numbers compare to the outdoor baseline, and what action\u2014if any\u2014is warranted. If remediation is indicated, the report serves as the scope basis."
+        "body": "Gallagher delivers a written report that presents the lab findings in plain language: which species were found, at what concentrations, how those numbers compare to the outdoor baseline, and what action—if any—is warranted. If remediation is indicated, the report serves as the scope basis."
       }
     ]
   },
   "signs": {
     "eyebrow": "When To Call",
     "heading": "Situations that call for professional mold testing",
-    "intro": "Mold testing answers the question before committing to remediation\u2014or confirms there is nothing to remediate. These are the most common situations that warrant it.",
+    "intro": "Mold testing answers the question before committing to remediation—or confirms there is nothing to remediate. These are the most common situations that warrant it.",
     "items": [
       {
         "title": "Pre-purchase home inspection revealed moisture or mold concerns",
@@ -60,7 +76,7 @@
       },
       {
         "title": "Unexplained health symptoms without visible mold",
-        "body": "Persistent respiratory irritation, allergic responses, or fatigue that correlates with time spent in the home but lacks an obvious cause can be investigated through air quality testing. Elevated indoor spore counts\u2014even without visible growth\u2014explain many such patterns."
+        "body": "Persistent respiratory irritation, allergic responses, or fatigue that correlates with time spent in the home but lacks an obvious cause can be investigated through air quality testing. Elevated indoor spore counts—even without visible growth—explain many such patterns."
       },
       {
         "title": "Post-remediation confirmation",
@@ -75,21 +91,21 @@
   "whyUs": {
     "eyebrow": "Why Gallagher",
     "heading": "Why Southern California homeowners choose Gallagher for mold testing",
-    "body": "Mold testing produces usable results only when the sampling protocol is correct. Sampling from the wrong location, using the wrong cassette type for the question being asked, or omitting the outdoor baseline produces data that is difficult to interpret and may not be accepted by insurers, attorneys, or real estate transactions.\n\nGallagher Restoration Co. has performed mold assessments across Southern California for more than 15 years. IICRC-trained technicians design each sample plan around the specific question\u2014pre-purchase, tenant dispute, health concern, post-remediation clearance\u2014rather than applying a generic protocol. All samples go to an accredited third-party laboratory; the independence of the lab matters when results need to hold up to scrutiny. The written report translates lab data into a clear action recommendation. If remediation is indicated, Gallagher can move directly from testing into remediation without a contractor handoff. Call (951) 541-0034 to schedule testing; same-day and next-day appointments are available across the five-county area."
+    "body": "Mold testing produces usable results only when the sampling protocol is correct. Sampling from the wrong location, using the wrong cassette type for the question being asked, or omitting the outdoor baseline produces data that is difficult to interpret and may not be accepted by insurers, attorneys, or real estate transactions.\n\nGallagher Restoration Co. has performed mold assessments across Southern California for more than 15 years. IICRC-trained technicians design each sample plan around the specific question—pre-purchase, tenant dispute, health concern, post-remediation clearance—rather than applying a generic protocol. All samples go to an accredited third-party laboratory; the independence of the lab matters when results need to hold up to scrutiny. The written report translates lab data into a clear action recommendation. If remediation is indicated, Gallagher can move directly from testing into remediation without a contractor handoff. Call (951) 541-0034 to schedule testing; same-day and next-day appointments are available across the five-county area."
   },
   "pricing": {
     "eyebrow": "What It Costs",
-    "heading": "Mold testing pricing\u2014what to expect",
-    "body": "Mold testing in Southern California typically ranges from $350 to $1,200. The lower end covers a focused test\u2014two to four air samples in a single area of concern plus the outdoor baseline. The upper end reflects a comprehensive multi-room test across a larger property or a job requiring a higher number of samples to adequately characterize a complex situation. Lab fees are included in the quoted price; there is no separate laboratory invoice. The initial on-site assessment to scope the test is provided at no charge. If testing results indicate that mold remediation is needed, Gallagher Restoration Co. applies the testing documentation directly to the remediation scope\u2014no need to start the process over with a separate contractor."
+    "heading": "Mold testing pricing—what to expect",
+    "body": "Mold testing in Southern California typically ranges from $350 to $1,200. The lower end covers a focused test—two to four air samples in a single area of concern plus the outdoor baseline. The upper end reflects a comprehensive multi-room test across a larger property or a job requiring a higher number of samples to adequately characterize a complex situation. Lab fees are included in the quoted price; there is no separate laboratory invoice. The initial on-site assessment to scope the test is provided at no charge. If testing results indicate that mold remediation is needed, Gallagher Restoration Co. applies the testing documentation directly to the remediation scope—no need to start the process over with a separate contractor."
   },
   "faqs": [
     {
       "q": "What is the difference between mold testing and mold inspection?",
-      "a": "A mold inspection is a visual and moisture-based assessment\u2014a trained technician looks for visible mold, checks moisture readings, and identifies conditions that favor mold growth. Mold testing adds laboratory sampling: air and surface samples submitted to an accredited lab that returns a report identifying species and spore concentrations. Inspection tells you where to look; testing tells you what is there and at what level. Many situations call for both."
+      "a": "A mold inspection is a visual and moisture-based assessment—a trained technician looks for visible mold, checks moisture readings, and identifies conditions that favor mold growth. Mold testing adds laboratory sampling: air and surface samples submitted to an accredited lab that returns a report identifying species and spore concentrations. Inspection tells you where to look; testing tells you what is there and at what level. Many situations call for both."
     },
     {
       "q": "How accurate are mold test kits from hardware stores?",
-      "a": "Consumer test kits from hardware stores have two known limitations: they do not include an outdoor baseline for comparison, and they are not analyzed by an accredited laboratory. The result tells you mold spores exist\u2014which is true of virtually every indoor environment\u2014without telling you whether the indoor concentration is elevated relative to normal outdoor levels. Professional testing with an accredited lab provides the comparison data that makes the result actionable."
+      "a": "Consumer test kits from hardware stores have two known limitations: they do not include an outdoor baseline for comparison, and they are not analyzed by an accredited laboratory. The result tells you mold spores exist—which is true of virtually every indoor environment—without telling you whether the indoor concentration is elevated relative to normal outdoor levels. Professional testing with an accredited lab provides the comparison data that makes the result actionable."
     },
     {
       "q": "How long does it take to get mold test results?",
@@ -97,8 +113,12 @@
     },
     {
       "q": "Does homeowners insurance cover mold testing in California?",
-      "a": "Coverage for mold testing depends on the policy and the cause of the mold. When testing is part of a documented claim involving a covered water loss\u2014a burst pipe or appliance failure, for example\u2014testing costs are typically included in the claim. Standalone testing without a documented covered loss is generally not covered. Gallagher Restoration Co. can advise on documentation requirements during the initial consultation."
+      "a": "Coverage for mold testing depends on the policy and the cause of the mold. When testing is part of a documented claim involving a covered water loss—a burst pipe or appliance failure, for example—testing costs are typically included in the claim. Standalone testing without a documented covered loss is generally not covered. Gallagher Restoration Co. can advise on documentation requirements during the initial consultation."
     }
   ],
-  "relatedServices": ["mold-inspection-services", "mold-remediation", "water-damage-restoration"]
+  "relatedServices": [
+    "mold-inspection-services",
+    "mold-remediation",
+    "water-damage-restoration"
+  ]
 }

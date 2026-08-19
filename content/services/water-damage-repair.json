@@ -3,20 +3,32 @@
   "category": "water",
   "parentSlug": "water-damage-restoration",
   "metaTitle": "Water Damage Repair SoCal | Gallagher Restoration",
-  "metaDescription": "Water damage repair and reconstruction in Riverside, Orange, SB, San Diego & LA counties. One crew, mitigation through rebuild. Free assessment (951) 541-0034.",
-  "heroEyebrow": "Reconstruction \u00b7 Water Damage",
+  "metaDescription": "Water damage repair & reconstruction across 5 SoCal counties. One crew, mitigation through rebuild. Free assessment (951) 541-0034.",
+  "heroEyebrow": "Reconstruction · Water Damage",
   "heroTitle": "Water damage repair in Southern California",
   "heroAccent": "drywall, flooring, and full reconstruction",
-  "heroIntro": "Mitigation is done. Now the structure needs to be put back together. Gallagher Restoration Co. handles water damage repair and full reconstruction across five Southern California counties\u2014the same crew that dried your home rebuilds it, with direct insurance coordination throughout.",
+  "heroIntro": "Mitigation is done. Now the structure needs to be put back together. Gallagher Restoration Co. handles water damage repair and full reconstruction across five Southern California counties—the same crew that dried your home rebuilds it, with direct insurance coordination throughout.",
   "proofStrip": [
-    {"label": "Response Time", "value": "60 min", "hint": "Typical emergency arrival across 5-county SoCal"},
-    {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person"},
-    {"label": "One Crew", "value": "Mitigation \u2192 Rebuild", "hint": "No subcontractor handoffs"}
+    {
+      "label": "Response Time",
+      "value": "60 min",
+      "hint": "Typical emergency arrival across 5-county SoCal"
+    },
+    {
+      "label": "Availability",
+      "value": "24 / 7",
+      "hint": "Answered by a real person"
+    },
+    {
+      "label": "One Crew",
+      "value": "Mitigation → Rebuild",
+      "hint": "No subcontractor handoffs"
+    }
   ],
   "whatItIs": {
     "eyebrow": "The Basics",
     "heading": "What is water damage repair?",
-    "body": "Water damage repair is the reconstruction phase that follows successful mitigation\u2014after extraction, drying, and remediation have confirmed the structure is dry and safe. It covers the replacement of materials removed during clean-up or damaged beyond saving during the water event: drywall, insulation, flooring, subfloor, cabinetry, trim, and paint. Water damage repair is not plumbing work and does not include fixing the original leak source\u2014a licensed plumber handles that. What repair covers is restoring living spaces to their pre-loss appearance and structural integrity. In insurance terms, this is the \u201creplace\u201d phase of a claim, distinct from the \u201cremove and dry\u201d mitigation phase. The scope can range from patching a single drywall section to a multi-room rebuild involving flooring, cabinetry, and full interior finishes."
+    "body": "Water damage repair is the reconstruction phase that follows successful mitigation—after extraction, drying, and remediation have confirmed the structure is dry and safe. It covers the replacement of materials removed during clean-up or damaged beyond saving during the water event: drywall, insulation, flooring, subfloor, cabinetry, trim, and paint. Water damage repair is not plumbing work and does not include fixing the original leak source—a licensed plumber handles that. What repair covers is restoring living spaces to their pre-loss appearance and structural integrity. In insurance terms, this is the “replace” phase of a claim, distinct from the “remove and dry” mitigation phase. The scope can range from patching a single drywall section to a multi-room rebuild involving flooring, cabinetry, and full interior finishes."
   },
   "process": {
     "eyebrow": "Our Process",
@@ -25,17 +37,17 @@
       {
         "kicker": "Step 01",
         "title": "Moisture clearance confirmation",
-        "body": "Before any reconstruction begins, the crew takes final moisture readings across all structural elements using calibrated meters. Building materials must reach dry standard before enclosure\u2014closing walls over wet framing is the single most common cause of post-repair mold claims."
+        "body": "Before any reconstruction begins, the crew takes final moisture readings across all structural elements using calibrated meters. Building materials must reach dry standard before enclosure—closing walls over wet framing is the single most common cause of post-repair mold claims."
       },
       {
         "kicker": "Step 02",
         "title": "Scope documentation for insurance",
-        "body": "The repair scope is itemized room by room\u2014material quantities, labor hours, finish specifications. Gallagher Restoration Co. works from the same documentation package used during mitigation, so the adjuster sees a continuous record from first response through reconstruction estimate."
+        "body": "The repair scope is itemized room by room—material quantities, labor hours, finish specifications. Gallagher Restoration Co. works from the same documentation package used during mitigation, so the adjuster sees a continuous record from first response through reconstruction estimate."
       },
       {
         "kicker": "Step 03",
-        "title": "Reconstruction\u2014drywall, flooring, cabinetry, finishes",
-        "body": "The rebuild sequence follows the structure: framing and insulation first, then drywall and waterproofing where applicable, then flooring, then cabinetry and fixtures, then paint and trim. The goal is pre-loss match\u2014same materials, same finish quality, same dimensions wherever possible."
+        "title": "Reconstruction—drywall, flooring, cabinetry, finishes",
+        "body": "The rebuild sequence follows the structure: framing and insulation first, then drywall and waterproofing where applicable, then flooring, then cabinetry and fixtures, then paint and trim. The goal is pre-loss match—same materials, same finish quality, same dimensions wherever possible."
       },
       {
         "kicker": "Step 04",
@@ -51,7 +63,7 @@
     "items": [
       {
         "title": "Mitigation crew has issued moisture clearance",
-        "body": "Written documentation that all structural materials have reached dry standard is the green light for repair. Do not begin reconstruction without it\u2014insurance carriers and code inspectors require it."
+        "body": "Written documentation that all structural materials have reached dry standard is the green light for repair. Do not begin reconstruction without it—insurance carriers and code inspectors require it."
       },
       {
         "title": "Open wall cavities or exposed subfloor after clean-up",
@@ -66,7 +78,7 @@
         "body": "Once the carrier approves the reconstruction scope and releases the repair portion of the claim, the job can proceed. Gallagher coordinates timing with carriers to minimize delays between approval and mobilization."
       },
       {
-        "title": "Visible cosmetic damage remains after drying\u2014staining, swelling, warping",
+        "title": "Visible cosmetic damage remains after drying—staining, swelling, warping",
         "body": "Water-stained ceilings, swollen door frames, and warped trim that dried in place but were not structurally removed still require repair to restore the home to pre-loss condition."
       }
     ]
@@ -74,12 +86,12 @@
   "whyUs": {
     "eyebrow": "Why Gallagher",
     "heading": "Why homeowners call Gallagher for water damage repair",
-    "body": "The handoff from mitigation contractor to rebuild contractor is where most water damage jobs lose momentum. Separate companies mean separate schedules, separate insurance contacts, and a gap in accountability when something doesn\u2019t match up. Gallagher Restoration Co. eliminates that gap. The crew that extracted the water, dried the structure, and documented the claim is the same crew that frames, drywalls, floors, and paints. Aaron built the company on this model after seeing too many homeowners caught between a mitigation company that considered the job done and a contractor who didn\u2019t understand what had been removed. For more than 15 years across Southern California\u2014Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties\u2014Gallagher has handled water damage repair as a single continuous project. IICRC-trained technicians on the mitigation side hand directly to experienced reconstruction crews, with one shared documentation file for the insurance carrier."
+    "body": "The handoff from mitigation contractor to rebuild contractor is where most water damage jobs lose momentum. Separate companies mean separate schedules, separate insurance contacts, and a gap in accountability when something doesn’t match up. Gallagher Restoration Co. eliminates that gap. The crew that extracted the water, dried the structure, and documented the claim is the same crew that frames, drywalls, floors, and paints. Aaron built the company on this model after seeing too many homeowners caught between a mitigation company that considered the job done and a contractor who didn’t understand what had been removed. For more than 15 years across Southern California—Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties—Gallagher has handled water damage repair as a single continuous project. IICRC-trained technicians on the mitigation side hand directly to experienced reconstruction crews, with one shared documentation file for the insurance carrier."
   },
   "pricing": {
     "eyebrow": "What It Costs",
-    "heading": "Water damage repair pricing\u2014what to expect",
-    "body": "Every job starts with a free on-site assessment. Water damage repair in Southern California typically runs $2,500\u2013$25,000 or more depending on the scope of reconstruction required. The low end covers a limited single-room repair\u2014patch drywall, replace a section of flooring, repaint. The upper end reflects multi-room rebuilds involving new subfloor, cabinetry replacement, bathroom or kitchen reconstruction, and full interior finishes across significant square footage. Scope, material specifications, and finish grade are the primary variables. Gallagher Restoration Co. provides an itemized reconstruction estimate drawn from the same mitigation documentation your adjuster already has, which streamlines the claim process and reduces back-and-forth. There is no separate charge for insurance coordination."
+    "heading": "Water damage repair pricing—what to expect",
+    "body": "Every job starts with a free on-site assessment. Water damage repair in Southern California typically runs $2,500–$25,000 or more depending on the scope of reconstruction required. The low end covers a limited single-room repair—patch drywall, replace a section of flooring, repaint. The upper end reflects multi-room rebuilds involving new subfloor, cabinetry replacement, bathroom or kitchen reconstruction, and full interior finishes across significant square footage. Scope, material specifications, and finish grade are the primary variables. Gallagher Restoration Co. provides an itemized reconstruction estimate drawn from the same mitigation documentation your adjuster already has, which streamlines the claim process and reduces back-and-forth. There is no separate charge for insurance coordination."
   },
   "faqs": [
     {
@@ -92,12 +104,16 @@
     },
     {
       "q": "Do I need permits for water damage repair in California?",
-      "a": "It depends on the scope. Cosmetic repairs\u2014paint, flooring, drywall patching\u2014typically do not require permits. Structural repairs, electrical work, or plumbing modifications triggered by the event may require permits from the local building department. Gallagher handles permit coordination when required."
+      "a": "It depends on the scope. Cosmetic repairs—paint, flooring, drywall patching—typically do not require permits. Structural repairs, electrical work, or plumbing modifications triggered by the event may require permits from the local building department. Gallagher handles permit coordination when required."
     },
     {
       "q": "Can Gallagher match my existing flooring and finishes?",
-      "a": "In most cases, yes. The team works to source materials that match pre-loss finishes as closely as possible. For discontinued flooring or tile, the options are a close match in the repaired area or a full-room replacement for a consistent result\u2014the adjuster is informed either way."
+      "a": "In most cases, yes. The team works to source materials that match pre-loss finishes as closely as possible. For discontinued flooring or tile, the options are a close match in the repaired area or a full-room replacement for a consistent result—the adjuster is informed either way."
     }
   ],
-  "relatedServices": ["reconstruction", "ceiling-water-damage", "water-damage-restoration"]
+  "relatedServices": [
+    "reconstruction",
+    "ceiling-water-damage",
+    "water-damage-restoration"
+  ]
 }

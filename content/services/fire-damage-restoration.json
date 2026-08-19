@@ -2,21 +2,37 @@
   "slug": "fire-damage-restoration",
   "category": "fire",
   "metaTitle": "Fire Damage Restoration SoCal | Gallagher Restoration",
-  "metaDescription": "Fire damage restoration across Riverside, Orange, San Bernardino, San Diego & LA counties. 24/7 emergency response, on-site within 60 min. Call (951) 541-0034.",
-  "heroEyebrow": "24/7 Emergency \u00b7 Fire & Smoke",
+  "metaDescription": "Fire damage restoration across 5 SoCal counties. 24/7 emergency response, on-site within 60 min. Call (951) 541-0034.",
+  "heroEyebrow": "24/7 Emergency · Fire & Smoke",
   "heroTitle": "Fire damage restoration in Southern California",
   "heroAccent": "board-up through full reconstruction",
-  "heroIntro": "Gallagher Restoration Co. manages the full fire-damage lifecycle\u2014emergency board-up, smoke and soot removal, water damage from suppression, odor elimination, and complete reconstruction\u2014across five Southern California counties. One crew from the first call through the final coat of paint.",
+  "heroIntro": "Gallagher Restoration Co. manages the full fire-damage lifecycle—emergency board-up, smoke and soot removal, water damage from suppression, odor elimination, and complete reconstruction—across five Southern California counties. One crew from the first call through the final coat of paint.",
   "proofStrip": [
-    {"label": "Response Time", "value": "60 min", "hint": "Typical arrival across 5-county SoCal"},
-    {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person"},
-    {"label": "Coverage", "value": "5 counties", "hint": "Riverside \u00b7 SB \u00b7 OC \u00b7 SD \u00b7 LA"},
-    {"label": "In Business", "value": "15+ yrs", "hint": "Serving Southern California since 2009"}
+    {
+      "label": "Response Time",
+      "value": "60 min",
+      "hint": "Typical arrival across 5-county SoCal"
+    },
+    {
+      "label": "Availability",
+      "value": "24 / 7",
+      "hint": "Answered by a real person"
+    },
+    {
+      "label": "Coverage",
+      "value": "5 counties",
+      "hint": "Riverside · SB · OC · SD · LA"
+    },
+    {
+      "label": "In Business",
+      "value": "15+ yrs",
+      "hint": "Serving Southern California since 2009"
+    }
   ],
   "whatItIs": {
     "eyebrow": "The Basics",
     "heading": "What is fire damage restoration?",
-    "body": "Fire damage restoration is the full-cycle process of returning a home to its pre-loss condition after a structure fire, kitchen fire, or electrical fire. It begins before the smoke clears and does not end until the structure is rebuilt. The scope covers emergency board-up and tarping to secure the property, removal of charred materials and fire-damaged structural components, smoke and soot cleaning across every surface the fire touched, water damage remediation caused by firefighting suppression, odor elimination using thermal fogging and hydroxyl treatment, HVAC decontamination, content restoration for salvageable belongings, and final reconstruction. Fire damage is not a single problem\u2014it is four overlapping problems: burn damage, smoke penetration, suppression water, and persistent odor. Resolving all four requires a coordinated crew, not a sequence of separate contractors."
+    "body": "Fire damage restoration is the full-cycle process of returning a home to its pre-loss condition after a structure fire, kitchen fire, or electrical fire. It begins before the smoke clears and does not end until the structure is rebuilt. The scope covers emergency board-up and tarping to secure the property, removal of charred materials and fire-damaged structural components, smoke and soot cleaning across every surface the fire touched, water damage remediation caused by firefighting suppression, odor elimination using thermal fogging and hydroxyl treatment, HVAC decontamination, content restoration for salvageable belongings, and final reconstruction. Fire damage is not a single problem—it is four overlapping problems: burn damage, smoke penetration, suppression water, and persistent odor. Resolving all four requires a coordinated crew, not a sequence of separate contractors."
   },
   "process": {
     "eyebrow": "Our Process",
@@ -30,23 +46,23 @@
       {
         "kicker": "Step 02",
         "title": "Demolition and water mitigation",
-        "body": "Charred framing, fire-damaged drywall, and saturated materials from firefighting suppression are removed and documented for the insurance claim. Water left by hoses and sprinklers is extracted and the affected structure is set up for drying\u2014a step most homeowners do not anticipate but every fire job requires."
+        "body": "Charred framing, fire-damaged drywall, and saturated materials from firefighting suppression are removed and documented for the insurance claim. Water left by hoses and sprinklers is extracted and the affected structure is set up for drying—a step most homeowners do not anticipate but every fire job requires."
       },
       {
         "kicker": "Step 03",
         "title": "Smoke, soot, and odor treatment",
-        "body": "IICRC-trained technicians clean smoke residue from framing, ceilings, walls, and contents using methods matched to the residue type\u2014dry sponge for dry smoke, wet chemical cleaners for wet smoke, enzyme treatment for protein residue. Thermal fogging and hydroxyl generators address embedded odor in porous materials."
+        "body": "IICRC-trained technicians clean smoke residue from framing, ceilings, walls, and contents using methods matched to the residue type—dry sponge for dry smoke, wet chemical cleaners for wet smoke, enzyme treatment for protein residue. Thermal fogging and hydroxyl generators address embedded odor in porous materials."
       },
       {
         "kicker": "Step 04",
         "title": "Reconstruction and final walkthrough",
-        "body": "The same Gallagher crew rebuilds\u2014replacing drywall, flooring, cabinetry, insulation, and paint. No subcontractor handoff, no scheduling gap between mitigation and rebuild. The job closes with a final air quality check and a walkthrough with the homeowner."
+        "body": "The same Gallagher crew rebuilds—replacing drywall, flooring, cabinetry, insulation, and paint. No subcontractor handoff, no scheduling gap between mitigation and rebuild. The job closes with a final air quality check and a walkthrough with the homeowner."
       }
     ]
   },
   "signs": {
     "eyebrow": "When To Call",
-    "heading": "Signs you need fire damage restoration\u2014even after a small fire",
+    "heading": "Signs you need fire damage restoration—even after a small fire",
     "intro": "The visible char is only one layer of the problem. Smoke, soot, and suppression water travel far beyond the area that burned.",
     "items": [
       {
@@ -55,7 +71,7 @@
       },
       {
         "title": "Persistent smoke odor after ventilation",
-        "body": "If the smell returns after opening windows, smoke residue has penetrated porous materials\u2014insulation, drywall, flooring, upholstery\u2014and will not resolve without professional treatment."
+        "body": "If the smell returns after opening windows, smoke residue has penetrated porous materials—insulation, drywall, flooring, upholstery—and will not resolve without professional treatment."
       },
       {
         "title": "Soot or black residue on walls and ceilings",
@@ -67,18 +83,18 @@
       },
       {
         "title": "Charred or heat-compromised structural components",
-        "body": "Framing, joists, and sheathing exposed to fire can lose structural integrity even without full combustion. A visual inspection alone cannot determine load capacity\u2014professional assessment is required before re-occupancy."
+        "body": "Framing, joists, and sheathing exposed to fire can lose structural integrity even without full combustion. A visual inspection alone cannot determine load capacity—professional assessment is required before re-occupancy."
       }
     ]
   },
   "whyUs": {
     "eyebrow": "Why Gallagher",
     "heading": "Why homeowners call Gallagher for fire damage restoration",
-    "body": "Gallagher Restoration Co. has managed fire damage jobs across Southern California for more than 15 years\u2014structure fires, kitchen fires, electrical fires, and wildfire-adjacent smoke events. The work is complicated because it stacks four distinct damage types on top of each other. Crews that handle only one\u2014say, soot cleaning but not water mitigation\u2014leave the homeowner to coordinate the rest. That coordination gap is where claims get delayed, mold colonizes the suppression water, and odor comes back six months later.\n\nGallagher is built as a single-crew solution. IICRC-trained technicians handle emergency stabilization, smoke and soot remediation, suppression water extraction, odor treatment, and full reconstruction without handing off to a separate contractor. The crew documents every affected item and every structural measurement for the insurance claim file from day one. When you call (951) 541-0034, a real person answers and a crew is typically on-site within 60 minutes anywhere in the Riverside, San Bernardino, Orange, San Diego, or Los Angeles county footprint."
+    "body": "Gallagher Restoration Co. has managed fire damage jobs across Southern California for more than 15 years—structure fires, kitchen fires, electrical fires, and wildfire-adjacent smoke events. The work is complicated because it stacks four distinct damage types on top of each other. Crews that handle only one—say, soot cleaning but not water mitigation—leave the homeowner to coordinate the rest. That coordination gap is where claims get delayed, mold colonizes the suppression water, and odor comes back six months later.\n\nGallagher is built as a single-crew solution. IICRC-trained technicians handle emergency stabilization, smoke and soot remediation, suppression water extraction, odor treatment, and full reconstruction without handing off to a separate contractor. The crew documents every affected item and every structural measurement for the insurance claim file from day one. When you call (951) 541-0034, a real person answers and a crew is typically on-site within 60 minutes anywhere in the Riverside, San Bernardino, Orange, San Diego, or Los Angeles county footprint."
   },
   "pricing": {
     "eyebrow": "What It Costs",
-    "heading": "Fire damage restoration pricing\u2014what to expect",
+    "heading": "Fire damage restoration pricing—what to expect",
     "body": "Every job starts with a free on-site assessment; there is no charge to show up, document, and scope the work. Fire damage restoration in Southern California typically ranges from $3,000 to $75,000 or more. The lower end covers a contained kitchen or small room fire where the structure is intact and the primary work is soot cleaning, odor treatment, and cosmetic repair. The upper end reflects a major structural fire requiring full demolition of fire-damaged sections, suppression water remediation, and complete interior reconstruction. Scope, the extent of smoke penetration, the volume of suppression water, and structural involvement all drive the final number. Gallagher Restoration Co. coordinates directly with your insurance carrier and builds the documentation package the adjuster needs from day one."
   },
   "faqs": [
@@ -96,7 +112,7 @@
     },
     {
       "q": "What is the difference between fire damage restoration and smoke clean-up?",
-      "a": "Smoke clean-up is a sub-service that addresses soot, smoke residue, and odor in properties where the structure is intact\u2014common after a neighbor's fire or a contained kitchen incident. Fire damage restoration is the full-cycle process that also includes demolition of burned materials, suppression water mitigation, and structural reconstruction. Many jobs involve both."
+      "a": "Smoke clean-up is a sub-service that addresses soot, smoke residue, and odor in properties where the structure is intact—common after a neighbor's fire or a contained kitchen incident. Fire damage restoration is the full-cycle process that also includes demolition of burned materials, suppression water mitigation, and structural reconstruction. Many jobs involve both."
     },
     {
       "q": "What should I do immediately after a fire in my home?",
@@ -108,7 +124,7 @@
     },
     {
       "q": "How can I assess the extent of the fire damage?",
-      "a": "Hire a professional fire damage restoration company to assess the property thoroughly. Fire damage stacks four separate problems\u2014burn damage, smoke penetration, suppression water, and embedded odor\u2014and a full assessment includes structural inspection, moisture mapping, smoke residue classification, and HVAC evaluation. Gallagher provides that assessment at no cost."
+      "a": "Hire a professional fire damage restoration company to assess the property thoroughly. Fire damage stacks four separate problems—burn damage, smoke penetration, suppression water, and embedded odor—and a full assessment includes structural inspection, moisture mapping, smoke residue classification, and HVAC evaluation. Gallagher provides that assessment at no cost."
     },
     {
       "q": "What should I document for insurance purposes?",
@@ -132,8 +148,12 @@
     },
     {
       "q": "How do I find a reputable fire damage restoration company?",
-      "a": "Ask your insurance provider, friends, or family for recommendations. Check online reviews and verify the company's credentials, licenses, and IICRC training. Look for a crew that handles the full lifecycle\u2014stabilization through reconstruction\u2014so you're not managing handoffs between separate contractors while you're already displaced."
+      "a": "Ask your insurance provider, friends, or family for recommendations. Check online reviews and verify the company's credentials, licenses, and IICRC training. Look for a crew that handles the full lifecycle—stabilization through reconstruction—so you're not managing handoffs between separate contractors while you're already displaced."
     }
   ],
-  "relatedServices": ["smoke-clean-up", "water-damage-restoration", "reconstruction"]
+  "relatedServices": [
+    "smoke-clean-up",
+    "water-damage-restoration",
+    "reconstruction"
+  ]
 }

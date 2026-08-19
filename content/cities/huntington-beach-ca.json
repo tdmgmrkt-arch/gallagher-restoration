@@ -7,16 +7,32 @@
   "proximityMiles": 60,
   "route": "SR-91 West then I-405 South",
   "metaTitle": "Water & Fire Damage Restoration | Huntington Beach, CA",
-  "metaDescription": "Gallagher Restoration reaches Huntington Beach in ~75 min via SR-91 & I-405. Water, mold, fire & coastal damage — 24/7. Family-owned. Call (951) 541-0034.",
+  "metaDescription": "Water, fire, mold & wildfire restoration in Huntington Beach, CA. 24/7 IICRC-trained response—on-site ~75 min. (951) 541-0034.",
   "heroEyebrow": "24/7 EMERGENCY · HUNTINGTON BEACH, CA",
   "heroTitle": "Restoration services in Huntington Beach — coastal damage specialists, on-site in 75 minutes",
   "heroAccent": "Salt air, marine mold, tidal surge — the coast creates damage the inland doesn't.",
   "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Huntington Beach via SR-91 West and I-405 South — typically on-site within 75 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
   "proofStrip": [
-    { "label": "On-Site In", "value": "~75 min", "hint": "Typical drive from Canyon Lake via SR-91 West and I-405 South" },
-    { "label": "Distance", "value": "60 mi", "hint": "Canyon Lake to Huntington Beach" },
-    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
-    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+    {
+      "label": "On-Site In",
+      "value": "~75 min",
+      "hint": "Typical drive from Canyon Lake via SR-91 West and I-405 South"
+    },
+    {
+      "label": "Distance",
+      "value": "60 mi",
+      "hint": "Canyon Lake to Huntington Beach"
+    },
+    {
+      "label": "Availability",
+      "value": "24 / 7",
+      "hint": "Every day, including holidays"
+    },
+    {
+      "label": "In Business",
+      "value": "15+ yrs",
+      "hint": "Family-owned since the early 2000s"
+    }
   ],
   "localHook": "Huntington Beach sits directly on the Pacific — and the Pacific is not passive. The marine layer that rolls in off the water most mornings deposits moisture against every exterior surface in the city. Beach cottages and mid-century homes within a mile of the water accumulate that moisture in wall cavities, behind stucco, and inside framing that was built before modern vapor barriers were standard. The Huntington Harbour channel community faces a more direct exposure: tidal and storm surge events that push saltwater into bulkhead garages, boat slips, and ground-floor units. Bolsa Chica wetlands flooding affects the northern edge during significant storm events. Salt-air corrosion accelerates plumbing fixture failure on a timeline that inland properties don't experience. Gallagher takes SR-91 West to I-405 South and is typically on-site in any part of Huntington Beach within 75 minutes — bringing 15+ years of Southern California experience to a coastal damage profile that demands specific expertise.",
   "neighborhoods": {

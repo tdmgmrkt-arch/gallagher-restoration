@@ -7,16 +7,32 @@
   "proximityMiles": 75,
   "route": "I-15 North then US-395",
   "metaTitle": "Water & Fire Damage Restoration | Victorville, CA",
-  "metaDescription": "Gallagher Restoration reaches Victorville in ~90 min via I-15 & US-395. Water, fire, mold & wildfire — 24/7. Family-owned, IICRC-trained. Call (951) 541-0034.",
+  "metaDescription": "Water, fire, mold & wildfire restoration in Victorville, CA. 24/7 IICRC-trained response—on-site ~90 min. (951) 541-0034.",
   "heroEyebrow": "24/7 EMERGENCY · VICTORVILLE, CA",
   "heroTitle": "Restoration services in Victorville — 24/7, High Desert coverage",
   "heroAccent": "High Desert damage is different. So is the response it requires.",
   "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Victorville via I-15 North and US-395 — typically on-site within 90 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
   "proofStrip": [
-    { "label": "On-Site In", "value": "~90 min", "hint": "Typical drive from Canyon Lake via I-15 North and US-395" },
-    { "label": "Distance", "value": "75 mi", "hint": "Canyon Lake to Victorville" },
-    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
-    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+    {
+      "label": "On-Site In",
+      "value": "~90 min",
+      "hint": "Typical drive from Canyon Lake via I-15 North and US-395"
+    },
+    {
+      "label": "Distance",
+      "value": "75 mi",
+      "hint": "Canyon Lake to Victorville"
+    },
+    {
+      "label": "Availability",
+      "value": "24 / 7",
+      "hint": "Every day, including holidays"
+    },
+    {
+      "label": "In Business",
+      "value": "15+ yrs",
+      "hint": "Family-owned since the early 2000s"
+    }
   ],
   "localHook": "Victorville operates under climate conditions that the rest of the Gallagher service area doesn't see. High Desert temperature swings of 40 degrees between a January night and afternoon are not unusual — and those extremes put mechanical stress on plumbing systems that Coastal or Inland Valley housing is never subjected to. Freeze events in exposed pipe runs, swamp cooler pan overflows, and drought-cycle slab movement are all damage mechanisms that don't exist in the same form 75 miles south. The city's housing stock runs from 1980s and 1990s desert tract homes along Bear Valley Road through the older ranch structures of Old Town Victorville to the lakefront community at Spring Valley Lake. Gallagher serves the full range, taking I-15 North through Cajon Pass and then US-395 into the High Desert — a 90-minute run that puts us on-site faster than any alternative this side of the Victor Valley.",
   "neighborhoods": {

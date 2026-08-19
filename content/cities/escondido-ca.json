@@ -7,21 +7,37 @@
   "proximityMiles": 65,
   "route": "I-15 South",
   "metaTitle": "Water & Fire Restoration | Escondido, CA | Gallagher",
-  "metaDescription": "Water, fire, mold, and sewage restoration in Escondido, CA. IICRC-trained crews, 24/7 response\u2014on-site in roughly 75 min from Canyon Lake. Call (951) 541-0034.",
-  "heroEyebrow": "24/7 EMERGENCY \u00b7 ESCONDIDO, CA",
-  "heroTitle": "Escondido restoration\u2014fire, water, mold, 24/7 response",
+  "metaDescription": "Water, fire, mold & wildfire restoration in Escondido, CA. 24/7 IICRC-trained response—on-site ~75 min. (951) 541-0034.",
+  "heroEyebrow": "24/7 EMERGENCY · ESCONDIDO, CA",
+  "heroTitle": "Escondido restoration—fire, water, mold, 24/7 response",
   "heroAccent": "Canyon Lake to Escondido: ~75 min via I-15 South.",
-  "heroIntro": "Escondido sits at the crossroads of inland North County history and canyon fire risk\u2014a city where 1920s historic homes share zip codes with avocado groves and hillside terrain that burned in 2007. Gallagher Restoration Co. dispatches IICRC-trained crews from Canyon Lake at any hour. A real person answers every call.",
+  "heroIntro": "Escondido sits at the crossroads of inland North County history and canyon fire risk—a city where 1920s historic homes share zip codes with avocado groves and hillside terrain that burned in 2007. Gallagher Restoration Co. dispatches IICRC-trained crews from Canyon Lake at any hour. A real person answers every call.",
   "proofStrip": [
-    { "label": "On-Site In", "value": "~75 min", "hint": "Typical Canyon Lake to Escondido drive via I-15 South" },
-    { "label": "Distance", "value": "65 mi", "hint": "Canyon Lake HQ to Escondido" },
-    { "label": "Availability", "value": "24 / 7", "hint": "Every day, every hour, real person answers" },
-    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned, Southern California\u2019s restoration team" }
+    {
+      "label": "On-Site In",
+      "value": "~75 min",
+      "hint": "Typical Canyon Lake to Escondido drive via I-15 South"
+    },
+    {
+      "label": "Distance",
+      "value": "65 mi",
+      "hint": "Canyon Lake HQ to Escondido"
+    },
+    {
+      "label": "Availability",
+      "value": "24 / 7",
+      "hint": "Every day, every hour, real person answers"
+    },
+    {
+      "label": "In Business",
+      "value": "15+ yrs",
+      "hint": "Family-owned, Southern California’s restoration team"
+    }
   ],
-  "localHook": "Escondido carries two damage histories at once. The historic core\u2014Old Escondido and the blocks flanking downtown\u2014holds 1920s and 1930s Craftsman and Spanish-revival homes with original or early-replaced plumbing that is now 80 to 100 years old. A supply-line failure inside a plaster wall here doesn\u2019t behave like a failure in modern drywall; moisture travels through lathe and plaster cavities in ways that require different assessment protocols. Then there\u2019s the canyon edge. The 2007 Witch and Guejito fires moved through Escondido and surrounding communities with a speed that permanently shaped how homeowners here think about wildfire proximity. That terrain hasn\u2019t changed. Hillside runoff during heavy rain cycles creates a secondary hazard: avocado grove agricultural water, hillside drainage, and drainage infrastructure that was designed for typical Southern California rain\u2014not El Ni\u00f1o storm volumes. Gallagher has been working this terrain from Canyon Lake for over 15 years.",
+  "localHook": "Escondido carries two damage histories at once. The historic core—Old Escondido and the blocks flanking downtown—holds 1920s and 1930s Craftsman and Spanish-revival homes with original or early-replaced plumbing that is now 80 to 100 years old. A supply-line failure inside a plaster wall here doesn’t behave like a failure in modern drywall; moisture travels through lathe and plaster cavities in ways that require different assessment protocols. Then there’s the canyon edge. The 2007 Witch and Guejito fires moved through Escondido and surrounding communities with a speed that permanently shaped how homeowners here think about wildfire proximity. That terrain hasn’t changed. Hillside runoff during heavy rain cycles creates a secondary hazard: avocado grove agricultural water, hillside drainage, and drainage infrastructure that was designed for typical Southern California rain—not El Niño storm volumes. Gallagher has been working this terrain from Canyon Lake for over 15 years.",
   "neighborhoods": {
     "eyebrow": "Areas We Serve",
-    "heading": "Old Escondido to the canyon edge\u2014full coverage",
+    "heading": "Old Escondido to the canyon edge—full coverage",
     "items": [
       {
         "name": "Old Escondido",
@@ -43,31 +59,31 @@
     "items": [
       {
         "title": "Canyon wildfire smoke and fire damage",
-        "body": "Escondido\u2019s canyon edge puts homes in the direct path of North County fire corridors. The 2007 Witch and Guejito fires remain a reference point for this community\u2019s fire exposure. Smoke infiltration, soot contamination, and post-fire structural damage all require professional remediation\u2014surface cleaning alone does not address embedded soot in porous materials and HVAC systems."
+        "body": "Escondido’s canyon edge puts homes in the direct path of North County fire corridors. The 2007 Witch and Guejito fires remain a reference point for this community’s fire exposure. Smoke infiltration, soot contamination, and post-fire structural damage all require professional remediation—surface cleaning alone does not address embedded soot in porous materials and HVAC systems."
       },
       {
         "title": "Aging historic plumbing in downtown homes",
-        "body": "Old Escondido\u2019s 1920s\u201340s housing stock carries plumbing systems that predate modern supply-line standards. Galvanized pipes corrode from the inside out; failures inside plaster walls produce slow leaks that saturate structural framing for weeks before discovery. Full cavity drying in historic construction requires deliberate, low-heat protocols to protect original materials."
+        "body": "Old Escondido’s 1920s–40s housing stock carries plumbing systems that predate modern supply-line standards. Galvanized pipes corrode from the inside out; failures inside plaster walls produce slow leaks that saturate structural framing for weeks before discovery. Full cavity drying in historic construction requires deliberate, low-heat protocols to protect original materials."
       },
       {
         "title": "Hillside runoff and agricultural water intrusion",
-        "body": "Escondido\u2019s avocado grove terrain and hillside drainage channels push water toward lower-elevation residential lots during storm cycles. Ground-level intrusion into garages, lower floors, and crawl spaces is a recurring event. Rapid extraction and drying within 24\u201348 hours is the threshold for preventing secondary mold growth."
+        "body": "Escondido’s avocado grove terrain and hillside drainage channels push water toward lower-elevation residential lots during storm cycles. Ground-level intrusion into garages, lower floors, and crawl spaces is a recurring event. Rapid extraction and drying within 24–48 hours is the threshold for preventing secondary mold growth."
       },
       {
-        "title": "Slab leaks in 1970s\u201380s tract homes",
-        "body": "Copper supply lines in concrete slab foundations throughout Escondido\u2019s 1970s and 1980s tract neighborhoods are entering or past the expected service window. Silent leaks under flooring raise water bills first, then manifest as buckled hardwood, wet baseboards, or mold behind cabinetry."
+        "title": "Slab leaks in 1970s–80s tract homes",
+        "body": "Copper supply lines in concrete slab foundations throughout Escondido’s 1970s and 1980s tract neighborhoods are entering or past the expected service window. Silent leaks under flooring raise water bills first, then manifest as buckled hardwood, wet baseboards, or mold behind cabinetry."
       }
     ]
   },
   "howWeWork": {
     "eyebrow": "The Process",
     "heading": "What an Escondido call looks like",
-    "body": "Call (951) 541-0034 at any hour\u2014a real person answers. Gallagher dispatches from Canyon Lake; the drive to Escondido is roughly 75 minutes via I-15 South. On arrival, the crew assesses the full scope using professional-grade moisture meters and thermal imaging. With historic Escondido construction\u2014plaster walls, older framing assemblies\u2014assessment goes deeper than a visual walk-through. You get a clear explanation of what was found before a single piece of equipment is placed. Extraction, containment, and structural drying begin the same visit. Every job is documented from the first minute: photos, moisture readings, written logs. That documentation is what your insurance adjuster needs to move the claim efficiently. Gallagher coordinates directly with major insurance carriers, handling the adjuster communication so you are not navigating two separate conversations while your home sits open. The same crew carries the job from first call through final reconstruction."
+    "body": "Call (951) 541-0034 at any hour—a real person answers. Gallagher dispatches from Canyon Lake; the drive to Escondido is roughly 75 minutes via I-15 South. On arrival, the crew assesses the full scope using professional-grade moisture meters and thermal imaging. With historic Escondido construction—plaster walls, older framing assemblies—assessment goes deeper than a visual walk-through. You get a clear explanation of what was found before a single piece of equipment is placed. Extraction, containment, and structural drying begin the same visit. Every job is documented from the first minute: photos, moisture readings, written logs. That documentation is what your insurance adjuster needs to move the claim efficiently. Gallagher coordinates directly with major insurance carriers, handling the adjuster communication so you are not navigating two separate conversations while your home sits open. The same crew carries the job from first call through final reconstruction."
   },
   "whyChoose": {
     "eyebrow": "Why Gallagher",
     "heading": "Why Escondido homeowners call Gallagher",
-    "body": "Escondido requires a restoration contractor who can work both ends of the housing spectrum: a century-old Craftsman in the historic core and a 1985 tract home on the canyon edge. Gallagher is a family-owned operation with 15 years of experience across San Diego County\u2019s inland and canyon zones. IICRC-trained crews apply consistent protocols across every damage category\u2014historic plumbing failures, wildfire smoke infiltration, slab leaks, and hillside runoff. Aaron\u2019s team does not hand off mid-project. Assessment is always free. Direct insurance carrier coordination is standard on every job. Gallagher has been making the I-15 run into Escondido for over 15 years. The terrain, the housing stock, and the fire exposure history here are all known quantities."
+    "body": "Escondido requires a restoration contractor who can work both ends of the housing spectrum: a century-old Craftsman in the historic core and a 1985 tract home on the canyon edge. Gallagher is a family-owned operation with 15 years of experience across San Diego County’s inland and canyon zones. IICRC-trained crews apply consistent protocols across every damage category—historic plumbing failures, wildfire smoke infiltration, slab leaks, and hillside runoff. Aaron’s team does not hand off mid-project. Assessment is always free. Direct insurance carrier coordination is standard on every job. Gallagher has been making the I-15 run into Escondido for over 15 years. The terrain, the housing stock, and the fire exposure history here are all known quantities."
   },
   "pricing": {
     "eyebrow": "What It Costs",
@@ -80,16 +96,16 @@
       "a": "From Canyon Lake HQ, the typical drive to Escondido is roughly 75 minutes via I-15 South. A real person answers every call at any hour."
     },
     {
-      "q": "Do you work in Escondido\u2019s historic homes with plaster walls?",
-      "a": "Yes. Plaster and lathe construction requires different moisture assessment and drying protocols than modern drywall. We work Old Escondido\u2019s historic stock regularly and document every step of the process."
+      "q": "Do you work in Escondido’s historic homes with plaster walls?",
+      "a": "Yes. Plaster and lathe construction requires different moisture assessment and drying protocols than modern drywall. We work Old Escondido’s historic stock regularly and document every step of the process."
     },
     {
       "q": "Do you handle wildfire smoke damage in Escondido?",
-      "a": "Yes. Canyon-adjacent neighborhoods in Escondido carry significant fire and smoke exposure. Gallagher performs full post-fire decontamination\u2014surface cleaning, HVAC remediation, and odor treatment. The 2007 Witch and Guejito fire zones fall within the terrain we know well."
+      "a": "Yes. Canyon-adjacent neighborhoods in Escondido carry significant fire and smoke exposure. Gallagher performs full post-fire decontamination—surface cleaning, HVAC remediation, and odor treatment. The 2007 Witch and Guejito fire zones fall within the terrain we know well."
     },
     {
       "q": "What about hillside runoff flooding?",
-      "a": "Yes. Gallagher responds 24/7 to ground-level water intrusion from hillside drainage and agricultural runoff. Rapid extraction within 24\u201348 hours is critical to preventing secondary mold in lower-level spaces."
+      "a": "Yes. Gallagher responds 24/7 to ground-level water intrusion from hillside drainage and agricultural runoff. Rapid extraction within 24–48 hours is critical to preventing secondary mold in lower-level spaces."
     },
     {
       "q": "What does restoration cost in Escondido?",

@@ -7,16 +7,32 @@
   "proximityMiles": 55,
   "route": "I-15 North",
   "metaTitle": "Water & Fire Damage Restoration | Rancho Cucamonga",
-  "metaDescription": "Gallagher Restoration reaches Rancho Cucamonga in ~60 min via I-15. Water, fire, mold & wildfire damage — 24/7. Family-owned, IICRC-trained. Call (951) 541-0034.",
+  "metaDescription": "Water, fire, mold & wildfire restoration in Rancho Cucamonga, CA. 24/7 IICRC-trained response—on-site ~60 min. (951) 541-0034.",
   "heroEyebrow": "24/7 EMERGENCY · RANCHO CUCAMONGA, CA",
   "heroTitle": "Restoration services in Rancho Cucamonga — on-site in about 60 minutes",
   "heroAccent": "Damage doesn't hold business hours.",
   "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Rancho Cucamonga via I-15 North — typically on-site within 60 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
   "proofStrip": [
-    { "label": "On-Site In", "value": "~60 min", "hint": "Typical drive from Canyon Lake via I-15 North" },
-    { "label": "Distance", "value": "55 mi", "hint": "Canyon Lake to Rancho Cucamonga" },
-    { "label": "Availability", "value": "24 / 7", "hint": "Every day, including holidays" },
-    { "label": "In Business", "value": "15+ yrs", "hint": "Family-owned since the early 2000s" }
+    {
+      "label": "On-Site In",
+      "value": "~60 min",
+      "hint": "Typical drive from Canyon Lake via I-15 North"
+    },
+    {
+      "label": "Distance",
+      "value": "55 mi",
+      "hint": "Canyon Lake to Rancho Cucamonga"
+    },
+    {
+      "label": "Availability",
+      "value": "24 / 7",
+      "hint": "Every day, including holidays"
+    },
+    {
+      "label": "In Business",
+      "value": "15+ yrs",
+      "hint": "Family-owned since the early 2000s"
+    }
   ],
   "localHook": "Rancho Cucamonga sits at the base of the San Gabriel Mountains where the Santa Ana winds funnel through Cajon Pass with enough force to tear roofing and push embers across dry hillside communities. The city grew fast — most of its housing stock dates from the 1980s through the 2000s, with master-planned tracts in Terra Vista and Victoria Gardens area layered over older Alta Loma ranch lots. That mixed-vintage housing profile creates a predictable damage pattern: aging supply lines and galvanized pipe in the older foothill parcels, builder-grade plumbing failures in the newer tracts, and wind-driven roof damage that opens the envelope to water intrusion. Gallagher's crew takes I-15 North directly into the city, usually arriving within the hour. We coordinate with the major insurance carriers so you're not navigating the claim alone.",
   "neighborhoods": {
