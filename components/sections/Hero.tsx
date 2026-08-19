@@ -2,6 +2,7 @@ import { Parallax } from "@/components/ui/Parallax";
 import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { ButtonPrimary, ButtonGhost } from "@/components/ui/Buttons";
+import { GoogleReviewBadge } from "@/components/ui/GoogleReviewBadge";
 
 const STATS = [
   { value: "15", suffix: "+", label: "Years in Southern California" },
@@ -59,6 +60,11 @@ export function Hero() {
                 Call Now
               </ButtonPrimary>
               <ButtonGhost href="/services">View Our Services</ButtonGhost>
+            </div>
+          </Reveal>
+          <Reveal delay={340}>
+            <div className="mt-[22px]">
+              <GoogleReviewBadge variant="hero" />
             </div>
           </Reveal>
         </div>

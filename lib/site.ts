@@ -28,6 +28,18 @@ export const GBP = {
     "https://www.google.com/maps/dir/?api=1&destination=Gallagher+Restoration&destination_place_id=ChIJaaW5Mkad3IARJlYjTmKj-IM",
   embedSrc:
     "https://www.google.com/maps/embed/v1/place?key=&q=place_id:ChIJaaW5Mkad3IARJlYjTmKj-IM",
+  reviewUrl:
+    "https://search.google.com/local/writereview?placeid=ChIJaaW5Mkad3IARJlYjTmKj-IM",
+};
+
+// Manually maintained until GBP API access lands. Reflects visible GBP totals.
+export const REVIEWS = {
+  ratingValue: 5.0,
+  reviewCount: 61,
+  bestRating: 5,
+  worstRating: 1,
+  source: "Google",
+  asOf: "2026-08-19",
 };
 
 export const SOCIAL_URLS = [

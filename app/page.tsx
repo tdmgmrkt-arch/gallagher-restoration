@@ -9,7 +9,7 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { NewsGrid } from "@/components/sections/NewsGrid";
 import { Faq } from "@/components/sections/Faq";
 import { FinalCta } from "@/components/sections/FinalCta";
-import { ADDRESS, COMPANY, GBP, PHONE, SOCIAL_URLS } from "@/lib/site";
+import { ADDRESS, COMPANY, GBP, PHONE, REVIEWS, SOCIAL_URLS } from "@/lib/site";
 import { CITY_COORDS } from "@/lib/city-coords";
 
 const HQ_COORDS = CITY_COORDS["canyon-lake-ca"];
@@ -80,6 +80,13 @@ export default function Home() {
       closes: "23:59",
     },
     priceRange: "$$",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: REVIEWS.ratingValue,
+      reviewCount: REVIEWS.reviewCount,
+      bestRating: REVIEWS.bestRating,
+      worstRating: REVIEWS.worstRating,
+    },
     founder: { "@id": "https://gallagherrestoration.com/#aaron-gallagher" },
     hasOfferCatalog: {
       "@type": "OfferCatalog",

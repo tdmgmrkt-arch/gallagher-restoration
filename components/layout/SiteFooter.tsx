@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ADDRESS, COMPANY, GBP, NAV, PHONE, SOCIAL_URLS } from "@/lib/site";
+import { GoogleReviewBadge } from "@/components/ui/GoogleReviewBadge";
 
 const FOOTER_NAV = [{ label: "Home", href: "/" }, ...NAV];
 
@@ -112,6 +113,9 @@ export function SiteFooter() {
           >
             Get Help 24/7
           </Link>
+          <div className="mt-[22px]">
+            <GoogleReviewBadge variant="footer" />
+          </div>
         </div>
       </div>
 
