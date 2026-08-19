@@ -115,5 +115,22 @@
     "reconstruction",
     "ceiling-water-damage",
     "water-damage-restoration"
+  ],
+  "crossLinks": [
+    {
+      "label": "Water dry-out",
+      "href": "/water-dry-out",
+      "note": "Prep before repair"
+    },
+    {
+      "label": "Ceiling water damage",
+      "href": "/ceiling-water-damage",
+      "note": "Overhead leaks"
+    },
+    {
+      "label": "Reconstruction",
+      "href": "/reconstruction",
+      "note": "Larger rebuilds"
+    }
   ]
 }

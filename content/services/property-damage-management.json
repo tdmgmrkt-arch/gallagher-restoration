@@ -119,5 +119,22 @@
     "reconstruction",
     "water-damage-restoration",
     "fire-damage-restoration"
+  ],
+  "crossLinks": [
+    {
+      "label": "Reconstruction",
+      "href": "/reconstruction",
+      "note": "Rebuild phase"
+    },
+    {
+      "label": "Water damage",
+      "href": "/water-damage-restoration",
+      "note": "Common loss type"
+    },
+    {
+      "label": "Fire damage restoration",
+      "href": "/fire-damage-restoration",
+      "note": "Common loss type"
+    }
   ]
 }

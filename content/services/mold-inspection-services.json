@@ -120,5 +120,22 @@
     "mold-testing-services",
     "mold-remediation",
     "ceiling-water-damage"
+  ],
+  "crossLinks": [
+    {
+      "label": "Mold testing",
+      "href": "/mold-testing-services",
+      "note": "Lab confirmation"
+    },
+    {
+      "label": "Mold remediation",
+      "href": "/mold-remediation",
+      "note": "If found"
+    },
+    {
+      "label": "Ceiling water damage",
+      "href": "/ceiling-water-damage",
+      "note": "Common trigger"
+    }
   ]
 }

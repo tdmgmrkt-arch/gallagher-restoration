@@ -153,7 +153,25 @@
   ],
   "relatedServices": [
     "smoke-clean-up",
-    "water-damage-restoration",
-    "reconstruction"
+    "wildfire",
+    "reconstruction",
+    "water-damage-restoration"
+  ],
+  "crossLinks": [
+    {
+      "label": "Smoke clean-up",
+      "href": "/smoke-clean-up",
+      "note": "Odor & soot"
+    },
+    {
+      "label": "Wildfire damage",
+      "href": "/wildfire",
+      "note": "Wildfire-specific"
+    },
+    {
+      "label": "Reconstruction",
+      "href": "/reconstruction",
+      "note": "Rebuild phase"
+    }
   ]
 }

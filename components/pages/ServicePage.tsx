@@ -146,6 +146,17 @@ export function ServicePage({ content }: { content: ServiceContent }) {
     { label: content.heroTitle },
   ];
 
+  const isHub = SERVICE_CATEGORIES.some((c) => c.slug === content.slug);
+  const hubCategory = isHub
+    ? SERVICE_CATEGORIES.find((c) => c.slug === content.slug)
+    : null;
+  const hubLeaves = hubCategory
+    ? hubCategory.leaves
+        .filter((l) => l.slug !== content.slug)
+        .map((l) => ({ slug: l.slug, label: l.label, exists: Boolean(SERVICE_CONTENT[l.slug]) }))
+        .filter((r) => r.exists)
+    : [];
+
   const related = content.relatedServices
     .map((s) => ({ slug: s, label: labelForSlug(s), exists: Boolean(SERVICE_CONTENT[s]) }))
     .filter((r) => r.exists);
@@ -436,8 +447,55 @@ export function ServicePage({ content }: { content: ServiceContent }) {
         </div>
       </section>
 
+      {/* Hub sub-services (only on hub pages) */}
+      {isHub && hubLeaves.length > 0 ? (
+        <section className="border-t border-[rgba(255,255,255,0.07)] bg-[#0E100E] py-[clamp(56px,7vw,104px)]">
+          <div className="mx-auto max-w-[1300px] px-[clamp(20px,5vw,56px)]">
+            <Reveal>
+              <div className="flex flex-wrap items-end justify-between gap-6 border-b border-[rgba(255,255,255,0.09)] pb-8">
+                <div>
+                  <Eyebrow>{hubCategory?.kicker} Services</Eyebrow>
+                  <h2 className="mt-6 max-w-[24ch] text-[clamp(26px,3.2vw,40px)] font-extrabold leading-[1.08] tracking-[-0.03em] text-balance">
+                    Every {hubCategory?.kicker.toLowerCase()} service under one crew.
+                  </h2>
+                </div>
+                <Link
+                  href="/services"
+                  className="font-mono text-[13px] font-bold uppercase tracking-[0.05em] text-[#8ECE34] transition-colors hover:text-[#A6E053]"
+                >
+                  All services &rarr;
+                </Link>
+              </div>
+            </Reveal>
+            <div className="mt-8 grid grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-[clamp(14px,1.6vw,20px)]">
+              {hubLeaves.map((r, i) => (
+                <Reveal key={r.slug} delay={i * 50}>
+                  <Link
+                    href={`/${r.slug}`}
+                    className="group flex h-full flex-col justify-between border border-[rgba(255,255,255,0.13)] bg-[#121413] p-5 transition-colors hover:border-[#8ECE34]"
+                  >
+                    <div className="flex items-start gap-3">
+                      <span
+                        aria-hidden="true"
+                        className="mt-[10px] block h-[1px] w-[14px] flex-none bg-[#8ECE34]"
+                      />
+                      <span className="text-[15px] font-medium leading-[1.35] text-[#D4D8CE] transition-colors group-hover:text-[#F4F5F1]">
+                        {r.label}
+                      </span>
+                    </div>
+                    <span className="mt-5 font-mono text-[11px] font-bold uppercase tracking-[0.2em] text-[#8ECE34] transition-colors group-hover:text-[#A6E053]">
+                      Learn more &rarr;
+                    </span>
+                  </Link>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       {/* Related services */}
-      {related.length > 0 ? (
+      {!isHub && related.length > 0 ? (
         <section className="border-t border-[rgba(255,255,255,0.07)] bg-[#0E100E] py-[clamp(48px,6vw,88px)]">
           <div className="mx-auto max-w-[1300px] px-[clamp(20px,5vw,56px)]">
             <Reveal>

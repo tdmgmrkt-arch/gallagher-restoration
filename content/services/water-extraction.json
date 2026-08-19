@@ -110,5 +110,22 @@
     "emergency-water-removal",
     "water-dry-out",
     "pipe-burst-flooding-and-remediation"
+  ],
+  "crossLinks": [
+    {
+      "label": "Emergency water removal",
+      "href": "/emergency-water-removal",
+      "note": "24/7 dispatch"
+    },
+    {
+      "label": "Water dry-out",
+      "href": "/water-dry-out",
+      "note": "Next step"
+    },
+    {
+      "label": "Pipe burst flooding",
+      "href": "/pipe-burst-flooding-and-remediation",
+      "note": "Common cause"
+    }
   ]
 }

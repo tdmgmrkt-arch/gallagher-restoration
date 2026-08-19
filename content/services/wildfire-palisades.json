@@ -120,5 +120,22 @@
     "wildfire",
     "smoke-clean-up",
     "fire-damage-restoration"
+  ],
+  "crossLinks": [
+    {
+      "label": "All wildfire recovery",
+      "href": "/wildfire",
+      "note": "Full service overview"
+    },
+    {
+      "label": "Wildfire — Altadena",
+      "href": "/wildfire-altadena",
+      "note": "Neighboring recovery"
+    },
+    {
+      "label": "Smoke clean-up",
+      "href": "/smoke-clean-up",
+      "note": "Interior smoke"
+    }
   ]
 }

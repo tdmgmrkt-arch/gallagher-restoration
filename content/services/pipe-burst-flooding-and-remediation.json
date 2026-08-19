@@ -110,5 +110,22 @@
     "emergency-water-removal",
     "water-extraction",
     "water-damage-restoration"
+  ],
+  "crossLinks": [
+    {
+      "label": "Emergency water removal",
+      "href": "/emergency-water-removal",
+      "note": "24/7 dispatch"
+    },
+    {
+      "label": "Water extraction",
+      "href": "/water-extraction",
+      "note": "Bulk water first"
+    },
+    {
+      "label": "Sewage clean-up",
+      "href": "/sewage-clean-up-services",
+      "note": "If drain-line involved"
+    }
   ]
 }

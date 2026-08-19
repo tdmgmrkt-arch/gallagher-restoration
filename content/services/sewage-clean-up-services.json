@@ -119,5 +119,22 @@
     "water-damage-restoration",
     "mold-remediation",
     "property-damage-management"
+  ],
+  "crossLinks": [
+    {
+      "label": "Pipe burst flooding",
+      "href": "/pipe-burst-flooding-and-remediation",
+      "note": "Common cause"
+    },
+    {
+      "label": "Mold remediation",
+      "href": "/mold-remediation",
+      "note": "Downstream risk"
+    },
+    {
+      "label": "Reconstruction",
+      "href": "/reconstruction",
+      "note": "Rebuild after"
+    }
   ]
 }

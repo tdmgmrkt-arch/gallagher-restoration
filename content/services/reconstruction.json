@@ -119,5 +119,22 @@
     "water-damage-repair",
     "fire-damage-restoration",
     "property-damage-management"
+  ],
+  "crossLinks": [
+    {
+      "label": "Water damage repair",
+      "href": "/water-damage-repair",
+      "note": "Post-water rebuild"
+    },
+    {
+      "label": "Fire damage restoration",
+      "href": "/fire-damage-restoration",
+      "note": "Post-fire rebuild"
+    },
+    {
+      "label": "Property damage mgmt",
+      "href": "/property-damage-management",
+      "note": "Full loss oversight"
+    }
   ]
 }

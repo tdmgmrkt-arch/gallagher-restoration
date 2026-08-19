@@ -118,6 +118,24 @@
   "relatedServices": [
     "wildfire-altadena",
     "wildfire-palisades",
+    "smoke-clean-up",
     "fire-damage-restoration"
+  ],
+  "crossLinks": [
+    {
+      "label": "Wildfire — Altadena",
+      "href": "/wildfire-altadena",
+      "note": "Local recovery"
+    },
+    {
+      "label": "Wildfire — Palisades",
+      "href": "/wildfire-palisades",
+      "note": "Local recovery"
+    },
+    {
+      "label": "Smoke clean-up",
+      "href": "/smoke-clean-up",
+      "note": "Interior smoke"
+    }
   ]
 }

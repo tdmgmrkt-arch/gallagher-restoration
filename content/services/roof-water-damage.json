@@ -114,5 +114,22 @@
     "ceiling-water-damage",
     "water-damage-restoration",
     "water-damage-repair"
+  ],
+  "crossLinks": [
+    {
+      "label": "Ceiling water damage",
+      "href": "/ceiling-water-damage",
+      "note": "Interior impact"
+    },
+    {
+      "label": "Water damage repair",
+      "href": "/water-damage-repair",
+      "note": "Interior rebuild"
+    },
+    {
+      "label": "Reconstruction",
+      "href": "/reconstruction",
+      "note": "Structural rebuild"
+    }
   ]
 }

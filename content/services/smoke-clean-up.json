@@ -128,5 +128,22 @@
     "fire-damage-restoration",
     "property-damage-management",
     "reconstruction"
+  ],
+  "crossLinks": [
+    {
+      "label": "Fire damage restoration",
+      "href": "/fire-damage-restoration",
+      "note": "Full restoration"
+    },
+    {
+      "label": "Wildfire damage",
+      "href": "/wildfire",
+      "note": "Wildfire smoke"
+    },
+    {
+      "label": "Reconstruction",
+      "href": "/reconstruction",
+      "note": "Rebuild phase"
+    }
   ]
 }

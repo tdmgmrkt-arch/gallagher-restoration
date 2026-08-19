@@ -114,5 +114,22 @@
     "water-damage-restoration",
     "mold-remediation",
     "water-damage-repair"
+  ],
+  "crossLinks": [
+    {
+      "label": "Water damage repair",
+      "href": "/water-damage-repair",
+      "note": "Post-cleanup rebuild"
+    },
+    {
+      "label": "Water extraction",
+      "href": "/water-extraction",
+      "note": "Standing water first"
+    },
+    {
+      "label": "Water dry-out",
+      "href": "/water-dry-out",
+      "note": "After extraction"
+    }
   ]
 }

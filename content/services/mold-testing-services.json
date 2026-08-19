@@ -120,5 +120,22 @@
     "mold-inspection-services",
     "mold-remediation",
     "water-damage-restoration"
+  ],
+  "crossLinks": [
+    {
+      "label": "Mold inspection",
+      "href": "/mold-inspection-services",
+      "note": "On-site walk"
+    },
+    {
+      "label": "Mold remediation",
+      "href": "/mold-remediation",
+      "note": "If levels elevated"
+    },
+    {
+      "label": "Ceiling water damage",
+      "href": "/ceiling-water-damage",
+      "note": "Common trigger"
+    }
   ]
 }

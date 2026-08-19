@@ -110,5 +110,22 @@
     "roof-water-damage",
     "water-damage-restoration",
     "mold-remediation"
+  ],
+  "crossLinks": [
+    {
+      "label": "Roof water damage",
+      "href": "/roof-water-damage",
+      "note": "Trace the source"
+    },
+    {
+      "label": "Mold remediation",
+      "href": "/mold-remediation",
+      "note": "Cavity contamination"
+    },
+    {
+      "label": "Water damage repair",
+      "href": "/water-damage-repair",
+      "note": "Drywall rebuild"
+    }
   ]
 }

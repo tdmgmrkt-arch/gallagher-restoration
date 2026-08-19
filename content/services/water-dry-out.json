@@ -118,5 +118,22 @@
     "water-extraction",
     "emergency-water-removal",
     "mold-remediation"
+  ],
+  "crossLinks": [
+    {
+      "label": "Water extraction",
+      "href": "/water-extraction",
+      "note": "Standing water first"
+    },
+    {
+      "label": "Mold remediation",
+      "href": "/mold-remediation",
+      "note": "If drying was late"
+    },
+    {
+      "label": "Emergency water removal",
+      "href": "/emergency-water-removal",
+      "note": "24/7 dispatch"
+    }
   ]
 }
