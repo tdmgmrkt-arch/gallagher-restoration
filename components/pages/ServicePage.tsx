@@ -211,6 +211,26 @@ export function ServicePage({ content }: { content: ServiceContent }) {
       }
     : null;
 
+  const howToJsonLd =
+    content.process.steps.length >= 2
+      ? {
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          "@id": `https://gallagherrestoration.com/${content.slug}#howto`,
+          name: content.process.heading,
+          description: content.heroIntro,
+          inLanguage: "en-US",
+          about: { "@id": "https://gallagherrestoration.com/#business" },
+          step: content.process.steps.map((s, i) => ({
+            "@type": "HowToStep",
+            position: i + 1,
+            name: s.title,
+            text: s.body,
+            url: `https://gallagherrestoration.com/${content.slug}#step-${i + 1}`,
+          })),
+        }
+      : null;
+
   return (
     <>
       <script
@@ -221,6 +241,12 @@ export function ServicePage({ content }: { content: ServiceContent }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      ) : null}
+      {howToJsonLd ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
         />
       ) : null}
 
@@ -325,7 +351,10 @@ export function ServicePage({ content }: { content: ServiceContent }) {
           <div className="mt-[clamp(36px,4.5vw,64px)] grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-[clamp(18px,2vw,26px)]">
             {content.process.steps.map((step, i) => (
               <Reveal key={step.title} delay={i * 80}>
-                <div className="flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(24px,2.6vw,36px)]">
+                <div
+                  id={`step-${i + 1}`}
+                  className="flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(24px,2.6vw,36px)]"
+                >
                   <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
                     {step.kicker}
                   </div>

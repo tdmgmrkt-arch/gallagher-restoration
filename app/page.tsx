@@ -9,7 +9,7 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { NewsGrid } from "@/components/sections/NewsGrid";
 import { Faq } from "@/components/sections/Faq";
 import { FinalCta } from "@/components/sections/FinalCta";
-import { ADDRESS, COMPANY, GBP, PHONE, REVIEWS, SOCIAL_URLS } from "@/lib/site";
+import { ADDRESS, COMPANY, FAQS, GBP, PHONE, REVIEWS, SOCIAL_URLS } from "@/lib/site";
 import { CITY_COORDS } from "@/lib/city-coords";
 
 const HQ_COORDS = CITY_COORDS["canyon-lake-ca"];
@@ -124,11 +124,29 @@ export default function Home() {
     },
   };
 
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://gallagherrestoration.com/#faqpage",
+    url: "https://gallagherrestoration.com/#faqs",
+    inLanguage: "en-US",
+    about: { "@id": "https://gallagherrestoration.com/#business" },
+    mainEntity: FAQS.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(businessJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <Hero />
       <WildfireBanner />
