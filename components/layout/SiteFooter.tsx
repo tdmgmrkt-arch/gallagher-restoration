@@ -26,7 +26,7 @@ export function SiteFooter() {
             {COMPANY.tagline}
           </p>
           <div className="mt-6 font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A]">
-            Licensed &middot; Insured
+            Licensed &middot; Insured &middot; IICRC-Trained
           </div>
           <div className="mt-2 text-[13px] text-[#C6CABF]">
             CSLB License #{COMPANY.cslbLicense}

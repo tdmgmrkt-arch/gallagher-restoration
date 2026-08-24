@@ -5,6 +5,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FinalCta } from "@/components/sections/FinalCta";
+import { TrustMarks } from "@/components/ui/TrustMarks";
 import { COMPANY, PHONE, SERVICE_CATEGORIES, SOCIAL_URLS } from "@/lib/site";
 import { CITY_COORDS } from "@/lib/city-coords";
 import { getGoogleReviews } from "@/lib/google-reviews";
@@ -252,6 +253,8 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
         backgroundAlt={hero.alt}
         subtleBackground
       />
+
+      <TrustMarks />
 
       {content.crossLinks && content.crossLinks.length > 0 ? (
         <section className="border-b border-[rgba(255,255,255,0.07)] bg-[#0B0C0B]">

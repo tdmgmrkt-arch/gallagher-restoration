@@ -29,7 +29,7 @@ export const CITY_COORDS: Record<string, [number, number]> = {
   "oceanside-ca": [33.196, -117.379],
   "chula-vista-ca": [32.640, -117.084],
   "los-angeles-ca": [34.052, -118.244],
-  "santa-clarita": [34.391, -118.542],
+  "santa-clarita-ca": [34.391, -118.542],
   "pomona-ca": [34.055, -117.749],
   "torrance-ca": [33.836, -118.340],
   "glendale-ca": [34.142, -118.255],

@@ -52,6 +52,7 @@ const nextConfig: NextConfig = {
         permanent: true,
       })),
       { source: "/menifee", destination: "/menifee-ca", permanent: true },
+      { source: "/santa-clarita", destination: "/santa-clarita-ca", permanent: true },
       {
         source: "/water-damage-remediation",
         destination: "/water-damage-restoration",

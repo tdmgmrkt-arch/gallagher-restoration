@@ -6,6 +6,7 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { CityMap } from "@/components/ui/CityMap";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FinalCta } from "@/components/sections/FinalCta";
+import { TrustMarks } from "@/components/ui/TrustMarks";
 import { COMPANY, PHONE, SERVICE_CATEGORIES, CITIES_BY_COUNTY, SOCIAL_URLS } from "@/lib/site";
 import { CITY_COORDS } from "@/lib/city-coords";
 import { getGoogleReviews } from "@/lib/google-reviews";
@@ -110,6 +111,8 @@ export async function CityPage({ content }: { content: CityContent }) {
           { label: content.name },
         ]}
       />
+
+      <TrustMarks />
 
       {/* Proof strip */}
       <section className="border-b border-[rgba(255,255,255,0.07)] bg-[#0B0C0B] py-[clamp(48px,6vw,88px)]">

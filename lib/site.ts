@@ -528,7 +528,7 @@ export const CITIES_BY_COUNTY = {
   ],
   "los-angeles-county": [
     { slug: "los-angeles-ca", name: "Los Angeles" },
-    { slug: "santa-clarita", name: "Santa Clarita" },
+    { slug: "santa-clarita-ca", name: "Santa Clarita" },
     { slug: "pomona-ca", name: "Pomona" },
     { slug: "torrance-ca", name: "Torrance" },
     { slug: "glendale-ca", name: "Glendale" },
