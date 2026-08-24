@@ -1,5 +1,5 @@
 export const CITY_COORDS: Record<string, [number, number]> = {
-  "canyon-lake-ca": [33.686, -117.268],
+  "canyon-lake-ca": [33.68615, -117.26971],
   "corona-ca": [33.875, -117.566],
   "hemet-ca": [33.747, -116.972],
   "lake-elsinore-ca": [33.668, -117.327],

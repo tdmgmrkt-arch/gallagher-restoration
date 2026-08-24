@@ -60,15 +60,6 @@ const websiteJsonLd = {
   name: "Gallagher Restoration Co.",
   publisher: { "@id": "https://gallagherrestoration.com/#business" },
   inLanguage: "en-US",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: {
-      "@type": "EntryPoint",
-      urlTemplate:
-        "https://gallagherrestoration.com/?s={search_term_string}",
-    },
-    "query-input": "required name=search_term_string",
-  },
 };
 
 const organizationJsonLd = {

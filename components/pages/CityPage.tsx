@@ -51,7 +51,12 @@ export function CityPage({ content }: { content: CityContent }) {
           },
         }
       : {}),
-    openingHours: "Mo-Su 00:00-24:00",
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      opens: "00:00",
+      closes: "23:59",
+    },
     priceRange: "$$",
   };
 

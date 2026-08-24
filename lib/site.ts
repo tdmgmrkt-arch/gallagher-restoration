@@ -27,7 +27,7 @@ export const GBP = {
   directionsUrl:
     "https://www.google.com/maps/dir/?api=1&destination=Gallagher+Restoration&destination_place_id=ChIJaaW5Mkad3IARJlYjTmKj-IM",
   embedSrc:
-    "https://www.google.com/maps/embed/v1/place?key=&q=place_id:ChIJaaW5Mkad3IARJlYjTmKj-IM",
+    "https://maps.google.com/maps?q=31672+Railroad+Canyon+Rd+Canyon+Lake+CA+92587&hl=en&z=14&t=m&output=embed",
   reviewUrl:
     "https://search.google.com/local/writereview?placeid=ChIJaaW5Mkad3IARJlYjTmKj-IM",
 };
