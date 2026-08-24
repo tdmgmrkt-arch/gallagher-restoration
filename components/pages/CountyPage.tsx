@@ -5,19 +5,21 @@ import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FinalCta } from "@/components/sections/FinalCta";
-import { COMPANY, PHONE, SERVICE_CATEGORIES, CITIES_BY_COUNTY } from "@/lib/site";
+import { COMPANY, PHONE, SERVICE_CATEGORIES, CITIES_BY_COUNTY, SOCIAL_URLS } from "@/lib/site";
 import { COUNTY_LABEL_COORDS } from "@/lib/city-coords";
+import { getGoogleReviews } from "@/lib/google-reviews";
 import type { CountyContent } from "@/lib/county-content";
 
 type CountyKey = keyof typeof CITIES_BY_COUNTY;
 
-export function CountyPage({ content }: { content: CountyContent }) {
+export async function CountyPage({ content }: { content: CountyContent }) {
   const allCities: ReadonlyArray<{
     slug: string;
     name: string;
     isHq?: boolean;
   }> = CITIES_BY_COUNTY[content.slug as CountyKey] ?? [];
 
+  const { ratingValue, reviewCount } = await getGoogleReviews();
   const countyCoords = COUNTY_LABEL_COORDS[content.slug];
   const jsonLd = {
     "@context": "https://schema.org",
@@ -26,6 +28,7 @@ export function CountyPage({ content }: { content: CountyContent }) {
     name: COMPANY.name,
     telephone: PHONE.display,
     url: `https://gallagherrestoration.com/${content.slug}`,
+    sameAs: SOCIAL_URLS,
     address: {
       "@type": "PostalAddress",
       streetAddress: "31672 Railroad Canyon Rd",
@@ -58,6 +61,13 @@ export function CountyPage({ content }: { content: CountyContent }) {
       closes: "23:59",
     },
     priceRange: "$$",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue,
+      reviewCount,
+      bestRating: 5,
+      worstRating: 1,
+    },
   };
 
   const faqJsonLd = content.faqs.length

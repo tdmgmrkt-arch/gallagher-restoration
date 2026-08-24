@@ -6,8 +6,9 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { CityMap } from "@/components/ui/CityMap";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FinalCta } from "@/components/sections/FinalCta";
-import { COMPANY, PHONE, SERVICE_CATEGORIES, CITIES_BY_COUNTY } from "@/lib/site";
+import { COMPANY, PHONE, SERVICE_CATEGORIES, CITIES_BY_COUNTY, SOCIAL_URLS } from "@/lib/site";
 import { CITY_COORDS } from "@/lib/city-coords";
+import { getGoogleReviews } from "@/lib/google-reviews";
 import type { CityContent } from "@/lib/city-content";
 
 type CountyKey = keyof typeof CITIES_BY_COUNTY;
@@ -19,8 +20,9 @@ function getNearbyCities(slug: string, countySlug: string, limit = 6) {
   return siblings.slice(0, limit);
 }
 
-export function CityPage({ content }: { content: CityContent }) {
+export async function CityPage({ content }: { content: CityContent }) {
   const nearby = getNearbyCities(content.slug, content.countySlug);
+  const { ratingValue, reviewCount } = await getGoogleReviews();
 
   const cityCoords = CITY_COORDS[content.slug];
   const jsonLd = {
@@ -30,6 +32,7 @@ export function CityPage({ content }: { content: CityContent }) {
     name: COMPANY.name,
     telephone: PHONE.display,
     url: `https://gallagherrestoration.com/${content.slug}`,
+    sameAs: SOCIAL_URLS,
     address: {
       "@type": "PostalAddress",
       streetAddress: "31672 Railroad Canyon Rd",
@@ -58,6 +61,13 @@ export function CityPage({ content }: { content: CityContent }) {
       closes: "23:59",
     },
     priceRange: "$$",
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue,
+      reviewCount,
+      bestRating: 5,
+      worstRating: 1,
+    },
   };
 
   const faqJsonLd = content.faqs.length

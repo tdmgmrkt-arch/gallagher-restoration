@@ -5,9 +5,13 @@ import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FinalCta } from "@/components/sections/FinalCta";
-import { COMPANY, PHONE, SERVICE_CATEGORIES } from "@/lib/site";
+import { COMPANY, PHONE, SERVICE_CATEGORIES, SOCIAL_URLS } from "@/lib/site";
+import { CITY_COORDS } from "@/lib/city-coords";
+import { getGoogleReviews } from "@/lib/google-reviews";
 import type { ServiceContent } from "@/lib/service-content";
 import { SERVICE_CONTENT } from "@/lib/service-content";
+
+const HQ_COORDS = CITY_COORDS["canyon-lake-ca"];
 
 const CATEGORY_LABEL: Record<ServiceContent["category"], string> = {
   water: "Water",
@@ -129,7 +133,8 @@ function labelForSlug(slug: string): string {
   return slug;
 }
 
-export function ServicePage({ content }: { content: ServiceContent }) {
+export async function ServicePage({ content }: { content: ServiceContent }) {
+  const { ratingValue, reviewCount } = await getGoogleReviews();
   const parentSlug = content.parentSlug ?? findParentSlug(content.slug);
   const parentTitle = parentSlug
     ? SERVICE_CATEGORIES.find((c) => c.slug === parentSlug)?.title ?? "Services"
@@ -173,6 +178,7 @@ export function ServicePage({ content }: { content: ServiceContent }) {
       name: COMPANY.name,
       telephone: PHONE.display,
       url: "https://gallagherrestoration.com",
+      sameAs: SOCIAL_URLS,
       address: {
         "@type": "PostalAddress",
         streetAddress: "31672 Railroad Canyon Rd",
@@ -180,6 +186,18 @@ export function ServicePage({ content }: { content: ServiceContent }) {
         addressRegion: "CA",
         postalCode: "92587",
         addressCountry: "US",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: HQ_COORDS[0],
+        longitude: HQ_COORDS[1],
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue,
+        reviewCount,
+        bestRating: 5,
+        worstRating: 1,
       },
     },
     areaServed: [
