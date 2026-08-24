@@ -1,4 +1,5 @@
-import { GBP, REVIEWS } from "@/lib/site";
+import { GBP } from "@/lib/site";
+import { getGoogleReviews } from "@/lib/google-reviews";
 
 type Variant = "hero" | "footer";
 
@@ -69,8 +70,9 @@ function GoogleG() {
   );
 }
 
-export function GoogleReviewBadge({ variant = "hero" }: { variant?: Variant }) {
-  const label = `${REVIEWS.ratingValue.toFixed(1)}`;
+export async function GoogleReviewBadge({ variant = "hero" }: { variant?: Variant }) {
+  const { ratingValue, reviewCount } = await getGoogleReviews();
+  const label = ratingValue.toFixed(1);
 
   if (variant === "footer") {
     return (
@@ -91,9 +93,9 @@ export function GoogleReviewBadge({ variant = "hero" }: { variant?: Variant }) {
             <span className="text-[20px] font-bold leading-none tracking-[-0.02em] text-[#F4F5F1]">
               {label}
             </span>
-            <Stars rating={REVIEWS.ratingValue} />
+            <Stars rating={ratingValue} />
             <span className="text-[13px] text-[#C6CABF]">
-              &middot; {REVIEWS.reviewCount} reviews
+              &middot; {reviewCount} reviews
             </span>
           </div>
         </a>
@@ -114,16 +116,16 @@ export function GoogleReviewBadge({ variant = "hero" }: { variant?: Variant }) {
       href={GBP.mapsUrl}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={`${label} stars from ${REVIEWS.reviewCount} Google reviews. Opens Google Business Profile.`}
+      aria-label={`${label} stars from ${reviewCount} Google reviews. Opens Google Business Profile.`}
       className="group inline-flex items-center gap-[10px] border border-[rgba(255,255,255,0.13)] bg-[rgba(8,9,8,0.55)] px-[14px] py-[8px] backdrop-blur-[6px] transition-colors hover:border-[rgba(142,206,52,0.4)]"
     >
       <GoogleG />
       <span className="text-[14px] font-bold leading-none tracking-[-0.01em] text-[#F4F5F1]">
         {label}
       </span>
-      <Stars rating={REVIEWS.ratingValue} />
+      <Stars rating={ratingValue} />
       <span className="text-[12px] leading-none text-[#C6CABF]">
-        {REVIEWS.reviewCount} Google reviews
+        {reviewCount} Google reviews
       </span>
     </a>
   );

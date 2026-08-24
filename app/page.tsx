@@ -11,10 +11,12 @@ import { Faq } from "@/components/sections/Faq";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { ADDRESS, COMPANY, FAQS, GBP, PHONE, REVIEWS, SOCIAL_URLS } from "@/lib/site";
 import { CITY_COORDS } from "@/lib/city-coords";
+import { getGoogleReviews } from "@/lib/google-reviews";
 
 const HQ_COORDS = CITY_COORDS["canyon-lake-ca"];
 
-export default function Home() {
+export default async function Home() {
+  const liveReviews = await getGoogleReviews();
   const businessJsonLd = {
     "@context": "https://schema.org",
     "@type": "EmergencyService",
@@ -82,8 +84,8 @@ export default function Home() {
     priceRange: "$$",
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: REVIEWS.ratingValue,
-      reviewCount: REVIEWS.reviewCount,
+      ratingValue: liveReviews.ratingValue,
+      reviewCount: liveReviews.reviewCount,
       bestRating: REVIEWS.bestRating,
       worstRating: REVIEWS.worstRating,
     },
