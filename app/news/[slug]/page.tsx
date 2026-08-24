@@ -119,6 +119,64 @@ function renderBlock(block: BlogBlock, i: number) {
           {block.text}
         </blockquote>
       );
+    case "table":
+      return (
+        <div
+          key={i}
+          className="mt-8 overflow-x-auto border border-[rgba(255,255,255,0.09)] bg-[#121413]"
+        >
+          <table className="w-full border-collapse text-left text-[14px] leading-[1.6]">
+            <thead>
+              <tr className="border-b border-[rgba(255,255,255,0.14)] bg-[#0E100E]">
+                {block.headers.map((h, j) => (
+                  <th
+                    key={j}
+                    scope="col"
+                    className="px-[clamp(14px,1.6vw,22px)] py-[14px] font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]"
+                  >
+                    {h}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {block.rows.map((row, j) => (
+                <tr
+                  key={j}
+                  className="border-b border-[rgba(255,255,255,0.06)] last:border-b-0"
+                >
+                  {row.map((cell, k) => (
+                    <td
+                      key={k}
+                      className={`px-[clamp(14px,1.6vw,22px)] py-[16px] text-[#C6CABF] align-top ${k === 0 ? "font-medium text-[#F4F5F1]" : ""}`}
+                    >
+                      {cell}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+    case "faq":
+      return (
+        <dl key={i} className="mt-8 flex flex-col">
+          {block.items.map((item, j) => (
+            <div
+              key={j}
+              className="border-t border-[rgba(255,255,255,0.09)] py-6 last:border-b"
+            >
+              <dt className="text-[clamp(17px,1.4vw,20px)] font-bold leading-[1.35] tracking-[-0.015em] text-[#F4F5F1]">
+                {item.q}
+              </dt>
+              <dd className="mt-3 text-[clamp(15px,1.1vw,17px)] leading-[1.75] text-[#C2C6BC] text-pretty">
+                {item.a}
+              </dd>
+            </div>
+          ))}
+        </dl>
+      );
     default:
       return null;
   }
@@ -131,6 +189,21 @@ export default async function BlogPostPage({ params }: PageProps<"/news/[slug]">
 
   const all = listBlogPostsByDate();
   const related = all.filter((p) => p.slug !== post.slug).slice(0, 3);
+
+  const faqBlock = post.body.find((b) => b.type === "faq");
+  const faqJsonLd =
+    faqBlock && faqBlock.type === "faq"
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "@id": `https://gallagherrestoration.com/news/${post.slug}#faqpage`,
+          mainEntity: faqBlock.items.map((item) => ({
+            "@type": "Question",
+            name: item.q,
+            acceptedAnswer: { "@type": "Answer", text: item.a },
+          })),
+        }
+      : null;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -171,6 +244,12 @@ export default async function BlogPostPage({ params }: PageProps<"/news/[slug]">
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {faqJsonLd ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      ) : null}
 
       <PageHero
         eyebrow={post.category}

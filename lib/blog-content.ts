@@ -7,7 +7,9 @@ export type BlogBlock =
   | { type: "h3"; text: string }
   | { type: "ul"; items: string[] }
   | { type: "ol"; items: string[] }
-  | { type: "quote"; text: string };
+  | { type: "quote"; text: string }
+  | { type: "table"; headers: string[]; rows: string[][] }
+  | { type: "faq"; items: Array<{ q: string; a: string }> };
 
 export type BlogPost = {
   slug: string;
