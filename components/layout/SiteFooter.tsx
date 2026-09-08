@@ -12,8 +12,13 @@ const SOCIALS = [
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-[rgba(255,255,255,0.09)] bg-[#08090A] pt-[clamp(56px,7vw,96px)]">
-      <div className="mx-auto grid max-w-[1300px] grid-cols-[repeat(auto-fit,minmax(240px,1fr))] gap-[clamp(32px,4vw,64px)] px-[clamp(20px,5vw,56px)]">
+    <footer className="border-t border-[rgba(255,255,255,0.09)] bg-[#08090A] pt-[44px] sm:pt-[clamp(56px,7vw,96px)]">
+      {/* Below `sm` this is a single column, so the auto-fit track is pinned to
+          1 explicitly — that makes `sm` the exact switch point for the stacked
+          mobile treatment below (dividers, 2-up nav, full-width CTA) instead of
+          it landing mid-way through an auto-fit reflow. At sm+ the original
+          auto-fit behaviour is unchanged. */}
+      <div className="mx-auto grid max-w-[1300px] grid-cols-1 gap-[24px] px-[clamp(20px,5vw,56px)] sm:grid-cols-[repeat(auto-fit,minmax(240px,1fr))] sm:gap-[clamp(32px,4vw,64px)] [&>*+*]:border-t [&>*+*]:border-[rgba(255,255,255,0.07)] [&>*+*]:pt-[24px] sm:[&>*+*]:border-0 sm:[&>*+*]:pt-0">
         <div>
           <Image
             src="/gallagher_badge_logo.webp"
@@ -50,7 +55,9 @@ export function SiteFooter() {
           <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#5E635B]">
             Navigation
           </div>
-          <div className="mt-[22px] flex flex-col gap-3">
+          {/* 2-up on phones: six single-file rows was the tallest, emptiest
+              block in the mobile footer. */}
+          <div className="mt-[18px] grid grid-cols-2 gap-x-5 gap-y-[14px] sm:mt-[22px] sm:flex sm:flex-col sm:gap-3">
             {FOOTER_NAV.map((item) => (
               <Link
                 key={item.label}
@@ -109,7 +116,7 @@ export function SiteFooter() {
           </p>
           <Link
             href={PHONE.href}
-            className="mt-[22px] inline-flex items-center gap-[10px] rounded-[2px] bg-[#8ECE34] px-6 py-4 text-[15px] font-bold text-[#0B0C0B] transition-[transform,box-shadow,background-color] duration-[350ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-[2px] hover:bg-[#A6E053] hover:shadow-[0_14px_34px_rgba(142,206,52,0.26)]"
+            className="mt-[22px] flex w-full items-center justify-center gap-[10px] rounded-[2px] bg-[#8ECE34] px-6 py-4 text-[15px] font-bold text-[#0B0C0B] transition-[transform,box-shadow,background-color] duration-[350ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-[2px] hover:bg-[#A6E053] hover:shadow-[0_14px_34px_rgba(142,206,52,0.26)] sm:inline-flex sm:w-auto sm:justify-start"
           >
             Get Help 24/7
           </Link>
@@ -120,9 +127,9 @@ export function SiteFooter() {
       </div>
 
       <div className="mt-[clamp(48px,6vw,80px)] border-t border-[rgba(255,255,255,0.07)]">
-        <div className="mx-auto flex max-w-[1300px] flex-wrap items-center justify-between gap-4 px-[clamp(20px,5vw,56px)] py-[26px] font-mono text-[11px] uppercase tracking-[0.14em] text-[#5E635B]">
+        <div className="mx-auto flex max-w-[1300px] flex-wrap items-center justify-between gap-y-[14px] gap-x-4 px-[clamp(20px,5vw,56px)] py-[26px] font-mono text-[11px] uppercase tracking-[0.14em] text-[#5E635B] sm:gap-4">
           <span>&copy; {new Date().getFullYear()} {COMPANY.name}</span>
-          <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-[10px] sm:gap-y-2">
             <Link
               href="/privacy-policy"
               className="transition-colors hover:text-[#8ECE34]"
