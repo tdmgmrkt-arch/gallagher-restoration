@@ -141,7 +141,7 @@ export const POSTS = [
     title: "Mold Remediation Cost in California: 2026 Pricing Guide",
     excerpt:
       "Mold remediation in Southern California typically costs $1,500\u2013$6,000 for most residential jobs. Here is what drives the price up or down \u2014 and how to get an honest estimate.",
-    image: "/news_common_fire_damage.png",
+    image: "/mold-remediation-hero.webp",
     imageAlt:
       "Mold remediation technician inspecting a Southern California home for moisture damage and mold growth",
     category: "Mold",
