@@ -53,11 +53,11 @@ export function TeamBand() {
             <div className="mt-[36px] flex flex-wrap items-center gap-x-[clamp(24px,3vw,40px)] gap-y-[18px] border-t border-[rgba(255,255,255,0.09)] pt-[26px]">
               {PROOF.map((p) => (
                 <div key={p.label} className="flex items-baseline gap-[10px]">
-                  <div className="text-[clamp(24px,2.6vw,32px)] font-extrabold leading-none tracking-[-0.035em] text-[#F4F5F1]">
+                  <div className="text-[clamp(26px,3.2vw,40px)] font-extrabold leading-none tracking-[-0.035em] text-[#F4F5F1]">
                     {p.value}
                     <span className="text-[#8ECE34]">{p.suffix}</span>
                   </div>
-                  <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#7E837A]">
+                  <div className="font-mono text-[10px] uppercase tracking-[0.14em] text-[#7E837A]">
                     {p.label}
                   </div>
                 </div>

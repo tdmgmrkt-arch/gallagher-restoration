@@ -67,7 +67,7 @@ function LowProfileCard({
     >
       <TopAccentBar />
       <div className="flex flex-col items-center gap-3">
-        <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#8ECE34]">
+        <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-[#8ECE34]">
           {index}
         </span>
         <span
@@ -131,11 +131,11 @@ export function Services() {
 
             <div className="border-b border-[rgba(255,255,255,0.07)] p-[clamp(28px,3.6vw,56px)] lg:border-b-0 lg:border-r">
               <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                <div className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                   <span className="block h-2 w-2 bg-[#8ECE34]" />
                   {WATER.kicker}
                 </div>
-                <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#5E635B]">
+                <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-[#5E635B]">
                   01 / 06
                 </span>
               </div>
@@ -183,11 +183,11 @@ export function Services() {
               <div className="group relative flex h-full flex-col overflow-hidden border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(28px,3.4vw,52px)] transition-[border-color,transform,box-shadow] duration-[400ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-1 hover:border-[rgba(142,206,52,0.35)] hover:shadow-[0_24px_50px_rgba(0,0,0,0.35)]">
                 <TopAccentBar />
                 <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     <span className="block h-2 w-2 bg-[#8ECE34]" />
                     {cat.kicker}
                   </div>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#5E635B]">
+                  <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-[#5E635B]">
                     {String(idx + 2).padStart(2, "0")} / 06
                   </span>
                 </div>
@@ -226,7 +226,7 @@ export function Services() {
         {/* Bottom CTA rail */}
         <Reveal delay={120}>
           <div className="mt-[clamp(32px,3.4vw,48px)] flex flex-wrap items-center justify-between gap-6 border-t border-[rgba(255,255,255,0.09)] pt-8">
-            <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#7E837A]">
+            <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
               Something else?{" "}
               <Link
                 href="/services"
@@ -235,7 +235,7 @@ export function Services() {
                 Browse the full service directory →
               </Link>
             </div>
-            <div className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.2em] text-[#7E837A]">
+            <div className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
               <span
                 aria-hidden="true"
                 className="gr-pulse block h-[7px] w-[7px] rounded-full bg-[#8ECE34]"

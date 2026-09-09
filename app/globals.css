@@ -82,6 +82,35 @@ body {
   animation: gr-pulse 2.4s ease-in-out infinite;
 }
 
+/* --- 24/7 status marker (county cards) ------------------------------------
+   Static glow so it reads as "always on"; the dot breathes on opacity only
+   (cheap to composite) and both intensify when the card is hovered.
+   -------------------------------------------------------------------------- */
+.gr-status {
+  text-shadow: 0 0 10px rgba(142, 206, 52, 0.3);
+  transition: text-shadow 400ms cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+.gr-status-dot {
+  box-shadow: 0 0 6px 1px rgba(142, 206, 52, 0.55);
+  animation: gr-glow 3.4s ease-in-out infinite;
+  transition: box-shadow 400ms cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+.group:hover .gr-status {
+  text-shadow: 0 0 16px rgba(142, 206, 52, 0.6);
+}
+.group:hover .gr-status-dot {
+  box-shadow: 0 0 11px 3px rgba(142, 206, 52, 0.8);
+}
+@keyframes gr-glow {
+  0%,
+  100% {
+    opacity: 0.62;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
 /* --- Reduced motion --- */
 @media (prefers-reduced-motion: reduce) {
   html {
@@ -94,6 +123,10 @@ body {
   }
   .gr-pulse {
     animation: none;
+  }
+  .gr-status-dot {
+    animation: none;
+    opacity: 1;
   }
   *,
   *::before,
@@ -111,8 +144,8 @@ body {
    -------------------------------------------------------------------------- */
 @media (min-width: 1024px) {
   .text-\[9px\]  { font-size: 12px; }
-  .text-\[10px\] { font-size: 13px; }
-  .text-\[11px\] { font-size: 13.5px; }
+  .text-\[10px\] { font-size: 15px; }
+  .text-\[11px\] { font-size: 15px; }
   .text-\[12px\] { font-size: 14px; }
   .text-\[13px\] { font-size: 15px; }
   .text-\[14px\] { font-size: 16.5px; }

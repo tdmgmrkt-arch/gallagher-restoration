@@ -22,7 +22,7 @@ const BADGES = [
 export function TrustMarks({ variant = "band" }: { variant?: Variant }) {
   if (variant === "inline") {
     return (
-      <div className="flex flex-wrap items-center gap-[10px] font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A]">
+      <div className="flex flex-wrap items-center gap-[10px] font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]">
         <span className="inline-flex items-center gap-[8px] border border-[rgba(142,206,52,0.28)] bg-[rgba(142,206,52,0.05)] px-[10px] py-[6px] text-[#C6CABF]">
           <span className="text-[#8ECE34]">CSLB</span>
           <span className="text-[#F4F5F1]">#{COMPANY.cslbLicense}</span>
@@ -51,12 +51,12 @@ export function TrustMarks({ variant = "band" }: { variant?: Variant }) {
           >
             <span
               aria-hidden="true"
-              className="grid h-[52px] w-[52px] flex-none place-items-center border border-[rgba(142,206,52,0.3)] bg-[rgba(142,206,52,0.06)] font-mono text-[10px] uppercase tracking-[0.16em] text-[#8ECE34] transition-colors group-hover:border-[rgba(142,206,52,0.55)] group-hover:bg-[rgba(142,206,52,0.10)]"
+              className="grid h-[52px] w-[52px] flex-none place-items-center border border-[rgba(142,206,52,0.3)] bg-[rgba(142,206,52,0.06)] font-mono text-[10px] uppercase tracking-[0.13em] text-[#8ECE34] transition-colors group-hover:border-[rgba(142,206,52,0.55)] group-hover:bg-[rgba(142,206,52,0.10)]"
             >
               <ShieldGlyph />
             </span>
             <div className="min-w-0 flex-1">
-              <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-[#7E837A]">
+              <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#7E837A]">
                 {b.kicker}
               </div>
               <div className="mt-[6px] flex items-baseline gap-[8px]">
@@ -73,7 +73,7 @@ export function TrustMarks({ variant = "band" }: { variant?: Variant }) {
             </div>
             <span
               aria-hidden="true"
-              className="ml-auto flex-none font-mono text-[11px] uppercase tracking-[0.18em] text-[#5E635B] transition-colors group-hover:text-[#8ECE34]"
+              className="ml-auto flex-none font-mono text-[11px] uppercase tracking-[0.14em] text-[#5E635B] transition-colors group-hover:text-[#8ECE34]"
             >
               Verify &rarr;
             </span>

@@ -56,7 +56,7 @@ export function ServiceAreas() {
                   <span className="text-[#8ECE34]">{s.suffix}</span>
                 ) : null}
               </div>
-              <div className="mt-3 font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A]">
+              <div className="mt-3 font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]">
                 {s.label}
               </div>
             </Reveal>
@@ -131,11 +131,14 @@ export function ServiceAreas() {
 
                   <div className="mt-auto pt-[26px]">
                     <div className="h-px w-8 bg-[rgba(142,206,52,0.5)]" />
-                    <div className="mt-4 flex items-center justify-between gap-3 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
-                      <span>
+                    <div className="mt-4 flex flex-col gap-[9px] font-mono text-[11px] uppercase tracking-[0.13em] text-[#7E837A]">
+                      <span className="whitespace-nowrap">
                         <span className="text-[#F4F5F1]">{cities.length}</span> cities served
                       </span>
-                      <span>24/7 coverage</span>
+                      <span className="gr-status inline-flex items-center gap-[8px] whitespace-nowrap text-[#8ECE34]">
+                        <span aria-hidden="true" className="gr-status-dot h-[5px] w-[5px] flex-none rounded-full bg-[#8ECE34]" />
+                        24/7 coverage
+                      </span>
                     </div>
                   </div>
                 </Link>

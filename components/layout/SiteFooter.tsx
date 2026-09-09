@@ -30,7 +30,7 @@ export function SiteFooter() {
           <p className="mt-6 max-w-[34ch] text-[15px] leading-[1.7] text-[#8F948A] text-pretty">
             {COMPANY.tagline}
           </p>
-          <div className="mt-6 font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A]">
+          <div className="mt-6 font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]">
             Licensed &middot; Insured &middot; IICRC-Trained
           </div>
           <div className="mt-2 text-[13px] text-[#C6CABF]">
@@ -52,7 +52,7 @@ export function SiteFooter() {
         </div>
 
         <div>
-          <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#5E635B]">
+          <div className="font-mono text-[11px] uppercase tracking-[0.14em] text-[#5E635B]">
             Navigation
           </div>
           {/* 2-up on phones: six single-file rows was the tallest, emptiest
@@ -71,12 +71,12 @@ export function SiteFooter() {
         </div>
 
         <div>
-          <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#5E635B]">
+          <div className="font-mono text-[11px] uppercase tracking-[0.14em] text-[#5E635B]">
             Contact
           </div>
           <div className="mt-[22px] flex flex-col gap-[18px]">
             <div>
-              <div className="font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]">
+              <div className="font-mono text-[11px] uppercase tracking-[0.12em] text-[#7E837A]">
                 Phone
               </div>
               <Link
@@ -87,7 +87,7 @@ export function SiteFooter() {
               </Link>
             </div>
             <div>
-              <div className="font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]">
+              <div className="font-mono text-[11px] uppercase tracking-[0.12em] text-[#7E837A]">
                 Offices
               </div>
               <div className="mt-2 text-[16px] leading-[1.55] text-[#C6CABF]">
@@ -99,14 +99,14 @@ export function SiteFooter() {
                 href={GBP.directionsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-3 inline-block font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34] transition-colors hover:text-[#A6E053]"
+                className="mt-3 inline-block font-mono text-[11px] uppercase tracking-[0.14em] text-[#8ECE34] transition-colors hover:text-[#A6E053]"
               >
                 Get Directions &rarr;
               </a>
               <div className="mt-4 flex flex-col gap-2 border-t border-[rgba(255,255,255,0.08)] pt-4">
                 {OFFICES.filter((o) => o.kind === "satellite").map((o) => (
                   <div key={o.id} className="text-[14px] leading-[1.45]">
-                    <div className="font-mono text-[10px] uppercase tracking-[0.14em] text-[#7E837A]">
+                    <div className="font-mono text-[10px] uppercase tracking-[0.12em] text-[#7E837A]">
                       {o.role}
                     </div>
                     <div className="text-[#C6CABF]">
@@ -120,7 +120,7 @@ export function SiteFooter() {
         </div>
 
         <div>
-          <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#5E635B]">
+          <div className="font-mono text-[11px] uppercase tracking-[0.14em] text-[#5E635B]">
             Emergency Service
           </div>
           <p className="mt-[22px] text-[15px] leading-[1.7] text-[#8F948A] text-pretty">
@@ -139,7 +139,7 @@ export function SiteFooter() {
       </div>
 
       <div className="mt-[clamp(48px,6vw,80px)] border-t border-[rgba(255,255,255,0.07)]">
-        <div className="mx-auto flex max-w-[1300px] flex-wrap items-center justify-between gap-y-[14px] gap-x-4 px-[clamp(20px,5vw,56px)] py-[26px] font-mono text-[11px] uppercase tracking-[0.14em] text-[#5E635B] sm:gap-4">
+        <div className="mx-auto flex max-w-[1300px] flex-wrap items-center justify-between gap-y-[14px] gap-x-4 px-[clamp(20px,5vw,56px)] py-[26px] font-mono text-[11px] uppercase tracking-[0.12em] text-[#5E635B] sm:gap-4">
           <span>&copy; {new Date().getFullYear()} {COMPANY.name}</span>
           <div className="flex flex-wrap items-center gap-x-6 gap-y-[10px] sm:gap-y-2">
             <Link

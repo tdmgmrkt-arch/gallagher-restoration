@@ -117,7 +117,7 @@ export async function CountyPage({ content }: { content: CountyContent }) {
             {content.proofStrip.map((p, i) => (
               <Reveal key={`${p.label}-${i}`} delay={i * 80}>
                 <div className="flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(24px,2.6vw,36px)]">
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     {p.label}
                   </div>
                   <div className="mt-4 text-[clamp(28px,3vw,42px)] font-extrabold tracking-[-0.03em] text-[#F4F5F1]">
@@ -146,7 +146,7 @@ export async function CountyPage({ content }: { content: CountyContent }) {
               </h2>
               <div className="mt-auto pt-10">
                 <div className="h-[2px] w-[36px] bg-[#8ECE34]" />
-                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
                   {allCities.length}+ cities covered &middot; 24/7 dispatch
                 </div>
               </div>
@@ -177,7 +177,7 @@ export async function CountyPage({ content }: { content: CountyContent }) {
                     href={`/${c.slug}`}
                     className="group flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(22px,2.4vw,32px)] transition-[border-color,transform] duration-[400ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-[2px] hover:border-[rgba(142,206,52,0.35)]"
                   >
-                    <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                    <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                       City
                     </div>
                     <h3 className="mt-5 text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.15] tracking-[-0.025em] text-[#F4F5F1]">
@@ -209,7 +209,7 @@ export async function CountyPage({ content }: { content: CountyContent }) {
               </h2>
               <div className="mt-auto pt-10">
                 <div className="h-[2px] w-[36px] bg-[#8ECE34]" />
-                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
                   Climate-aware &middot; SoCal-native crews
                 </div>
               </div>
@@ -259,7 +259,7 @@ export async function CountyPage({ content }: { content: CountyContent }) {
                 href={PHONE.href}
                 className="group flex h-full flex-col justify-between border-l-2 border-[#8ECE34] bg-[radial-gradient(90%_120%_at_100%_0%,rgba(142,206,52,0.12),transparent_70%)] p-[clamp(22px,2.4vw,32px)] transition-colors hover:bg-[#121413]"
               >
-                <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                   {content.shortName} County &middot; 24/7
                 </div>
                 <h3 className="mt-5 text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.25] tracking-[-0.02em] text-[#F4F5F1]">
@@ -274,7 +274,7 @@ export async function CountyPage({ content }: { content: CountyContent }) {
 
           {/* Full service catalog link grid */}
           <div className="mt-[clamp(32px,4vw,56px)] border-t border-[rgba(255,255,255,0.09)] pt-8">
-            <div className="mb-6 font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+            <div className="mb-6 font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
               Full Service Catalog
             </div>
             <div className="flex flex-wrap gap-3">
@@ -305,7 +305,7 @@ export async function CountyPage({ content }: { content: CountyContent }) {
               </h2>
               <div className="mt-auto pt-10">
                 <div className="h-[2px] w-[36px] bg-[#8ECE34]" />
-                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
                   Licensed CSLB #1061640 &middot; Insured &middot; Direct Insurance Billing
                 </div>
               </div>
@@ -326,7 +326,7 @@ export async function CountyPage({ content }: { content: CountyContent }) {
             <Reveal>
               <div className="flex flex-wrap items-end justify-between gap-6 border-b border-[rgba(255,255,255,0.09)] pb-7">
                 <div>
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     Every City We Serve
                   </div>
                   <h3 className="mt-4 text-[clamp(22px,2.6vw,32px)] font-bold tracking-[-0.025em]">
@@ -350,7 +350,7 @@ export async function CountyPage({ content }: { content: CountyContent }) {
                     <span aria-hidden="true" className="block h-[1px] w-[10px] bg-[#8ECE34]" />
                     {c.name}
                     {c.isHq ? (
-                      <span className="ml-1 font-mono text-[10px] uppercase tracking-[0.15em] text-[#8ECE34]">
+                      <span className="ml-1 font-mono text-[10px] uppercase tracking-[0.13em] text-[#8ECE34]">
                         HQ
                       </span>
                     ) : null}

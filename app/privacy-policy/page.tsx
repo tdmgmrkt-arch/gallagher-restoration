@@ -30,7 +30,7 @@ export default function PrivacyPolicyPage() {
       <section className="bg-[#0B0C0B] py-[clamp(64px,8vw,120px)]">
         <div className="mx-auto max-w-[1300px] px-[clamp(20px,5vw,56px)]">
           <Reveal>
-            <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+            <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
               Effective {EFFECTIVE_DATE}
             </div>
             <p className="mt-6 text-[15px] leading-[1.8] text-[#C6CABF] text-pretty">

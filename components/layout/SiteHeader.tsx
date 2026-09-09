@@ -299,7 +299,7 @@ export function SiteHeader() {
                               <Link
                                 href={`/${cat.slug}`}
                                 onClick={() => setMenuOpen(false)}
-                                className="block font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]"
+                                className="block font-mono text-[11px] uppercase tracking-[0.14em] text-[#8ECE34]"
                               >
                                 {cat.kicker}
                               </Link>
@@ -325,7 +325,7 @@ export function SiteHeader() {
                                 <Link
                                   href={`/${county.slug}`}
                                   onClick={() => setMenuOpen(false)}
-                                  className="block font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]"
+                                  className="block font-mono text-[11px] uppercase tracking-[0.14em] text-[#8ECE34]"
                                 >
                                   {county.index} &middot; {county.name} {county.second}
                                 </Link>
@@ -389,7 +389,7 @@ function MegaLeftCard({
         className="pointer-events-none absolute inset-0 bg-gradient-to-br from-[rgba(18,20,19,0.85)] via-[rgba(18,20,19,0.6)] to-[rgba(18,20,19,0.9)]"
       />
       <div className="relative z-[1] flex h-full flex-col">
-        <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+        <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
           {kicker}
         </div>
         <h3 className="mt-4 text-[clamp(22px,2vw,28px)] font-extrabold leading-[1.1] tracking-[-0.03em] text-[#F4F5F1] text-balance">
@@ -397,7 +397,7 @@ function MegaLeftCard({
         </h3>
         <p className="mt-4 text-[14px] leading-[1.7] text-[#9CA098] text-pretty">{body}</p>
         <div className="mt-auto pt-6">
-          <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#7E837A]">
+          <div className="font-mono text-[10px] uppercase tracking-[0.16em] text-[#7E837A]">
             24/7 Emergency
           </div>
           <Link
@@ -434,7 +434,7 @@ function ServicesMega() {
                   href={`/${cat.slug}`}
                   className="group flex items-center justify-between gap-3 border-b border-[rgba(255,255,255,0.09)] pb-2"
                 >
-                  <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <span className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     {cat.kicker}
                   </span>
                   <span
@@ -466,7 +466,7 @@ function ServicesMega() {
         </div>
       </div>
       <div className="mt-[clamp(22px,2.4vw,30px)] flex flex-wrap items-center justify-between gap-4 border-t border-[rgba(255,255,255,0.09)] pt-5">
-        <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#7E837A]">
+        <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
           Not sure what you need? &nbsp; We&apos;ll assess on site &mdash; free.
         </p>
         <Link
@@ -504,7 +504,7 @@ function ServiceAreasMega() {
                     href={`/${county.slug}`}
                     className="group flex items-center justify-between gap-3 border-b border-[rgba(255,255,255,0.09)] pb-2"
                   >
-                    <span className="whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
+                    <span className="whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.13em] text-[#8ECE34]">
                       <span className="text-[#7E837A]">{county.index}</span> &nbsp; {county.name}{" "}
                       {county.second}
                     </span>
@@ -543,7 +543,7 @@ function ServiceAreasMega() {
         </div>
       </div>
       <div className="mt-[clamp(22px,2.4vw,30px)] flex flex-wrap items-center justify-between gap-4 border-t border-[rgba(255,255,255,0.09)] pt-5">
-        <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#7E837A]">
+        <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
           City not listed? &nbsp; Call us &mdash; we dispatch beyond our five-county core.
         </p>
         <Link

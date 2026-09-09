@@ -93,7 +93,7 @@ export function PageHero({
           <Reveal>
             <nav
               aria-label="Breadcrumb"
-              className="mb-8 flex flex-wrap items-center gap-[10px] font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A]"
+              className="mb-8 flex flex-wrap items-center gap-[10px] font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]"
             >
               {crumbs.map((c, i) => {
                 const isLast = i === crumbs.length - 1;

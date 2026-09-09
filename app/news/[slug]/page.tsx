@@ -132,7 +132,7 @@ function renderBlock(block: BlogBlock, i: number) {
                   <th
                     key={j}
                     scope="col"
-                    className="px-[clamp(14px,1.6vw,22px)] py-[14px] font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]"
+                    className="px-[clamp(14px,1.6vw,22px)] py-[14px] font-mono text-[11px] uppercase tracking-[0.14em] text-[#8ECE34]"
                   >
                     {h}
                   </th>
@@ -264,7 +264,7 @@ export default async function BlogPostPage({ params }: PageProps<"/news/[slug]">
       <article className="bg-[#0B0C0B] pt-[clamp(24px,3vw,48px)] pb-[clamp(72px,9vw,132px)]">
         <div className="mx-auto max-w-[1300px] px-[clamp(20px,5vw,56px)]">
           <Reveal>
-            <div className="mb-8 flex flex-wrap items-center gap-x-5 gap-y-2 border-b border-[rgba(255,255,255,0.09)] pb-6 font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A]">
+            <div className="mb-8 flex flex-wrap items-center gap-x-5 gap-y-2 border-b border-[rgba(255,255,255,0.09)] pb-6 font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]">
               <span className="text-[#8ECE34]">{post.category}</span>
               <span className="text-[#3F4340]">/</span>
               <span>By {post.author}</span>
@@ -307,7 +307,7 @@ export default async function BlogPostPage({ params }: PageProps<"/news/[slug]">
             <Reveal>
               <div className="flex flex-wrap items-end justify-between gap-6 border-b border-[rgba(255,255,255,0.09)] pb-7">
                 <div>
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     More From The Crew
                   </div>
                   <h3 className="mt-4 text-[clamp(22px,2.6vw,32px)] font-bold tracking-[-0.025em]">
@@ -340,7 +340,7 @@ export default async function BlogPostPage({ params }: PageProps<"/news/[slug]">
                         className="block aspect-[16/9] w-full object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] group-hover:scale-[1.04]"
                       />
                     </div>
-                    <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
+                    <div className="font-mono text-[11px] uppercase tracking-[0.14em] text-[#8ECE34]">
                       {p.category}
                       <span className="ml-2 text-[#5E635B]">
                         &middot;{" "}
@@ -350,7 +350,7 @@ export default async function BlogPostPage({ params }: PageProps<"/news/[slug]">
                     <h3 className="mt-3 max-w-[26ch] text-[clamp(20px,2.2vw,27px)] font-bold leading-[1.25] tracking-[-0.02em]">
                       {p.title}
                     </h3>
-                    <span className="mt-auto pt-5 font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
+                    <span className="mt-auto pt-5 font-mono text-[11px] uppercase tracking-[0.14em] text-[#8ECE34]">
                       Read More &rarr;
                     </span>
                   </Link>

@@ -39,7 +39,7 @@ export function FinalCta() {
               <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,transparent_40%,rgba(11,12,11,0.7)_100%)]" />
               <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 p-[clamp(20px,2.4vw,32px)]">
                 <div>
-                  <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[10px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     A Real Person, 24/7
                   </div>
                   <p className="mt-2 max-w-[28ch] text-[15px] leading-[1.55] font-medium text-[#F4F5F1] text-pretty">

@@ -128,7 +128,7 @@ export default function AboutPage() {
                 and grounded in doing the right thing for the customer. That&apos;s why our
                 neighbors keep calling us back and referring us to their friends.
               </p>
-              <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 border-t border-[rgba(255,255,255,0.07)] pt-6 font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A]">
+              <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 border-t border-[rgba(255,255,255,0.07)] pt-6 font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]">
                 <span>Licensed &middot; Insured</span>
                 <span className="text-[#C6CABF]">CSLB #1061640</span>
               </div>
@@ -200,7 +200,7 @@ export default function AboutPage() {
                   { label: "License", value: "CSLB #1061640" },
                 ].map((item) => (
                   <div key={item.label}>
-                    <dt className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#7E837A]">
+                    <dt className="font-mono text-[10px] uppercase tracking-[0.16em] text-[#7E837A]">
                       {item.label}
                     </dt>
                     <dd className="mt-1 text-[14px] font-semibold text-[#F4F5F1]">{item.value}</dd>
@@ -237,7 +237,7 @@ export default function AboutPage() {
             {VALUES.map((v, i) => (
               <Reveal key={v.title} delay={i * 90}>
                 <div className="h-full border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(28px,3.2vw,44px)] transition-[border-color,transform] duration-[400ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-1 hover:border-[rgba(142,206,52,0.35)]">
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     {v.kicker}
                   </div>
                   <h3 className="mt-6 text-[clamp(22px,2.2vw,30px)] font-bold tracking-[-0.025em]">
@@ -270,7 +270,7 @@ export default function AboutPage() {
                   {s.value}
                   {s.suffix ? <span className="text-[#8ECE34]">{s.suffix}</span> : null}
                 </div>
-                <div className="mt-[10px] font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
+                <div className="mt-[10px] font-mono text-[11px] uppercase tracking-[0.13em] text-[#7E837A]">
                   {s.label}
                 </div>
               </Reveal>

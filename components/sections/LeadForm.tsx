@@ -9,7 +9,7 @@ const INPUT =
 const INPUT_LG =
   "rounded-[2px] border border-[rgba(255,255,255,0.13)] bg-[#0E100E] px-[16px] py-[18px] font-sans text-[16px] text-[#F4F5F1] outline-none transition-colors duration-300 placeholder:text-[#5E635B] focus:border-[#8ECE34]";
 const LABEL =
-  "font-mono text-[10px] uppercase tracking-[0.16em] text-[#7E837A]";
+  "font-mono text-[10px] uppercase tracking-[0.13em] text-[#7E837A]";
 
 type LeadFormProps = {
   variant?: "compact" | "full";
@@ -71,7 +71,7 @@ export function LeadForm({ variant = "compact" }: LeadFormProps) {
   if (variant === "compact") {
     return (
       <form onSubmit={onSubmit} noValidate>
-        <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+        <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
           Request A Callback
         </div>
         <h3 className="mt-4 text-[clamp(20px,2vw,26px)] font-bold tracking-[-0.03em]">
@@ -128,7 +128,7 @@ export function LeadForm({ variant = "compact" }: LeadFormProps) {
           </ol>
         </div>
 
-        <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-[rgba(255,255,255,0.07)] pt-5 font-mono text-[10px] uppercase tracking-[0.16em] text-[#7E837A]">
+        <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-[rgba(255,255,255,0.07)] pt-5 font-mono text-[10px] uppercase tracking-[0.13em] text-[#7E837A]">
           <span className="text-[#C6CABF]">IICRC</span>
           <span className="text-[#3F4340]">/</span>
           <span className="text-[#C6CABF]">ANSI Certified</span>
@@ -141,7 +141,7 @@ export function LeadForm({ variant = "compact" }: LeadFormProps) {
           className="mt-5 flex items-center justify-between gap-3 rounded-[2px] border border-[rgba(142,206,52,0.35)] bg-[rgba(142,206,52,0.08)] px-4 py-4 transition-colors hover:border-[#8ECE34] hover:bg-[rgba(142,206,52,0.14)]"
         >
           <span>
-            <span className="block font-mono text-[10px] uppercase tracking-[0.16em] text-[#8ECE34]">
+            <span className="block font-mono text-[10px] uppercase tracking-[0.13em] text-[#8ECE34]">
               Active Emergency?
             </span>
             <span className="mt-1 block text-[15px] font-bold text-[#F4F5F1]">
@@ -161,7 +161,7 @@ export function LeadForm({ variant = "compact" }: LeadFormProps) {
 
   return (
     <form onSubmit={onSubmit} noValidate>
-      <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+      <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
         Request Service
       </div>
       <h3 className="mt-4 text-[clamp(20px,2vw,26px)] font-bold tracking-[-0.03em]">

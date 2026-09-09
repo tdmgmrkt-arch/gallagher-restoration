@@ -259,7 +259,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
       {content.crossLinks && content.crossLinks.length > 0 ? (
         <section className="border-b border-[rgba(255,255,255,0.07)] bg-[#0B0C0B]">
           <div className="mx-auto flex max-w-[1300px] flex-wrap items-center gap-[clamp(14px,2vw,28px)] px-[clamp(20px,5vw,56px)] py-[clamp(18px,2.4vw,30px)]">
-            <span className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+            <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
               Looking for something else?
             </span>
             <div className="flex flex-wrap gap-[10px]">
@@ -290,7 +290,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
             {content.proofStrip.map((p, i) => (
               <Reveal key={`${p.label}-${i}`} delay={i * 80}>
                 <div className="flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(24px,2.6vw,36px)]">
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     {p.label}
                   </div>
                   <div className="mt-4 text-[clamp(28px,3vw,42px)] font-extrabold tracking-[-0.03em] text-[#F4F5F1]">
@@ -319,7 +319,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
               </h2>
               <div className="mt-auto pt-10">
                 <div className="h-[2px] w-[36px] bg-[#8ECE34]" />
-                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
                   24/7 &middot; Same-day response across SoCal
                 </div>
               </div>
@@ -350,7 +350,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
                   id={`step-${i + 1}`}
                   className="flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(24px,2.6vw,36px)]"
                 >
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     {step.kicker}
                   </div>
                   <h3 className="mt-5 text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.2] tracking-[-0.02em] text-[#F4F5F1]">
@@ -403,7 +403,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
                 href={PHONE.href}
                 className="group flex h-full flex-col justify-between border-l-2 border-[#8ECE34] bg-[radial-gradient(90%_120%_at_100%_0%,rgba(142,206,52,0.12),transparent_70%)] p-[clamp(22px,2.4vw,32px)] transition-colors hover:bg-[#121413]"
               >
-                <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                   Not sure?
                 </div>
                 <h3 className="mt-5 text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.25] tracking-[-0.02em] text-[#F4F5F1]">
@@ -430,7 +430,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
               </h2>
               <div className="mt-auto pt-10">
                 <div className="h-[2px] w-[36px] bg-[#8ECE34]" />
-                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
                   Licensed CSLB #1061640 &middot; Insured &middot; Direct Insurance Billing
                 </div>
               </div>
@@ -456,7 +456,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
                 </h2>
                 <div className="mt-auto pt-10">
                   <div className="h-[2px] w-[36px] bg-[#8ECE34]" />
-                  <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                  <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
                     Insurance-Billed &middot; No Deductible Games
                   </div>
                 </div>
@@ -525,7 +525,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
             <Reveal>
               <div className="flex flex-wrap items-end justify-between gap-6 border-b border-[rgba(255,255,255,0.09)] pb-7">
                 <div>
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     Related Services
                   </div>
                   <h3 className="mt-4 text-[clamp(22px,2.6vw,32px)] font-bold tracking-[-0.025em]">

@@ -55,7 +55,7 @@ export default function NewsPage() {
                 />
               </div>
               <div className="flex flex-col justify-center p-[clamp(28px,3.4vw,52px)]">
-                <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                   Featured &middot; {featured.category}
                   <span className="ml-2 text-[#5E635B]">
                     &middot;{" "}
@@ -97,7 +97,7 @@ export default function NewsPage() {
                       className="block aspect-[16/9] w-full object-cover transition-transform duration-[1100ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] group-hover:scale-[1.05]"
                     />
                   </div>
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     {p.category}
                     <span className="ml-2 text-[#5E635B]">
                       &middot;{" "}
@@ -112,7 +112,7 @@ export default function NewsPage() {
                   <p className="mt-[14px] text-[15px] leading-[1.7] text-[#9CA098] text-pretty">
                     {p.excerpt}
                   </p>
-                  <span className="mt-auto pt-[26px] font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
+                  <span className="mt-auto pt-[26px] font-mono text-[11px] uppercase tracking-[0.14em] text-[#8ECE34]">
                     Read More &rarr;
                   </span>
                 </Link>

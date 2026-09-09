@@ -33,7 +33,7 @@ export default function ServicesPage() {
               <Reveal key={cat.slug} delay={(i % 3) * 80}>
                 <article className="group grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] border border-[rgba(255,255,255,0.09)] bg-[#121413] transition-[border-color,transform] duration-[400ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:border-[rgba(142,206,52,0.35)]">
                   <div className="border-b border-[rgba(255,255,255,0.07)] p-[clamp(28px,3.4vw,52px)] lg:border-b-0 lg:border-r">
-                    <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                    <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                       {cat.kicker}
                     </div>
                     <h2 className="mt-[22px] max-w-[22ch] text-[clamp(24px,2.6vw,34px)] font-bold leading-[1.12] tracking-[-0.03em]">

@@ -17,7 +17,7 @@ export function Eyebrow({
     <div
       className={[
         "flex items-center gap-3 font-mono uppercase text-[#8ECE34]",
-        "text-[clamp(11px,1.15vw,14px)] tracking-[0.2em]",
+        "text-[clamp(12px,1.25vw,15px)] tracking-[0.16em]",
         className,
       ].join(" ")}
     >

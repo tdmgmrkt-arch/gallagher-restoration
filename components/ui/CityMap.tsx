@@ -16,10 +16,10 @@ export function CityMap({
   return (
     <div className="relative border border-[rgba(255,255,255,0.09)] bg-[#0E100E] p-[clamp(16px,2vw,24px)]">
       <div className="flex items-center justify-between gap-4">
-        <div className="font-mono text-[10px] uppercase tracking-[0.22em] text-[#8ECE34]">
+        <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#8ECE34]">
           {activeName} &mdash; Service Area
         </div>
-        <div className="font-mono text-[10px] uppercase tracking-[0.18em] text-[#6E7268]">
+        <div className="font-mono text-[10px] uppercase tracking-[0.14em] text-[#6E7268]">
           24/7 Response
         </div>
       </div>
@@ -35,7 +35,7 @@ export function CityMap({
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_70%_at_50%_50%,transparent_60%,rgba(11,12,11,0.55)_100%)]" />
       </div>
 
-      <div className="mt-4 flex flex-wrap items-center justify-between gap-x-6 gap-y-2 border-t border-[rgba(255,255,255,0.07)] pt-3 font-mono text-[10px] uppercase tracking-[0.18em] text-[#6E7268]">
+      <div className="mt-4 flex flex-wrap items-center justify-between gap-x-6 gap-y-2 border-t border-[rgba(255,255,255,0.07)] pt-3 font-mono text-[10px] uppercase tracking-[0.14em] text-[#6E7268]">
         <span>Southern California coverage</span>
         <span className="text-[#8ECE34]">Riverside &middot; San Bernardino &middot; Orange &middot; San Diego &middot; LA</span>
       </div>

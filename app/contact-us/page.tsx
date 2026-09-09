@@ -71,7 +71,7 @@ export default function ContactUsPage() {
           <Reveal>
             <nav
               aria-label="Breadcrumb"
-              className="mb-6 flex flex-wrap items-center gap-[10px] font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A]"
+              className="mb-6 flex flex-wrap items-center gap-[10px] font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]"
             >
               <Link href="/" className="transition-colors hover:text-[#8ECE34]">
                 Home
@@ -113,14 +113,14 @@ export default function ContactUsPage() {
                 href={PHONE.href}
                 className="group flex h-full flex-col border-l-2 border-[#8ECE34] bg-[radial-gradient(90%_120%_at_100%_0%,rgba(142,206,52,0.14),transparent_72%)] p-[clamp(20px,2.2vw,30px)] transition-colors hover:bg-[#121413]"
               >
-                <div className="flex items-center gap-[10px] font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                <div className="flex items-center gap-[10px] font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
                   <span className="relative inline-flex h-[8px] w-[8px]">
                     <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#8ECE34] opacity-70" />
                     <span className="relative inline-flex h-[8px] w-[8px] rounded-full bg-[#8ECE34]" />
                   </span>
                   Emergency Line
                 </div>
-                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
+                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.13em] text-[#7E837A]">
                   24/7 Dispatch
                 </div>
                 <div className="mt-2 whitespace-nowrap text-[clamp(24px,2.7vw,34px)] font-extrabold leading-[1.05] tracking-[-0.035em] text-[#F4F5F1] transition-colors group-hover:text-[#8ECE34]">
@@ -143,10 +143,10 @@ export default function ContactUsPage() {
                 rel="noopener noreferrer"
                 className="group flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(20px,2.2vw,30px)] transition-[border-color,transform] duration-[350ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-[2px] hover:border-[rgba(142,206,52,0.35)]"
               >
-                <div className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
                   Corporate HQ
                 </div>
-                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
+                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.13em] text-[#7E837A]">
                   Canyon Lake HQ
                 </div>
                 <div className="mt-2 text-[clamp(22px,2.4vw,30px)] font-extrabold leading-[1.15] tracking-[-0.03em] text-[#F4F5F1]">
@@ -168,10 +168,10 @@ export default function ContactUsPage() {
             {/* Response Time — stat tile */}
             <Reveal delay={180}>
               <div className="flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(20px,2.2vw,30px)]">
-                <div className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
                   Response Time
                 </div>
-                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
+                <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.13em] text-[#7E837A]">
                   Typical Arrival
                 </div>
                 <div className="mt-1 flex items-baseline gap-[10px]">
@@ -185,7 +185,7 @@ export default function ContactUsPage() {
                 <p className="mt-3 max-w-[32ch] text-[14px] leading-[1.6] text-[#9CA098] text-pretty">
                   On-site across our five-county service area &mdash; often faster in Southwest Riverside.
                 </p>
-                <div className="mt-auto pt-5 font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                <div className="mt-auto pt-5 font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                   24 / 7 &middot; 365 Days a Year
                 </div>
               </div>
@@ -197,10 +197,10 @@ export default function ContactUsPage() {
             {OFFICES.filter((o) => o.kind === "satellite").map((o, i) => (
               <Reveal key={o.id} delay={i * 90}>
                 <div className="flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(20px,2.2vw,30px)]">
-                  <div className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
                     Satellite Office
                   </div>
-                  <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
+                  <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.13em] text-[#7E837A]">
                     {o.role}
                   </div>
                   <div className="mt-2 text-[clamp(22px,2.4vw,30px)] font-extrabold leading-[1.15] tracking-[-0.03em] text-[#F4F5F1]">
@@ -242,7 +242,7 @@ export default function ContactUsPage() {
                         isLast ? "" : "border-b border-[rgba(255,255,255,0.09)]",
                       ].join(" ")}
                     >
-                      <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                      <span className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                         {s.kicker}
                       </span>
                       <h3 className="text-[clamp(20px,2.2vw,27px)] font-bold leading-[1.2] tracking-[-0.025em] text-[#F4F5F1]">
@@ -272,7 +272,7 @@ export default function ContactUsPage() {
           <Reveal>
             <div className="mb-8 flex flex-wrap items-end justify-between gap-6">
               <div>
-                <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                   Find Us
                 </div>
                 <h3 className="mt-4 text-[clamp(22px,2.6vw,32px)] font-bold tracking-[-0.025em]">
@@ -309,7 +309,7 @@ export default function ContactUsPage() {
           <Reveal>
             <div className="flex flex-wrap items-end justify-between gap-6 border-b border-[rgba(255,255,255,0.09)] pb-7">
               <div>
-                <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                   Coverage Map
                 </div>
                 <h3 className="mt-4 text-[clamp(22px,2.6vw,32px)] font-bold tracking-[-0.025em]">

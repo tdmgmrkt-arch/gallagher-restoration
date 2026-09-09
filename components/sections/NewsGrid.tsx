@@ -52,7 +52,7 @@ export function NewsGrid() {
                 <p className="mt-[14px] text-[15px] leading-[1.7] text-[#9CA098] text-pretty">
                   {p.excerpt}
                 </p>
-                <span className="mt-[26px] font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
+                <span className="mt-[26px] font-mono text-[11px] uppercase tracking-[0.14em] text-[#8ECE34]">
                   Read More &rarr;
                 </span>
               </Link>

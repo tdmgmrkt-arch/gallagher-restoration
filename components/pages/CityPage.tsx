@@ -121,7 +121,7 @@ export async function CityPage({ content }: { content: CityContent }) {
             {content.proofStrip.map((p, i) => (
               <Reveal key={`${p.label}-${i}`} delay={i * 80}>
                 <div className="flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(24px,2.6vw,36px)]">
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     {p.label}
                   </div>
                   <div className="mt-4 text-[clamp(28px,3vw,42px)] font-extrabold tracking-[-0.03em] text-[#F4F5F1]">
@@ -183,7 +183,7 @@ export async function CityPage({ content }: { content: CityContent }) {
             {content.neighborhoods.items.map((item, i) => (
               <Reveal key={item.name} delay={i * 60}>
                 <div className="flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(22px,2.4vw,32px)]">
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     Neighborhood
                   </div>
                   <h3 className="mt-4 text-[clamp(20px,2.2vw,27px)] font-bold leading-[1.2] tracking-[-0.02em] text-[#F4F5F1]">
@@ -248,7 +248,7 @@ export async function CityPage({ content }: { content: CityContent }) {
                   aria-hidden="true"
                   className="h-[2px] w-[36px] bg-[#8ECE34]"
                 />
-                <p className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8F948A]">
+                <p className="mt-5 font-mono text-[11px] uppercase tracking-[0.18em] text-[#8F948A]">
                   24/7 &middot; Every call answered by our team
                 </p>
               </div>
@@ -285,7 +285,7 @@ export async function CityPage({ content }: { content: CityContent }) {
                   href={`/${cat.slug}`}
                   className="group flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(22px,2.4vw,32px)] transition-[border-color,transform] duration-[400ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-[2px] hover:border-[rgba(142,206,52,0.35)]"
                 >
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     {cat.kicker}
                   </div>
                   <h3 className="mt-5 text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.15] tracking-[-0.025em] text-[#F4F5F1]">
@@ -306,7 +306,7 @@ export async function CityPage({ content }: { content: CityContent }) {
                 className="group relative flex h-full flex-col justify-between overflow-hidden border border-[rgba(142,206,52,0.28)] bg-[radial-gradient(90%_120%_at_100%_0%,rgba(142,206,52,0.12),transparent_70%)] p-[clamp(22px,2.4vw,32px)] transition-[border-color,transform] duration-[400ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-[2px] hover:border-[#8ECE34]"
               >
                 <div>
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     Full Catalog
                   </div>
                   <h3 className="mt-5 text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.15] tracking-[-0.025em] text-[#F4F5F1]">
@@ -340,7 +340,7 @@ export async function CityPage({ content }: { content: CityContent }) {
                   aria-hidden="true"
                   className="h-[2px] w-[36px] bg-[#8ECE34]"
                 />
-                <p className="mt-5 font-mono text-[11px] uppercase tracking-[0.22em] text-[#8F948A]">
+                <p className="mt-5 font-mono text-[11px] uppercase tracking-[0.18em] text-[#8F948A]">
                   Licensed CSLB #1061640 &middot; Insured &middot; Direct Insurance Billing
                 </p>
               </div>
@@ -379,7 +379,7 @@ export async function CityPage({ content }: { content: CityContent }) {
           <div className="mx-auto max-w-[1000px] px-[clamp(20px,5vw,56px)]">
             <Reveal>
               <div className="border-l-2 border-[#8ECE34] bg-[#121413] p-[clamp(28px,3vw,44px)]">
-                <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                   Track Record in {content.name}
                 </div>
                 <p className="mt-4 text-[16px] leading-[1.8] text-[#C2C6BC] text-pretty">
@@ -398,7 +398,7 @@ export async function CityPage({ content }: { content: CityContent }) {
             <Reveal>
               <div className="flex flex-wrap items-end justify-between gap-6 border-b border-[rgba(255,255,255,0.09)] pb-7">
                 <div>
-                  <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                     Nearby Coverage
                   </div>
                   <h3 className="mt-4 text-[clamp(22px,2.6vw,32px)] font-bold tracking-[-0.025em]">

@@ -88,7 +88,7 @@ export function Process() {
                   >
                     {s.index}
                   </span>
-                  <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A]">
+                  <span className="font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]">
                     {s.kicker}
                   </span>
                 </div>

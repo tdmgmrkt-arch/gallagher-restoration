@@ -107,7 +107,7 @@ export function Hero() {
                 {s.value}
                 {s.suffix ? <span className="text-[#8ECE34]">{s.suffix}</span> : null}
               </div>
-              <div className="mt-[10px] font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
+              <div className="mt-[10px] font-mono text-[11px] uppercase tracking-[0.13em] text-[#7E837A]">
                 {s.label}
               </div>
             </Reveal>

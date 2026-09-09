@@ -41,7 +41,7 @@ export function Faq({ hideHeader = false }: { hideHeader?: boolean } = {}) {
               </div>
 
               <div className="mt-[clamp(32px,4vw,52px)] border-t border-[rgba(255,255,255,0.09)] pt-[clamp(24px,3vw,36px)]">
-                <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                <div className="font-mono text-[10px] uppercase tracking-[0.16em] text-[#8ECE34]">
                   What to Have Ready
                 </div>
                 <ul className="mt-5 flex flex-col gap-3.5">
@@ -60,7 +60,7 @@ export function Faq({ hideHeader = false }: { hideHeader?: boolean } = {}) {
               </div>
 
               <div className="mt-10 flex flex-col gap-4 lg:mt-auto lg:pt-10">
-                <div className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#7E837A]">
+                <div className="font-mono text-[10px] uppercase tracking-[0.16em] text-[#7E837A]">
                   Ready to Talk to Someone?
                 </div>
                 <Link

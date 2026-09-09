@@ -66,7 +66,7 @@ export function TestimonialsCarousel({ reviews, isLive }: Props) {
           {canPaginate && (
             <Reveal delay={160}>
               <div className="flex items-center gap-4">
-                <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A]">
+                <div className="font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]">
                   <span className="text-[#F4F5F1]">{String(index + 1).padStart(2, "0")}</span>
                   <span className="mx-2 text-[#3D423B]">/</span>
                   <span>{String(maxIndex + 1).padStart(2, "0")}</span>
@@ -149,7 +149,7 @@ function TestimonialCard({ review, isLive }: { review: LiveReview; isLive: boole
         <div className="flex items-center gap-[10px]">
           <Stars rating={review.rating} />
           {isLive && review.relativeTime && (
-            <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-[#7E837A]">
+            <span className="font-mono text-[10px] uppercase tracking-[0.13em] text-[#7E837A]">
               &middot; {review.relativeTime}
             </span>
           )}
@@ -157,7 +157,7 @@ function TestimonialCard({ review, isLive }: { review: LiveReview; isLive: boole
         <blockquote className={bodyClass}>&ldquo;{displayText}&rdquo;</blockquote>
         <figcaption className="mt-auto pt-8">
           <div className="h-px w-8 bg-[rgba(142,206,52,0.5)]" />
-          <div className="mt-4 flex items-center justify-between gap-3">
+          <div className="mt-4 flex flex-wrap items-center justify-between gap-x-3 gap-y-2">
             <div className="flex items-center gap-[10px] min-w-0">
               {isLive && review.authorPhotoUri ? (
                 <Image
@@ -176,11 +176,11 @@ function TestimonialCard({ review, isLive }: { review: LiveReview; isLive: boole
                   {review.authorName.charAt(0)}
                 </span>
               )}
-              <span className="truncate font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
+              <span className="font-mono text-[11px] uppercase tracking-[0.08em] text-[#8ECE34]">
                 {review.authorName}
               </span>
             </div>
-            <span className="flex-none font-mono text-[10px] uppercase tracking-[0.18em] text-[#7E837A]">
+            <span className="flex-none font-mono text-[10px] uppercase tracking-[0.14em] text-[#7E837A]">
               {isLive ? "via Google" : "Verified Client"}
             </span>
           </div>

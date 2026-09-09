@@ -85,7 +85,7 @@ export async function GoogleReviewBadge({ variant = "hero" }: { variant?: Varian
         >
           <div className="flex items-center gap-2">
             <GoogleG />
-            <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#7E837A] transition-colors group-hover:text-[#C6CABF]">
+            <span className="font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A] transition-colors group-hover:text-[#C6CABF]">
               Google Rating
             </span>
           </div>
@@ -103,7 +103,7 @@ export async function GoogleReviewBadge({ variant = "hero" }: { variant?: Varian
           href={GBP.reviewUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-1 font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34] transition-colors hover:text-[#A6E053]"
+          className="mt-1 font-mono text-[11px] uppercase tracking-[0.14em] text-[#8ECE34] transition-colors hover:text-[#A6E053]"
         >
           Leave a review &rarr;
         </a>

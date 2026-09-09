@@ -50,7 +50,7 @@ export default function ServiceAreasPage() {
                     <br />
                     {c.second}
                   </div>
-                  <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
+                  <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.13em] text-[#7E837A]">
                     {CITIES_BY_COUNTY[c.slug]?.length ?? 0} Cities Served
                   </div>
                 </Link>
@@ -70,7 +70,7 @@ export default function ServiceAreasPage() {
                   <Reveal>
                     <div className="flex flex-wrap items-end justify-between gap-6 border-b border-[rgba(255,255,255,0.1)] pb-8">
                       <div>
-                        <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
+                        <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                           County {c.index}
                         </div>
                         <h2 className="mt-4 text-[clamp(28px,3.6vw,44px)] font-extrabold leading-[1.05] tracking-[-0.035em]">
@@ -105,7 +105,7 @@ export default function ServiceAreasPage() {
                                 {city.name}
                               </span>
                               {isHq ? (
-                                <span className="font-mono text-[10px] uppercase tracking-[0.16em] text-[#8ECE34]">
+                                <span className="font-mono text-[10px] uppercase tracking-[0.13em] text-[#8ECE34]">
                                   HQ
                                 </span>
                               ) : null}
