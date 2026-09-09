@@ -39,12 +39,12 @@ export function TeamBand() {
             </h2>
           </Reveal>
           <Reveal delay={160}>
-            <p className="mt-[24px] text-[clamp(15px,1.2vw,17px)] leading-[1.75] text-[#C2C6BC] text-pretty">
+            <p className="mt-[24px] text-[clamp(15px,1.35vw,19px)] leading-[1.75] text-[#C2C6BC] text-pretty">
               Our company is built around a diverse and dedicated team of restoration professionals, each bringing their own skills and expertise to every project.
             </p>
           </Reveal>
           <Reveal delay={210}>
-            <p className="mt-[14px] text-[clamp(14px,1.15vw,16px)] leading-[1.75] text-[#9CA098] text-pretty">
+            <p className="mt-[14px] text-[clamp(15px,1.35vw,18px)] leading-[1.75] text-[#9CA098] text-pretty">
               From experienced leadership to our restoration crews in the field, our team is united by a shared commitment to professionalism, quality workmanship, and taking care of our customers.
             </p>
           </Reveal>

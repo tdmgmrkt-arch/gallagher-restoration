@@ -103,3 +103,24 @@ body {
     transition-duration: 0.001ms !important;
   }
 }
+/* --- Desktop readability scale ---------------------------------------------
+   Body/UI copy is authored in fixed px (headings use clamp() and already
+   scale). On large screens those fixed sizes read small, so bump them ~20-25%
+   from 1024px up. Unlayered rules beat Tailwind's `utilities` layer, so these
+   win without !important. Decorative sizes (e.g. text-[160px]) are excluded.
+   -------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .text-\[9px\]  { font-size: 12px; }
+  .text-\[10px\] { font-size: 13px; }
+  .text-\[11px\] { font-size: 13.5px; }
+  .text-\[12px\] { font-size: 14px; }
+  .text-\[13px\] { font-size: 15px; }
+  .text-\[14px\] { font-size: 16.5px; }
+  .text-\[15px\] { font-size: 18px; }
+  .text-\[16px\] { font-size: 19.5px; }
+  .text-\[17px\] { font-size: 21px; }
+  .text-\[18px\] { font-size: 22px; }
+  .text-\[20px\] { font-size: 24px; }
+  .text-\[22px\] { font-size: 26px; }
+  .text-\[26px\] { font-size: 30px; }
+}

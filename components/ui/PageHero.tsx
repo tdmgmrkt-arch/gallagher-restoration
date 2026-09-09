@@ -125,7 +125,7 @@ export function PageHero({
         </Reveal>
         {intro ? (
           <Reveal delay={160}>
-            <p className="mt-8 max-w-[64ch] text-[clamp(16px,1.3vw,19px)] leading-[1.7] text-[#C2C6BC] text-pretty">
+            <p className="mt-8 max-w-[64ch] text-[clamp(16px,1.45vw,21px)] leading-[1.7] text-[#C2C6BC] text-pretty">
               {intro}
             </p>
           </Reveal>

@@ -70,7 +70,7 @@ export function Process() {
           </div>
         </Reveal>
 
-        <div className="mt-[clamp(44px,5vw,80px)] grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-[clamp(20px,2.6vw,36px)]">
+        <div className="mt-[clamp(44px,5vw,80px)] grid grid-cols-[repeat(auto-fit,minmax(340px,1fr))] gap-[clamp(20px,2.6vw,36px)]">
           {STEPS.map((s, i) => (
             <Reveal key={s.index} delay={i * 90}>
               <div

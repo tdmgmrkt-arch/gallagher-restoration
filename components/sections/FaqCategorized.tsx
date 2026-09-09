@@ -43,7 +43,7 @@ export function FaqCategorized() {
                         type="button"
                         onClick={() => setOpenKey(isOpen ? null : key)}
                         aria-expanded={isOpen}
-                        className="group flex w-full items-center justify-between gap-6 bg-transparent py-[22px] text-left text-[clamp(16px,1.5vw,20px)] font-semibold tracking-[-0.02em] text-[#F4F5F1] transition-colors hover:text-[#8ECE34]"
+                        className="group flex w-full items-center justify-between gap-6 bg-transparent py-[22px] text-left text-[clamp(16px,1.6vw,22px)] font-semibold tracking-[-0.02em] text-[#F4F5F1] transition-colors hover:text-[#8ECE34]"
                       >
                         <span>{f.q}</span>
                         <span className="flex h-[26px] w-[26px] shrink-0 items-center justify-center border border-[rgba(255,255,255,0.18)] text-[16px] leading-none text-[#8ECE34]">

@@ -46,7 +46,7 @@ export function NewsGrid() {
                     className="block aspect-[16/9] w-full object-cover transition-transform duration-[1100ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] group-hover:scale-[1.05]"
                   />
                 </div>
-                <h3 className="max-w-[26ch] text-[clamp(19px,1.8vw,23px)] font-bold leading-[1.25] tracking-[-0.025em]">
+                <h3 className="max-w-[26ch] text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.25] tracking-[-0.025em]">
                   {p.title}
                 </h3>
                 <p className="mt-[14px] text-[15px] leading-[1.7] text-[#9CA098] text-pretty">

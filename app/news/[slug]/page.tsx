@@ -61,7 +61,7 @@ function renderBlock(block: BlogBlock, i: number) {
       return (
         <p
           key={i}
-          className="mt-6 text-[clamp(16px,1.15vw,18px)] leading-[1.8] text-[#C2C6BC] text-pretty"
+          className="mt-6 text-[clamp(16px,1.4vw,20px)] leading-[1.8] text-[#C2C6BC] text-pretty"
         >
           {block.text}
         </p>
@@ -79,7 +79,7 @@ function renderBlock(block: BlogBlock, i: number) {
       return (
         <h3
           key={i}
-          className="mt-10 text-[clamp(19px,1.6vw,23px)] font-bold leading-[1.25] tracking-[-0.02em] text-[#F4F5F1]"
+          className="mt-10 text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.25] tracking-[-0.02em] text-[#F4F5F1]"
         >
           {block.text}
         </h3>
@@ -88,7 +88,7 @@ function renderBlock(block: BlogBlock, i: number) {
       return (
         <ul
           key={i}
-          className="mt-6 flex flex-col gap-[10px] pl-6 text-[clamp(16px,1.15vw,18px)] leading-[1.75] text-[#C2C6BC] marker:text-[#8ECE34]"
+          className="mt-6 flex flex-col gap-[10px] pl-6 text-[clamp(16px,1.4vw,20px)] leading-[1.75] text-[#C2C6BC] marker:text-[#8ECE34]"
           style={{ listStyleType: "disc" }}
         >
           {block.items.map((item, j) => (
@@ -100,7 +100,7 @@ function renderBlock(block: BlogBlock, i: number) {
       return (
         <ol
           key={i}
-          className="mt-6 flex flex-col gap-[10px] pl-6 text-[clamp(16px,1.15vw,18px)] leading-[1.75] text-[#C2C6BC] marker:font-mono marker:text-[13px] marker:text-[#8ECE34]"
+          className="mt-6 flex flex-col gap-[10px] pl-6 text-[clamp(16px,1.4vw,20px)] leading-[1.75] text-[#C2C6BC] marker:font-mono marker:text-[13px] marker:text-[#8ECE34]"
           style={{ listStyleType: "decimal" }}
         >
           {block.items.map((item, j) => (
@@ -114,7 +114,7 @@ function renderBlock(block: BlogBlock, i: number) {
       return (
         <blockquote
           key={i}
-          className="mt-8 border-l-2 border-[#8ECE34] bg-[#121413] p-6 text-[clamp(17px,1.35vw,20px)] italic leading-[1.65] text-[#D4D8CE]"
+          className="mt-8 border-l-2 border-[#8ECE34] bg-[#121413] p-6 text-[clamp(20px,2.2vw,27px)] italic leading-[1.65] text-[#D4D8CE]"
         >
           {block.text}
         </blockquote>
@@ -167,10 +167,10 @@ function renderBlock(block: BlogBlock, i: number) {
               key={j}
               className="border-t border-[rgba(255,255,255,0.09)] py-6 last:border-b"
             >
-              <dt className="text-[clamp(17px,1.4vw,20px)] font-bold leading-[1.35] tracking-[-0.015em] text-[#F4F5F1]">
+              <dt className="text-[clamp(20px,2.2vw,27px)] font-bold leading-[1.35] tracking-[-0.015em] text-[#F4F5F1]">
                 {item.q}
               </dt>
-              <dd className="mt-3 text-[clamp(15px,1.1vw,17px)] leading-[1.75] text-[#C2C6BC] text-pretty">
+              <dd className="mt-3 text-[clamp(15px,1.3vw,19px)] leading-[1.75] text-[#C2C6BC] text-pretty">
                 {item.a}
               </dd>
             </div>
@@ -347,7 +347,7 @@ export default async function BlogPostPage({ params }: PageProps<"/news/[slug]">
                         <time dateTime={p.datePublished}>{formatDate(p.datePublished)}</time>
                       </span>
                     </div>
-                    <h3 className="mt-3 max-w-[26ch] text-[clamp(18px,1.7vw,22px)] font-bold leading-[1.25] tracking-[-0.02em]">
+                    <h3 className="mt-3 max-w-[26ch] text-[clamp(20px,2.2vw,27px)] font-bold leading-[1.25] tracking-[-0.02em]">
                       {p.title}
                     </h3>
                     <span className="mt-auto pt-5 font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">

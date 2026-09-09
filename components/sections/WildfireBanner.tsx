@@ -16,7 +16,7 @@ export function WildfireBanner() {
               </h2>
             </div>
             <div>
-              <p className="max-w-[52ch] text-[clamp(15px,1.2vw,17px)] leading-[1.75] text-[#9CA098] text-pretty">
+              <p className="max-w-[52ch] text-[clamp(15px,1.35vw,19px)] leading-[1.75] text-[#9CA098] text-pretty">
                 When wildfire threatens your property, Gallagher Restoration is ready to respond. Our experienced restoration team provides fast, professional assistance to help protect and restore your home.
               </p>
               <div className="mt-[30px] flex flex-wrap gap-3">

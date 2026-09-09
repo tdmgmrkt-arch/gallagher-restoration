@@ -19,7 +19,7 @@ export function FinalCta() {
             <h2 className="mt-6 max-w-[16ch] text-[clamp(32px,4.6vw,62px)] font-extrabold leading-[1.02] tracking-[-0.04em] text-balance">
               Property Damage? Gallagher Restoration Is Ready to Help.
             </h2>
-            <p className="mt-[26px] max-w-[50ch] text-[clamp(15px,1.25vw,18px)] leading-[1.75] text-[#9CA098] text-pretty">
+            <p className="mt-[26px] max-w-[50ch] text-[clamp(15px,1.4vw,20px)] leading-[1.75] text-[#9CA098] text-pretty">
               When water, fire, mold, or another emergency damages your property, getting professional help quickly matters. Contact Gallagher Restoration for fast, experienced restoration services throughout Southern California.
             </p>
             <div className="mt-9">

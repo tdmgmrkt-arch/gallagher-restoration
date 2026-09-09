@@ -45,7 +45,7 @@ export default function ServiceAreasPage() {
                   <span className="font-mono text-[11px] tracking-[0.18em] text-[#8ECE34]">
                     {c.index}
                   </span>
-                  <div className="mt-[22px] text-[clamp(19px,1.8vw,24px)] font-bold leading-[1.15] tracking-[-0.025em]">
+                  <div className="mt-[22px] text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.15] tracking-[-0.025em]">
                     {c.name}
                     <br />
                     {c.second}

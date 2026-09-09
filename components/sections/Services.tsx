@@ -77,7 +77,7 @@ function LowProfileCard({
       </div>
       <div className="flex flex-1 flex-col">
         <div className="flex items-start justify-between gap-3">
-          <h4 className="text-[clamp(18px,1.7vw,22px)] font-bold tracking-[-0.02em]">
+          <h4 className="text-[clamp(20px,2.2vw,27px)] font-bold tracking-[-0.02em]">
             {cat.title}
           </h4>
           <span
@@ -118,7 +118,7 @@ export function Services() {
             </Reveal>
           </div>
           <Reveal delay={140}>
-            <p className="max-w-[56ch] text-[clamp(15px,1.2vw,17px)] leading-[1.75] text-[#9CA098] text-pretty">
+            <p className="max-w-[56ch] text-[clamp(15px,1.35vw,19px)] leading-[1.75] text-[#9CA098] text-pretty">
               Our seasoned professionals are committed to swiftly and effectively mitigating the aftermath of water, fire, mold, and property damage emergencies using proven techniques and professional restoration equipment.
             </p>
           </Reveal>

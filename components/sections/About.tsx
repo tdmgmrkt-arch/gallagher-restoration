@@ -29,10 +29,10 @@ export function About() {
             <h2 className="mt-[22px] text-[clamp(34px,4.4vw,58px)] font-extrabold leading-[1.02] tracking-[-0.04em]">
               Gallagher Restoration Co.
             </h2>
-            <p className="mt-[26px] max-w-[52ch] text-[clamp(16px,1.25vw,18px)] leading-[1.75] text-[#C2C6BC] text-pretty">
+            <p className="mt-[26px] max-w-[52ch] text-[clamp(16px,1.45vw,20px)] leading-[1.75] text-[#C2C6BC] text-pretty">
               This is Gallagher Restoration, where our commitment to excellence sets us apart in the restoration industry.
             </p>
-            <p className="mt-4 max-w-[52ch] text-[clamp(15px,1.2vw,17px)] leading-[1.75] text-[#8F948A] text-pretty">
+            <p className="mt-4 max-w-[52ch] text-[clamp(15px,1.35vw,19px)] leading-[1.75] text-[#8F948A] text-pretty">
               With a legacy built on family, loyalty, and respect, we have established a reputation for reliability when Southern California homeowners need help most.
             </p>
             <div className="mt-9">

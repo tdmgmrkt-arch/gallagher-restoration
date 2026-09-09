@@ -343,7 +343,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
             </h2>
           </Reveal>
 
-          <div className="mt-[clamp(36px,4.5vw,64px)] grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-[clamp(18px,2vw,26px)]">
+          <div className="mt-[clamp(36px,4.5vw,64px)] grid grid-cols-[repeat(auto-fit,minmax(340px,1fr))] gap-[clamp(18px,2vw,26px)]">
             {content.process.steps.map((step, i) => (
               <Reveal key={step.title} delay={i * 80}>
                 <div
@@ -353,7 +353,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
                   <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
                     {step.kicker}
                   </div>
-                  <h3 className="mt-5 text-[clamp(19px,1.7vw,23px)] font-bold leading-[1.2] tracking-[-0.02em] text-[#F4F5F1]">
+                  <h3 className="mt-5 text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.2] tracking-[-0.02em] text-[#F4F5F1]">
                     {step.title}
                   </h3>
                   <p className="mt-4 text-[14px] leading-[1.75] text-[#9CA098] text-pretty">
@@ -389,7 +389,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
             {content.signs.items.map((item, i) => (
               <Reveal key={item.title} delay={i * 60}>
                 <div className="flex h-full flex-col border-l-2 border-[rgba(142,206,52,0.35)] bg-[#121413] p-[clamp(22px,2.4vw,32px)]">
-                  <h3 className="text-[clamp(17px,1.5vw,21px)] font-bold leading-[1.25] tracking-[-0.02em] text-[#F4F5F1]">
+                  <h3 className="text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.25] tracking-[-0.02em] text-[#F4F5F1]">
                     {item.title}
                   </h3>
                   <p className="mt-3 text-[14px] leading-[1.75] text-[#9CA098] text-pretty">
@@ -406,7 +406,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
                 <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
                   Not sure?
                 </div>
-                <h3 className="mt-5 text-[clamp(17px,1.5vw,21px)] font-bold leading-[1.25] tracking-[-0.02em] text-[#F4F5F1]">
+                <h3 className="mt-5 text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.25] tracking-[-0.02em] text-[#F4F5F1]">
                   Call {PHONE.display} &mdash; we&apos;ll tell you if it&rsquo;s an emergency.
                 </h3>
                 <span className="mt-6 font-mono text-[11px] font-bold uppercase tracking-[0.2em] text-[#8ECE34] transition-colors group-hover:text-[#A6E053]">
@@ -577,7 +577,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
               {content.faqs.map((f, i) => (
                 <Reveal key={f.q} delay={i * 60}>
                   <details className="group py-6">
-                    <summary className="flex cursor-pointer list-none items-start justify-between gap-6 text-[clamp(17px,1.5vw,20px)] font-semibold leading-[1.35] tracking-[-0.015em] text-[#F4F5F1] transition-colors hover:text-[#8ECE34]">
+                    <summary className="flex cursor-pointer list-none items-start justify-between gap-6 text-[clamp(20px,2.2vw,27px)] font-semibold leading-[1.35] tracking-[-0.015em] text-[#F4F5F1] transition-colors hover:text-[#8ECE34]">
                       <span>{f.q}</span>
                       <span
                         aria-hidden="true"

@@ -117,7 +117,7 @@ export default function AboutPage() {
               <h2 className="mt-[22px] max-w-[18ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em]">
                 A family that shows up when it matters most.
               </h2>
-              <p className="mt-7 max-w-[54ch] text-[clamp(16px,1.25vw,18px)] leading-[1.75] text-[#C2C6BC] text-pretty">
+              <p className="mt-7 max-w-[54ch] text-[clamp(16px,1.45vw,20px)] leading-[1.75] text-[#C2C6BC] text-pretty">
                 Gallagher Restoration is a family-owned and operated restoration company based in
                 Canyon Lake, California. What started as a small crew answering emergency calls has
                 grown into a full-service restoration team responding across five counties — but
@@ -170,14 +170,14 @@ export default function AboutPage() {
               <h2 className="mt-[22px] max-w-[20ch] text-[clamp(30px,4vw,52px)] font-extrabold leading-[1.04] tracking-[-0.035em]">
                 Aaron Gallagher — Founder &amp; Owner
               </h2>
-              <p className="mt-7 max-w-[54ch] text-[clamp(16px,1.25vw,18px)] leading-[1.75] text-[#C2C6BC] text-pretty">
+              <p className="mt-7 max-w-[54ch] text-[clamp(16px,1.45vw,20px)] leading-[1.75] text-[#C2C6BC] text-pretty">
                 Aaron grew up in Canyon Lake, California, in a close-knit lake community where
                 teamwork, hard work, and looking out for your neighbors weren&apos;t slogans —
                 they were how the town operated. A childhood spent on sports fields, in the ocean,
                 and on skateboards taught him resilience and camaraderie long before he ever ran
                 a company.
               </p>
-              <p className="mt-5 max-w-[54ch] text-[clamp(16px,1.25vw,18px)] leading-[1.75] text-[#C2C6BC] text-pretty">
+              <p className="mt-5 max-w-[54ch] text-[clamp(16px,1.45vw,20px)] leading-[1.75] text-[#C2C6BC] text-pretty">
                 He got his start in restoration through a chance opportunity with a friend, and a
                 first job turned into a calling. Aaron trained himself in contents restoration and
                 emergency response, driven by what the work actually meant to the people on the

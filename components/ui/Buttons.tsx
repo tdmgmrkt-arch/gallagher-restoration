@@ -20,7 +20,7 @@ export function ButtonPrimary({
 }: AnchorLike & { size?: "sm" | "md" | "lg"; dot?: boolean }) {
   const pad =
     size === "lg"
-      ? "px-[34px] py-[21px] text-[clamp(16px,1.5vw,19px)]"
+      ? "px-[34px] py-[21px] text-[clamp(16px,1.6vw,21px)]"
       : size === "sm"
         ? "px-[22px] py-[15px] text-[14px]"
         : "px-[26px] py-[17px] text-[16px]";

@@ -245,7 +245,7 @@ export default function ContactUsPage() {
                       <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
                         {s.kicker}
                       </span>
-                      <h3 className="text-[clamp(18px,1.8vw,22px)] font-bold leading-[1.2] tracking-[-0.025em] text-[#F4F5F1]">
+                      <h3 className="text-[clamp(20px,2.2vw,27px)] font-bold leading-[1.2] tracking-[-0.025em] text-[#F4F5F1]">
                         {s.title}
                       </h3>
                       <span aria-hidden="true" />

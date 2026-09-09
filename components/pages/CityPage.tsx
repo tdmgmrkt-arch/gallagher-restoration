@@ -179,14 +179,14 @@ export async function CityPage({ content }: { content: CityContent }) {
               ) : null}
             </div>
           </Reveal>
-          <div className="mt-[clamp(32px,4vw,56px)] grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-[clamp(18px,2vw,26px)]">
+          <div className="mt-[clamp(32px,4vw,56px)] grid grid-cols-[repeat(auto-fit,minmax(340px,1fr))] gap-[clamp(18px,2vw,26px)]">
             {content.neighborhoods.items.map((item, i) => (
               <Reveal key={item.name} delay={i * 60}>
                 <div className="flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(22px,2.4vw,32px)]">
                   <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
                     Neighborhood
                   </div>
-                  <h3 className="mt-4 text-[clamp(18px,1.6vw,22px)] font-bold leading-[1.2] tracking-[-0.02em] text-[#F4F5F1]">
+                  <h3 className="mt-4 text-[clamp(20px,2.2vw,27px)] font-bold leading-[1.2] tracking-[-0.02em] text-[#F4F5F1]">
                     {item.name}
                   </h3>
                   <p className="mt-3 text-[14px] leading-[1.75] text-[#9CA098] text-pretty">
@@ -221,7 +221,7 @@ export async function CityPage({ content }: { content: CityContent }) {
             {content.commonDamage.items.map((item, i) => (
               <Reveal key={item.title} delay={i * 60}>
                 <div className="flex h-full flex-col border-l-2 border-[rgba(142,206,52,0.35)] bg-[#121413] p-[clamp(22px,2.4vw,32px)]">
-                  <h3 className="text-[clamp(17px,1.5vw,21px)] font-bold leading-[1.25] tracking-[-0.02em] text-[#F4F5F1]">
+                  <h3 className="text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.25] tracking-[-0.02em] text-[#F4F5F1]">
                     {item.title}
                   </h3>
                   <p className="mt-3 text-[14px] leading-[1.75] text-[#9CA098] text-pretty">
@@ -278,7 +278,7 @@ export async function CityPage({ content }: { content: CityContent }) {
               </p>
             </div>
           </Reveal>
-          <div className="mt-[clamp(32px,4vw,56px)] grid grid-cols-1 gap-[clamp(18px,2vw,26px)] sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-[clamp(32px,4vw,56px)] grid grid-cols-1 gap-[clamp(18px,2vw,26px)] sm:grid-cols-2 lg:grid-cols-3">
             {SERVICE_CATEGORIES.map((cat, i) => (
               <Reveal key={cat.slug} delay={i * 60}>
                 <Link
@@ -288,7 +288,7 @@ export async function CityPage({ content }: { content: CityContent }) {
                   <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
                     {cat.kicker}
                   </div>
-                  <h3 className="mt-5 text-[clamp(20px,1.8vw,24px)] font-bold leading-[1.15] tracking-[-0.025em] text-[#F4F5F1]">
+                  <h3 className="mt-5 text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.15] tracking-[-0.025em] text-[#F4F5F1]">
                     {cat.title}
                   </h3>
                   <p className="mt-3 text-[14px] leading-[1.7] text-[#9CA098] text-pretty">
@@ -309,7 +309,7 @@ export async function CityPage({ content }: { content: CityContent }) {
                   <div className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8ECE34]">
                     Full Catalog
                   </div>
-                  <h3 className="mt-5 text-[clamp(20px,1.8vw,24px)] font-bold leading-[1.15] tracking-[-0.025em] text-[#F4F5F1]">
+                  <h3 className="mt-5 text-[clamp(21px,2.4vw,29px)] font-bold leading-[1.15] tracking-[-0.025em] text-[#F4F5F1]">
                     See every service we run in {content.name}.
                   </h3>
                   <p className="mt-3 text-[14px] leading-[1.7] text-[#9CA098] text-pretty">
@@ -445,7 +445,7 @@ export async function CityPage({ content }: { content: CityContent }) {
               {content.faqs.map((f, i) => (
                 <Reveal key={f.q} delay={i * 60}>
                   <details className="group py-6">
-                    <summary className="flex cursor-pointer list-none items-start justify-between gap-6 text-[clamp(17px,1.5vw,20px)] font-semibold leading-[1.35] tracking-[-0.015em] text-[#F4F5F1] transition-colors hover:text-[#8ECE34]">
+                    <summary className="flex cursor-pointer list-none items-start justify-between gap-6 text-[clamp(20px,2.2vw,27px)] font-semibold leading-[1.35] tracking-[-0.015em] text-[#F4F5F1] transition-colors hover:text-[#8ECE34]">
                       <span>{f.q}</span>
                       <span
                         aria-hidden="true"

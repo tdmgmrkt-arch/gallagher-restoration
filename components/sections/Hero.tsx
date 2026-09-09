@@ -62,15 +62,15 @@ export function Hero() {
             </h1>
           </Reveal>
           <Reveal delay={170}>
-            <p className="mt-[24px] max-w-[54ch] text-[clamp(15px,1.2vw,18px)] leading-[1.65] text-[#C2C6BC] text-pretty md:hidden">
+            <p className="mt-[24px] max-w-[54ch] text-[clamp(15px,1.35vw,19px)] leading-[1.65] text-[#C2C6BC] text-pretty md:hidden">
               Family-owned water, fire &amp; mold restoration. Available 24/7 across Southern California. On-site within 60 minutes.
             </p>
-            <p className="mt-[24px] hidden max-w-[54ch] text-[clamp(15px,1.2vw,18px)] leading-[1.65] text-[#C2C6BC] text-pretty md:block">
+            <p className="mt-[24px] hidden max-w-[54ch] text-[clamp(15px,1.35vw,19px)] leading-[1.65] text-[#C2C6BC] text-pretty md:block">
               Gallagher Restoration Co. is a family-owned 24/7 water, fire, and mold damage restoration company serving Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties for over 15 years. Our crews arrive on-site within 60 minutes and bill your insurance directly.
             </p>
           </Reveal>
           <Reveal delay={220}>
-            <p className="mt-[12px] max-w-[54ch] text-[clamp(14px,1.1vw,16px)] leading-[1.65] text-[#9CA098] text-pretty">
+            <p className="mt-[12px] max-w-[54ch] text-[clamp(15px,1.35vw,18px)] leading-[1.65] text-[#9CA098] text-pretty">
               Emergency dispatch is answered by a real person day and night&mdash;never a call center.
             </p>
           </Reveal>
