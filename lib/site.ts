@@ -32,6 +32,63 @@ export const GBP = {
     "https://search.google.com/local/writereview?placeid=ChIJaaW5Mkad3IARJlYjTmKj-IM",
 };
 
+/**
+ * All company offices. Canyon Lake is the corporate HQ and the only location with a
+ * verified Google Business Profile; the other two are satellite offices.
+ *
+ * Satellite street addresses are intentionally NOT published. Both are residential
+ * (Huntington Beach is "125 16th St Apt 1"; Carlsbad is "4623 Buckingham Ln") and
+ * neither has its own GBP listing, so a street number buys no ranking signal while
+ * risking a suspension and NAP inconsistency on the one profile that does. Add
+ * `street`/`postalCode` here only if a staffed commercial location and a verified
+ * Google Business Profile are established for that office.
+ */
+export const OFFICES = [
+  {
+    id: "canyon-lake",
+    kind: "hq",
+    role: "Corporate Headquarters",
+    locality: "Canyon Lake",
+    region: "CA",
+    street: ADDRESS.street,
+    postalCode: ADDRESS.postalCode,
+    countySlug: "riverside-county",
+    citySlug: "canyon-lake-ca",
+    directionsUrl: GBP.directionsUrl,
+  },
+  {
+    id: "huntington-beach",
+    kind: "satellite",
+    role: "Orange County Office",
+    locality: "Huntington Beach",
+    region: "CA",
+    countySlug: "orange-county",
+    citySlug: "huntington-beach-ca",
+  },
+  {
+    id: "carlsbad",
+    kind: "satellite",
+    role: "North County San Diego Office",
+    locality: "Carlsbad",
+    region: "CA",
+    countySlug: "san-diego-county",
+    citySlug: "carlsbad-ca",
+  },
+] as const satisfies readonly Office[];
+
+export type Office = {
+  id: string;
+  kind: "hq" | "satellite";
+  role: string;
+  locality: string;
+  region: string;
+  street?: string;
+  postalCode?: string;
+  countySlug: string;
+  citySlug: string;
+  directionsUrl?: string;
+};
+
 // Manually maintained until GBP API access lands. Reflects visible GBP totals.
 export const REVIEWS = {
   ratingValue: 5.0,

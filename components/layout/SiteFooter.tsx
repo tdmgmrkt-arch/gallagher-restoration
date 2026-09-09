@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ADDRESS, COMPANY, GBP, NAV, PHONE, SOCIAL_URLS } from "@/lib/site";
+import { ADDRESS, COMPANY, GBP, NAV, OFFICES, PHONE, SOCIAL_URLS } from "@/lib/site";
 import { GoogleReviewBadge } from "@/components/ui/GoogleReviewBadge";
 
 const FOOTER_NAV = [{ label: "Home", href: "/" }, ...NAV];
@@ -88,7 +88,7 @@ export function SiteFooter() {
             </div>
             <div>
               <div className="font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]">
-                Location
+                Offices
               </div>
               <div className="mt-2 text-[16px] leading-[1.55] text-[#C6CABF]">
                 {ADDRESS.street}
@@ -103,6 +103,18 @@ export function SiteFooter() {
               >
                 Get Directions &rarr;
               </a>
+              <div className="mt-4 flex flex-col gap-2 border-t border-[rgba(255,255,255,0.08)] pt-4">
+                {OFFICES.filter((o) => o.kind === "satellite").map((o) => (
+                  <div key={o.id} className="text-[14px] leading-[1.45]">
+                    <div className="font-mono text-[10px] uppercase tracking-[0.14em] text-[#7E837A]">
+                      {o.role}
+                    </div>
+                    <div className="text-[#C6CABF]">
+                      {o.locality}, {o.region}
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

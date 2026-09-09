@@ -5,6 +5,7 @@ import { TopBar } from "@/components/layout/TopBar";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { StickyCallBar } from "@/components/layout/StickyCallBar";
+import { officeNodes } from "@/lib/offices";
 
 const archivo = Archivo({
   variable: "--font-archivo",
@@ -76,6 +77,7 @@ const organizationJsonLd = {
     "https://www.facebook.com/GallagherRestorationCo",
     "https://www.instagram.com/gallagher1restoration/",
   ],
+  subOrganization: officeNodes(),
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

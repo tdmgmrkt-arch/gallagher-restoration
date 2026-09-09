@@ -488,7 +488,7 @@ function ServiceAreasMega() {
           <MegaLeftCard
             kicker="5-County Coverage"
             title="Southern California, dispatched in 60 minutes."
-            body="Headquartered in Canyon Lake and serving 34 cities across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties."
+            body="Offices in Canyon Lake, Huntington Beach, and Carlsbad — serving 34 cities across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties."
             image="/gallagher_fleet_rear.webp"
             imageAlt=""
           />

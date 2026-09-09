@@ -3,25 +3,25 @@
   "name": "Carlsbad",
   "countySlug": "san-diego-county",
   "countyName": "San Diego County",
-  "proximityMinutes": 85,
-  "proximityMiles": 75,
-  "route": "I-15 South → SR-78 West",
+  "proximityMinutes": 0,
+  "proximityMiles": 0,
+  "route": "Local",
   "metaTitle": "Water & Fire Restoration | Carlsbad, CA | Gallagher",
-  "metaDescription": "Water, fire, and mold restoration in Carlsbad, CA. Coastal marine-layer humidity and salt corrosion demand fast response—24/7, on-site ~85 min. (951) 541-0034",
+  "metaDescription": "Water, fire & mold restoration in Carlsbad, CA. Local office, 24/7 response, on-site within 60 min. (951) 541-0034.",
   "heroEyebrow": "24/7 EMERGENCY · CARLSBAD, CA",
   "heroTitle": "Carlsbad restoration—coastal mold, slab leaks, fire damage",
-  "heroAccent": "Canyon Lake to Carlsbad: ~85 min via I-15 South and SR-78.",
-  "heroIntro": "Carlsbad’s coastal climate keeps humidity elevated year-round. Marine layer mold, salt-air plumbing corrosion, and tract-era slab leaks are the damage calls Gallagher Restoration Co. takes most often from this zip code. IICRC-trained crews dispatch from Canyon Lake 24/7. A real person answers every call.",
+  "heroAccent": "Local Carlsbad office — on-site within 60 minutes.",
+  "heroIntro": "Carlsbad’s coastal climate keeps humidity elevated year-round. Marine layer mold, salt-air plumbing corrosion, and tract-era slab leaks are the damage calls Gallagher Restoration Co. takes most often from this zip code. IICRC-trained crews dispatch from a local Carlsbad office, 24/7. A real person answers every call.",
   "proofStrip": [
     {
       "label": "On-Site In",
-      "value": "~85 min",
-      "hint": "Typical Canyon Lake to Carlsbad drive via I-15 South → SR-78 West"
+      "value": "60 min",
+      "hint": "Typical arrival from our Carlsbad office"
     },
     {
-      "label": "Distance",
-      "value": "75 mi",
-      "hint": "Canyon Lake HQ to Carlsbad"
+      "label": "Local Office",
+      "value": "In City",
+      "hint": "Gallagher's Carlsbad office, backed by Canyon Lake HQ"
     },
     {
       "label": "Availability",
@@ -34,7 +34,7 @@
       "hint": "Family-owned, Southern California’s restoration team"
     }
   ],
-  "localHook": "Carlsbad is built on a narrow coastal shelf where the marine layer never fully retreats. Homes in Carlsbad Village and along the La Costa hillsides absorb humidity that inland properties never encounter—and that moisture finds every gap in the building envelope. Salt air accelerates corrosion on copper fittings and brass fixtures at a rate that homeowners rarely anticipate until a joint fails behind a wall. Master-planned communities in Aviara and Bressi Ranch carry 1990s and 2000s slab construction now entering the service window where copper supply lines in concrete foundations begin to fail. Canyon-adjacent eastern Carlsbad faces wildfire smoke exposure during regional fire events. Gallagher Restoration Co. has served San Diego County from Canyon Lake for over 15 years. Carlsbad’s coastal damage profile—mold, corrosion, slab leaks—is well-mapped territory.",
+  "localHook": "Carlsbad is built on a narrow coastal shelf where the marine layer never fully retreats. Homes in Carlsbad Village and along the La Costa hillsides absorb humidity that inland properties never encounter—and that moisture finds every gap in the building envelope. Salt air accelerates corrosion on copper fittings and brass fixtures at a rate that homeowners rarely anticipate until a joint fails behind a wall. Master-planned communities in Aviara and Bressi Ranch carry 1990s and 2000s slab construction now entering the service window where copper supply lines in concrete foundations begin to fail. Canyon-adjacent eastern Carlsbad faces wildfire smoke exposure during regional fire events. Gallagher Restoration Co. operates a local Carlsbad office and has served San Diego County for over 15 years. Carlsbad’s coastal damage profile—mold, corrosion, slab leaks—is well-mapped territory.",
   "neighborhoods": {
     "eyebrow": "Areas We Serve",
     "heading": "Village to Aviara—Carlsbad covered",
@@ -82,7 +82,7 @@
   "howWeWork": {
     "eyebrow": "The Process",
     "heading": "What a Carlsbad call looks like",
-    "body": "Call (951) 541-0034 at any hour—a real person answers. Gallagher dispatches from Canyon Lake; the drive to Carlsbad is roughly 85 minutes via I-15 South and SR-78 West. On arrival, the crew performs a full-scope assessment using professional-grade moisture meters and thermal imaging. You get a clear picture of what was found before any equipment is placed—no vague estimates, no surprise scope expansions after work begins. Extraction, drying, and containment start the same visit. Every job is documented from minute one: photos, moisture logs, written scope. That record is what insurance adjusters need to move a claim. Gallagher coordinates directly with major insurance carriers, handling adjuster communication on your behalf. The same crew that assesses your loss carries the job through final reconstruction. No mid-project handoffs."
+    "body": "Call (951) 541-0034 at any hour—a real person answers. Gallagher dispatches from a local Carlsbad office, typically on-site within 60 minutes. On arrival, the crew performs a full-scope assessment using professional-grade moisture meters and thermal imaging. You get a clear picture of what was found before any equipment is placed—no vague estimates, no surprise scope expansions after work begins. Extraction, drying, and containment start the same visit. Every job is documented from minute one: photos, moisture logs, written scope. That record is what insurance adjusters need to move a claim. Gallagher coordinates directly with major insurance carriers, handling adjuster communication on your behalf. The same crew that assesses your loss carries the job through final reconstruction. No mid-project handoffs."
   },
   "whyChoose": {
     "eyebrow": "Why Gallagher",
@@ -97,7 +97,7 @@
   "faqs": [
     {
       "q": "How fast can Gallagher reach Carlsbad?",
-      "a": "From Canyon Lake HQ, the typical drive to Carlsbad is roughly 85 minutes via I-15 South and SR-78 West. A real person answers every call around the clock."
+      "a": "Gallagher operates a local Carlsbad office, typically on-site within 60 minutes. A real person answers every call around the clock."
     },
     {
       "q": "Do you handle coastal mold in Carlsbad homes?",

@@ -12,6 +12,7 @@ import { FinalCta } from "@/components/sections/FinalCta";
 import { ADDRESS, COMPANY, FAQS, GBP, PHONE, REVIEWS, SOCIAL_URLS } from "@/lib/site";
 import { CITY_COORDS } from "@/lib/city-coords";
 import { getGoogleReviews } from "@/lib/google-reviews";
+import { officeNodes } from "@/lib/offices";
 
 const HQ_COORDS = CITY_COORDS["canyon-lake-ca"];
 
@@ -124,6 +125,7 @@ export default async function Home() {
         },
       ],
     },
+    subOrganization: officeNodes(),
   };
 
   const faqJsonLd = {

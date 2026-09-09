@@ -3,7 +3,8 @@ import Link from "next/link";
 import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { LeadForm } from "@/components/sections/LeadForm";
-import { PHONE, COMPANY, COUNTIES, ADDRESS, GBP } from "@/lib/site";
+import { PHONE, COMPANY, COUNTIES, ADDRESS, GBP, OFFICES } from "@/lib/site";
+import { officeNodes } from "@/lib/offices";
 
 export const metadata: Metadata = {
   title: "Contact Gallagher Restoration Co. | 24/7 Emergency Response",
@@ -30,9 +31,40 @@ const EXPECT_STEPS = [
   },
 ];
 
+const contactJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "@id": "https://gallagherrestoration.com/contact-us#contactpage",
+  url: "https://gallagherrestoration.com/contact-us",
+  name: "Contact Gallagher Restoration Co.",
+  // Reference the canonical business entity rather than redefining it, so this page
+  // does not add another conflicting copy of /#business.
+  mainEntity: {
+    "@id": "https://gallagherrestoration.com/#business",
+    subOrganization: officeNodes(),
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: PHONE.display,
+      contactType: "emergency",
+      areaServed: "US-CA",
+      availableLanguage: "English",
+      hoursAvailable: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        opens: "00:00",
+        closes: "23:59",
+      },
+    },
+  },
+};
+
 export default function ContactUsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactJsonLd) }}
+      />
       <section className="relative overflow-hidden border-b border-[rgba(255,255,255,0.07)] bg-[#08090A]">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_60%_at_10%_50%,rgba(142,206,52,0.08),transparent_70%)]" />
         <div className="relative mx-auto max-w-[1300px] px-[clamp(20px,5vw,56px)] pb-[clamp(20px,2.4vw,32px)] pt-[clamp(56px,7vw,88px)]">
@@ -112,7 +144,7 @@ export default function ContactUsPage() {
                 className="group flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(20px,2.2vw,30px)] transition-[border-color,transform] duration-[350ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-[2px] hover:border-[rgba(142,206,52,0.35)]"
               >
                 <div className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
-                  Headquarters
+                  Corporate HQ
                 </div>
                 <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
                   Canyon Lake HQ
@@ -158,6 +190,28 @@ export default function ContactUsPage() {
                 </div>
               </div>
             </Reveal>
+          </div>
+
+          {/* Satellite offices — secondary row, no directions link (service-area offices, not walk-in) */}
+          <div className="mt-[clamp(16px,2vw,24px)] grid grid-cols-1 items-stretch gap-[clamp(16px,2vw,24px)] md:grid-cols-2">
+            {OFFICES.filter((o) => o.kind === "satellite").map((o, i) => (
+              <Reveal key={o.id} delay={i * 90}>
+                <div className="flex h-full flex-col border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(20px,2.2vw,30px)]">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.22em] text-[#8ECE34]">
+                    Satellite Office
+                  </div>
+                  <div className="mt-5 font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
+                    {o.role}
+                  </div>
+                  <div className="mt-2 text-[clamp(22px,2.4vw,30px)] font-extrabold leading-[1.15] tracking-[-0.03em] text-[#F4F5F1]">
+                    {o.locality}, {o.region}
+                  </div>
+                  <p className="mt-3 max-w-[36ch] text-[14px] leading-[1.6] text-[#9CA098] text-pretty">
+                    Crews dispatch from here &mdash; call the 24/7 line and we&apos;ll route the closest team to you.
+                  </p>
+                </div>
+              </Reveal>
+            ))}
           </div>
         </div>
       </section>
@@ -239,7 +293,7 @@ export default function ContactUsPage() {
             <div className="relative aspect-[16/9] w-full overflow-hidden border border-[rgba(255,255,255,0.06)] bg-[#0B0C0B]">
               <iframe
                 title="Gallagher Restoration headquarters location on Google Maps"
-                src="https://www.google.com/maps?q=31672+Railroad+Canyon+Rd,+Canyon+Lake,+CA+92587&hl=en&z=14&t=m&output=embed"
+                src={GBP.embedSrc}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="absolute inset-0 h-full w-full border-0 [filter:grayscale(1)_invert(0.92)_contrast(0.88)_hue-rotate(180deg)_brightness(0.95)]"

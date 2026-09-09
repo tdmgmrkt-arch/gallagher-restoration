@@ -3,13 +3,13 @@
   "name": "Orange County",
   "shortName": "Orange",
   "metaTitle": "Orange County Restoration | Gallagher Restoration Co.",
-  "metaDescription": "Water, fire, mold & property damage restoration in Orange County. 60-min response, 24/7. Family-owned Gallagher Restoration Co. Call (951) 541-0034.",
+  "metaDescription": "Water, fire, mold & property damage restoration in Orange County. Local Huntington Beach office, 60-min response, 24/7. Call (951) 541-0034.",
   "heroEyebrow": "24/7 EMERGENCY \u00b7 ORANGE COUNTY",
   "heroTitle": "Property damage restoration in Orange County",
-  "heroAccent": "via SR-91 and I-5",
-  "heroIntro": "Gallagher Restoration Co. serves Orange County homeowners and property managers from Anaheim and Santa Ana down to Huntington Beach and Irvine. Water, fire, mold, and sewage damage handled by a family-owned crew with 15+ years of SoCal experience\u2014available 24/7, typically on-site within 60 minutes.",
+  "heroAccent": "from our Huntington Beach office",
+  "heroIntro": "Gallagher Restoration Co. serves Orange County homeowners and property managers from Anaheim and Santa Ana down to Huntington Beach and Irvine, backed by a local Huntington Beach office. Water, fire, mold, and sewage damage handled by a family-owned crew with 15+ years of SoCal experience\u2014available 24/7, typically on-site within 60 minutes.",
   "proofStrip": [
-    {"label": "Response Time", "value": "60 min", "hint": "Typical arrival via SR-91 / I-5 from Canyon Lake"},
+    {"label": "Response Time", "value": "60 min", "hint": "Typical arrival from our Huntington Beach office"},
     {"label": "Cities Served", "value": "4", "hint": "Anaheim \u00b7 Santa Ana \u00b7 Irvine \u00b7 Huntington Beach"},
     {"label": "Availability", "value": "24 / 7", "hint": "Answered by a real person, not a call center"},
     {"label": "In Business", "value": "15+ yrs", "hint": "Family-owned, serving SoCal since 2009"}
@@ -17,7 +17,7 @@
   "overview": {
     "eyebrow": "The County",
     "heading": "Orange County: coastal density, aging cores, master-planned edges",
-    "body": "Orange County is one of the most densely populated counties in California, with a built environment that spans the full spectrum from century-old bungalows in Santa Ana to sprawling master-planned tracts in Irvine and south OC. The four cities Gallagher serves represent this range well. Anaheim and Santa Ana carry the densest concentrations of older housing stock\u2014mid-century construction with aging water infrastructure, many units converted to rental or multi-family over the decades. Irvine, by contrast, is one of the most extensively planned cities in California, built largely on former Irvine Company farmland from the 1970s onward, with a homogeneous tract character and shared-wall construction formats that accelerate moisture spread between units. Huntington Beach occupies the coastal end of the spectrum: marine layer fog is persistent, salt air is corrosive to exposed plumbing and flashing, and the warm-humid coastal microclimate creates the most favorable mold growth conditions in the county. Gallagher reaches this service area via SR-91 west from the I-15 interchange, with I-5 south providing access to Santa Ana and Irvine."
+    "body": "Orange County is one of the most densely populated counties in California, with a built environment that spans the full spectrum from century-old bungalows in Santa Ana to sprawling master-planned tracts in Irvine and south OC. The four cities Gallagher serves represent this range well. Anaheim and Santa Ana carry the densest concentrations of older housing stock\u2014mid-century construction with aging water infrastructure, many units converted to rental or multi-family over the decades. Irvine, by contrast, is one of the most extensively planned cities in California, built largely on former Irvine Company farmland from the 1970s onward, with a homogeneous tract character and shared-wall construction formats that accelerate moisture spread between units. Huntington Beach occupies the coastal end of the spectrum: marine layer fog is persistent, salt air is corrosive to exposed plumbing and flashing, and the warm-humid coastal microclimate creates the most favorable mold growth conditions in the county. Gallagher's Huntington Beach office keeps crews close to this coastal corridor, with the Canyon Lake headquarters providing additional backup coverage inland toward Anaheim and Santa Ana."
   },
   "topCities": [
     {
@@ -76,7 +76,7 @@
   "whyLocal": {
     "eyebrow": "Why Gallagher",
     "heading": "SoCal restoration from a crew that knows the coast",
-    "body": "Gallagher Restoration Co. is based in Canyon Lake, accessible to Orange County via SR-91 west from I-15. The western OC cities\u2014Anaheim and Santa Ana\u2014sit within a realistic 60-minute drive. Irvine and Huntington Beach are accessible via I-5 and SR-55 respectively, with arrival times that depend on corridor conditions. What Orange County property owners get with Gallagher is not a franchise company with regional call centers and rotating contractor rosters. It is a family-owned operation that has been handling SoCal restoration for more than 15 years, with IICRC-trained technicians and professional-grade drying equipment. Aaron and the crew coordinate directly with all major insurance carriers and build the claim documentation from the first hour of the job. In multi-unit or HOA properties\u2014common throughout Irvine and parts of Anaheim\u2014Gallagher's documentation process is thorough enough to support parallel insurance claims from multiple affected parties. Every call is answered by a real person. Every job stays with the same crew from extraction through reconstruction."
+    "body": "Gallagher Restoration Co. operates a local Huntington Beach office serving Orange County directly. Huntington Beach and Irvine sit within a realistic 60-minute response window from that office. Anaheim and Santa Ana are farther inland, with arrival times that depend on corridor conditions and backup support from the Canyon Lake headquarters. What Orange County property owners get with Gallagher is not a franchise company with regional call centers and rotating contractor rosters. It is a family-owned operation that has been handling SoCal restoration for more than 15 years, with IICRC-trained technicians and professional-grade drying equipment. Aaron and the crew coordinate directly with all major insurance carriers and build the claim documentation from the first hour of the job. In multi-unit or HOA properties\u2014common throughout Irvine and parts of Anaheim\u2014Gallagher's documentation process is thorough enough to support parallel insurance claims from multiple affected parties. Every call is answered by a real person. Every job stays with the same crew from extraction through reconstruction."
   },
   "faqs": [
     {

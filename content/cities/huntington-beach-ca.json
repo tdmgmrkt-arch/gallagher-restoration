@@ -3,25 +3,25 @@
   "name": "Huntington Beach",
   "countySlug": "orange-county",
   "countyName": "Orange County",
-  "proximityMinutes": 75,
-  "proximityMiles": 60,
-  "route": "SR-91 West then I-405 South",
+  "proximityMinutes": 0,
+  "proximityMiles": 0,
+  "route": "Local",
   "metaTitle": "Water & Fire Damage Restoration | Huntington Beach, CA",
-  "metaDescription": "Water, fire, mold & wildfire restoration in Huntington Beach, CA. 24/7 IICRC-trained response—on-site ~75 min. (951) 541-0034.",
+  "metaDescription": "Water, fire, mold & wildfire restoration in Huntington Beach, CA. Local office, 24/7 IICRC-trained response—on-site within 60 min. (951) 541-0034.",
   "heroEyebrow": "24/7 EMERGENCY · HUNTINGTON BEACH, CA",
-  "heroTitle": "Restoration services in Huntington Beach — coastal damage specialists, on-site in 75 minutes",
+  "heroTitle": "Restoration services in Huntington Beach — coastal damage specialists, on-site in 60 minutes",
   "heroAccent": "Salt air, marine mold, tidal surge — the coast creates damage the inland doesn't.",
-  "heroIntro": "Gallagher Restoration Co. dispatches from Canyon Lake to Huntington Beach via SR-91 West and I-405 South — typically on-site within 75 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
+  "heroIntro": "Gallagher Restoration Co. operates a local Huntington Beach office, typically on-site within 60 minutes of your call. Family-owned for 15+ years, IICRC-trained crews, professional-grade equipment. A real person answers when you call (951) 541-0034.",
   "proofStrip": [
     {
       "label": "On-Site In",
-      "value": "~75 min",
-      "hint": "Typical drive from Canyon Lake via SR-91 West and I-405 South"
+      "value": "60 min",
+      "hint": "Typical arrival from our Huntington Beach office"
     },
     {
-      "label": "Distance",
-      "value": "60 mi",
-      "hint": "Canyon Lake to Huntington Beach"
+      "label": "Local Office",
+      "value": "In City",
+      "hint": "Gallagher's Huntington Beach office, backed by Canyon Lake HQ"
     },
     {
       "label": "Availability",
@@ -34,7 +34,7 @@
       "hint": "Family-owned since the early 2000s"
     }
   ],
-  "localHook": "Huntington Beach sits directly on the Pacific — and the Pacific is not passive. The marine layer that rolls in off the water most mornings deposits moisture against every exterior surface in the city. Beach cottages and mid-century homes within a mile of the water accumulate that moisture in wall cavities, behind stucco, and inside framing that was built before modern vapor barriers were standard. The Huntington Harbour channel community faces a more direct exposure: tidal and storm surge events that push saltwater into bulkhead garages, boat slips, and ground-floor units. Bolsa Chica wetlands flooding affects the northern edge during significant storm events. Salt-air corrosion accelerates plumbing fixture failure on a timeline that inland properties don't experience. Gallagher takes SR-91 West to I-405 South and is typically on-site in any part of Huntington Beach within 75 minutes — bringing 15+ years of Southern California experience to a coastal damage profile that demands specific expertise.",
+  "localHook": "Huntington Beach sits directly on the Pacific — and the Pacific is not passive. The marine layer that rolls in off the water most mornings deposits moisture against every exterior surface in the city. Beach cottages and mid-century homes within a mile of the water accumulate that moisture in wall cavities, behind stucco, and inside framing that was built before modern vapor barriers were standard. The Huntington Harbour channel community faces a more direct exposure: tidal and storm surge events that push saltwater into bulkhead garages, boat slips, and ground-floor units. Bolsa Chica wetlands flooding affects the northern edge during significant storm events. Salt-air corrosion accelerates plumbing fixture failure on a timeline that inland properties don't experience. Gallagher's local Huntington Beach office keeps crews close, typically on-site in any part of the city within 60 minutes — bringing 15+ years of Southern California experience to a coastal damage profile that demands specific expertise.",
   "neighborhoods": {
     "eyebrow": "Areas We Serve",
     "heading": "From downtown pier to Huntington Harbour",
@@ -86,7 +86,7 @@
   "howWeWork": {
     "eyebrow": "The process",
     "heading": "From your call to a dry, restored property",
-    "body": "Call (951) 541-0034 — a real person answers, 24 hours a day. For Huntington Beach calls, we ask the specific questions that coastal properties require: is there saltwater involvement? Is the property directly on the Harbour channel? Is there active tidal exposure? These questions shape the containment response — saltwater events use different protocols than freshwater plumbing failures. A crew leaves Canyon Lake via SR-91 West and I-405 South and is typically on-site within 75 minutes. Containment and extraction first. Coastal mold assessments use professional-grade moisture mapping to find the full extent of wall cavity moisture before any scope decision is made. Marine mold is more pervasive than it appears — scoping it correctly from the start prevents return calls. Aaron and the team coordinate with the major insurance carriers directly. Documentation for coastal damage events often requires more detailed evidence than standard inland jobs — we provide it."
+    "body": "Call (951) 541-0034 — a real person answers, 24 hours a day. For Huntington Beach calls, we ask the specific questions that coastal properties require: is there saltwater involvement? Is the property directly on the Harbour channel? Is there active tidal exposure? These questions shape the containment response — saltwater events use different protocols than freshwater plumbing failures. A crew dispatches from Gallagher's local Huntington Beach office and is typically on-site within 60 minutes. Containment and extraction first. Coastal mold assessments use professional-grade moisture mapping to find the full extent of wall cavity moisture before any scope decision is made. Marine mold is more pervasive than it appears — scoping it correctly from the start prevents return calls. Aaron and the team coordinate with the major insurance carriers directly. Documentation for coastal damage events often requires more detailed evidence than standard inland jobs — we provide it."
   },
   "whyChoose": {
     "eyebrow": "Why Gallagher",
@@ -101,7 +101,7 @@
   "faqs": [
     {
       "q": "How fast can Gallagher Restoration reach Huntington Beach?",
-      "a": "Via SR-91 West and I-405 South from Canyon Lake, we're typically on-site in Huntington Beach within 75 minutes. We operate 24/7 — call (951) 541-0034 and a real person answers at any hour."
+      "a": "Gallagher's local Huntington Beach office keeps crews close, typically on-site within 60 minutes. We operate 24/7 — call (951) 541-0034 and a real person answers at any hour."
     },
     {
       "q": "My Huntington Harbour home flooded from a storm surge — is saltwater different from regular water damage?",
