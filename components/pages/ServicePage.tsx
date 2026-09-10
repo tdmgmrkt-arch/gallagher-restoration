@@ -6,7 +6,7 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { TrustMarks } from "@/components/ui/TrustMarks";
-import { COMPANY, PHONE, SERVICE_CATEGORIES, SOCIAL_URLS } from "@/lib/site";
+import { COMPANY, EMAIL, PHONE, SERVICE_CATEGORIES, SOCIAL_URLS } from "@/lib/site";
 import { CITY_COORDS } from "@/lib/city-coords";
 import { getGoogleReviews } from "@/lib/google-reviews";
 import type { ServiceContent } from "@/lib/service-content";
@@ -178,6 +178,7 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
       "@id": "https://gallagherrestoration.com/#business",
       name: COMPANY.name,
       telephone: PHONE.display,
+      email: EMAIL.address,
       url: "https://gallagherrestoration.com",
       sameAs: SOCIAL_URLS,
       address: {

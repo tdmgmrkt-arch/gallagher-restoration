@@ -5,7 +5,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FinalCta } from "@/components/sections/FinalCta";
-import { COMPANY, PHONE, SERVICE_CATEGORIES, CITIES_BY_COUNTY, SOCIAL_URLS } from "@/lib/site";
+import { COMPANY, EMAIL, PHONE, SERVICE_CATEGORIES, CITIES_BY_COUNTY, SOCIAL_URLS } from "@/lib/site";
 import { COUNTY_LABEL_COORDS } from "@/lib/city-coords";
 import { getGoogleReviews } from "@/lib/google-reviews";
 import type { CountyContent } from "@/lib/county-content";
@@ -27,6 +27,7 @@ export async function CountyPage({ content }: { content: CountyContent }) {
     "@id": "https://gallagherrestoration.com/#business",
     name: COMPANY.name,
     telephone: PHONE.display,
+    email: EMAIL.address,
     url: `https://gallagherrestoration.com/${content.slug}`,
     sameAs: SOCIAL_URLS,
     address: {

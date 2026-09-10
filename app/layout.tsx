@@ -72,6 +72,7 @@ const organizationJsonLd = {
   url: "https://gallagherrestoration.com",
   logo: "https://gallagherrestoration.com/gallagher_badge_logo.webp",
   telephone: "(951) 541-0034",
+  email: "grc.restoration@gallagherrestoration.com",
   areaServed: "Southern California",
   sameAs: [
     "https://www.facebook.com/GallagherRestorationCo",

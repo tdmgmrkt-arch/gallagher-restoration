@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
-import { COMPANY, PHONE } from "@/lib/site";
+import { COMPANY, EMAIL, PHONE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Gallagher Restoration Co.",
@@ -181,6 +181,14 @@ export default function PrivacyPolicyPage() {
               >
                 {PHONE.display}
               </Link>
+              <br />
+              Email:{" "}
+              <a
+                href={EMAIL.href}
+                className="text-[#8ECE34] transition-colors hover:text-[#A6E053]"
+              >
+                {EMAIL.address}
+              </a>
             </p>
           </LegalSection>
         </div>

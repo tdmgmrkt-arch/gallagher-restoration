@@ -4,6 +4,11 @@ export const PHONE = {
   digits: "951-541-0034",
 };
 
+export const EMAIL = {
+  address: "grc.restoration@gallagherrestoration.com",
+  href: "mailto:grc.restoration@gallagherrestoration.com",
+};
+
 export const COMPANY = {
   name: "Gallagher Restoration Co.",
   legalName: "Gallagher Restoration Inc",

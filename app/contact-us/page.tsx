@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { LeadForm } from "@/components/sections/LeadForm";
-import { PHONE, COMPANY, COUNTIES, ADDRESS, GBP, OFFICES } from "@/lib/site";
+import { PHONE, EMAIL, COMPANY, COUNTIES, ADDRESS, GBP, OFFICES } from "@/lib/site";
 import { officeNodes } from "@/lib/offices";
 
 export const metadata: Metadata = {
@@ -45,6 +45,7 @@ const contactJsonLd = {
     contactPoint: {
       "@type": "ContactPoint",
       telephone: PHONE.display,
+      email: EMAIL.address,
       contactType: "emergency",
       areaServed: "US-CA",
       availableLanguage: "English",
@@ -191,6 +192,29 @@ export default function ContactUsPage() {
               </div>
             </Reveal>
           </div>
+
+          {/* Non-emergency email — full-width row under the 3-up so the grid stays balanced */}
+          <Reveal delay={240}>
+            <a
+              href={EMAIL.href}
+              className="group mt-[clamp(16px,2vw,24px)] flex flex-wrap items-center justify-between gap-x-8 gap-y-3 border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(20px,2.2vw,30px)] transition-[border-color,background-color] duration-[350ms] ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:border-[rgba(142,206,52,0.35)] hover:bg-[#161816]"
+            >
+              <div>
+                <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[#8ECE34]">
+                  Email Us
+                </div>
+                <div className="mt-3 break-all text-[clamp(17px,1.8vw,22px)] font-bold leading-[1.25] tracking-[-0.02em] text-[#F4F5F1] transition-colors group-hover:text-[#8ECE34]">
+                  {EMAIL.address}
+                </div>
+                <p className="mt-2 max-w-[52ch] text-[14px] leading-[1.6] text-[#9CA098] text-pretty">
+                  Best for non-emergencies &mdash; insurance documentation, estimates, billing questions, and photos of the damage. If water is running or you smell smoke, call instead.
+                </p>
+              </div>
+              <span className="font-mono text-[12px] font-bold uppercase tracking-[0.16em] text-[#8ECE34] transition-transform group-hover:translate-x-[4px]">
+                Send an email &rarr;
+              </span>
+            </a>
+          </Reveal>
 
           {/* Satellite offices — secondary row, no directions link (service-area offices, not walk-in) */}
           <div className="mt-[clamp(16px,2vw,24px)] grid grid-cols-1 items-stretch gap-[clamp(16px,2vw,24px)] md:grid-cols-2">

@@ -1,9 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ADDRESS, COMPANY, GBP, NAV, OFFICES, PHONE, SOCIAL_URLS } from "@/lib/site";
+import { ADDRESS, COMPANY, EMAIL, GBP, NAV, OFFICES, PHONE, SOCIAL_URLS } from "@/lib/site";
 import { GoogleReviewBadge } from "@/components/ui/GoogleReviewBadge";
 
 const FOOTER_NAV = [{ label: "Home", href: "/" }, ...NAV];
+
+// The address is wider than the footer column at any sane size, so it will wrap.
+// Split it here and drop a <wbr /> after the @ to force a legible break point —
+// otherwise `break-all` hyphenates mid-domain ("gallagherresto / ration.com").
+const [EMAIL_USER, EMAIL_DOMAIN] = EMAIL.address.split("@");
 
 const SOCIALS = [
   { label: "Facebook", href: SOCIAL_URLS[0] },
@@ -88,6 +93,18 @@ export function SiteFooter() {
             </div>
             <div>
               <div className="font-mono text-[11px] uppercase tracking-[0.12em] text-[#7E837A]">
+                Email
+              </div>
+              <a
+                href={EMAIL.href}
+                className="mt-2 inline-block text-[14px] leading-[1.5] text-[#C6CABF] transition-colors hover:text-[#8ECE34]"
+              >
+                {EMAIL_USER}@<wbr />
+                {EMAIL_DOMAIN}
+              </a>
+            </div>
+            <div>
+              <div className="font-mono text-[11px] uppercase tracking-[0.12em] text-[#7E837A]">
                 Offices
               </div>
               <div className="mt-2 text-[16px] leading-[1.55] text-[#C6CABF]">
@@ -103,18 +120,22 @@ export function SiteFooter() {
               >
                 Get Directions &rarr;
               </a>
-              <div className="mt-4 flex flex-col gap-2 border-t border-[rgba(255,255,255,0.08)] pt-4">
-                {OFFICES.filter((o) => o.kind === "satellite").map((o) => (
-                  <div key={o.id} className="text-[14px] leading-[1.45]">
-                    <div className="font-mono text-[10px] uppercase tracking-[0.12em] text-[#7E837A]">
-                      {o.role}
-                    </div>
-                    <div className="text-[#C6CABF]">
+              {/* Satellites as one quiet line. Each previously carried its own mono
+                  role label, which stacked five headings into this column and read
+                  as more chrome than content. The city names are the local signal
+                  worth keeping; the roles live on /contact-us and in the
+                  subOrganization schema nodes. */}
+              <p className="mt-4 text-[14px] leading-[1.55] text-[#8F948A]">
+                Also dispatching from{" "}
+                {OFFICES.filter((o) => o.kind === "satellite").map((o, i, arr) => (
+                  <span key={o.id}>
+                    <span className="whitespace-nowrap text-[#C6CABF]">
                       {o.locality}, {o.region}
-                    </div>
-                  </div>
+                    </span>
+                    {i < arr.length - 2 ? ", " : i === arr.length - 2 ? " and " : ""}
+                  </span>
                 ))}
-              </div>
+              </p>
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 # Gallagher Restoration Co.
 
-> Gallagher Restoration Co. is a family-owned, IICRC-trained restoration company serving Southern California for 15+ years. 24/7 emergency response for water, fire, mold, sewage, and wildfire damage across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties. Phone: (951) 541-0034. Headquartered in Canyon Lake, CA, with satellite offices in Huntington Beach, CA (Orange County) and Carlsbad, CA (North County San Diego).
+> Gallagher Restoration Co. is a family-owned, IICRC-trained restoration company serving Southern California for 15+ years. 24/7 emergency response for water, fire, mold, sewage, and wildfire damage across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties. Phone: (951) 541-0034. Email: grc.restoration@gallagherrestoration.com. Headquartered in Canyon Lake, CA, with satellite offices in Huntington Beach, CA (Orange County) and Carlsbad, CA (North County San Diego).
 
 For structured, machine-readable customer actions (emergency phone, request service, primary services, service area), see: https://gallagherrestoration.com/ai-actions.json
 
@@ -109,3 +109,4 @@ Owner and lead: Aaron Gallagher.
 ## Optional
 
 - [Emergency Line: (951) 541-0034](tel:9515410034): 24/7 live dispatch for active restoration emergencies.
+- [Email: grc.restoration@gallagherrestoration.com](mailto:grc.restoration@gallagherrestoration.com): Non-emergency inquiries — insurance documentation, estimates, and billing questions.

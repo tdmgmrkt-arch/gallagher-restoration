@@ -9,7 +9,7 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { NewsGrid } from "@/components/sections/NewsGrid";
 import { Faq } from "@/components/sections/Faq";
 import { FinalCta } from "@/components/sections/FinalCta";
-import { ADDRESS, COMPANY, FAQS, GBP, PHONE, REVIEWS, SOCIAL_URLS } from "@/lib/site";
+import { ADDRESS, COMPANY, EMAIL, FAQS, GBP, PHONE, REVIEWS, SOCIAL_URLS } from "@/lib/site";
 import { CITY_COORDS } from "@/lib/city-coords";
 import { getGoogleReviews } from "@/lib/google-reviews";
 import { officeNodes } from "@/lib/offices";
@@ -28,6 +28,7 @@ export default async function Home() {
       "24/7 water, fire, mold, and property damage restoration across Southern California. On-site within 60 minutes.",
     url: "https://gallagherrestoration.com",
     telephone: PHONE.display,
+    email: EMAIL.address,
     image: "https://gallagherrestoration.com/gallagher_fleet_rear.webp",
     sameAs: SOCIAL_URLS,
     hasCredential: {

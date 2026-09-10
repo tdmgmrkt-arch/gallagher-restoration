@@ -5,6 +5,7 @@
     "legal_name": "Gallagher Restoration Co.",
     "url": "https://gallagherrestoration.com",
     "telephone": "+1-951-541-0034",
+    "email": "grc.restoration@gallagherrestoration.com",
     "address": {
       "locality": "Canyon Lake",
       "region": "CA",
@@ -52,6 +53,13 @@
       "label": "Request Service Online",
       "description": "Contact form for non-immediate restoration requests, insurance claim coordination, and general inquiries. For active emergencies, call the phone number instead.",
       "supports_agent_booking": false
+    },
+    "email_inquiry": {
+      "type": "email",
+      "email": "grc.restoration@gallagherrestoration.com",
+      "label": "Email Gallagher Restoration",
+      "description": "Non-emergency email for insurance documentation, estimates, billing questions, and photos of damage. For active emergencies, use the phone number instead.",
+      "availability": "Replies during business hours"
     }
   },
   "primary_services": [

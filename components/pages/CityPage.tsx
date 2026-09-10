@@ -7,7 +7,7 @@ import { CityMap } from "@/components/ui/CityMap";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { TrustMarks } from "@/components/ui/TrustMarks";
-import { COMPANY, PHONE, SERVICE_CATEGORIES, CITIES_BY_COUNTY, SOCIAL_URLS } from "@/lib/site";
+import { COMPANY, EMAIL, PHONE, SERVICE_CATEGORIES, CITIES_BY_COUNTY, SOCIAL_URLS } from "@/lib/site";
 import { CITY_COORDS } from "@/lib/city-coords";
 import { getGoogleReviews } from "@/lib/google-reviews";
 import type { CityContent } from "@/lib/city-content";
@@ -32,6 +32,7 @@ export async function CityPage({ content }: { content: CityContent }) {
     "@id": "https://gallagherrestoration.com/#business",
     name: COMPANY.name,
     telephone: PHONE.display,
+    email: EMAIL.address,
     url: `https://gallagherrestoration.com/${content.slug}`,
     sameAs: SOCIAL_URLS,
     address: {
