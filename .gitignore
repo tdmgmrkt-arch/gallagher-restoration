@@ -49,3 +49,34 @@ design-reference/
 
 # stray dev/reference images at repo root
 /*.png
+
+# Internal agency working files — same rationale as CLIENT.md / design-reference
+# above: useful locally, not part of the deployable site.
+audits/
+ghl/
+industry-context.txt
+
+# Source/working media that must NOT ship. Anything under public/ is served
+# publicly on the production domain, so these would be downloadable at
+# gallagherrestoration.com/<name>. None is referenced by any code.
+#   - GBP/       : auto-poster image library (already published to the profile;
+#                  serving copies here risks duplicate-content against it)
+#   - *.mp3      : ElevenLabs IVR voice auditions
+#   - alt heroes : unused art-direction variants; the live hero is committed
+# If one of these is ever promoted to real site use, remove its line here and
+# commit the file deliberately.
+public/GBP/
+public/*.mp3
+#   NOTE: listed explicitly, NOT as gallagher-alt-hero*.webp — that glob would
+#   also shadow the LIVE hero (gallagher-alt-hero-3.webp) and the mobile hero.
+public/gallagher-alt-hero.webp
+public/gallagher-alt-hero-2.webp
+public/gallagher-alt-hero-portrait.webp
+public/gallagher-alt-hero-2-portrait.webp
+public/gallagher-alt-hero-3-portrait.webp
+public/gallagheralthero.png
+public/gallagheralthero2.webp
+public/gallagheralthero3.webp
+public/gallaghermobilehero.webp
+public/Most-Common-Fire-Damage.jpg
+public/Gallagher_Restoration_social_*
