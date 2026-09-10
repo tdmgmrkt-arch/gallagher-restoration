@@ -447,6 +447,22 @@ export const POSTS = [
   },
 ] as const;
 
+/** One post summary as rendered on the /news index and homepage grid. */
+export type PostSummary = (typeof POSTS)[number];
+
+/** Posts per page on the /news index. Page 1 spends one slot on the featured card. */
+export const POSTS_PER_PAGE = 9;
+
+export const POST_PAGE_COUNT = Math.max(
+  1,
+  Math.ceil(POSTS.length / POSTS_PER_PAGE),
+);
+
+export function getPostsForPage(page: number): PostSummary[] {
+  const start = (page - 1) * POSTS_PER_PAGE;
+  return POSTS.slice(start, start + POSTS_PER_PAGE);
+}
+
 export const FAQS = [
   {
     q: "How quickly can someone get to my property?",

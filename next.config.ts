@@ -51,6 +51,8 @@ const nextConfig: NextConfig = {
         destination: `/${slug}-ca`,
         permanent: true,
       })),
+      // /news is page 1 of the article index — keep a single canonical URL for it.
+      { source: "/news/page/1", destination: "/news", permanent: true },
       { source: "/menifee", destination: "/menifee-ca", permanent: true },
       { source: "/santa-clarita", destination: "/santa-clarita-ca", permanent: true },
       {

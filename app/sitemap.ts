@@ -4,6 +4,7 @@ import { BLOG_POSTS, BLOG_SLUGS } from "@/lib/blog-content";
 import { CITY_SLUGS } from "@/lib/city-content";
 import { COUNTY_SLUGS } from "@/lib/county-content";
 import { SERVICE_SLUGS } from "@/lib/service-content";
+import { POST_PAGE_COUNT } from "@/lib/site";
 
 const BASE_URL = "https://gallagherrestoration.com";
 
@@ -54,6 +55,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  // Paginated article index: page 1 is already covered by the /news static route.
+  const newsPageEntries = Array.from(
+    { length: Math.max(0, POST_PAGE_COUNT - 1) },
+    (_, i) => ({
+      url: `${BASE_URL}/news/page/${i + 2}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.4,
+    }),
+  );
+
   const blogEntries = BLOG_SLUGS.map((slug) => {
     const post = BLOG_POSTS[slug];
     return {
@@ -69,6 +81,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...serviceEntries,
     ...countyEntries,
     ...cityEntries,
+    ...newsPageEntries,
     ...blogEntries,
   ];
 }
