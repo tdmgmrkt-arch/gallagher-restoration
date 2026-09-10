@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { PageHero } from "@/components/ui/PageHero";
+import { plainText, RichText } from "@/components/ui/RichText";
 import { Reveal } from "@/components/ui/Reveal";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { COMPANY } from "@/lib/site";
@@ -63,7 +64,7 @@ function renderBlock(block: BlogBlock, i: number) {
           key={i}
           className="mt-6 text-[clamp(16px,1.4vw,20px)] leading-[1.8] text-[#C2C6BC] text-pretty"
         >
-          {block.text}
+          <RichText text={block.text} />
         </p>
       );
     case "h2":
@@ -92,7 +93,9 @@ function renderBlock(block: BlogBlock, i: number) {
           style={{ listStyleType: "disc" }}
         >
           {block.items.map((item, j) => (
-            <li key={j}>{item}</li>
+            <li key={j}>
+              <RichText text={item} />
+            </li>
           ))}
         </ul>
       );
@@ -105,7 +108,7 @@ function renderBlock(block: BlogBlock, i: number) {
         >
           {block.items.map((item, j) => (
             <li key={j} className="pl-2">
-              {item}
+              <RichText text={item} />
             </li>
           ))}
         </ol>
@@ -116,7 +119,7 @@ function renderBlock(block: BlogBlock, i: number) {
           key={i}
           className="mt-8 border-l-2 border-[#8ECE34] bg-[#121413] p-6 text-[clamp(20px,2.2vw,27px)] italic leading-[1.65] text-[#D4D8CE]"
         >
-          {block.text}
+          <RichText text={block.text} />
         </blockquote>
       );
     case "table":
@@ -150,7 +153,7 @@ function renderBlock(block: BlogBlock, i: number) {
                       key={k}
                       className={`px-[clamp(14px,1.6vw,22px)] py-[16px] text-[#C6CABF] align-top ${k === 0 ? "font-medium text-[#F4F5F1]" : ""}`}
                     >
-                      {cell}
+                      <RichText text={cell} />
                     </td>
                   ))}
                 </tr>
@@ -171,11 +174,42 @@ function renderBlock(block: BlogBlock, i: number) {
                 {item.q}
               </dt>
               <dd className="mt-3 text-[clamp(15px,1.3vw,19px)] leading-[1.75] text-[#C2C6BC] text-pretty">
-                {item.a}
+                <RichText text={item.a} />
               </dd>
             </div>
           ))}
         </dl>
+      );
+    case "sources":
+      return (
+        <aside
+          key={i}
+          className="mt-12 border border-[rgba(255,255,255,0.09)] bg-[#121413] p-[clamp(22px,2.6vw,34px)]"
+        >
+          <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
+            Further reading
+          </div>
+          <ul className="mt-5 flex flex-col gap-4">
+            {block.items.map((item, j) => (
+              <li
+                key={j}
+                className="border-t border-[rgba(255,255,255,0.07)] pt-4 first:border-t-0 first:pt-0"
+              >
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[clamp(15px,1.3vw,19px)] font-medium leading-[1.55] text-[#F4F5F1] underline decoration-[rgba(142,206,52,0.35)] underline-offset-[3px] transition-colors duration-200 hover:text-[#8ECE34] hover:decoration-[#8ECE34]"
+                >
+                  {item.label}
+                </a>
+                <div className="mt-2 font-mono text-[11px] uppercase tracking-[0.14em] text-[#7E837A]">
+                  {item.publisher}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </aside>
       );
     default:
       return null;
@@ -199,8 +233,8 @@ export default async function BlogPostPage({ params }: PageProps<"/news/[slug]">
           "@id": `https://gallagherrestoration.com/news/${post.slug}#faqpage`,
           mainEntity: faqBlock.items.map((item) => ({
             "@type": "Question",
-            name: item.q,
-            acceptedAnswer: { "@type": "Answer", text: item.a },
+            name: plainText(item.q),
+            acceptedAnswer: { "@type": "Answer", text: plainText(item.a) },
           })),
         }
       : null;

@@ -194,6 +194,42 @@ export const TESTIMONIALS = [
  */
 export const POSTS = [
   {
+    slug: "can-insurance-choose-my-restoration-company",
+    title: "Can Your Insurance Company Make You Use Their Restoration Contractor?",
+    excerpt:
+      "Adjusters recommend a preferred vendor and most homeowners assume it is required. In California it is not. Here is what the preferred-vendor arrangement actually is, and how to choose well.",
+    image: "/reconstruction-hero.webp",
+    imageAlt:
+      "Contractor and homeowner reviewing a restoration scope of work on a California property",
+    category: "Insurance",
+    datePublished: "2026-09-06",
+    dateModified: "2026-09-06",
+  },
+  {
+    slug: "sewage-backup-in-your-home-what-to-do",
+    title: "Sewage Backup in Your Home: What to Do in the First Hour",
+    excerpt:
+      "A sewage backup is a biohazard, not a plumbing inconvenience. Here is what to do immediately, what has to be thrown away, what it costs, and why most California policies do not cover it by default.",
+    image: "/sewage-clean-up-services-hero.webp",
+    imageAlt:
+      "Restoration crew in protective equipment performing sewage cleanup inside a home",
+    category: "Sewage",
+    datePublished: "2026-09-02",
+    dateModified: "2026-09-02",
+  },
+  {
+    slug: "wildfire-ash-cleanup-inside-your-home",
+    title: "Wildfire Ash Inside Your Home: Why Cleaning It Wrong Makes It Worse",
+    excerpt:
+      "Your house did not burn \u2014 but ash and smoke got in. Structural ash is not campfire ash, a broom is the wrong tool, and the insurance conversation is different. Here is how to handle it.",
+    image: "/fire-hero.webp",
+    imageAlt:
+      "Wildfire ash settled on surfaces inside a Southern California home after a nearby fire",
+    category: "Wildfire",
+    datePublished: "2026-08-28",
+    dateModified: "2026-08-28",
+  },
+  {
     slug: "mold-remediation-cost-california",
     title: "Mold Remediation Cost in California: 2026 Pricing Guide",
     excerpt:
@@ -204,6 +240,114 @@ export const POSTS = [
     category: "Mold",
     datePublished: "2026-08-24",
     dateModified: "2026-08-24",
+  },
+  {
+    slug: "how-to-get-smoke-smell-out-of-house",
+    title: "How to Get Smoke Smell Out of a House (and Why DIY Usually Fails)",
+    excerpt:
+      "Smoke odor is not a smell sitting on your walls \u2014 it is residue that has bonded to porous material and migrated into wall cavities. Here is what actually removes it, and why the ozone machine you were about to rent is a bad idea.",
+    image: "/smoke-clean-up-hero.webp",
+    imageAlt:
+      "Technician performing smoke and soot cleanup on interior surfaces after a residential fire",
+    category: "Fire",
+    datePublished: "2026-08-22",
+    dateModified: "2026-08-22",
+  },
+  {
+    slug: "what-to-do-after-a-house-fire",
+    title: "What to Do After a House Fire: The First 72 Hours",
+    excerpt:
+      "The fire department leaves and the house is quiet. What happens in the next three days shapes your insurance claim, what can be salvaged, and how long you are displaced. Here is the sequence that matters.",
+    image: "/fire-damage-restoration-hero.webp",
+    imageAlt:
+      "Fire-damaged residential interior awaiting restoration and board-up in Southern California",
+    category: "Fire",
+    datePublished: "2026-08-18",
+    dateModified: "2026-08-18",
+  },
+  {
+    slug: "slab-leak-signs-southern-california",
+    title: "Slab Leak Warning Signs Every Southern California Homeowner Should Know",
+    excerpt:
+      "Most Inland Empire homes sit on a concrete slab, which means a failed water line can run for months before anything shows. These are the signs that show up first \u2014 and what a slab leak actually costs.",
+    image: "/emergency-water-removal-hero.webp",
+    imageAlt:
+      "Restoration technician checking flooring for moisture from a suspected slab leak",
+    category: "Water",
+    datePublished: "2026-08-14",
+    dateModified: "2026-08-14",
+  },
+  {
+    slug: "is-black-mold-dangerous",
+    title: "Is Black Mold Actually Dangerous? What the Research Says",
+    excerpt:
+      "\u201cToxic black mold\u201d is the most searched and least useful term in the mold world. Here is what public health agencies actually say about health effects, why color tells you almost nothing, and what genuinely matters.",
+    image: "/mold-hero.webp",
+    imageAlt:
+      "Dark mold growth on a damp interior wall surface in a Southern California home",
+    category: "Mold",
+    datePublished: "2026-08-10",
+    dateModified: "2026-08-10",
+  },
+  {
+    slug: "signs-of-mold-behind-walls",
+    title: "7 Signs of Mold Behind Your Walls (Before You Ever See It)",
+    excerpt:
+      "Most household mold grows where you cannot see it \u2014 inside wall cavities, under flooring, above ceilings. These are the seven signals that show up first, and the two that mean stop and call someone.",
+    image: "/mold-inspection-hero.webp",
+    imageAlt:
+      "Technician using a moisture meter to check for hidden mold inside a wall cavity",
+    category: "Mold",
+    datePublished: "2026-08-06",
+    dateModified: "2026-08-06",
+  },
+  {
+    slug: "water-damage-categories-explained",
+    title: "Clean, Gray, and Black Water: The 3 Categories of Water Damage",
+    excerpt:
+      "Category 1, 2, and 3 water are not about how dirty the water looks. They determine what can be dried and saved versus what has to be cut out and thrown away \u2014 and Category 1 does not stay Category 1 for long.",
+    image: "/water-extraction-hero.webp",
+    imageAlt:
+      "Restoration technician extracting contaminated water from a flooded Southern California home",
+    category: "Water",
+    datePublished: "2026-08-02",
+    dateModified: "2026-08-02",
+  },
+  {
+    slug: "air-conditioner-leaking-water-damage-ceiling",
+    title: "Why Your AC Is Leaking Water Into the Ceiling \u2014 and What It Costs to Ignore",
+    excerpt:
+      "A clogged condensate line is the most common summer water loss in Southern California. It starts as a small stain on the ceiling and ends as an attic mold job. Here is how to catch it early.",
+    image: "/ceiling-water-damage-hero.webp",
+    imageAlt:
+      "Water stain spreading across a ceiling below an attic air handler in a Southern California home",
+    category: "Water",
+    datePublished: "2026-07-29",
+    dateModified: "2026-07-29",
+  },
+  {
+    slug: "does-homeowners-insurance-cover-water-damage-california",
+    title: "Does Homeowners Insurance Cover Water Damage in California?",
+    excerpt:
+      "Sudden and accidental water damage is usually covered. Gradual leaks, flood, and sewer backup usually are not. Here is where California policies draw the line \u2014 and how good claims get denied on a technicality.",
+    image: "/property-damage-management-hero.webp",
+    imageAlt:
+      "Homeowner reviewing water damage documentation with a restoration technician in Southern California",
+    category: "Insurance",
+    datePublished: "2026-07-25",
+    dateModified: "2026-07-25",
+  },
+  {
+    slug: "how-long-does-water-damage-restoration-take",
+    title: "How Long Does Water Damage Restoration Take?",
+    excerpt:
+      "Most Southern California water damage jobs dry in three to five days \u2014 but drying is only the first half. Here is a realistic phase-by-phase timeline, and the seven things that stretch it out.",
+    image: "/water-dry-out-hero.webp",
+    imageAlt:
+      "Air movers and a dehumidifier running during structural drying in a Southern California home",
+    category: "Water",
+    datePublished: "2026-07-21",
+    dateModified: "2026-07-21",
   },
   {
     slug: "qualified-experts-for-you-needs",
@@ -243,7 +387,7 @@ export const POSTS = [
   },
   {
     slug: "how-to-prepare-your-southern-california-home-for-winter",
-    title: "How to Prepare Your Southern California Home for Winter",
+    title: "Winterize Your SoCal Home: Stop Water Damage",
     excerpt:
       "SoCal winters are mild \u2014 but rain, wind, and colder temps still cause real damage. Eight practical steps to winterize your Southern California home.",
     image: "/blog/winter-prep.jpg",
@@ -271,7 +415,8 @@ export const POSTS = [
     excerpt:
       "Understand the fundamentals of fire damage, smoke damage, and the professional restoration process.",
     image: "/blog/fire-damage-basics.jpg",
-    imageAlt: "Fire damage restoration basics editorial hero image",
+    imageAlt:
+      "Fire damage restoration basics editorial hero image",
     category: "Fire",
     datePublished: "2024-08-01",
     dateModified: "2024-08-01",

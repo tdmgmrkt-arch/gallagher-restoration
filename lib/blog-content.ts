@@ -9,7 +9,11 @@ export type BlogBlock =
   | { type: "ol"; items: string[] }
   | { type: "quote"; text: string }
   | { type: "table"; headers: string[]; rows: string[][] }
-  | { type: "faq"; items: Array<{ q: string; a: string }> };
+  | { type: "faq"; items: Array<{ q: string; a: string }> }
+  | {
+      type: "sources";
+      items: Array<{ label: string; publisher: string; url: string }>;
+    };
 
 export type BlogPost = {
   slug: string;
