@@ -157,3 +157,326 @@ body {
   .text-\[22px\] { font-size: 26px; }
   .text-\[26px\] { font-size: 30px; }
 }
+
+/* ============================================================================
+   Accessibility widget — user-controlled view adjustments.
+   Classes are toggled on <html> by components/layout/AccessibilityWidget.tsx.
+   The widget marks itself `.a11y-widget-root` and opts out of the modes that
+   would otherwise make its own controls unreadable.
+   ============================================================================ */
+
+/* Readable font — swap Archivo for a wider, more open stack. */
+html.a11y-readable-font body,
+html.a11y-readable-font body * {
+  font-family: Verdana, Tahoma, "Trebuchet MS", Arial, sans-serif !important;
+  letter-spacing: 0.01em !important;
+}
+html.a11y-readable-font .a11y-widget-root,
+html.a11y-readable-font .a11y-widget-root * {
+  font-family: var(--font-archivo), Helvetica, Arial, sans-serif !important;
+  letter-spacing: normal !important;
+}
+html.a11y-readable-font .a11y-widget-root .font-mono,
+html.a11y-readable-font .a11y-widget-root .font-mono * {
+  font-family: var(--font-mono-jb), ui-monospace, monospace !important;
+}
+
+/* High contrast — pure black canvas, white text, yellow links. The widget is
+   excluded so its green/dark palette survives. */
+html.a11y-high-contrast body {
+  background: #000 !important;
+  color: #fff !important;
+}
+html.a11y-high-contrast body *:not(.a11y-widget-root, .a11y-widget-root *) {
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #fff !important;
+  border-color: #fff !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+html.a11y-high-contrast body a:not(.a11y-widget-root, .a11y-widget-root *) {
+  color: #ffeb3b !important;
+  text-decoration: underline !important;
+}
+/* Photos are dimmed hard, not just desaturated: the rules above strip the dark
+   scrims this site layers over its hero imagery, and white text has to stay
+   legible on top of what is left. */
+html.a11y-high-contrast body img,
+html.a11y-high-contrast body video {
+  filter: grayscale(1) brightness(0.32) contrast(1.15) !important;
+}
+
+/* Invert — flips the dark canvas to light. Media and the widget are inverted a
+   second time so photos and the panel keep their true colors. The filter lives
+   on <html> rather than <body> so it does not become the containing block for
+   the sticky header and the fixed call bar. */
+html.a11y-invert {
+  filter: invert(1) hue-rotate(180deg);
+}
+html.a11y-invert img,
+html.a11y-invert video,
+html.a11y-invert iframe,
+html.a11y-invert .a11y-widget-root,
+html.a11y-invert [style*="background-image"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* Highlight links — underline, embolden and outline every link. */
+html.a11y-highlight-links body a:not(.a11y-widget-root, .a11y-widget-root *) {
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 3px !important;
+  font-weight: 700 !important;
+  outline: 2px dashed #8ece34 !important;
+  outline-offset: 2px !important;
+}
+
+/* Large cursor. */
+html.a11y-big-cursor,
+html.a11y-big-cursor * {
+  cursor:
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'><path d='M4 2 L4 32 L12 24 L17 36 L22 34 L17 22 L28 22 Z' fill='%23ffffff' stroke='%230B0C0B' stroke-width='2' stroke-linejoin='round'/></svg>")
+      2 2,
+    auto !important;
+}
+
+/* Pause animations — kills the parallax drift, pulses and reveal transitions.
+   `.reveal` is forced visible so nothing stays stuck at opacity 0. */
+html.a11y-pause-anim *,
+html.a11y-pause-anim *::before,
+html.a11y-pause-anim *::after {
+  animation-duration: 0.001ms !important;
+  animation-delay: 0ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  transition-delay: 0ms !important;
+  scroll-behavior: auto !important;
+}
+html.a11y-pause-anim .reveal {
+  opacity: 1 !important;
+  transform: none !important;
+}
+/* Collapsing a duration freezes an element on its LAST keyframe rather than
+   disabling the effect, so anything that animates needs an explicit resting
+   state here — same trap the prefers-reduced-motion block documents above.
+   `gr-glow` ends at 0.62 opacity and would leave the county dots permanently
+   dimmed. Any new pulse/glow must be added to this list. */
+html.a11y-pause-anim .gr-pulse,
+html.a11y-pause-anim .gr-status-dot {
+  animation: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+
+/* --- a11y text scale (generated: scripts/gen-a11y-text-scale.mjs) ---------
+   Three user-selectable size steps. Higher specificity than both the base
+   utilities and the desktop readability scale below, so no !important.
+   -------------------------------------------------------------------------- */
+html.a11y-text-1 [class~="text-[9px]"] { font-size: 10.13px; }
+html.a11y-text-1 [class~="text-[10px]"] { font-size: 11.25px; }
+html.a11y-text-1 [class~="text-[11px]"] { font-size: 12.38px; }
+html.a11y-text-1 [class~="text-[12px]"] { font-size: 13.5px; }
+html.a11y-text-1 [class~="text-[13px]"] { font-size: 14.63px; }
+html.a11y-text-1 [class~="text-[14px]"] { font-size: 15.75px; }
+html.a11y-text-1 [class~="text-[15px]"] { font-size: 16.88px; }
+html.a11y-text-1 [class~="text-[16px]"] { font-size: 18px; }
+html.a11y-text-1 [class~="text-[17px]"] { font-size: 19.13px; }
+html.a11y-text-1 [class~="text-[18px]"] { font-size: 20.25px; }
+html.a11y-text-1 [class~="text-[20px]"] { font-size: 22.5px; }
+html.a11y-text-1 [class~="text-[22px]"] { font-size: 24.75px; }
+html.a11y-text-1 [class~="text-[26px]"] { font-size: 29.25px; }
+html.a11y-text-1 [class~="text-[clamp(12px,1.25vw,15px)]"] { font-size: clamp(13.5px, 1.41vw, 16.88px); }
+html.a11y-text-1 [class~="text-[clamp(15px,1.35vw,18px)]"] { font-size: clamp(16.88px, 1.52vw, 20.25px); }
+html.a11y-text-1 [class~="text-[clamp(15px,1.35vw,19px)]"] { font-size: clamp(16.88px, 1.52vw, 21.38px); }
+html.a11y-text-1 [class~="text-[clamp(15px,1.3vw,19px)]"] { font-size: clamp(16.88px, 1.46vw, 21.38px); }
+html.a11y-text-1 [class~="text-[clamp(15px,1.4vw,20px)]"] { font-size: clamp(16.88px, 1.57vw, 22.5px); }
+html.a11y-text-1 [class~="text-[clamp(16px,1.45vw,20px)]"] { font-size: clamp(18px, 1.63vw, 22.5px); }
+html.a11y-text-1 [class~="text-[clamp(16px,1.45vw,21px)]"] { font-size: clamp(18px, 1.63vw, 23.63px); }
+html.a11y-text-1 [class~="text-[clamp(16px,1.4vw,20px)]"] { font-size: clamp(18px, 1.57vw, 22.5px); }
+html.a11y-text-1 [class~="text-[clamp(16px,1.6vw,21px)]"] { font-size: clamp(18px, 1.8vw, 23.63px); }
+html.a11y-text-1 [class~="text-[clamp(16px,1.6vw,22px)]"] { font-size: clamp(18px, 1.8vw, 24.75px); }
+html.a11y-text-1 [class~="text-[clamp(17px,1.8vw,22px)]"] { font-size: clamp(19.13px, 2.02vw, 24.75px); }
+html.a11y-text-1 [class~="text-[clamp(18px,1.35vw,21px)]"] { font-size: clamp(20.25px, 1.52vw, 23.63px); }
+html.a11y-text-1 [class~="text-[clamp(20px,2.2vw,27px)]"] { font-size: clamp(22.5px, 2.48vw, 30.38px); }
+html.a11y-text-1 [class~="text-[clamp(20px,2vw,26px)]"] { font-size: clamp(22.5px, 2.25vw, 29.25px); }
+html.a11y-text-1 [class~="text-[clamp(21px,2.4vw,29px)]"] { font-size: clamp(23.63px, 2.7vw, 32.63px); }
+html.a11y-text-1 [class~="text-[clamp(22px,2.1vw,28px)]"] { font-size: clamp(24.75px, 2.36vw, 31.5px); }
+html.a11y-text-1 [class~="text-[clamp(22px,2.2vw,30px)]"] { font-size: clamp(24.75px, 2.48vw, 33.75px); }
+html.a11y-text-1 [class~="text-[clamp(22px,2.4vw,30px)]"] { font-size: clamp(24.75px, 2.7vw, 33.75px); }
+html.a11y-text-1 [class~="text-[clamp(22px,2.6vw,32px)]"] { font-size: clamp(24.75px, 2.93vw, 36px); }
+html.a11y-text-1 [class~="text-[clamp(22px,2vw,28px)]"] { font-size: clamp(24.75px, 2.25vw, 31.5px); }
+html.a11y-text-1 [class~="text-[clamp(24px,2.6vw,34px)]"] { font-size: clamp(27px, 2.93vw, 38.25px); }
+html.a11y-text-1 [class~="text-[clamp(24px,2.6vw,36px)]"] { font-size: clamp(27px, 2.93vw, 40.5px); }
+html.a11y-text-1 [class~="text-[clamp(24px,2.7vw,34px)]"] { font-size: clamp(27px, 3.04vw, 38.25px); }
+html.a11y-text-1 [class~="text-[clamp(26px,3.2vw,40px)]"] { font-size: clamp(29.25px, 3.6vw, 45px); }
+html.a11y-text-1 [class~="text-[clamp(26px,3vw,40px)]"] { font-size: clamp(29.25px, 3.38vw, 45px); }
+html.a11y-text-1 [class~="text-[clamp(28px,3.2vw,40px)]"] { font-size: clamp(31.5px, 3.6vw, 45px); }
+html.a11y-text-1 [class~="text-[clamp(28px,3.4vw,44px)]"] { font-size: clamp(31.5px, 3.82vw, 49.5px); }
+html.a11y-text-1 [class~="text-[clamp(28px,3.4vw,46px)]"] { font-size: clamp(31.5px, 3.82vw, 51.75px); }
+html.a11y-text-1 [class~="text-[clamp(28px,3.6vw,44px)]"] { font-size: clamp(31.5px, 4.05vw, 49.5px); }
+html.a11y-text-1 [class~="text-[clamp(28px,3vw,42px)]"] { font-size: clamp(31.5px, 3.38vw, 47.25px); }
+html.a11y-text-1 [class~="text-[clamp(30px,3.4vw,44px)]"] { font-size: clamp(33.75px, 3.82vw, 49.5px); }
+html.a11y-text-1 [class~="text-[clamp(30px,4.2vw,56px)]"] { font-size: clamp(33.75px, 4.73vw, 63px); }
+html.a11y-text-1 [class~="text-[clamp(30px,4vw,52px)]"] { font-size: clamp(33.75px, 4.5vw, 58.5px); }
+html.a11y-text-1 [class~="text-[clamp(32px,4.4vw,58px)]"] { font-size: clamp(36px, 4.95vw, 65.25px); }
+html.a11y-text-1 [class~="text-[clamp(32px,4.6vw,62px)]"] { font-size: clamp(36px, 5.17vw, 69.75px); }
+html.a11y-text-1 [class~="text-[clamp(34px,3.6vw,50px)]"] { font-size: clamp(38.25px, 4.05vw, 56.25px); }
+html.a11y-text-1 [class~="text-[clamp(34px,4.4vw,58px)]"] { font-size: clamp(38.25px, 4.95vw, 65.25px); }
+html.a11y-text-1 [class~="text-[clamp(36px,5vw,68px)]"] { font-size: clamp(40.5px, 5.63vw, 76.5px); }
+html.a11y-text-1 [class~="text-[clamp(38px,5.4vw,72px)]"] { font-size: clamp(42.75px, 6.08vw, 81px); }
+html.a11y-text-1 [class~="text-[clamp(38px,5.6vw,74px)]"] { font-size: clamp(42.75px, 6.3vw, 83.25px); }
+html.a11y-text-1 [class~="text-[clamp(42px,5vw,64px)]"] { font-size: clamp(47.25px, 5.63vw, 72px); }
+
+html.a11y-text-2 [class~="text-[9px]"] { font-size: 11.25px; }
+html.a11y-text-2 [class~="text-[10px]"] { font-size: 12.5px; }
+html.a11y-text-2 [class~="text-[11px]"] { font-size: 13.75px; }
+html.a11y-text-2 [class~="text-[12px]"] { font-size: 15px; }
+html.a11y-text-2 [class~="text-[13px]"] { font-size: 16.25px; }
+html.a11y-text-2 [class~="text-[14px]"] { font-size: 17.5px; }
+html.a11y-text-2 [class~="text-[15px]"] { font-size: 18.75px; }
+html.a11y-text-2 [class~="text-[16px]"] { font-size: 20px; }
+html.a11y-text-2 [class~="text-[17px]"] { font-size: 21.25px; }
+html.a11y-text-2 [class~="text-[18px]"] { font-size: 22.5px; }
+html.a11y-text-2 [class~="text-[20px]"] { font-size: 25px; }
+html.a11y-text-2 [class~="text-[22px]"] { font-size: 27.5px; }
+html.a11y-text-2 [class~="text-[26px]"] { font-size: 32.5px; }
+html.a11y-text-2 [class~="text-[clamp(12px,1.25vw,15px)]"] { font-size: clamp(15px, 1.56vw, 18.75px); }
+html.a11y-text-2 [class~="text-[clamp(15px,1.35vw,18px)]"] { font-size: clamp(18.75px, 1.69vw, 22.5px); }
+html.a11y-text-2 [class~="text-[clamp(15px,1.35vw,19px)]"] { font-size: clamp(18.75px, 1.69vw, 23.75px); }
+html.a11y-text-2 [class~="text-[clamp(15px,1.3vw,19px)]"] { font-size: clamp(18.75px, 1.63vw, 23.75px); }
+html.a11y-text-2 [class~="text-[clamp(15px,1.4vw,20px)]"] { font-size: clamp(18.75px, 1.75vw, 25px); }
+html.a11y-text-2 [class~="text-[clamp(16px,1.45vw,20px)]"] { font-size: clamp(20px, 1.81vw, 25px); }
+html.a11y-text-2 [class~="text-[clamp(16px,1.45vw,21px)]"] { font-size: clamp(20px, 1.81vw, 26.25px); }
+html.a11y-text-2 [class~="text-[clamp(16px,1.4vw,20px)]"] { font-size: clamp(20px, 1.75vw, 25px); }
+html.a11y-text-2 [class~="text-[clamp(16px,1.6vw,21px)]"] { font-size: clamp(20px, 2vw, 26.25px); }
+html.a11y-text-2 [class~="text-[clamp(16px,1.6vw,22px)]"] { font-size: clamp(20px, 2vw, 27.5px); }
+html.a11y-text-2 [class~="text-[clamp(17px,1.8vw,22px)]"] { font-size: clamp(21.25px, 2.25vw, 27.5px); }
+html.a11y-text-2 [class~="text-[clamp(18px,1.35vw,21px)]"] { font-size: clamp(22.5px, 1.69vw, 26.25px); }
+html.a11y-text-2 [class~="text-[clamp(20px,2.2vw,27px)]"] { font-size: clamp(25px, 2.75vw, 33.75px); }
+html.a11y-text-2 [class~="text-[clamp(20px,2vw,26px)]"] { font-size: clamp(25px, 2.5vw, 32.5px); }
+html.a11y-text-2 [class~="text-[clamp(21px,2.4vw,29px)]"] { font-size: clamp(26.25px, 3vw, 36.25px); }
+html.a11y-text-2 [class~="text-[clamp(22px,2.1vw,28px)]"] { font-size: clamp(27.5px, 2.63vw, 35px); }
+html.a11y-text-2 [class~="text-[clamp(22px,2.2vw,30px)]"] { font-size: clamp(27.5px, 2.75vw, 37.5px); }
+html.a11y-text-2 [class~="text-[clamp(22px,2.4vw,30px)]"] { font-size: clamp(27.5px, 3vw, 37.5px); }
+html.a11y-text-2 [class~="text-[clamp(22px,2.6vw,32px)]"] { font-size: clamp(27.5px, 3.25vw, 40px); }
+html.a11y-text-2 [class~="text-[clamp(22px,2vw,28px)]"] { font-size: clamp(27.5px, 2.5vw, 35px); }
+html.a11y-text-2 [class~="text-[clamp(24px,2.6vw,34px)]"] { font-size: clamp(30px, 3.25vw, 42.5px); }
+html.a11y-text-2 [class~="text-[clamp(24px,2.6vw,36px)]"] { font-size: clamp(30px, 3.25vw, 45px); }
+html.a11y-text-2 [class~="text-[clamp(24px,2.7vw,34px)]"] { font-size: clamp(30px, 3.38vw, 42.5px); }
+html.a11y-text-2 [class~="text-[clamp(26px,3.2vw,40px)]"] { font-size: clamp(32.5px, 4vw, 50px); }
+html.a11y-text-2 [class~="text-[clamp(26px,3vw,40px)]"] { font-size: clamp(32.5px, 3.75vw, 50px); }
+html.a11y-text-2 [class~="text-[clamp(28px,3.2vw,40px)]"] { font-size: clamp(35px, 4vw, 50px); }
+html.a11y-text-2 [class~="text-[clamp(28px,3.4vw,44px)]"] { font-size: clamp(35px, 4.25vw, 55px); }
+html.a11y-text-2 [class~="text-[clamp(28px,3.4vw,46px)]"] { font-size: clamp(35px, 4.25vw, 57.5px); }
+html.a11y-text-2 [class~="text-[clamp(28px,3.6vw,44px)]"] { font-size: clamp(35px, 4.5vw, 55px); }
+html.a11y-text-2 [class~="text-[clamp(28px,3vw,42px)]"] { font-size: clamp(35px, 3.75vw, 52.5px); }
+html.a11y-text-2 [class~="text-[clamp(30px,3.4vw,44px)]"] { font-size: clamp(37.5px, 4.25vw, 55px); }
+html.a11y-text-2 [class~="text-[clamp(30px,4.2vw,56px)]"] { font-size: clamp(37.5px, 5.25vw, 70px); }
+html.a11y-text-2 [class~="text-[clamp(30px,4vw,52px)]"] { font-size: clamp(37.5px, 5vw, 65px); }
+html.a11y-text-2 [class~="text-[clamp(32px,4.4vw,58px)]"] { font-size: clamp(40px, 5.5vw, 72.5px); }
+html.a11y-text-2 [class~="text-[clamp(32px,4.6vw,62px)]"] { font-size: clamp(40px, 5.75vw, 77.5px); }
+html.a11y-text-2 [class~="text-[clamp(34px,3.6vw,50px)]"] { font-size: clamp(42.5px, 4.5vw, 62.5px); }
+html.a11y-text-2 [class~="text-[clamp(34px,4.4vw,58px)]"] { font-size: clamp(42.5px, 5.5vw, 72.5px); }
+html.a11y-text-2 [class~="text-[clamp(36px,5vw,68px)]"] { font-size: clamp(45px, 6.25vw, 85px); }
+html.a11y-text-2 [class~="text-[clamp(38px,5.4vw,72px)]"] { font-size: clamp(47.5px, 6.75vw, 90px); }
+html.a11y-text-2 [class~="text-[clamp(38px,5.6vw,74px)]"] { font-size: clamp(47.5px, 7vw, 92.5px); }
+html.a11y-text-2 [class~="text-[clamp(42px,5vw,64px)]"] { font-size: clamp(52.5px, 6.25vw, 80px); }
+
+html.a11y-text-3 [class~="text-[9px]"] { font-size: 12.38px; }
+html.a11y-text-3 [class~="text-[10px]"] { font-size: 13.75px; }
+html.a11y-text-3 [class~="text-[11px]"] { font-size: 15.13px; }
+html.a11y-text-3 [class~="text-[12px]"] { font-size: 16.5px; }
+html.a11y-text-3 [class~="text-[13px]"] { font-size: 17.88px; }
+html.a11y-text-3 [class~="text-[14px]"] { font-size: 19.25px; }
+html.a11y-text-3 [class~="text-[15px]"] { font-size: 20.63px; }
+html.a11y-text-3 [class~="text-[16px]"] { font-size: 22px; }
+html.a11y-text-3 [class~="text-[17px]"] { font-size: 23.38px; }
+html.a11y-text-3 [class~="text-[18px]"] { font-size: 24.75px; }
+html.a11y-text-3 [class~="text-[20px]"] { font-size: 27.5px; }
+html.a11y-text-3 [class~="text-[22px]"] { font-size: 30.25px; }
+html.a11y-text-3 [class~="text-[26px]"] { font-size: 35.75px; }
+html.a11y-text-3 [class~="text-[clamp(12px,1.25vw,15px)]"] { font-size: clamp(16.5px, 1.72vw, 20.63px); }
+html.a11y-text-3 [class~="text-[clamp(15px,1.35vw,18px)]"] { font-size: clamp(20.63px, 1.86vw, 24.75px); }
+html.a11y-text-3 [class~="text-[clamp(15px,1.35vw,19px)]"] { font-size: clamp(20.63px, 1.86vw, 26.13px); }
+html.a11y-text-3 [class~="text-[clamp(15px,1.3vw,19px)]"] { font-size: clamp(20.63px, 1.79vw, 26.13px); }
+html.a11y-text-3 [class~="text-[clamp(15px,1.4vw,20px)]"] { font-size: clamp(20.63px, 1.92vw, 27.5px); }
+html.a11y-text-3 [class~="text-[clamp(16px,1.45vw,20px)]"] { font-size: clamp(22px, 1.99vw, 27.5px); }
+html.a11y-text-3 [class~="text-[clamp(16px,1.45vw,21px)]"] { font-size: clamp(22px, 1.99vw, 28.88px); }
+html.a11y-text-3 [class~="text-[clamp(16px,1.4vw,20px)]"] { font-size: clamp(22px, 1.92vw, 27.5px); }
+html.a11y-text-3 [class~="text-[clamp(16px,1.6vw,21px)]"] { font-size: clamp(22px, 2.2vw, 28.88px); }
+html.a11y-text-3 [class~="text-[clamp(16px,1.6vw,22px)]"] { font-size: clamp(22px, 2.2vw, 30.25px); }
+html.a11y-text-3 [class~="text-[clamp(17px,1.8vw,22px)]"] { font-size: clamp(23.38px, 2.48vw, 30.25px); }
+html.a11y-text-3 [class~="text-[clamp(18px,1.35vw,21px)]"] { font-size: clamp(24.75px, 1.86vw, 28.88px); }
+html.a11y-text-3 [class~="text-[clamp(20px,2.2vw,27px)]"] { font-size: clamp(27.5px, 3.03vw, 37.13px); }
+html.a11y-text-3 [class~="text-[clamp(20px,2vw,26px)]"] { font-size: clamp(27.5px, 2.75vw, 35.75px); }
+html.a11y-text-3 [class~="text-[clamp(21px,2.4vw,29px)]"] { font-size: clamp(28.88px, 3.3vw, 39.88px); }
+html.a11y-text-3 [class~="text-[clamp(22px,2.1vw,28px)]"] { font-size: clamp(30.25px, 2.89vw, 38.5px); }
+html.a11y-text-3 [class~="text-[clamp(22px,2.2vw,30px)]"] { font-size: clamp(30.25px, 3.03vw, 41.25px); }
+html.a11y-text-3 [class~="text-[clamp(22px,2.4vw,30px)]"] { font-size: clamp(30.25px, 3.3vw, 41.25px); }
+html.a11y-text-3 [class~="text-[clamp(22px,2.6vw,32px)]"] { font-size: clamp(30.25px, 3.58vw, 44px); }
+html.a11y-text-3 [class~="text-[clamp(22px,2vw,28px)]"] { font-size: clamp(30.25px, 2.75vw, 38.5px); }
+html.a11y-text-3 [class~="text-[clamp(24px,2.6vw,34px)]"] { font-size: clamp(33px, 3.58vw, 46.75px); }
+html.a11y-text-3 [class~="text-[clamp(24px,2.6vw,36px)]"] { font-size: clamp(33px, 3.58vw, 49.5px); }
+html.a11y-text-3 [class~="text-[clamp(24px,2.7vw,34px)]"] { font-size: clamp(33px, 3.71vw, 46.75px); }
+html.a11y-text-3 [class~="text-[clamp(26px,3.2vw,40px)]"] { font-size: clamp(35.75px, 4.4vw, 55px); }
+html.a11y-text-3 [class~="text-[clamp(26px,3vw,40px)]"] { font-size: clamp(35.75px, 4.13vw, 55px); }
+html.a11y-text-3 [class~="text-[clamp(28px,3.2vw,40px)]"] { font-size: clamp(38.5px, 4.4vw, 55px); }
+html.a11y-text-3 [class~="text-[clamp(28px,3.4vw,44px)]"] { font-size: clamp(38.5px, 4.67vw, 60.5px); }
+html.a11y-text-3 [class~="text-[clamp(28px,3.4vw,46px)]"] { font-size: clamp(38.5px, 4.67vw, 63.25px); }
+html.a11y-text-3 [class~="text-[clamp(28px,3.6vw,44px)]"] { font-size: clamp(38.5px, 4.95vw, 60.5px); }
+html.a11y-text-3 [class~="text-[clamp(28px,3vw,42px)]"] { font-size: clamp(38.5px, 4.13vw, 57.75px); }
+html.a11y-text-3 [class~="text-[clamp(30px,3.4vw,44px)]"] { font-size: clamp(41.25px, 4.67vw, 60.5px); }
+html.a11y-text-3 [class~="text-[clamp(30px,4.2vw,56px)]"] { font-size: clamp(41.25px, 5.78vw, 77px); }
+html.a11y-text-3 [class~="text-[clamp(30px,4vw,52px)]"] { font-size: clamp(41.25px, 5.5vw, 71.5px); }
+html.a11y-text-3 [class~="text-[clamp(32px,4.4vw,58px)]"] { font-size: clamp(44px, 6.05vw, 79.75px); }
+html.a11y-text-3 [class~="text-[clamp(32px,4.6vw,62px)]"] { font-size: clamp(44px, 6.32vw, 85.25px); }
+html.a11y-text-3 [class~="text-[clamp(34px,3.6vw,50px)]"] { font-size: clamp(46.75px, 4.95vw, 68.75px); }
+html.a11y-text-3 [class~="text-[clamp(34px,4.4vw,58px)]"] { font-size: clamp(46.75px, 6.05vw, 79.75px); }
+html.a11y-text-3 [class~="text-[clamp(36px,5vw,68px)]"] { font-size: clamp(49.5px, 6.88vw, 93.5px); }
+html.a11y-text-3 [class~="text-[clamp(38px,5.4vw,72px)]"] { font-size: clamp(52.25px, 7.43vw, 99px); }
+html.a11y-text-3 [class~="text-[clamp(38px,5.6vw,74px)]"] { font-size: clamp(52.25px, 7.7vw, 101.75px); }
+html.a11y-text-3 [class~="text-[clamp(42px,5vw,64px)]"] { font-size: clamp(57.75px, 6.88vw, 88px); }
+
+@media (min-width: 1024px) {
+  html.a11y-text-1 [class~="text-[9px]"] { font-size: 13.5px; }
+  html.a11y-text-1 [class~="text-[10px]"] { font-size: 16.88px; }
+  html.a11y-text-1 [class~="text-[11px]"] { font-size: 16.88px; }
+  html.a11y-text-1 [class~="text-[12px]"] { font-size: 15.75px; }
+  html.a11y-text-1 [class~="text-[13px]"] { font-size: 16.88px; }
+  html.a11y-text-1 [class~="text-[14px]"] { font-size: 18.56px; }
+  html.a11y-text-1 [class~="text-[15px]"] { font-size: 20.25px; }
+  html.a11y-text-1 [class~="text-[16px]"] { font-size: 21.94px; }
+  html.a11y-text-1 [class~="text-[17px]"] { font-size: 23.63px; }
+  html.a11y-text-1 [class~="text-[18px]"] { font-size: 24.75px; }
+  html.a11y-text-1 [class~="text-[20px]"] { font-size: 27px; }
+  html.a11y-text-1 [class~="text-[22px]"] { font-size: 29.25px; }
+  html.a11y-text-1 [class~="text-[26px]"] { font-size: 33.75px; }
+  html.a11y-text-2 [class~="text-[9px]"] { font-size: 15px; }
+  html.a11y-text-2 [class~="text-[10px]"] { font-size: 18.75px; }
+  html.a11y-text-2 [class~="text-[11px]"] { font-size: 18.75px; }
+  html.a11y-text-2 [class~="text-[12px]"] { font-size: 17.5px; }
+  html.a11y-text-2 [class~="text-[13px]"] { font-size: 18.75px; }
+  html.a11y-text-2 [class~="text-[14px]"] { font-size: 20.63px; }
+  html.a11y-text-2 [class~="text-[15px]"] { font-size: 22.5px; }
+  html.a11y-text-2 [class~="text-[16px]"] { font-size: 24.38px; }
+  html.a11y-text-2 [class~="text-[17px]"] { font-size: 26.25px; }
+  html.a11y-text-2 [class~="text-[18px]"] { font-size: 27.5px; }
+  html.a11y-text-2 [class~="text-[20px]"] { font-size: 30px; }
+  html.a11y-text-2 [class~="text-[22px]"] { font-size: 32.5px; }
+  html.a11y-text-2 [class~="text-[26px]"] { font-size: 37.5px; }
+  html.a11y-text-3 [class~="text-[9px]"] { font-size: 16.5px; }
+  html.a11y-text-3 [class~="text-[10px]"] { font-size: 20.63px; }
+  html.a11y-text-3 [class~="text-[11px]"] { font-size: 20.63px; }
+  html.a11y-text-3 [class~="text-[12px]"] { font-size: 19.25px; }
+  html.a11y-text-3 [class~="text-[13px]"] { font-size: 20.63px; }
+  html.a11y-text-3 [class~="text-[14px]"] { font-size: 22.69px; }
+  html.a11y-text-3 [class~="text-[15px]"] { font-size: 24.75px; }
+  html.a11y-text-3 [class~="text-[16px]"] { font-size: 26.81px; }
+  html.a11y-text-3 [class~="text-[17px]"] { font-size: 28.88px; }
+  html.a11y-text-3 [class~="text-[18px]"] { font-size: 30.25px; }
+  html.a11y-text-3 [class~="text-[20px]"] { font-size: 33px; }
+  html.a11y-text-3 [class~="text-[22px]"] { font-size: 35.75px; }
+  html.a11y-text-3 [class~="text-[26px]"] { font-size: 41.25px; }
+}
