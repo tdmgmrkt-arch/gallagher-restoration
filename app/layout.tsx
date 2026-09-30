@@ -6,6 +6,7 @@ import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { StickyCallBar } from "@/components/layout/StickyCallBar";
 import { AccessibilityWidget } from "@/components/layout/AccessibilityWidget";
+import GoogleTracking from "@/components/layout/GoogleTracking";
 import { officeNodes } from "@/lib/offices";
 
 const archivo = Archivo({
@@ -104,6 +105,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <SiteFooter />
         <StickyCallBar />
         <AccessibilityWidget />
+        <GoogleTracking />
       </body>
     </html>
   );

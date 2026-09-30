@@ -2,6 +2,7 @@
 
 import { useState, useTransition } from "react";
 import { submitLead } from "@/app/actions";
+import { trackLeadConversion } from "@/components/layout/GoogleTracking";
 import { SERVICE_OPTIONS } from "@/lib/site";
 
 const INPUT =
@@ -43,6 +44,9 @@ export function LeadForm({ variant = "compact" }: LeadFormProps) {
     startTransition(async () => {
       const res = await submitLead(payload);
       if (res.ok) {
+        // Only here — the server confirmed the lead was accepted. Not on click,
+        // not on submit, not on a rejected or failed submission.
+        trackLeadConversion(res.submissionId);
         setSent(true);
       } else {
         setError(res.error);

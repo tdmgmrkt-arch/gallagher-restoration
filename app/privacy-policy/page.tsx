@@ -105,13 +105,31 @@ export default function PrivacyPolicyPage() {
             </ul>
           </LegalSection>
 
-          <LegalSection title="Cookies and Analytics">
+          <LegalSection title="Cookies, Analytics, and Advertising">
             <p>
               Our website uses cookies and similar technologies for site functionality,
               analytics, and performance measurement. You can control cookies through your
               browser settings; disabling them may affect how parts of the site work. We may
               use third-party analytics providers (such as Google Analytics) that collect
               aggregate usage data on our behalf.
+            </p>
+            <p>
+              We also use Google Ads conversion tracking to measure how visitors who arrive
+              from our advertising interact with the site — for example, whether a form was
+              submitted or a call was placed. Visitors who reach the site from one of our ads
+              may see a Google call-forwarding phone number in place of our direct line;
+              calls to that number ring through to our office normally. These tools may set
+              cookies and may be used to show you our ads on other websites. You can opt out
+              of personalized Google advertising at{" "}
+              <a
+                href="https://myadcenter.google.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#8ECE34] underline underline-offset-4 transition-colors hover:text-[#A6E053]"
+              >
+                myadcenter.google.com
+              </a>
+              .
             </p>
           </LegalSection>
 

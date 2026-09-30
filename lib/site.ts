@@ -769,3 +769,16 @@ export const CITIES_BY_COUNTY = {
     { slug: "glendale-ca", name: "Glendale" },
   ],
 } as const;
+
+// Google tag IDs. These are public by design — they ship in the page HTML — so
+// they live here rather than in env vars: one source of truth, no Vercel config
+// step, and no silent "tracking quietly stopped" failure if a var goes missing.
+// Conversion labels come from the Google Ads account (customer 570-151-9997).
+export const TRACKING = {
+  ga4: "G-X22HTQ3KM4",
+  adsId: "AW-10802318964",
+  // Website call conversion — Google swaps in a forwarding number for ad clicks.
+  adsCallConversion: "AW-10802318964/mT9LCN7M-osdEPSc-Z4o",
+  // Successful website lead submission.
+  adsLeadConversion: "AW-10802318964/NeYPCJTPhIwdEPSc-Z4o",
+};
