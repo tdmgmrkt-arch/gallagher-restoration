@@ -90,6 +90,18 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       data-theme="dark"
       className={`${archivo.variable} ${jetbrainsMono.variable}`}
     >
+      <head>
+        {/*
+          gtag.js is fetched afterInteractive and lands inside the LCP window,
+          so it otherwise pays full DNS + TLS setup right when the hero image is
+          competing for bandwidth. Warming the two origins it actually uses
+          (the library, then the /gtag/js redirect target) costs nothing and is
+          worth ~100-150ms on a cold mobile connection. Kept to two origins —
+          speculative preconnects to hosts a page may not use are a net loss.
+        */}
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" crossOrigin="" />
+      </head>
       <body>
         <script
           type="application/ld+json"

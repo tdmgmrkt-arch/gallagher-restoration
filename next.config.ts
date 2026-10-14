@@ -54,6 +54,14 @@ const SECURITY_HEADERS = [
 ];
 
 const nextConfig: NextConfig = {
+  images: {
+    // Next 16 only serves qualities listed here; anything else 400s. 75 is the
+    // default and stays for ordinary content imagery. 55 exists for hero photos
+    // that sit under a heavy dark scrim, where the compression that quality buys
+    // is invisible but the bytes still land on LCP. Don't reach for 55 on an
+    // image a visitor actually looks at directly.
+    qualities: [55, 75],
+  },
   async headers() {
     return [
       {

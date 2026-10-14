@@ -114,6 +114,11 @@ export function SiteHeader() {
               width={232}
               height={194}
               priority
+              // Renders ~69x58 CSS px. Without `sizes`, Next builds the srcset
+              // from `width` and a high-DPR phone pulls the 640w variant — a
+              // 640px logo for a 69px slot, 31KB wasted inside the LCP window.
+              // width/height stay at the true aspect ratio so nothing shifts.
+              sizes="70px"
               className="block h-[58px] w-auto"
             />
           </Link>
@@ -244,6 +249,7 @@ export function SiteHeader() {
               alt="Gallagher Restoration Co."
               width={216}
               height={181}
+              sizes="65px"
               className="block h-[54px] w-auto"
             />
             <button
