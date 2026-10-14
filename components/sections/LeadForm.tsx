@@ -14,6 +14,12 @@ const LABEL =
 
 type LeadFormProps = {
   variant?: "compact" | "full";
+  /**
+   * Lead source sent to GHL so a campaign landing page's leads can be routed
+   * and measured separately from site-wide form fills. Leave unset on the
+   * standard site forms — `submitLead` falls back to the default source.
+   */
+  formId?: string;
 };
 
 const CALLBACK_STEPS = [
@@ -22,7 +28,7 @@ const CALLBACK_STEPS = [
   { n: "03", text: "Free damage assessment — we handle insurance." },
 ];
 
-export function LeadForm({ variant = "compact" }: LeadFormProps) {
+export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
   const [pending, startTransition] = useTransition();
   const [sent, setSent] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -39,6 +45,7 @@ export function LeadForm({ variant = "compact" }: LeadFormProps) {
       description: String(fd.get("description") || ""),
       timing: String(fd.get("timing") || ""),
       insurance: String(fd.get("insurance") || ""),
+      ...(formId ? { form: formId } : {}),
     };
     setError(null);
     startTransition(async () => {
@@ -102,6 +109,24 @@ export function LeadForm({ variant = "compact" }: LeadFormProps) {
             required
             placeholder="(000) 000-0000"
             autoComplete="tel"
+            className={INPUT_LG}
+          />
+        </label>
+
+        {/*
+          Email is collected here, not just on the full variant. `submitLead`
+          requires it, so without this field every compact submission failed —
+          and the confirmation auto-responder has no address to send to. Three
+          fields is still inside the "60 seconds" promise above.
+        */}
+        <label className="mt-4 flex flex-col gap-[9px]">
+          <span className={LABEL}>Email</span>
+          <input
+            name="email"
+            type="email"
+            required
+            placeholder="you@example.com"
+            autoComplete="email"
             className={INPUT_LG}
           />
         </label>
