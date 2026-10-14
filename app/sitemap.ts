@@ -18,6 +18,10 @@ const STATIC_ROUTES: Array<{
   { path: "/service-areas", changeFrequency: "weekly", priority: 0.9 },
   { path: "/about", changeFrequency: "monthly", priority: 0.7 },
   { path: "/contact-us", changeFrequency: "monthly", priority: 0.8 },
+  // Storm-event landing page (Tropical Storm Rachel, Oct 2026). Lives outside the
+  // SERVICE_CONTENT set because it is a hand-built paid-traffic page, so it has to
+  // be listed here by hand. Retire this entry when the campaign ends.
+  { path: "/newport-beach-flood-damage", changeFrequency: "weekly", priority: 0.8 },
   { path: "/faqs", changeFrequency: "monthly", priority: 0.6 },
   { path: "/news", changeFrequency: "weekly", priority: 0.6 },
   { path: "/privacy-policy", changeFrequency: "yearly", priority: 0.3 },
