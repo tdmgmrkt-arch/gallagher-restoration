@@ -22,7 +22,7 @@ const EXPECT_STEPS = [
   {
     kicker: "Step 02",
     title: "A Gallagher crew arrives on site.",
-    body: "Typically within 60 minutes across our five-county area. We contain the damage before it spreads.",
+    body: "Typically within 60 minutes across our four-county area. We contain the damage before it spreads.",
   },
   {
     kicker: "Step 03",
@@ -184,7 +184,7 @@ export default function ContactUsPage() {
                   </span>
                 </div>
                 <p className="mt-3 max-w-[32ch] text-[14px] leading-[1.6] text-[#9CA098] text-pretty">
-                  On-site across our five-county service area &mdash; often faster in Southwest Riverside.
+                  On-site across our four-county service area &mdash; often faster in Southwest Riverside.
                 </p>
                 <div className="mt-auto pt-5 font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
                   24 / 7 &middot; 365 Days a Year

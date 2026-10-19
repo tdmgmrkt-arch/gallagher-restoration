@@ -505,18 +505,29 @@ function ServiceAreasMega() {
               const cities =
                 CITIES_BY_COUNTY[county.slug as keyof typeof CITIES_BY_COUNTY] ?? [];
               return (
-                <div key={county.slug} className="flex flex-col">
+                <div key={county.slug} className="flex min-w-0 flex-col">
+                  {/* "County" sits on its own line, the same way the service-areas
+                      cards render name/second. The grid tracks here are a fixed
+                      ~240px at xl and "SAN BERNARDINO COUNTY" needs ~285px on one
+                      line, so the old whitespace-nowrap overflowed the track and
+                      collided with the next column's index. Breaking every county
+                      the same way keeps all four headers two lines tall, so the
+                      underlines stay aligned and no name is left to wrap ragged. */}
                   <Link
                     href={`/${county.slug}`}
-                    className="group flex items-center justify-between gap-3 border-b border-[rgba(255,255,255,0.09)] pb-2"
+                    className="group flex items-start justify-between gap-3 border-b border-[rgba(255,255,255,0.09)] pb-2"
                   >
-                    <span className="whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.13em] text-[#8ECE34]">
-                      <span className="text-[#7E837A]">{county.index}</span> &nbsp; {county.name}{" "}
-                      {county.second}
+                    <span className="flex min-w-0 items-start gap-[10px] font-mono text-[11px] uppercase leading-[1.5] tracking-[0.13em] text-[#8ECE34]">
+                      <span className="shrink-0 text-[#7E837A]">{county.index}</span>
+                      <span className="min-w-0">
+                        {county.name}
+                        <br />
+                        {county.second}
+                      </span>
                     </span>
                     <span
                       aria-hidden="true"
-                      className="text-[13px] text-[#7E837A] transition-transform duration-[240ms] group-hover:translate-x-[3px] group-hover:text-[#8ECE34]"
+                      className="shrink-0 text-[13px] leading-[1.5] text-[#7E837A] transition-transform duration-[240ms] group-hover:translate-x-[3px] group-hover:text-[#8ECE34]"
                     >
                       &rarr;
                     </span>
@@ -550,7 +561,7 @@ function ServiceAreasMega() {
       </div>
       <div className="mt-[clamp(22px,2.4vw,30px)] flex flex-wrap items-center justify-between gap-4 border-t border-[rgba(255,255,255,0.09)] pt-5">
         <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#7E837A]">
-          City not listed? &nbsp; Call us &mdash; we dispatch beyond our five-county core.
+          City not listed? &nbsp; Call us &mdash; we dispatch beyond our four-county core.
         </p>
         <Link
           href="/service-areas"

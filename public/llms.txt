@@ -15,7 +15,7 @@ Owner and lead: Aaron Gallagher.
 - [Home](https://gallagherrestoration.com/): Overview of services, coverage area, and 24/7 emergency response.
 - [About](https://gallagherrestoration.com/about): Company history, family ownership, values, and team.
 - [Services](https://gallagherrestoration.com/services): Full catalog of restoration services organized by category.
-- [Service Areas](https://gallagherrestoration.com/service-areas): 5-county coverage map with county and city links.
+- [Service Areas](https://gallagherrestoration.com/service-areas): 4-county coverage map with county and city links.
 - [Contact Us](https://gallagherrestoration.com/contact-us): Contact form, phone, and what-to-expect steps.
 - [FAQs](https://gallagherrestoration.com/faqs): Common questions about restoration, insurance, and process.
 - [News](https://gallagherrestoration.com/news): Restoration guides and company updates.

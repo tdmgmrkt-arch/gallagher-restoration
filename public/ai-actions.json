@@ -95,7 +95,7 @@
     },
     "wildfire": {
       "hub_url": "https://gallagherrestoration.com/wildfire",
-      "leaves": ["wildfire-altadena", "wildfire-palisades"]
+      "leaves": []
     },
     "other": {
       "leaves": [
