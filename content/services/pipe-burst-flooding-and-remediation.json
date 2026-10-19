@@ -12,7 +12,7 @@
     {
       "label": "Response Time",
       "value": "60 min",
-      "hint": "Typical arrival across 5-county SoCal"
+      "hint": "Typical arrival across 4-county SoCal"
     },
     {
       "label": "Availability",
@@ -21,7 +21,7 @@
     },
     {
       "label": "Coverage",
-      "value": "5 counties",
+      "value": "4 counties",
       "hint": "Riverside · SB · OC · SD · LA"
     }
   ],
@@ -81,7 +81,7 @@
   "whyUs": {
     "eyebrow": "Why Gallagher",
     "heading": "Full incident management, not just cleanup.",
-    "body": "Pipe burst flooding is the highest-urgency water event most homeowners will face. The cost of the loss is almost entirely determined by two variables: how fast the water was shut off and how fast extraction began. Everything that happens after shutoff — extraction depth, moisture mapping accuracy, drying duration, reconstruction quality — determines whether your home comes back in three weeks or three months. Gallagher Restoration Co. has managed pipe burst events across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties for over 15 years. Aaron built the company's response model around the understanding that these calls come at 2 a.m., during holidays, and during the same storm that's affecting your neighbor's house. A real person answers every call. We're typically on-site within 60 minutes. Our IICRC-trained technicians handle extraction through reconstruction under one agreement, coordinating directly with your plumber and your insurance adjuster so you have one point of contact — not four."
+    "body": "Pipe burst flooding is the highest-urgency water event most homeowners will face. The cost of the loss is almost entirely determined by two variables: how fast the water was shut off and how fast extraction began. Everything that happens after shutoff — extraction depth, moisture mapping accuracy, drying duration, reconstruction quality — determines whether your home comes back in three weeks or three months. Gallagher Restoration Co. has managed pipe burst events across Riverside, San Bernardino, Orange, and San Diego counties for over 15 years. Aaron built the company's response model around the understanding that these calls come at 2 a.m., during holidays, and during the same storm that's affecting your neighbor's house. A real person answers every call. We're typically on-site within 60 minutes. Our IICRC-trained technicians handle extraction through reconstruction under one agreement, coordinating directly with your plumber and your insurance adjuster so you have one point of contact — not four."
   },
   "pricing": {
     "eyebrow": "What It Costs",

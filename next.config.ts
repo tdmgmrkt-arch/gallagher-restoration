@@ -39,6 +39,25 @@ const WORDPRESS_KILLS = [
   "/gallagher-restoration-youtube",
 ];
 
+// Los Angeles County was dropped from the service area on 2026-10-19. The county
+// page, its five city pages, and the two LA-geography wildfire event pages were
+// archived to archive/los-angeles-county/ rather than deleted. These URLs were
+// live and indexed, so they 301 rather than 404 — city/county traffic to
+// /service-areas (the honest answer to "do you cover me"), and the wildfire
+// event pages to /wildfire, which is the same topic minus the geography.
+// Delete these if the county is ever restored, or the restored pages will
+// redirect away and be unreachable.
+const REMOVED_LA_AREA_PAGES = [
+  "/los-angeles-county",
+  "/los-angeles-ca",
+  "/santa-clarita-ca",
+  "/pomona-ca",
+  "/torrance-ca",
+  "/glendale-ca",
+];
+
+const REMOVED_LA_WILDFIRE_PAGES = ["/wildfire-palisades", "/wildfire-altadena"];
+
 const SECURITY_HEADERS = [
   {
     key: "Strict-Transport-Security",
@@ -96,12 +115,24 @@ const nextConfig: NextConfig = {
       // /news is page 1 of the article index — keep a single canonical URL for it.
       { source: "/news/page/1", destination: "/news", permanent: true },
       { source: "/menifee", destination: "/menifee-ca", permanent: true },
-      { source: "/santa-clarita", destination: "/santa-clarita-ca", permanent: true },
       {
         source: "/water-damage-remediation",
         destination: "/water-damage-restoration",
         permanent: true,
       },
+      // Dropped service area (see REMOVED_LA_AREA_PAGES above). /santa-clarita is
+      // listed explicitly because the old WordPress URL had no -ca suffix and used
+      // to chain through /santa-clarita-ca, which no longer exists.
+      ...[...REMOVED_LA_AREA_PAGES, "/santa-clarita"].map((source) => ({
+        source,
+        destination: "/service-areas",
+        permanent: true,
+      })),
+      ...REMOVED_LA_WILDFIRE_PAGES.map((source) => ({
+        source,
+        destination: "/wildfire",
+        permanent: true,
+      })),
       ...WORDPRESS_KILLS.map((source) => ({
         source,
         destination: "/",

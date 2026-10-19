@@ -7,12 +7,12 @@
   "heroEyebrow": "24/7 Emergency · Active Flooding",
   "heroTitle": "Emergency water removal in Southern California",
   "heroAccent": "on-site within 60 minutes",
-  "heroIntro": "Water is on your floor right now. Gallagher Restoration Co. deploys emergency water removal crews 24 hours a day, seven days a week, across five Southern California counties—with a typical on-site arrival of 60 minutes. Stop the damage before it compounds.",
+  "heroIntro": "Water is on your floor right now. Gallagher Restoration Co. deploys emergency water removal crews 24 hours a day, seven days a week, across four Southern California counties—with a typical on-site arrival of 60 minutes. Stop the damage before it compounds.",
   "proofStrip": [
     {
       "label": "Response Time",
       "value": "60 min",
-      "hint": "Typical arrival across 5-county SoCal"
+      "hint": "Typical arrival across 4-county SoCal"
     },
     {
       "label": "Availability",
@@ -21,7 +21,7 @@
     },
     {
       "label": "Coverage",
-      "value": "5 counties",
+      "value": "4 counties",
       "hint": "Riverside · SB · OC · SD · LA"
     }
   ],
@@ -85,7 +85,7 @@
   "whyUs": {
     "eyebrow": "Why Gallagher",
     "heading": "Why homeowners call Gallagher for emergency water removal",
-    "body": "The difference between a $1,200 job and a $9,000 job is often how fast extraction starts. Gallagher Restoration Co. is built around that reality. For more than 15 years, the company has run emergency water removal responses across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties—always with a live person answering the phone and a crew dispatched immediately. IICRC-trained technicians arrive with professional-grade extraction equipment, not residential wet-vacs. They classify contamination on arrival, which determines which materials are salvageable and what safety protocols protect your family. The crew that removes the water is the same crew that dries the structure and, if needed, handles reconstruction. Aaron and the team built the company on one-crew continuity because handoffs between separate mitigation and rebuild contractors are where jobs go wrong and homeowners lose time on claims."
+    "body": "The difference between a $1,200 job and a $9,000 job is often how fast extraction starts. Gallagher Restoration Co. is built around that reality. For more than 15 years, the company has run emergency water removal responses across Riverside, San Bernardino, Orange, and San Diego counties—always with a live person answering the phone and a crew dispatched immediately. IICRC-trained technicians arrive with professional-grade extraction equipment, not residential wet-vacs. They classify contamination on arrival, which determines which materials are salvageable and what safety protocols protect your family. The crew that removes the water is the same crew that dries the structure and, if needed, handles reconstruction. Aaron and the team built the company on one-crew continuity because handoffs between separate mitigation and rebuild contractors are where jobs go wrong and homeowners lose time on claims."
   },
   "pricing": {
     "eyebrow": "What It Costs",
@@ -99,7 +99,7 @@
     },
     {
       "q": "How fast can Gallagher Restoration get to my home in Southern California?",
-      "a": "Gallagher Restoration Co. targets on-site arrival within 60 minutes across the five-county SoCal service area. Actual response time depends on your location within Riverside, San Bernardino, Orange, San Diego, or Los Angeles County and crew availability at the moment of the call."
+      "a": "Gallagher Restoration Co. targets on-site arrival within 60 minutes across the four-county SoCal service area. Actual response time depends on your location within Riverside, San Bernardino, Orange, or San Diego County and crew availability at the moment of the call."
     },
     {
       "q": "Does Category 2 or gray water cost more to remove than clean water?",

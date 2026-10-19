@@ -12,7 +12,7 @@
     {
       "label": "Response Time",
       "value": "60 min",
-      "hint": "Typical arrival across 5-county SoCal"
+      "hint": "Typical arrival across 4-county SoCal"
     },
     {
       "label": "Availability",
@@ -21,7 +21,7 @@
     },
     {
       "label": "Coverage",
-      "value": "5 counties",
+      "value": "4 counties",
       "hint": "Riverside · SB · OC · SD · LA"
     }
   ],
@@ -81,7 +81,7 @@
   "whyUs": {
     "eyebrow": "Why Gallagher",
     "heading": "Interior drying expertise. Insurance-ready documentation.",
-    "body": "Roofers repair the roof. They are not equipped to perform structural drying, mold assessment, or insurance documentation for interior damage — and interior damage is where most of the cost accumulates. Gallagher Restoration Co. handles everything from the roof deck down. Our IICRC-trained technicians have managed roof-source water damage events across all five Southern California counties for over 15 years, from single-room ceiling intrusions to whole-attic saturation events. We produce the moisture readings, drying logs, and photographic documentation that insurance adjusters need to approve interior claim scopes — and we work directly with your adjuster rather than routing everything through you. Aaron built the company around one-crew accountability. Your roofer fixes the hole. We dry and restore what the water damaged before they got there."
+    "body": "Roofers repair the roof. They are not equipped to perform structural drying, mold assessment, or insurance documentation for interior damage — and interior damage is where most of the cost accumulates. Gallagher Restoration Co. handles everything from the roof deck down. Our IICRC-trained technicians have managed roof-source water damage events across all four Southern California counties for over 15 years, from single-room ceiling intrusions to whole-attic saturation events. We produce the moisture readings, drying logs, and photographic documentation that insurance adjusters need to approve interior claim scopes — and we work directly with your adjuster rather than routing everything through you. Aaron built the company around one-crew accountability. Your roofer fixes the hole. We dry and restore what the water damaged before they got there."
   },
   "pricing": {
     "eyebrow": "What It Costs",

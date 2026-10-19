@@ -12,7 +12,7 @@
     {
       "label": "Response Time",
       "value": "60 min",
-      "hint": "Typical arrival across 5-county SoCal"
+      "hint": "Typical arrival across 4-county SoCal"
     },
     {
       "label": "Availability",
@@ -21,7 +21,7 @@
     },
     {
       "label": "Coverage",
-      "value": "5 counties",
+      "value": "4 counties",
       "hint": "Riverside · SB · OC · SD · LA"
     }
   ],
@@ -81,7 +81,7 @@
   "whyUs": {
     "eyebrow": "Why Gallagher",
     "heading": "One crew. Source to finish.",
-    "body": "Most contractors handle either mitigation or reconstruction — not both. That gap costs homeowners weeks of scheduling and leaves moisture assessment in the hands of people who aren't certified to perform it. Gallagher Restoration Co. has handled ceiling water damage across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties for over 15 years. Our IICRC-trained technicians do the moisture mapping, the drying, and the rebuild under one agreement. Aaron built this company on the belief that families dealing with property damage deserve a single point of accountability — not a relay race between subcontractors. We document every moisture reading and every step for your insurance claim, and we work directly with all major carriers so you're not the intermediary."
+    "body": "Most contractors handle either mitigation or reconstruction — not both. That gap costs homeowners weeks of scheduling and leaves moisture assessment in the hands of people who aren't certified to perform it. Gallagher Restoration Co. has handled ceiling water damage across Riverside, San Bernardino, Orange, and San Diego counties for over 15 years. Our IICRC-trained technicians do the moisture mapping, the drying, and the rebuild under one agreement. Aaron built this company on the belief that families dealing with property damage deserve a single point of accountability — not a relay race between subcontractors. We document every moisture reading and every step for your insurance claim, and we work directly with all major carriers so you're not the intermediary."
   },
   "pricing": {
     "eyebrow": "What It Costs",

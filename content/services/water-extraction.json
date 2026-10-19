@@ -7,12 +7,12 @@
   "heroEyebrow": "24/7 Emergency · Water Extraction",
   "heroTitle": "Water extraction services",
   "heroAccent": "Southern California",
-  "heroIntro": "Extraction is step one — and the step that determines how much you'll pay for everything that follows. Gallagher Restoration Co. deploys professional-grade extraction equipment within 60 minutes of your call, 24 hours a day, across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties. The faster standing water is removed, the less it penetrates flooring, subfloor, and wall assemblies.",
+  "heroIntro": "Extraction is step one — and the step that determines how much you'll pay for everything that follows. Gallagher Restoration Co. deploys professional-grade extraction equipment within 60 minutes of your call, 24 hours a day, across Riverside, San Bernardino, Orange, and San Diego counties. The faster standing water is removed, the less it penetrates flooring, subfloor, and wall assemblies.",
   "proofStrip": [
     {
       "label": "Response Time",
       "value": "60 min",
-      "hint": "Typical arrival across 5-county SoCal"
+      "hint": "Typical arrival across 4-county SoCal"
     },
     {
       "label": "Availability",
@@ -21,7 +21,7 @@
     },
     {
       "label": "Coverage",
-      "value": "5 counties",
+      "value": "4 counties",
       "hint": "Riverside · SB · OC · SD · LA"
     }
   ],

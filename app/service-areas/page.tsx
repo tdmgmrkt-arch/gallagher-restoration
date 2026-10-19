@@ -8,7 +8,7 @@ import { COUNTIES, CITIES_BY_COUNTY } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Service Areas | Gallagher Restoration Co.",
   description:
-    "Emergency restoration coverage across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties. Crews on-site within 60 minutes, 24/7.",
+    "Emergency restoration coverage across Riverside, San Bernardino, Orange, and San Diego counties. Crews on-site within 60 minutes, 24/7.",
   alternates: { canonical: "/service-areas" },
 };
 
@@ -18,8 +18,8 @@ export default function ServiceAreasPage() {
       <PageHero
         eyebrow="Southern California Coverage"
         title="Service Areas Across"
-        accent="5 Counties"
-        intro="Gallagher Restoration is headquartered in Canyon Lake and dispatches 24/7 across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties. Wherever the damage is, we can be on site within 60 minutes."
+        accent="4 Counties"
+        intro="Gallagher Restoration is headquartered in Canyon Lake and dispatches 24/7 across Riverside, San Bernardino, Orange, and San Diego counties. Wherever the damage is, we can be on site within 60 minutes."
         crumbs={[{ label: "Home", href: "/" }, { label: "Service Areas" }]}
         backgroundImage="/service-areas-hero.webp"
         backgroundAlt="Gallagher Restoration fleet lined up at Canyon Lake headquarters at dusk"

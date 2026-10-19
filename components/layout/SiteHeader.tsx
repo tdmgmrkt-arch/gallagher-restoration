@@ -492,9 +492,9 @@ function ServiceAreasMega() {
       <div className="grid grid-cols-12 gap-[clamp(20px,2.4vw,32px)]">
         <div className="col-span-4">
           <MegaLeftCard
-            kicker="5-County Coverage"
+            kicker="4-County Coverage"
             title="Southern California, dispatched in 60 minutes."
-            body="Offices in Canyon Lake, Huntington Beach, and Carlsbad — serving 34 cities across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties."
+            body="Offices in Canyon Lake, Huntington Beach, and Carlsbad — serving 29 cities across Riverside, San Bernardino, Orange, and San Diego counties."
             image="/gallagher_fleet_rear.webp"
             imageAlt=""
           />

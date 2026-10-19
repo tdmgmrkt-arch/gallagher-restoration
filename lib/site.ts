@@ -124,7 +124,6 @@ export const COUNTIES = [
   { index: "02", name: "San Bernardino", second: "County", slug: "san-bernardino-county" },
   { index: "03", name: "Orange", second: "County", slug: "orange-county" },
   { index: "04", name: "San Diego", second: "County", slug: "san-diego-county" },
-  { index: "05", name: "Los Angeles", second: "County", slug: "los-angeles-county" },
 ] as const;
 
 export const WATER_SERVICES = [
@@ -475,7 +474,7 @@ export const FAQS = [
   },
   {
     q: "Which areas do you service?",
-    a: "We provide restoration and emergency response services throughout Southern California, including Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties.",
+    a: "We provide restoration and emergency response services throughout Southern California, including Riverside, San Bernardino, Orange, and San Diego counties.",
   },
   {
     q: "What types of damage do you handle?",
@@ -688,8 +687,6 @@ export const SERVICE_CATEGORIES = [
       "When wildfire threatens your property, our experienced restoration team provides fast, professional assistance to help protect and restore your home.",
     leaves: [
       { slug: "wildfire", label: "Wildfire Damage" },
-      { slug: "wildfire-altadena", label: "Altadena Wildfire Response" },
-      { slug: "wildfire-palisades", label: "Palisades Wildfire Response" },
     ],
   },
   {
@@ -760,13 +757,6 @@ export const CITIES_BY_COUNTY = {
     { slug: "escondido-ca", name: "Escondido" },
     { slug: "oceanside-ca", name: "Oceanside" },
     { slug: "chula-vista-ca", name: "Chula Vista" },
-  ],
-  "los-angeles-county": [
-    { slug: "los-angeles-ca", name: "Los Angeles" },
-    { slug: "santa-clarita-ca", name: "Santa Clarita" },
-    { slug: "pomona-ca", name: "Pomona" },
-    { slug: "torrance-ca", name: "Torrance" },
-    { slug: "glendale-ca", name: "Glendale" },
   ],
 } as const;
 

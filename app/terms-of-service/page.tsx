@@ -46,8 +46,8 @@ export default function TermsOfServicePage() {
               {COMPANY.name} provides emergency and scheduled restoration services including
               water damage mitigation, fire and smoke damage restoration, mold remediation,
               sewage cleanup, wildfire smoke and ash cleanup, structural drying, and
-              reconstruction across Riverside, San Bernardino, Orange, San Diego, and Los
-              Angeles counties in California.
+              reconstruction across Riverside, San Bernardino, Orange, and San Diego
+              counties in California.
             </p>
             <p>
               The specific work we perform for you will be described in a written estimate,
@@ -70,8 +70,8 @@ export default function TermsOfServicePage() {
             <p>
               We advertise a typical 60-minute crew arrival time across our core service area
               (Riverside County, western San Bernardino County, most of Orange County).
-              Arrival times to farther locations in Los Angeles and San Diego counties are
-              longer and honestly quoted at time of dispatch. Response times are estimates,
+              Arrival times to farther locations in San Diego County and the high desert
+              are longer and honestly quoted at time of dispatch. Response times are estimates,
               not guarantees, and can be affected by traffic, weather, concurrent emergencies,
               and other factors outside our control.
             </p>

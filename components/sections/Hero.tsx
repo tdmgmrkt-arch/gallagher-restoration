@@ -8,7 +8,7 @@ const STATS = [
   { value: "15", suffix: "+", label: "Years in Southern California" },
   { value: "60", suffix: "min", label: "On-Site Response Time" },
   { value: "24", suffix: "/7", label: "Emergency Availability" },
-  { value: "5", suffix: "", label: "Counties Serviced" },
+  { value: "4", suffix: "", label: "Counties Serviced" },
 ];
 
 export function Hero() {
@@ -66,7 +66,7 @@ export function Hero() {
               Family-owned water, fire &amp; mold restoration. Available 24/7 across Southern California. On-site within 60 minutes.
             </p>
             <p className="mt-[24px] hidden max-w-[54ch] text-[clamp(15px,1.35vw,19px)] leading-[1.65] text-[#C2C6BC] text-pretty md:block">
-              Gallagher Restoration Co. is a family-owned 24/7 water, fire, and mold damage restoration company serving Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties for over 15 years. Our crews arrive on-site within 60 minutes and bill your insurance directly.
+              Gallagher Restoration Co. is a family-owned 24/7 water, fire, and mold damage restoration company serving Riverside, San Bernardino, Orange, and San Diego counties for over 15 years. Our crews arrive on-site within 60 minutes and bill your insurance directly.
             </p>
           </Reveal>
           <Reveal delay={220}>

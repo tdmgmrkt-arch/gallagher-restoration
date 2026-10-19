@@ -91,10 +91,6 @@ const SLUG_HERO: Record<string, { src: string; alt: string }> = {
     src: "/sewage-clean-up-services-hero.webp",
     alt: "Sewage cleanup and sanitation completed inside a residential space",
   },
-  "wildfire-palisades": {
-    src: "/wildfire-palisades-hero.webp",
-    alt: "Pacific Palisades neighborhood in the recovery phase after a wildfire",
-  },
   "water-damage-remediation": {
     src: "/water-damage-remediation-hero.webp",
     alt: "Water damage remediation tools and documentation laid out in an editorial flat-lay",
@@ -110,10 +106,6 @@ const SLUG_HERO: Record<string, { src: string; alt: string }> = {
   "mold-testing-services": {
     src: "/mold-testing-services-hero.webp",
     alt: "Thermal imaging camera revealing hidden moisture behind a residential wall during mold testing",
-  },
-  "wildfire-altadena": {
-    src: "/wildfire-altadena-hero.webp",
-    alt: "Modern Altadena hillside home intact at blue hour after a wildfire event",
   },
 };
 
@@ -207,7 +199,6 @@ export async function ServicePage({ content }: { content: ServiceContent }) {
       { "@type": "AdministrativeArea", name: "San Bernardino County" },
       { "@type": "AdministrativeArea", name: "Orange County" },
       { "@type": "AdministrativeArea", name: "San Diego County" },
-      { "@type": "AdministrativeArea", name: "Los Angeles County" },
     ],
     description: content.metaDescription,
     url: `https://gallagherrestoration.com/${content.slug}`,

@@ -67,7 +67,6 @@ export default async function Home() {
       { "@type": "AdministrativeArea", name: "San Bernardino County" },
       { "@type": "AdministrativeArea", name: "Orange County" },
       { "@type": "AdministrativeArea", name: "San Diego County" },
-      { "@type": "AdministrativeArea", name: "Los Angeles County" },
     ],
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",

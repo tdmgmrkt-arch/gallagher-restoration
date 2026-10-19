@@ -6,12 +6,12 @@
   "heroEyebrow": "24/7 Emergency · Wildfire Response",
   "heroTitle": "Wildfire damage restoration in Southern California",
   "heroAccent": "smoke, soot, ash, and structural response",
-  "heroIntro": "Wildfire leaves two categories of damage: the obvious structural destruction of a direct burn, and the less visible—but still serious—smoke and ash intrusion that affects homes miles from the fire line. Gallagher Restoration Co. handles both across five Southern California counties, from first call through complete reconstruction.",
+  "heroIntro": "Wildfire leaves two categories of damage: the obvious structural destruction of a direct burn, and the less visible—but still serious—smoke and ash intrusion that affects homes miles from the fire line. Gallagher Restoration Co. handles both across four Southern California counties, from first call through complete reconstruction.",
   "proofStrip": [
     {
       "label": "Response Time",
       "value": "60 min",
-      "hint": "Typical arrival across 5-county SoCal"
+      "hint": "Typical arrival across 4-county SoCal"
     },
     {
       "label": "Availability",
@@ -20,7 +20,7 @@
     },
     {
       "label": "Coverage",
-      "value": "5 counties",
+      "value": "4 counties",
       "hint": "Riverside · SB · OC · SD · LA"
     },
     {
@@ -116,26 +116,24 @@
     }
   ],
   "relatedServices": [
-    "wildfire-altadena",
-    "wildfire-palisades",
     "smoke-clean-up",
     "fire-damage-restoration"
   ],
   "crossLinks": [
     {
-      "label": "Wildfire — Altadena",
-      "href": "/wildfire-altadena",
-      "note": "Local recovery"
-    },
-    {
-      "label": "Wildfire — Palisades",
-      "href": "/wildfire-palisades",
-      "note": "Local recovery"
-    },
-    {
       "label": "Smoke clean-up",
       "href": "/smoke-clean-up",
       "note": "Interior smoke"
+    },
+    {
+      "label": "Fire damage restoration",
+      "href": "/fire-damage-restoration",
+      "note": "Structural fire"
+    },
+    {
+      "label": "Service areas",
+      "href": "/service-areas",
+      "note": "Where we dispatch"
     }
   ]
 }

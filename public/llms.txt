@@ -1,12 +1,12 @@
 # Gallagher Restoration Co.
 
-> Gallagher Restoration Co. is a family-owned, IICRC-trained restoration company serving Southern California for 15+ years. 24/7 emergency response for water, fire, mold, sewage, and wildfire damage across Riverside, San Bernardino, Orange, San Diego, and Los Angeles counties. Phone: (951) 541-0034. Email: grc.restoration@gallagherrestoration.com. Headquartered in Canyon Lake, CA, with satellite offices in Huntington Beach, CA (Orange County) and Carlsbad, CA (North County San Diego).
+> Gallagher Restoration Co. is a family-owned, IICRC-trained restoration company serving Southern California for 15+ years. 24/7 emergency response for water, fire, mold, sewage, and wildfire damage across Riverside, San Bernardino, Orange, and San Diego counties. Phone: (951) 541-0034. Email: grc.restoration@gallagherrestoration.com. Headquartered in Canyon Lake, CA, with satellite offices in Huntington Beach, CA (Orange County) and Carlsbad, CA (North County San Diego).
 
 For structured, machine-readable customer actions (emergency phone, request service, primary services, service area), see: https://gallagherrestoration.com/ai-actions.json
 
 ## About
 
-Gallagher Restoration Co. provides residential and commercial property damage restoration throughout Southern California. Services span emergency mitigation (water extraction, structural drying, smoke and soot removal, mold containment) through full reconstruction and rebuild. Family-owned, IICRC-trained, and available 24/7/365. Typical crew arrival is within 60 minutes across the core coverage area; far-flung cities in Los Angeles and San Diego counties honestly run 75\u2013110 minutes.
+Gallagher Restoration Co. provides residential and commercial property damage restoration throughout Southern California. Services span emergency mitigation (water extraction, structural drying, smoke and soot removal, mold containment) through full reconstruction and rebuild. Family-owned, IICRC-trained, and available 24/7/365. Typical crew arrival is within 60 minutes across the core coverage area; far-flung cities in San Diego County and the high desert honestly run 75\u2013110 minutes.
 
 Owner and lead: Aaron Gallagher.
 
@@ -44,8 +44,6 @@ Owner and lead: Aaron Gallagher.
 
 ### Wildfire
 - [Wildfire (hub)](https://gallagherrestoration.com/wildfire): Wildfire smoke, ash, and debris cleanup.
-- [Wildfire Restoration \u2014 Altadena](https://gallagherrestoration.com/wildfire-altadena): Response to the 2025 Eaton Fire zone.
-- [Wildfire Restoration \u2014 Palisades](https://gallagherrestoration.com/wildfire-palisades): Response to the 2025 Palisades Fire zone.
 
 ### Other
 - [Sewage Clean-Up](https://gallagherrestoration.com/sewage-clean-up-services): Category-3 sewage backup and biohazard cleanup.
@@ -58,7 +56,6 @@ Owner and lead: Aaron Gallagher.
 - [San Bernardino County](https://gallagherrestoration.com/san-bernardino-county): Three-zone coverage; honest ~90 min for Victorville.
 - [Orange County](https://gallagherrestoration.com/orange-county): Coastal marine-layer mold and HOA multi-party projects.
 - [San Diego County](https://gallagherrestoration.com/san-diego-county): Salt-air corrosion and downtown cast-iron plumbing failures.
-- [Los Angeles County](https://gallagherrestoration.com/los-angeles-county): 2025 Palisades and Eaton fire response.
 
 ## Cities
 
@@ -98,13 +95,6 @@ Owner and lead: Aaron Gallagher.
 - [Escondido](https://gallagherrestoration.com/escondido-ca)
 - [Oceanside](https://gallagherrestoration.com/oceanside-ca)
 - [Chula Vista](https://gallagherrestoration.com/chula-vista-ca)
-
-### Los Angeles County
-- [Los Angeles](https://gallagherrestoration.com/los-angeles-ca)
-- [Santa Clarita](https://gallagherrestoration.com/santa-clarita)
-- [Pomona](https://gallagherrestoration.com/pomona-ca)
-- [Torrance](https://gallagherrestoration.com/torrance-ca)
-- [Glendale](https://gallagherrestoration.com/glendale-ca)
 
 ## Optional
 

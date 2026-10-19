@@ -28,11 +28,6 @@ export const CITY_COORDS: Record<string, [number, number]> = {
   "escondido-ca": [33.119, -117.086],
   "oceanside-ca": [33.196, -117.379],
   "chula-vista-ca": [32.640, -117.084],
-  "los-angeles-ca": [34.052, -118.244],
-  "santa-clarita-ca": [34.391, -118.542],
-  "pomona-ca": [34.055, -117.749],
-  "torrance-ca": [33.836, -118.340],
-  "glendale-ca": [34.142, -118.255],
 };
 
 export const COUNTY_LABEL_COORDS: Record<string, [number, number]> = {
@@ -40,5 +35,4 @@ export const COUNTY_LABEL_COORDS: Record<string, [number, number]> = {
   "san-bernardino-county": [34.30, -117.35],
   "orange-county": [33.72, -117.95],
   "san-diego-county": [33.00, -117.05],
-  "los-angeles-county": [34.25, -118.40],
 };

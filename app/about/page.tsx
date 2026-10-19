@@ -37,11 +37,11 @@ const NUMBERS = [
   { value: "15", suffix: "+", label: "Years in Southern California" },
   { value: "60", suffix: "min", label: "Typical On-Site Response" },
   { value: "24", suffix: "/7", label: "Emergency Availability" },
-  { value: "5", suffix: "", label: "Counties Serviced" },
+  { value: "4", suffix: "", label: "Counties Serviced" },
 ];
 
 const AARON_BIO_SHORT =
-  "Aaron Gallagher grew up in Canyon Lake, California, and got his start in restoration through a chance opportunity with a friend that quickly turned into a career. Self-taught in contents restoration and emergency response, he founded Gallagher Restoration and has spent 15+ years responding to water, fire, mold, and wildfire emergencies across five Southern California counties.";
+  "Aaron Gallagher grew up in Canyon Lake, California, and got his start in restoration through a chance opportunity with a friend that quickly turned into a career. Self-taught in contents restoration and emergency response, he founded Gallagher Restoration and has spent 15+ years responding to water, fire, mold, and wildfire emergencies across four Southern California counties.";
 
 const founderJsonLd = {
   "@context": "https://schema.org",
@@ -120,7 +120,7 @@ export default function AboutPage() {
               <p className="mt-7 max-w-[54ch] text-[clamp(16px,1.45vw,20px)] leading-[1.75] text-[#C2C6BC] text-pretty">
                 Gallagher Restoration is a family-owned and operated restoration company based in
                 Canyon Lake, California. What started as a small crew answering emergency calls has
-                grown into a full-service restoration team responding across five counties — but
+                grown into a full-service restoration team responding across four counties — but
                 the way we work has stayed exactly the same.
               </p>
               <p className="mt-5 max-w-[54ch] text-[15px] leading-[1.75] text-[#8F948A] text-pretty">
@@ -186,7 +186,7 @@ export default function AboutPage() {
               </p>
               <p className="mt-5 max-w-[54ch] text-[15px] leading-[1.75] text-[#8F948A] text-pretty">
                 Fifteen-plus years later, Aaron leads an IICRC- and ANSI-certified crew responding
-                to water, fire, mold, and wildfire emergencies across five Southern California
+                to water, fire, mold, and wildfire emergencies across four Southern California
                 counties. He credits the company&apos;s growth to the technicians and staff who
                 share his standard for the work — and to the community that raised him, which he
                 supports through youth sports sponsorships, school donations, and partnerships
