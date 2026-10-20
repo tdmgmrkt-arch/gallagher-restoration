@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
-import { POSTS } from "@/lib/site";
+import { listBlogPostsByDate } from "@/lib/blog-content";
 
 export function NewsGrid() {
-  const featured = POSTS.slice(0, 3);
+  const featured = listBlogPostsByDate().slice(0, 3);
   return (
     <section
       id="news"

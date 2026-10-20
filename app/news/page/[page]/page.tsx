@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { NewsIndex } from "@/components/sections/NewsIndex";
 import { FinalCta } from "@/components/sections/FinalCta";
 import { PageHero } from "@/components/ui/PageHero";
-import { POST_PAGE_COUNT } from "@/lib/site";
+import { POST_PAGE_COUNT } from "@/lib/blog-content";
 
 export const dynamicParams = false;
 

@@ -1,10 +1,9 @@
 import type { MetadataRoute } from "next";
 
-import { BLOG_POSTS, BLOG_SLUGS } from "@/lib/blog-content";
+import { BLOG_POSTS, BLOG_SLUGS, POST_PAGE_COUNT } from "@/lib/blog-content";
 import { CITY_SLUGS } from "@/lib/city-content";
 import { COUNTY_SLUGS } from "@/lib/county-content";
 import { SERVICE_SLUGS } from "@/lib/service-content";
-import { POST_PAGE_COUNT } from "@/lib/site";
 
 const BASE_URL = "https://gallagherrestoration.com";
 

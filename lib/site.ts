@@ -196,6 +196,13 @@ export const TESTIMONIALS = [
  * lib/site.ts is pulled into client bundles.
  * Sorted newest first.
  */
+/**
+ * @deprecated UNUSED as of 2026-10-20 and frozen at the 21 posts that existed
+ * then. It drifted out of sync with content/blog/*.json and orphaned ten live
+ * posts. The /news index, pagination, and homepage grid now read
+ * `lib/blog-content.ts` directly. Do not wire anything back up to this array —
+ * it is kept only so nothing imports a missing symbol. Safe to delete.
+ */
 export const POSTS = [
   {
     slug: "can-insurance-choose-my-restoration-company",

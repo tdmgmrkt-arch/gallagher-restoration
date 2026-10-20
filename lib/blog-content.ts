@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 
+import { POSTS_PER_PAGE } from "@/lib/site";
+
 export type BlogBlock =
   | { type: "p"; text: string }
   | { type: "h2"; text: string }
@@ -54,4 +56,19 @@ export function listBlogPostsByDate(): BlogPost[] {
   return Object.values(BLOG_POSTS).sort((a, b) =>
     a.datePublished < b.datePublished ? 1 : -1,
   );
+}
+
+/**
+ * Pagination for the /news index, derived from content/blog/*.json so a new
+ * post file is the only thing needed to surface a post on the site. Do not
+ * reintroduce a hand-maintained post list — it silently orphans new posts.
+ */
+export const POST_PAGE_COUNT = Math.max(
+  1,
+  Math.ceil(BLOG_SLUGS.length / POSTS_PER_PAGE),
+);
+
+export function getPostsForPage(page: number): BlogPost[] {
+  const start = (page - 1) * POSTS_PER_PAGE;
+  return listBlogPostsByDate().slice(start, start + POSTS_PER_PAGE);
 }

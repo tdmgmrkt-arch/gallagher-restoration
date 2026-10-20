@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { Pagination } from "@/components/ui/Pagination";
 import { Reveal } from "@/components/ui/Reveal";
-import { getPostsForPage, POST_PAGE_COUNT } from "@/lib/site";
+import { getPostsForPage, POST_PAGE_COUNT } from "@/lib/blog-content";
 
 function formatPostDate(iso: string): string {
   return new Date(iso).toLocaleDateString("en-US", {
