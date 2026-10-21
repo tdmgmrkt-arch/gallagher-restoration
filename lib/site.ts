@@ -641,6 +641,37 @@ export const SERVICE_OPTIONS = [
 ] as const;
 
 /**
+ * Option lists for the lead form's two optional selects.
+ *
+ * Exported rather than inlined in the form because `lib/spam-guard` validates
+ * submitted values against them: our own form can only ever send a value from
+ * these lists, so anything else means the payload did not come from our UI.
+ * Keep the form and the guard reading the same arrays or that check goes stale.
+ */
+export const TIMING_OPTIONS = [
+  "Happening now",
+  "Within last 24 hours",
+  "1–7 days ago",
+  "More than a week ago",
+  "Not sure",
+] as const;
+
+/**
+ * `value` is what GHL stores and what the spam guard validates against; `label`
+ * is what the visitor reads. They differ for the first option only, and the
+ * stored value is the one GHL's workflow already branches on — do not "tidy"
+ * it to match the label.
+ */
+export const INSURANCE_OPTIONS = [
+  { value: "Filing a claim", label: "Filing an insurance claim" },
+  { value: "Paying out of pocket", label: "Paying out of pocket" },
+  { value: "Not sure yet", label: "Not sure yet" },
+] as const;
+
+/** Just the submittable values, for the spam guard's allowlist check. */
+export const INSURANCE_VALUES = INSURANCE_OPTIONS.map((o) => o.value);
+
+/**
  * Full service catalog — parent verticals + leaf pages.
  * `slug` is the canonical URL path (matches the WordPress sitemap).
  */

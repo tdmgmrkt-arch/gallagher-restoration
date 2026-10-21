@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test:spam": "node scripts/test-spam-signals.mjs"
   },
   "dependencies": {
     "next": "16.3.1",

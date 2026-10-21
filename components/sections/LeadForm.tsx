@@ -1,9 +1,15 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useRef, useState, useTransition } from "react";
 import { submitLead } from "@/app/actions";
 import { trackLeadConversion } from "@/components/layout/GoogleTracking";
-import { SERVICE_OPTIONS } from "@/lib/site";
+import { TURNSTILE_ENABLED, TurnstileWidget } from "@/components/ui/Turnstile";
+import {
+  HONEYPOT_FIELD,
+  RENDERED_AT_FIELD,
+  TURNSTILE_FIELD,
+} from "@/lib/form-fields";
+import { INSURANCE_OPTIONS, SERVICE_OPTIONS, TIMING_OPTIONS } from "@/lib/site";
 
 const INPUT =
   "rounded-[2px] border border-[rgba(255,255,255,0.13)] bg-[#0E100E] px-[15px] py-[14px] font-sans text-[15px] text-[#F4F5F1] outline-none transition-colors duration-300 placeholder:text-[#5E635B] focus:border-[#8ECE34]";
@@ -28,10 +34,52 @@ const CALLBACK_STEPS = [
   { n: "03", text: "Free damage assessment — we handle insurance." },
 ];
 
+/**
+ * The honeypot.
+ *
+ * Positioned off-screen rather than `display:none` — the better form-filling
+ * bots skip hidden fields, but they do fill one that is in the layout and
+ * named `website`. `aria-hidden` keeps it away from screen readers and
+ * `tabIndex={-1}` out of the tab order, so no human ever reaches it; anything
+ * typed in it is a bot, and `lib/spam-guard` drops the submission.
+ */
+function HoneypotField() {
+  return (
+    <div
+      aria-hidden="true"
+      className="absolute left-[-9999px] top-0 h-0 w-0 overflow-hidden"
+    >
+      <label htmlFor={HONEYPOT_FIELD}>Website</label>
+      <input
+        id={HONEYPOT_FIELD}
+        name={HONEYPOT_FIELD}
+        type="text"
+        tabIndex={-1}
+        autoComplete="off"
+        defaultValue=""
+      />
+    </div>
+  );
+}
+
 export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
   const [pending, startTransition] = useTransition();
   const [sent, setSent] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  const [turnstileToken, setTurnstileToken] = useState("");
+  /** Bumped after a failed submit to swap the spent Turnstile token. */
+  const [turnstileResetKey, setTurnstileResetKey] = useState(0);
+
+  /**
+   * When this form became fillable, used server-side to measure time-to-fill.
+   *
+   * A ref initialised on first render, not state: the value must never change
+   * across re-renders, and reading the clock during render is fine here because
+   * the form is client-only and the stamp is deliberately per-visitor.
+   */
+  const renderedAtRef = useRef<number | null>(null);
+  renderedAtRef.current ??= Date.now();
 
   function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -45,6 +93,9 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
       description: String(fd.get("description") || ""),
       timing: String(fd.get("timing") || ""),
       insurance: String(fd.get("insurance") || ""),
+      [HONEYPOT_FIELD]: String(fd.get(HONEYPOT_FIELD) || ""),
+      [RENDERED_AT_FIELD]: String(renderedAtRef.current ?? ""),
+      [TURNSTILE_FIELD]: turnstileToken,
       ...(formId ? { form: formId } : {}),
     };
     setError(null);
@@ -52,11 +103,16 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
       const res = await submitLead(payload);
       if (res.ok) {
         // Only here — the server confirmed the lead was accepted. Not on click,
-        // not on submit, not on a rejected or failed submission.
-        trackLeadConversion(res.submissionId);
+        // not on submit, not on a rejected or failed submission. `track: false`
+        // means the guard filtered it as spam: show the visitor the same
+        // confirmation, but keep it out of the Google Ads conversion count.
+        if (res.track !== false) trackLeadConversion(res.submissionId);
         setSent(true);
       } else {
         setError(res.error);
+        // Turnstile tokens are single-use, so the one just spent cannot be
+        // replayed on the retry this error invites.
+        if (TURNSTILE_ENABLED) setTurnstileResetKey((key) => key + 1);
       }
     });
   }
@@ -81,7 +137,7 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
 
   if (variant === "compact") {
     return (
-      <form onSubmit={onSubmit} noValidate>
+      <form onSubmit={onSubmit} noValidate className="relative">
         <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
           Request A Callback
         </div>
@@ -131,12 +187,15 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
           />
         </label>
 
+        <HoneypotField />
+        <TurnstileWidget onToken={setTurnstileToken} resetKey={turnstileResetKey} />
+
         <button
           type="submit"
           disabled={pending}
           className="mt-6 flex w-full items-center justify-center gap-[10px] rounded-[2px] border-0 bg-[#8ECE34] p-[20px] font-sans text-[17px] font-bold text-[#0B0C0B] transition-[background-color,transform] duration-300 ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-[2px] hover:bg-[#A6E053] disabled:cursor-not-allowed disabled:opacity-70"
         >
-          {pending ? "Sending\u2026" : "Call Me Back"}
+          {pending ? "Sending…" : "Call Me Back"}
         </button>
 
         {error ? (
@@ -189,7 +248,7 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
   }
 
   return (
-    <form onSubmit={onSubmit} noValidate>
+    <form onSubmit={onSubmit} noValidate className="relative">
       <div className="font-mono text-[11px] uppercase tracking-[0.16em] text-[#8ECE34]">
         Request Service
       </div>
@@ -247,11 +306,9 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
           <span className={LABEL}>When did it happen?</span>
           <select name="timing" className={`${INPUT} appearance-none`} defaultValue="">
             <option value="">Select (optional)</option>
-            <option value="Happening now">Happening now</option>
-            <option value="Within last 24 hours">Within last 24 hours</option>
-            <option value="1–7 days ago">1–7 days ago</option>
-            <option value="More than a week ago">More than a week ago</option>
-            <option value="Not sure">Not sure</option>
+            {TIMING_OPTIONS.map((opt) => (
+              <option key={opt} value={opt}>{opt}</option>
+            ))}
           </select>
         </label>
       </div>
@@ -271,9 +328,11 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
         <span className={LABEL}>Insurance Status</span>
         <select name="insurance" className={`${INPUT} appearance-none`} defaultValue="">
           <option value="">Select (optional)</option>
-          <option value="Filing a claim">Filing an insurance claim</option>
-          <option value="Paying out of pocket">Paying out of pocket</option>
-          <option value="Not sure yet">Not sure yet</option>
+          {INSURANCE_OPTIONS.map((opt) => (
+            <option key={opt.value} value={opt.value}>
+              {opt.label}
+            </option>
+          ))}
         </select>
       </label>
 
@@ -288,12 +347,15 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
         />
       </label>
 
+      <HoneypotField />
+      <TurnstileWidget onToken={setTurnstileToken} resetKey={turnstileResetKey} />
+
       <button
         type="submit"
         disabled={pending}
         className="mt-6 flex w-full items-center justify-center gap-[10px] rounded-[2px] border-0 bg-[#8ECE34] p-[18px] font-sans text-[16px] font-bold text-[#0B0C0B] transition-[background-color,transform] duration-300 ease-[cubic-bezier(0.2,0.7,0.3,1)] hover:-translate-y-[2px] hover:bg-[#A6E053] disabled:cursor-not-allowed disabled:opacity-70"
       >
-        {pending ? "Sending\u2026" : "Request Service"}
+        {pending ? "Sending…" : "Request Service"}
       </button>
 
       {error ? (
