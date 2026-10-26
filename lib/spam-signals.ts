@@ -158,6 +158,31 @@ function isGibberishName(name: string): boolean {
 }
 
 /**
+ * True for a name field holding no name at all — all digits or symbols, or
+ * carrying a long run of digits.
+ *
+ * Added 2026-10-26 after a spam lead landed in GHL displayed as `9546979605`:
+ * the name field had no letters in it, and nothing in the guard objected.
+ *
+ * The non-ASCII test is load-bearing. Checking only for a-z would flag a name
+ * written purely in Chinese, Korean or Japanese characters — real customers in
+ * Orange and San Diego counties — as having "no letters." Anything outside
+ * ASCII is treated as letters, so only genuine digit/symbol junk matches.
+ */
+function hasNonNameCharacters(name: string): boolean {
+  const trimmed = name.trim();
+  if (!trimmed) return false;
+
+  const hasLatinLetter = /[a-z]/i.test(trimmed);
+  const hasNonAscii = /[^\x00-\x7F]/.test(trimmed);
+  if (!hasLatinLetter && !hasNonAscii) return true;
+
+  // No human name carries a four-digit run. Short digits are left alone so a
+  // suffix like "John Smith 3" is never touched.
+  return /\d{4,}/.test(trimmed);
+}
+
+/**
  * Letter pairs that essentially never occur in real human names.
  *
  * Curated against the languages this service area actually sees — Spanish,
@@ -278,6 +303,8 @@ export function scoreContent(subject: GuardSubject): ContentScore {
   if (PITCH_PATTERNS.some((pattern) => pattern.test(freeText))) {
     add(SCORE_CERTAIN, "sales-pitch");
   }
+
+  if (hasNonNameCharacters(name)) add(SCORE_CERTAIN, "non-name-characters");
 
   // --- Accumulating signals -------------------------------------------------
 

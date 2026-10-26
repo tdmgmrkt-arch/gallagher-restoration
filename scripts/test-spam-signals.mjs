@@ -265,12 +265,23 @@ const REAL_NAMES = [
   "ravi srinivasan", "anil bhattacharya", "priya venkatesh", "sunil chaudhary",
   // Other
   "olusegun adebayo", "kwame nkrumah", "sigrid bjornsdottir", "mehmet yilmaz",
+  // Names written entirely in non-Latin scripts. These have no a-z letters, so
+  // they are exactly what the non-name-characters rule must NOT flag.
+  "张伟", "李秀英", "김민서", "박서연", "佐藤健", "Ιωάννης Παπαδόπουλος",
+  "Александр Иванов",
+  // Suffixes and short digits, which must stay allowed
+  "John Smith 3", "Robert Downey Jr", "Henry Ford III",
 ];
 
 const GENERATED_NAMES = [
   // The actual spam, from GHL enrollment history 2026-10-21
   "yzwxuafu gpomwlyf",
   "zgvtu nisgti",
+  // Landed in GHL on 2026-10-23 displayed as a bare number - the name field
+  // held no letters at all and the first build had nothing to say about it.
+  "9546979605",
+  "9546979605 9546979605",
+  "8885551234",
   // Same generator, other draws
   "qxvbtlm zdwkrfp", "wzgtkv mxbqjl", "jvqxzmd pwkgtb",
   "asdfghjkl qwertyu",
