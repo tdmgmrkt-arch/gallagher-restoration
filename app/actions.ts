@@ -7,6 +7,7 @@ import {
   RENDERED_AT_FIELD,
   TURNSTILE_FIELD,
 } from "@/lib/form-fields";
+import { SMS } from "@/lib/site";
 import { screenSubmission } from "@/lib/spam-guard";
 
 export type LeadPayload = {
@@ -19,6 +20,12 @@ export type LeadPayload = {
   description: string;
   timing?: string;
   insurance?: string;
+  /**
+   * SMS opt-in, "yes" or "no". Optional and never required — messaging consent
+   * cannot be a condition of service under A2P 10DLC and the TCPA, so a lead
+   * arriving without it is a normal lead. GHL must gate every SMS step on it.
+   */
+  smsConsent?: string;
   /**
    * Which form produced this lead. GHL branches on it — routing the right
    * auto-responder, tagging the contact, and letting a campaign's cost-per-lead
@@ -132,6 +139,13 @@ export async function submitLead(payload: LeadPayload): Promise<LeadResult> {
     description: payload.description.trim(),
     timing: payload.timing ?? "",
     insurance: payload.insurance ?? "",
+    // Normalised to a literal yes/no so a GHL workflow can branch on it without
+    // string munging, and shipped alongside the exact wording the visitor
+    // agreed to — a carrier audit or a TCPA complaint asks what was consented
+    // to, not just whether a box was ticked. `submittedAt` on the envelope is
+    // the timestamp of that consent.
+    smsConsent: payload.smsConsent === "yes" ? "yes" : "no",
+    smsConsentText: payload.smsConsent === "yes" ? SMS.consentText : "",
   };
 
   const verdict = await screenSubmission(

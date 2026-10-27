@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRef, useState, useTransition } from "react";
 import { submitLead } from "@/app/actions";
 import { trackLeadConversion } from "@/components/layout/GoogleTracking";
@@ -9,7 +10,7 @@ import {
   RENDERED_AT_FIELD,
   TURNSTILE_FIELD,
 } from "@/lib/form-fields";
-import { INSURANCE_OPTIONS, SERVICE_OPTIONS, TIMING_OPTIONS } from "@/lib/site";
+import { INSURANCE_OPTIONS, SERVICE_OPTIONS, SMS, TIMING_OPTIONS } from "@/lib/site";
 
 const INPUT =
   "rounded-[2px] border border-[rgba(255,255,255,0.13)] bg-[#0E100E] px-[15px] py-[14px] font-sans text-[15px] text-[#F4F5F1] outline-none transition-colors duration-300 placeholder:text-[#5E635B] focus:border-[#8ECE34]";
@@ -62,6 +63,49 @@ function HoneypotField() {
   );
 }
 
+/**
+ * SMS opt-in.
+ *
+ * Unchecked by default and never required: carrier A2P 10DLC rules and the
+ * TCPA both forbid making messaging consent a condition of service, so a
+ * visitor who leaves it alone still gets their crew dispatched. The exact
+ * sentence shown here is mirrored as plain text in `SMS.consentText` and sent
+ * to GHL with the lead, so the CRM record proves what was agreed to.
+ */
+function SmsConsentField() {
+  return (
+    <label className="mt-6 flex cursor-pointer items-start gap-3">
+      <input
+        name="smsConsent"
+        type="checkbox"
+        value="yes"
+        className="mt-[3px] h-[16px] w-[16px] shrink-0 cursor-pointer accent-[#8ECE34]"
+      />
+      <span className="text-[12px] leading-[1.65] text-[#8F948A] text-pretty">
+        By checking this box, you agree to receive text messages from Gallagher Restoration
+        Co. about your project, including scheduling, technician arrivals, and status
+        updates, at the number provided. Consent is not a condition of purchase. Message and
+        data rates may apply. Message frequency varies. Reply STOP to opt out or HELP for
+        help. See our{" "}
+        <Link
+          href={SMS.termsPath}
+          className="text-[#C6CABF] underline underline-offset-2 transition-colors hover:text-[#8ECE34]"
+        >
+          SMS Terms
+        </Link>{" "}
+        and{" "}
+        <Link
+          href={SMS.privacyPath}
+          className="text-[#C6CABF] underline underline-offset-2 transition-colors hover:text-[#8ECE34]"
+        >
+          SMS Privacy Policy
+        </Link>
+        .
+      </span>
+    </label>
+  );
+}
+
 export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
   const [pending, startTransition] = useTransition();
   const [sent, setSent] = useState(false);
@@ -93,6 +137,7 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
       description: String(fd.get("description") || ""),
       timing: String(fd.get("timing") || ""),
       insurance: String(fd.get("insurance") || ""),
+      smsConsent: fd.get("smsConsent") === "yes" ? "yes" : "no",
       [HONEYPOT_FIELD]: String(fd.get(HONEYPOT_FIELD) || ""),
       [RENDERED_AT_FIELD]: String(renderedAtRef.current ?? ""),
       [TURNSTILE_FIELD]: turnstileToken,
@@ -189,6 +234,8 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
 
         <HoneypotField />
         <TurnstileWidget onToken={setTurnstileToken} resetKey={turnstileResetKey} />
+
+        <SmsConsentField />
 
         <button
           type="submit"
@@ -349,6 +396,8 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
 
       <HoneypotField />
       <TurnstileWidget onToken={setTurnstileToken} resetKey={turnstileResetKey} />
+
+      <SmsConsentField />
 
       <button
         type="submit"

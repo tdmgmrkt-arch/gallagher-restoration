@@ -96,6 +96,13 @@ Owner and lead: Aaron Gallagher.
 - [Oceanside](https://gallagherrestoration.com/oceanside-ca)
 - [Chula Vista](https://gallagherrestoration.com/chula-vista-ca)
 
+## Legal
+
+- [Privacy Policy](https://gallagherrestoration.com/privacy-policy): How customer information is collected, used, shared, and retained, including California CCPA/CPRA rights.
+- [Terms of Service](https://gallagherrestoration.com/terms-of-service): Terms governing website use and restoration services.
+- [SMS Messaging Terms and Conditions](https://gallagherrestoration.com/sms-terms): Text messaging program terms — message types, frequency, rates, STOP and HELP instructions, carrier limitations. SMS consent is not a condition of purchasing restoration services.
+- [SMS Messaging Privacy Policy](https://gallagherrestoration.com/sms-privacy-policy): How SMS opt-in data is handled. Mobile numbers and opt-in consent are never sold or shared with third parties for marketing.
+
 ## Optional
 
 - [Emergency Line: (951) 541-0034](tel:9515410034): 24/7 live dispatch for active restoration emergencies.

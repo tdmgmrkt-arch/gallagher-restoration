@@ -175,6 +175,18 @@ export function SiteFooter() {
             >
               Terms of Service
             </Link>
+            <Link
+              href="/sms-terms"
+              className="transition-colors hover:text-[#8ECE34]"
+            >
+              SMS Terms
+            </Link>
+            <Link
+              href="/sms-privacy-policy"
+              className="transition-colors hover:text-[#8ECE34]"
+            >
+              SMS Privacy
+            </Link>
             <span className="text-[#3F4340]">Water &middot; Fire &middot; Mold &middot; Property Damage</span>
           </div>
         </div>

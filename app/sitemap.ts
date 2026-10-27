@@ -25,6 +25,10 @@ const STATIC_ROUTES: Array<{
   { path: "/news", changeFrequency: "weekly", priority: 0.6 },
   { path: "/privacy-policy", changeFrequency: "yearly", priority: 0.3 },
   { path: "/terms-of-service", changeFrequency: "yearly", priority: 0.3 },
+  // Public URLs required by A2P 10DLC / toll-free messaging registration —
+  // carriers verify that both are live and indexable before approving a campaign.
+  { path: "/sms-terms", changeFrequency: "yearly", priority: 0.3 },
+  { path: "/sms-privacy-policy", changeFrequency: "yearly", priority: 0.3 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

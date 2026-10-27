@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { LegalSection } from "@/components/ui/LegalSection";
 import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
-import { COMPANY, EMAIL, PHONE } from "@/lib/site";
+import { COMPANY, EMAIL, PHONE, SMS } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Gallagher Restoration Co.",
@@ -175,6 +176,17 @@ export default function PrivacyPolicyPage() {
             </p>
           </LegalSection>
 
+          <LegalSection title="Text Message (SMS) Communications">
+            <p>
+              Our text messaging program is governed by a separate, dedicated policy. We do
+              not sell or share mobile phone numbers or SMS opt-in consent data with third
+              parties or affiliates for their marketing purposes. See our{" "}
+              <Link href={SMS.privacyPath}>SMS Messaging Privacy Policy</Link> and{" "}
+              <Link href={SMS.termsPath}>SMS Messaging Terms and Conditions</Link> for the
+              full details, including how to opt out.
+            </p>
+          </LegalSection>
+
           <LegalSection title="Changes to This Policy">
             <p>
               We may update this Privacy Policy periodically. The &ldquo;Effective&rdquo; date
@@ -212,20 +224,5 @@ export default function PrivacyPolicyPage() {
         </div>
       </section>
     </>
-  );
-}
-
-function LegalSection({ title, children }: { title: string; children: React.ReactNode }) {
-  return (
-    <Reveal>
-      <div className="mt-[clamp(40px,5vw,64px)] border-t border-[rgba(255,255,255,0.08)] pt-[clamp(28px,3.4vw,44px)]">
-        <h2 className="text-[clamp(22px,2.4vw,30px)] font-bold leading-[1.15] tracking-[-0.025em] text-[#F4F5F1]">
-          {title}
-        </h2>
-        <div className="mt-6 flex flex-col gap-5 text-[15px] leading-[1.8] text-[#C6CABF] text-pretty [&_ul]:flex [&_ul]:flex-col [&_ul]:gap-3 [&_ul]:pl-6 [&_ul]:[list-style:disc] [&_li]:leading-[1.7] [&_a]:text-[#8ECE34] [&_a:hover]:text-[#A6E053]">
-          {children}
-        </div>
-      </div>
-    </Reveal>
   );
 }

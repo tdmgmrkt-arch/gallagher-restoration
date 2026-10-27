@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { LegalSection } from "@/components/ui/LegalSection";
 import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
-import { COMPANY, EMAIL, PHONE } from "@/lib/site";
+import { COMPANY, EMAIL, PHONE, SMS } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Terms of Service | Gallagher Restoration Co.",
@@ -178,6 +179,22 @@ export default function TermsOfServicePage() {
             </p>
           </LegalSection>
 
+          <LegalSection title="Text Message (SMS) Communications">
+            <p>
+              If you give us your mobile number and consent to texts, we may send
+              customer-care messages about your project &mdash; scheduling, technician
+              arrivals, status updates, and replies to your questions. SMS consent is not a
+              condition of purchasing restoration services. Message and data rates may
+              apply. Reply <strong className="text-[#F4F5F1]">STOP</strong> to opt out or{" "}
+              <strong className="text-[#F4F5F1]">HELP</strong> for help.
+            </p>
+            <p>
+              Our messaging program is governed by its own{" "}
+              <Link href={SMS.termsPath}>SMS Messaging Terms and Conditions</Link> and{" "}
+              <Link href={SMS.privacyPath}>SMS Messaging Privacy Policy</Link>.
+            </p>
+          </LegalSection>
+
           <LegalSection title="Changes to These Terms">
             <p>
               We may update these Terms from time to time. The &ldquo;Effective&rdquo; date
@@ -213,20 +230,5 @@ export default function TermsOfServicePage() {
         </div>
       </section>
     </>
-  );
-}
-
-function LegalSection({ title, children }: { title: string; children: React.ReactNode }) {
-  return (
-    <Reveal>
-      <div className="mt-[clamp(40px,5vw,64px)] border-t border-[rgba(255,255,255,0.08)] pt-[clamp(28px,3.4vw,44px)]">
-        <h2 className="text-[clamp(22px,2.4vw,30px)] font-bold leading-[1.15] tracking-[-0.025em] text-[#F4F5F1]">
-          {title}
-        </h2>
-        <div className="mt-6 flex flex-col gap-5 text-[15px] leading-[1.8] text-[#C6CABF] text-pretty [&_ul]:flex [&_ul]:flex-col [&_ul]:gap-3 [&_ul]:pl-6 [&_ul]:[list-style:disc] [&_li]:leading-[1.7] [&_a]:text-[#8ECE34] [&_a:hover]:text-[#A6E053]">
-          {children}
-        </div>
-      </div>
-    </Reveal>
   );
 }

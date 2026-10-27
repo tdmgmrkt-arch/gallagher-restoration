@@ -9,6 +9,37 @@ export const EMAIL = {
   href: "mailto:grc.restoration@gallagherrestoration.com",
 };
 
+/**
+ * The messaging program's own contact details.
+ *
+ * `supportNumber` is the number registered for A2P 10DLC / toll-free
+ * verification. It is the only phone number printed on /sms-terms and
+ * /sms-privacy-policy, matching the client-supplied source documents verbatim
+ * — a carrier compares the two, so they must agree.
+ *
+ * It is deliberately NOT the NAP phone in `PHONE` above. That one stays the
+ * single number used everywhere else on the site, in schema and on the Google
+ * Business Profile, so the listing's NAP stays consistent. Do not swap one for
+ * the other site-wide.
+ */
+export const SMS = {
+  supportNumber: "(844) 647-2257",
+  supportHref: "tel:8446472257",
+  termsPath: "/sms-terms",
+  privacyPath: "/sms-privacy-policy",
+  effectiveDate: "October 22, 2026",
+  /**
+   * The exact disclosure a visitor agrees to when they tick the opt-in box.
+   *
+   * Sent to GHL with every consented lead so the CRM holds proof of WHAT was
+   * agreed to, not just that a box was ticked — that record is what a carrier
+   * or the TCPA asks for. `LeadForm` renders the same sentence with the two
+   * policy links live; keep the wording here and there identical.
+   */
+  consentText:
+    "By checking this box, you agree to receive text messages from Gallagher Restoration Co. about your project, including scheduling, technician arrivals, and status updates, at the number provided. Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to opt out or HELP for help. See our SMS Terms and SMS Privacy Policy.",
+};
+
 export const COMPANY = {
   name: "Gallagher Restoration Co.",
   legalName: "Gallagher Restoration Inc",
