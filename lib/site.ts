@@ -12,16 +12,23 @@ export const EMAIL = {
 /**
  * The SMS messaging program.
  *
- * There is deliberately NO separate support number here. The client's revised
- * copy (2026-11-04) names (951) 541-0034 as the HELP contact, which is also
- * the verified NAP in `PHONE` — so the messaging pages and the Google Business
- * Profile now agree on one number. An earlier draft used a toll-free
- * 844-647-2257; it was removed, not kept alongside, because two numbers on a
- * policy page is something a carrier reviewer compares against the
- * registration and flags. If a dedicated messaging number is ever registered,
- * add it back here rather than editing the pages.
+ * `supportNumber` is the client's toll-free messaging number and is the ONLY
+ * number printed on /sms-terms and /sms-privacy-policy. It must match the
+ * number on the carrier registration — a reviewer compares the two.
+ *
+ * It is deliberately NOT the NAP phone in `PHONE`. That one stays the single
+ * number used everywhere else on the site, in schema and on the Google
+ * Business Profile, so the listing's NAP stays consistent. The two SMS pages
+ * are the only place these differ, which is intended. Do not "fix" the
+ * mismatch by swapping either one site-wide.
+ *
+ * History, because this flipped twice: the Oct 22 source documents said 844;
+ * the Nov 4 revised copy said 951; the client then confirmed 844 on Nov 4.
+ * Confirm against the registration before changing it again.
  */
 export const SMS = {
+  supportNumber: "(844) 647-2257",
+  supportHref: "tel:8446472257",
   termsPath: "/sms-terms",
   privacyPath: "/sms-privacy-policy",
   effectiveDate: "November 4, 2026",

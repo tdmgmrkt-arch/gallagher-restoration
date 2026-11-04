@@ -3,7 +3,7 @@ import Link from "next/link";
 import { LegalSection } from "@/components/ui/LegalSection";
 import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
-import { ADDRESS, COMPANY, EMAIL, PHONE, SMS } from "@/lib/site";
+import { ADDRESS, COMPANY, EMAIL, SMS } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "SMS Messaging Privacy Policy | Gallagher Restoration Co.",
@@ -120,7 +120,7 @@ export default function SmsPrivacyPolicyPage() {
               <br />
               {ADDRESS.fullDisplay}
               <br />
-              Phone: <Link href={PHONE.href}>{PHONE.display}</Link>
+              Phone: <a href={SMS.supportHref}>{SMS.supportNumber}</a>
               <br />
               Email: <a href={EMAIL.href}>{EMAIL.address}</a>
               <br />
