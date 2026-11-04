@@ -10,34 +10,32 @@ export const EMAIL = {
 };
 
 /**
- * The messaging program's own contact details.
+ * The SMS messaging program.
  *
- * `supportNumber` is the number registered for A2P 10DLC / toll-free
- * verification. It is the only phone number printed on /sms-terms and
- * /sms-privacy-policy, matching the client-supplied source documents verbatim
- * — a carrier compares the two, so they must agree.
- *
- * It is deliberately NOT the NAP phone in `PHONE` above. That one stays the
- * single number used everywhere else on the site, in schema and on the Google
- * Business Profile, so the listing's NAP stays consistent. Do not swap one for
- * the other site-wide.
+ * There is deliberately NO separate support number here. The client's revised
+ * copy (2026-11-04) names (951) 541-0034 as the HELP contact, which is also
+ * the verified NAP in `PHONE` — so the messaging pages and the Google Business
+ * Profile now agree on one number. An earlier draft used a toll-free
+ * 844-647-2257; it was removed, not kept alongside, because two numbers on a
+ * policy page is something a carrier reviewer compares against the
+ * registration and flags. If a dedicated messaging number is ever registered,
+ * add it back here rather than editing the pages.
  */
 export const SMS = {
-  supportNumber: "(844) 647-2257",
-  supportHref: "tel:8446472257",
   termsPath: "/sms-terms",
   privacyPath: "/sms-privacy-policy",
-  effectiveDate: "October 22, 2026",
+  effectiveDate: "November 4, 2026",
   /**
    * The exact disclosure a visitor agrees to when they tick the opt-in box.
    *
    * Sent to GHL with every consented lead so the CRM holds proof of WHAT was
    * agreed to, not just that a box was ticked — that record is what a carrier
    * or the TCPA asks for. `LeadForm` renders the same sentence with the two
-   * policy links live; keep the wording here and there identical.
+   * policy links live; keep the wording here and there identical, and keep
+   * both in step with the program described on /sms-terms.
    */
   consentText:
-    "By checking this box, you agree to receive text messages from Gallagher Restoration Co. about your project, including scheduling, technician arrivals, and status updates, at the number provided. Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to opt out or HELP for help. See our SMS Terms and SMS Privacy Policy.",
+    "By checking this box, you agree to receive customer care text messages from Gallagher Restoration Inc. about your service job, including appointment confirmations, technician arrival notices, job status updates, scheduling changes, document requests, and billing reminders, at the number provided. We do not send marketing or promotional messages. Consent is not a condition of purchase. Message and data rates may apply. Message frequency varies. Reply STOP to opt out or HELP for help. See our SMS Terms and SMS Privacy Policy.",
 };
 
 export const COMPANY = {

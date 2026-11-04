@@ -178,9 +178,10 @@ export default function PrivacyPolicyPage() {
 
           <LegalSection title="Text Message (SMS) Communications">
             <p>
-              Our text messaging program is governed by a separate, dedicated policy. We do
-              not sell or share mobile phone numbers or SMS opt-in consent data with third
-              parties or affiliates for their marketing purposes. See our{" "}
+              Our text messaging program is governed by a separate, dedicated policy.
+              Mobile phone numbers and SMS consent information collected for text messaging
+              are not sold, rented, transferred, or shared with any third parties or
+              external organizations, except where strictly required by law. See our{" "}
               <Link href={SMS.privacyPath}>SMS Messaging Privacy Policy</Link> and{" "}
               <Link href={SMS.termsPath}>SMS Messaging Terms and Conditions</Link> for the
               full details, including how to opt out.

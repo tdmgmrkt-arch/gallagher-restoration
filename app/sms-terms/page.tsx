@@ -3,15 +3,25 @@ import Link from "next/link";
 import { LegalSection } from "@/components/ui/LegalSection";
 import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
-import { ADDRESS, COMPANY, EMAIL, SMS } from "@/lib/site";
+import { ADDRESS, COMPANY, EMAIL, PHONE, SMS } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "SMS Messaging Terms and Conditions | Gallagher Restoration Co.",
   description:
-    "Terms and conditions for text messages from Gallagher Restoration Co. — message frequency, rates, STOP and HELP instructions, and carrier limitations.",
+    "Terms and conditions for customer care text messages from Gallagher Restoration Inc. — what we send, how you opt in, message frequency, rates, and STOP and HELP instructions. We do not send marketing or promotional messages.",
   alternates: { canonical: SMS.termsPath },
   robots: { index: true, follow: true },
 };
+
+/**
+ * The registered entity, not the trading name.
+ *
+ * Carrier registration and the client's own legal copy both name the Inc., so
+ * these two pages use it while the rest of the site keeps the "Co." brand
+ * name. The trailing period is part of the abbreviation and reads correctly
+ * mid-sentence as well as at the end of one.
+ */
+const LEGAL_ENTITY = `${COMPANY.legalName}.`;
 
 export default function SmsTermsPage() {
   return (
@@ -20,7 +30,7 @@ export default function SmsTermsPage() {
         eyebrow="Legal"
         title="SMS Messaging"
         accent="Terms"
-        intro={`The terms that govern text messages you receive from ${COMPANY.name}.`}
+        intro={`The terms that govern customer care text messages from ${LEGAL_ENTITY}`}
         crumbs={[{ label: "Home", href: "/" }, { label: "SMS Terms" }]}
         backgroundImage="/terms-hero.webp"
         backgroundAlt=""
@@ -33,78 +43,84 @@ export default function SmsTermsPage() {
               Effective {SMS.effectiveDate}
             </div>
             <p className="mt-6 text-[15px] leading-[1.8] text-[#C6CABF] text-pretty">
-              By opting in to receive SMS text messages from {COMPANY.name}{" "}
-              (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), you agree to these
-              SMS Messaging Terms and Conditions. SMS consent is not a condition of
-              purchasing restoration services.
+              By opting in to receive SMS text messages from {LEGAL_ENTITY} (&ldquo;we,&rdquo;
+              &ldquo;us,&rdquo; or &ldquo;our&rdquo;), you agree to these SMS Messaging Terms
+              and Conditions. SMS consent is not a condition of purchasing restoration
+              services.
             </p>
           </Reveal>
 
-          <LegalSection title="SMS Messaging Service">
+          <LegalSection title="Messages We Send">
             <p>
-              If you provide your mobile number and consent to SMS communication, we may send
-              customer-care messages about restoration projects, appointment confirmations,
-              scheduling, technician arrivals, project updates, service coordination, and
-              responses to your inquiries. We will send promotional messages only if
-              separately authorized where required.
+              {LEGAL_ENTITY} sends customer care text messages to customers with an active or
+              recently completed service job. Messages include appointment confirmations,
+              technician arrival notices, job status updates, scheduling changes, document
+              requests, and billing reminders.{" "}
+              <strong className="text-[#F4F5F1]">
+                We do not send marketing or promotional messages.
+              </strong>
+            </p>
+          </LegalSection>
+
+          <LegalSection title="How You Opt In">
+            <p>
+              You opt in by providing your mobile number and agreeing to receive text
+              messages when scheduling service or signing your work authorization.
             </p>
           </LegalSection>
 
           <LegalSection title="Message Frequency">
-            <p>
-              Message frequency varies depending on your project and communication needs. You
-              may receive approximately 1&ndash;2 messages per month, but active projects may
-              require more frequent updates.
-            </p>
+            <p>Message frequency varies based on your job.</p>
           </LegalSection>
 
           <LegalSection title="Message and Data Rates">
-            <p>
-              Message and data rates may apply according to your wireless carrier and mobile
-              plan.
-            </p>
+            <p>Message and data rates may apply.</p>
           </LegalSection>
 
           <LegalSection title="Opt-Out Instructions">
             <p>
-              Reply <strong className="text-[#F4F5F1]">STOP</strong> to any {COMPANY.name}{" "}
-              text message to opt out of SMS communications. You may receive a final
-              confirmation message. Opting out of texts does not cancel any existing service
-              agreement; we may contact you through other appropriate channels.
+              Reply <strong className="text-[#F4F5F1]">STOP</strong> at any time to stop
+              receiving messages. You will receive one final message confirming you have
+              been unsubscribed.
+            </p>
+            <p>
+              Opting out of texts does not cancel any existing service agreement; we may
+              contact you through other appropriate channels.
             </p>
           </LegalSection>
 
           <LegalSection title="Help and Support">
             <p>
-              Reply <strong className="text-[#F4F5F1]">HELP</strong> to a {COMPANY.name} text
-              message for assistance. For additional support, contact {COMPANY.name} using
-              the contact information listed below. SMS support number:{" "}
-              <a href={SMS.supportHref}>{SMS.supportNumber}</a>.
+              Reply <strong className="text-[#F4F5F1]">HELP</strong> for assistance or
+              contact us at <Link href={PHONE.href}>{PHONE.display}</Link>.
+            </p>
+          </LegalSection>
+
+          <LegalSection title="Delivery and Carrier Limitations">
+            <p>Carriers are not liable for delayed or undelivered messages.</p>
+            <p>
+              Wireless carriers and third-party messaging providers may delay or fail to
+              deliver messages. {LEGAL_ENTITY} is not responsible for carrier charges or
+              delivery failures outside our reasonable control.
             </p>
           </LegalSection>
 
           <LegalSection title="Privacy">
             <p>
-              We handle personal information in accordance with our{" "}
-              <Link href={SMS.privacyPath}>SMS Messaging Privacy Policy</Link>.
-            </p>
-          </LegalSection>
-
-          <LegalSection title="Delivery and Carrier Limitations">
-            <p>
-              Wireless carriers and third-party messaging providers may delay or fail to
-              deliver messages. {COMPANY.name} is not responsible for carrier charges or
-              delivery failures outside our reasonable control.
+              For information on how we handle your data, see our{" "}
+              <Link href={SMS.privacyPath}>SMS Messaging Privacy Policy</Link>. Our general{" "}
+              <Link href="/privacy-policy">Privacy Policy</Link> covers everything outside
+              the messaging program.
             </p>
           </LegalSection>
 
           <LegalSection title="Contact Information">
             <p>
-              {COMPANY.name}
+              {LEGAL_ENTITY}
               <br />
               {ADDRESS.fullDisplay}
               <br />
-              Phone: <a href={SMS.supportHref}>{SMS.supportNumber}</a>
+              Phone: <Link href={PHONE.href}>{PHONE.display}</Link>
               <br />
               Email: <a href={EMAIL.href}>{EMAIL.address}</a>
               <br />

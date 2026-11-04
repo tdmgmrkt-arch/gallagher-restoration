@@ -3,7 +3,7 @@ import Link from "next/link";
 import { LegalSection } from "@/components/ui/LegalSection";
 import { PageHero } from "@/components/ui/PageHero";
 import { Reveal } from "@/components/ui/Reveal";
-import { ADDRESS, COMPANY, EMAIL, SMS } from "@/lib/site";
+import { ADDRESS, COMPANY, EMAIL, PHONE, SMS } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "SMS Messaging Privacy Policy | Gallagher Restoration Co.",
@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
+/** See the note on the matching constant in app/sms-terms/page.tsx. */
+const LEGAL_ENTITY = `${COMPANY.legalName}.`;
+
 export default function SmsPrivacyPolicyPage() {
   return (
     <>
@@ -20,7 +23,7 @@ export default function SmsPrivacyPolicyPage() {
         eyebrow="Legal"
         title="SMS Messaging"
         accent="Privacy Policy"
-        intro={`How ${COMPANY.name} collects, uses, and protects the information tied to our text messaging program.`}
+        intro={`How ${LEGAL_ENTITY} collects, uses, and protects the information tied to our text messaging program.`}
         crumbs={[{ label: "Home", href: "/" }, { label: "SMS Privacy Policy" }]}
         backgroundImage="/privacy-hero.webp"
         backgroundAlt=""
@@ -33,7 +36,7 @@ export default function SmsPrivacyPolicyPage() {
               Effective {SMS.effectiveDate}
             </div>
             <p className="mt-6 text-[15px] leading-[1.8] text-[#C6CABF] text-pretty">
-              {COMPANY.name} (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;)
+              {LEGAL_ENTITY} (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;)
               respects your privacy. This policy describes how we collect, use, and protect
               personal information in connection with our SMS messaging program.
             </p>
@@ -67,14 +70,21 @@ export default function SmsPrivacyPolicyPage() {
             </p>
           </LegalSection>
 
-          <LegalSection title="Sharing and Disclosure">
+          <LegalSection title="SMS Data Privacy">
             <p>
-              We do not sell or share mobile phone numbers or SMS opt-in consent data with
-              third parties or affiliates for their marketing or promotional purposes. We may
-              share information with service providers that help us operate our messaging and
-              business systems, subject to appropriate confidentiality and data protection
-              requirements, or when legally required. SMS consent information is not shared
-              for third-party marketing.
+              Mobile phone numbers and SMS consent information collected for text messaging
+              will not be sold, rented, transferred, or shared with any third parties or
+              external organizations, including service providers, except where strictly
+              required by law. Text messaging originator opt-in data and consent will not be
+              shared with any third parties.
+            </p>
+          </LegalSection>
+
+          <LegalSection title="Access Controls and Safeguards">
+            <p>
+              We maintain internal access controls and safeguards designed to prevent
+              unauthorized access, use, or sharing of user data. Access to customer contact
+              information is limited to employees who need it to provide service.
             </p>
           </LegalSection>
 
@@ -106,15 +116,11 @@ export default function SmsPrivacyPolicyPage() {
 
           <LegalSection title="Contact Information">
             <p>
-              {COMPANY.name}
+              {LEGAL_ENTITY}
               <br />
               {ADDRESS.fullDisplay}
               <br />
-              SMS support number:{" "}
-              <a href={SMS.supportHref}>{SMS.supportNumber}</a>
-              <br />
-              Business phone:{" "}
-              <a href={SMS.supportHref}>{SMS.supportNumber}</a>
+              Phone: <Link href={PHONE.href}>{PHONE.display}</Link>
               <br />
               Email: <a href={EMAIL.href}>{EMAIL.address}</a>
               <br />

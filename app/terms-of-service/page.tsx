@@ -181,12 +181,13 @@ export default function TermsOfServicePage() {
 
           <LegalSection title="Text Message (SMS) Communications">
             <p>
-              If you give us your mobile number and consent to texts, we may send
-              customer-care messages about your project &mdash; scheduling, technician
-              arrivals, status updates, and replies to your questions. SMS consent is not a
-              condition of purchasing restoration services. Message and data rates may
-              apply. Reply <strong className="text-[#F4F5F1]">STOP</strong> to opt out or{" "}
-              <strong className="text-[#F4F5F1]">HELP</strong> for help.
+              If you give us your mobile number and consent to texts, we send customer care
+              messages about your service job &mdash; appointment confirmations, technician
+              arrival notices, job status updates, scheduling changes, document requests,
+              and billing reminders. We do not send marketing or promotional messages. SMS
+              consent is not a condition of purchasing restoration services. Message and
+              data rates may apply. Reply <strong className="text-[#F4F5F1]">STOP</strong>{" "}
+              to opt out or <strong className="text-[#F4F5F1]">HELP</strong> for help.
             </p>
             <p>
               Our messaging program is governed by its own{" "}

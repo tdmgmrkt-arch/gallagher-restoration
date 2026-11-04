@@ -82,11 +82,13 @@ function SmsConsentField() {
         className="mt-[3px] h-[16px] w-[16px] shrink-0 cursor-pointer accent-[#8ECE34]"
       />
       <span className="text-[12px] leading-[1.65] text-[#8F948A] text-pretty">
-        By checking this box, you agree to receive text messages from Gallagher Restoration
-        Co. about your project, including scheduling, technician arrivals, and status
-        updates, at the number provided. Consent is not a condition of purchase. Message and
-        data rates may apply. Message frequency varies. Reply STOP to opt out or HELP for
-        help. See our{" "}
+        By checking this box, you agree to receive customer care text messages from
+        Gallagher Restoration Inc. about your service job, including appointment
+        confirmations, technician arrival notices, job status updates, scheduling changes,
+        document requests, and billing reminders, at the number provided. We do not send
+        marketing or promotional messages. Consent is not a condition of purchase. Message
+        and data rates may apply. Message frequency varies. Reply STOP to opt out or HELP
+        for help. See our{" "}
         <Link
           href={SMS.termsPath}
           className="text-[#C6CABF] underline underline-offset-2 transition-colors hover:text-[#8ECE34]"
