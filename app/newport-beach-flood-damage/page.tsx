@@ -42,7 +42,7 @@ const HQ_COORDS = CITY_COORDS["canyon-lake-ca"];
 export const metadata: Metadata = {
   title: "Newport Beach Flood Damage Restoration | 24/7 Response",
   description:
-    "Saltwater flood cleanup for Newport Beach and the Balboa Peninsula after Tropical Storm Rachel. IICRC-trained crews, Orange County dispatch. Call (951) 541-0034.",
+    "Saltwater flood cleanup for Newport Beach and the Balboa Peninsula after Tropical Storm Rachel. IICRC-trained crews, Orange County dispatch. Call (844) 647-2257.",
   alternates: { canonical: `/${SLUG}` },
   openGraph: {
     title: "Newport Beach Flood Damage Restoration | Gallagher Restoration",

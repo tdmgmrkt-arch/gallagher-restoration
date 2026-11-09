@@ -26,7 +26,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "24/7 Water, Fire & Mold Restoration SoCal | Gallagher",
   description:
-    "24/7 water, fire & mold damage restoration across Southern California. IICRC-trained crews on-site within 60 min. Call (951) 541-0034.",
+    "24/7 water, fire & mold damage restoration across Southern California. IICRC-trained crews on-site within 60 min. Call (844) 647-2257.",
   metadataBase: new URL("https://gallagherrestoration.com"),
   openGraph: {
     title: "Gallagher Restoration Co.",
@@ -73,7 +73,7 @@ const organizationJsonLd = {
   legalName: "Gallagher Restoration Inc",
   url: "https://gallagherrestoration.com",
   logo: "https://gallagherrestoration.com/gallagher_badge_logo.webp",
-  telephone: "(951) 541-0034",
+  telephone: "(844) 647-2257",
   email: "grc.restoration@gallagherrestoration.com",
   areaServed: "Southern California",
   sameAs: [

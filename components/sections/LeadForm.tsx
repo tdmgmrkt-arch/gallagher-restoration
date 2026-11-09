@@ -10,7 +10,7 @@ import {
   RENDERED_AT_FIELD,
   TURNSTILE_FIELD,
 } from "@/lib/form-fields";
-import { INSURANCE_OPTIONS, SERVICE_OPTIONS, SMS, TIMING_OPTIONS } from "@/lib/site";
+import { INSURANCE_OPTIONS, PHONE, SERVICE_OPTIONS, SMS, TIMING_OPTIONS } from "@/lib/site";
 
 const INPUT =
   "rounded-[2px] border border-[rgba(255,255,255,0.13)] bg-[#0E100E] px-[15px] py-[14px] font-sans text-[15px] text-[#F4F5F1] outline-none transition-colors duration-300 placeholder:text-[#5E635B] focus:border-[#8ECE34]";
@@ -173,8 +173,8 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
         </h3>
         <p className="max-w-[38ch] text-[15px] leading-[1.75] text-[#9CA098] text-pretty">
           A member of our team will contact you shortly. For an active emergency, please call{" "}
-          <a href="tel:9515410034" className="text-[#8ECE34] transition-colors hover:text-[#A6E053]">
-            (951) 541-0034
+          <a href={PHONE.href} className="text-[#8ECE34] transition-colors hover:text-[#A6E053]">
+            {PHONE.display}
           </a>{" "}
           so we can dispatch a crew now.
         </p>
@@ -274,7 +274,7 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
         </div>
 
         <a
-          href="tel:9515410034"
+          href={PHONE.href}
           className="mt-5 flex items-center justify-between gap-3 rounded-[2px] border border-[rgba(142,206,52,0.35)] bg-[rgba(142,206,52,0.08)] px-4 py-4 transition-colors hover:border-[#8ECE34] hover:bg-[rgba(142,206,52,0.14)]"
         >
           <span>
@@ -282,7 +282,7 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
               Active Emergency?
             </span>
             <span className="mt-1 block text-[15px] font-bold text-[#F4F5F1]">
-              Call (951) 541-0034
+              Call {PHONE.display}
             </span>
           </span>
           <span
@@ -414,7 +414,7 @@ export function LeadForm({ variant = "compact", formId }: LeadFormProps) {
       ) : null}
 
       <p className="mt-4 font-mono text-[10px] uppercase leading-[1.7] tracking-[0.14em] text-[#5E635B]">
-        Active emergency? Call (951) 541-0034 for fastest response.
+        Active emergency? Call {PHONE.display} for fastest response.
       </p>
     </form>
   );

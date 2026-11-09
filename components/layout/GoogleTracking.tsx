@@ -17,12 +17,12 @@ declare global {
 
 const FORWARDING_EVENT = "gr:forwarding-number";
 
-/** "tel:9515410034" -> "9515410034". The one place the number is read from. */
+/** "tel:8446472257" -> "8446472257". The one place the number is read from. */
 const PHONE_DIGITS = PHONE.href.replace(/\D/g, "");
 
 /**
  * Matches the business number in rendered text across every format the site
- * uses — "(951) 541-0034" (PHONE.display) and "951-541-0034" (PHONE.digits in
+ * uses — "(844) 647-2257" (PHONE.display) and "844-647-2257" (PHONE.digits in
  * Process.tsx) — plus an optional country code. Built from PHONE so a number
  * change can't silently desync call tracking from the rest of the site.
  */

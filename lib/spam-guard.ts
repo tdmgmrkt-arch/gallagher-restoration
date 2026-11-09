@@ -9,6 +9,7 @@ import {
   scoreContent,
   type GuardSubject,
 } from "@/lib/spam-signals";
+import { PHONE } from "@/lib/site";
 
 /**
  * Layered bot filtering for the lead form.
@@ -44,8 +45,6 @@ const RATE_WINDOW_MS = 10 * 60_000;
 
 /** Hard cap on tracked IPs, so a distributed flood cannot grow the map. */
 const RATE_MAX_TRACKED_IPS = 5_000;
-
-const PHONE = "(951) 541-0034";
 
 export type GuardVerdict =
   /** Forward to GHL. */
@@ -253,7 +252,7 @@ export async function screenSubmission(
     return {
       action: "reject",
       reason: "rate-limit-ip",
-      message: `We have already received several requests from your connection. Please call ${PHONE} so we can help you right away.`,
+      message: `We have already received several requests from your connection. Please call ${PHONE.display} so we can help you right away.`,
     };
   }
 
@@ -264,7 +263,7 @@ export async function screenSubmission(
     return {
       action: "reject",
       reason: turnstile.reason ?? "turnstile-failed",
-      message: `We could not verify your browser. Please try again, or call ${PHONE} and we will take your details over the phone.`,
+      message: `We could not verify your browser. Please try again, or call ${PHONE.display} and we will take your details over the phone.`,
     };
   }
 

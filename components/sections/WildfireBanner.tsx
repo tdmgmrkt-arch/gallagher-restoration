@@ -1,6 +1,7 @@
 import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { ButtonPrimary, ButtonGhost } from "@/components/ui/Buttons";
+import { PHONE } from "@/lib/site";
 
 export function WildfireBanner() {
   return (
@@ -21,7 +22,7 @@ export function WildfireBanner() {
               </p>
               <div className="mt-[30px] flex flex-wrap gap-3">
                 <ButtonPrimary href="/wildfire" size="md">Learn More</ButtonPrimary>
-                <ButtonGhost href="tel:9515410034">Call Now</ButtonGhost>
+                <ButtonGhost href={PHONE.href}>Call Now</ButtonGhost>
               </div>
             </div>
           </div>

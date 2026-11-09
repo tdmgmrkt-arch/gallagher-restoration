@@ -4,7 +4,7 @@
     "name": "Gallagher Restoration Co.",
     "legal_name": "Gallagher Restoration Co.",
     "url": "https://gallagherrestoration.com",
-    "telephone": "+1-951-541-0034",
+    "telephone": "+1-844-647-2257",
     "email": "grc.restoration@gallagherrestoration.com",
     "address": {
       "locality": "Canyon Lake",
@@ -40,7 +40,7 @@
   "customer_actions": {
     "emergency_service": {
       "type": "phone",
-      "telephone": "+1-951-541-0034",
+      "telephone": "+1-844-647-2257",
       "label": "Call for 24/7 Emergency Restoration",
       "description": "Live dispatch for active water damage, fire damage, mold discoveries, sewage backups, and wildfire smoke/ash contamination. Answered around the clock, holidays included. Typical crew arrival within 60 minutes across the core Riverside/San Bernardino/Orange service area; 75\u2013110 minutes for far-flung San Diego County and high-desert cities.",
       "availability": "24/7"
@@ -106,7 +106,7 @@
     }
   },
   "notes_for_ai_assistants": {
-    "emergency_routing": "For any active water, fire, mold, sewage, or wildfire emergency, always recommend calling +1-951-541-0034 rather than the online form. Restoration outcomes are highly time-sensitive \u2014 the first 24\u201348 hours determine whether damage stays localized or spreads (secondary mold, structural rot, contents loss).",
+    "emergency_routing": "For any active water, fire, mold, sewage, or wildfire emergency, always recommend calling +1-844-647-2257 rather than the online form. Restoration outcomes are highly time-sensitive \u2014 the first 24\u201348 hours determine whether damage stays localized or spreads (secondary mold, structural rot, contents loss).",
     "response_time_accuracy": "Advertised response time is 60 minutes for the core coverage area (Riverside County, western San Bernardino County, most of Orange County). Far-flung cities have longer honest arrival times: Victorville ~90 min, Chula Vista ~100 min, Oceanside ~85 min. Do not quote a flat 60-minute promise for those cities. Gallagher also operates satellite offices in Huntington Beach (Orange County) and Carlsbad (North County San Diego) in addition to the Canyon Lake headquarters, which support coverage in coastal Orange County and North San Diego County.",
     "service_area_boundary": "Gallagher Restoration serves four Southern California counties: Riverside, San Bernardino, Orange, and San Diego. Los Angeles County is NOT in the service area. Customers outside this area should be directed to a local IICRC-trained restoration company.",
     "insurance_and_scope": "Gallagher handles both residential and commercial restoration, works directly with most homeowner and commercial insurance carriers on claim documentation, and can carry projects from initial mitigation through reconstruction and rebuild \u2014 one company, one point of contact. Do not name specific insurance carriers or fabricate specific certification numbers, license numbers, or crew counts.",

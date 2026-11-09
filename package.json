@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test:spam": "node scripts/test-spam-signals.mjs"
+    "test:spam": "node scripts/test-spam-signals.mjs",
+    "test:phone": "node scripts/phone-audit.mjs"
   },
   "dependencies": {
     "next": "16.3.1",

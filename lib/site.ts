@@ -1,7 +1,21 @@
+/**
+ * The single business number for the whole site — header, footer, sticky call
+ * bar, every CTA, all six JSON-LD blocks, llms.txt and ai-actions.json.
+ *
+ * Changed site-wide from (951) 541-0034 to the toll-free (844) 647-2257 on
+ * 2026-11-06 at the client's request. Everything that renders a number reads
+ * it from here (or from `SMS` below, which now carries the same number), so a
+ * future change is a one-line edit in this file plus the literals baked into
+ * `content/**` — run `node scripts/phone-audit.mjs` to find those.
+ *
+ * NAP WARNING: the Google Business Profile, the citations and the Google Ads
+ * website-call conversion were all registered against 951-541-0034. Until
+ * those are updated to match, the site and the listing disagree.
+ */
 export const PHONE = {
-  display: "(951) 541-0034",
-  href: "tel:9515410034",
-  digits: "951-541-0034",
+  display: "(844) 647-2257",
+  href: "tel:8446472257",
+  digits: "844-647-2257",
 };
 
 export const EMAIL = {
@@ -16,14 +30,16 @@ export const EMAIL = {
  * number printed on /sms-terms and /sms-privacy-policy. It must match the
  * number on the carrier registration — a reviewer compares the two.
  *
- * It is deliberately NOT the NAP phone in `PHONE`. That one stays the single
- * number used everywhere else on the site, in schema and on the Google
- * Business Profile, so the listing's NAP stays consistent. The two SMS pages
- * are the only place these differ, which is intended. Do not "fix" the
- * mismatch by swapping either one site-wide.
+ * As of 2026-11-06 this is the SAME number as `PHONE` — the client moved the
+ * whole site onto the toll-free line. It was previously a deliberate mismatch
+ * (SMS pages on 844, NAP on 951) and the two constants are kept separate on
+ * purpose: the SMS number must track the carrier registration, and the NAP
+ * number must track the Google Business Profile. If those two ever diverge
+ * again, this is the seam that lets them.
  *
- * History, because this flipped twice: the Oct 22 source documents said 844;
- * the Nov 4 revised copy said 951; the client then confirmed 844 on Nov 4.
+ * History, because this has flipped three times: the Oct 22 source documents
+ * said 844; the Nov 4 revised copy said 951; the client confirmed 844 on
+ * Nov 4; on Nov 6 the client moved the entire site to 844.
  * Confirm against the registration before changing it again.
  */
 export const SMS = {

@@ -3,6 +3,7 @@ import { Reveal } from "@/components/ui/Reveal";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { ButtonPrimary, ButtonGhost } from "@/components/ui/Buttons";
 import { GoogleReviewBadge } from "@/components/ui/GoogleReviewBadge";
+import { PHONE } from "@/lib/site";
 
 const STATS = [
   { value: "15", suffix: "+", label: "Years in Southern California" },
@@ -76,7 +77,7 @@ export function Hero() {
           </Reveal>
           <Reveal delay={280}>
             <div className="mt-[32px] flex flex-wrap gap-[14px]">
-              <ButtonPrimary href="tel:9515410034" size="lg" dot>
+              <ButtonPrimary href={PHONE.href} size="lg" dot>
                 Call Now
               </ButtonPrimary>
               <ButtonGhost href="/services">View Our Services</ButtonGhost>

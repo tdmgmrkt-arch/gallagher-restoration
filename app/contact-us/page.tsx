@@ -9,7 +9,7 @@ import { officeNodes } from "@/lib/offices";
 export const metadata: Metadata = {
   title: "Contact Gallagher Restoration Co. | 24/7 Emergency Response",
   description:
-    "Call (951) 541-0034 or request service online. Gallagher Restoration answers 24/7 and dispatches crews across Southern California within 60 minutes.",
+    "Call (844) 647-2257 or request service online. Gallagher Restoration answers 24/7 and dispatches crews across Southern California within 60 minutes.",
   alternates: { canonical: "/contact-us" },
 };
 

@@ -54,5 +54,17 @@ unwound by hand and have to be redone by hand:
   values and meta descriptions across `content/services/*.json`, and the
   internal links in `content/blog/*.json`.
 
+## Kept in step with the live site
+
+The archived content under `content/` is restored verbatim, so edits that
+changed the live site's shared facts are applied here too rather than left to
+rot. So far:
+
+- **2026-11-06 — phone number.** The business number changed site-wide from
+  `(951) 541-0034` to `(844) 647-2257`; the 8 files here that printed it were
+  updated to match. Run `node scripts/phone-audit.mjs` after any restore — it
+  does not scan `archive/`, so a stale number here would only surface once the
+  files were moved back into `content/`.
+
 `git log -- archive/los-angeles-county` and the removal commit's diff are the
 authoritative record of exactly what changed.
